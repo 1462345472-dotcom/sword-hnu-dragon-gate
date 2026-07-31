@@ -1,0 +1,859 @@
+
+(function(){
+"use strict";
+
+// ==================== 数据层 ====================
+var QUESTION_BANKS = {__BANKS__};
+
+// ==================== 配置 ====================
+var DIFF_NAMES = {1:'简单',2:'中等',3:'困难'};
+var DIFF_ICONS = {1:'⭐',2:'📖',3:'🔥'};
+var SUBJECT_KEYS = __KEYS__;
+var COURSES = {__COURSES__};
+var CHAPTER_NAMES = {__CH_NAMES__};
+var currentCourse = '__COURSE__';
+
+// ==================== 状态层 ====================
+var currentSubject = '__SUBJECT__';
+var ALL_QS = [];
+var ALL_TERMS = [];
+var STATS = {};
+var QS = [], idx = 0, answers = {}, done = {}, viewMode = 'home';
+var errSet = new Set();
+var bookmarkSet = new Set();
+
+// ==================== localStorage 辅助 ====================
+function lsKey(purpose) {
+  return currentSubject + '_' + purpose;
+}
+function lsGet(purpose) {
+  try { return localStorage.getItem(lsKey(purpose)); } catch(e) { return null; }
+}
+function lsSet(purpose, val) {
+  try { localStorage.setItem(lsKey(purpose), val); } catch(e) {}
+}
+function lsRemove(purpose) {
+  try { localStorage.removeItem(lsKey(purpose)); } catch(e) {}
+}
+function lsGetJson(purpose) {
+  try { var r = localStorage.getItem(lsKey(purpose)); return r ? JSON.parse(r) : null; } catch(e) { return null; }
+}
+function lsSetJson(purpose, obj) {
+  try { localStorage.setItem(lsKey(purpose), JSON.stringify(obj)); } catch(e) {}
+}
+
+function saveErr() { lsSet('errors', JSON.stringify([...errSet])); }
+function getErrCount() { return errSet.size; }
+function clearErrSet() { errSet.clear(); saveErr(); }
+function saveBookmarks() { lsSet('bookmarks', JSON.stringify([...bookmarkSet])); }
+function getBookmarkCount() { return bookmarkSet.size; }
+function getLastScore() { return lsGet('score'); }
+function saveLastScore(s) { lsSet('score', s); }
+
+// ==================== 科目切换 ====================
+function loadSubjectData(key) {
+  var bank = QUESTION_BANKS[key];
+  ALL_QS = bank.questions.slice();
+  ALL_TERMS = bank.terms.slice();
+  STATS = bank.stats;
+}
+
+function switchCourse(courseKey) {
+  if (courseKey === currentCourse) return;
+  if (viewMode === 'quiz') saveProgress();
+  saveErr(); saveBookmarks();
+  currentCourse = courseKey;
+  var firstCh = COURSES[courseKey].chapters[0];
+  currentSubject = firstCh;
+  loadSubjectData(firstCh);
+  errSet = (function() { var r = lsGet('errors'); return r ? new Set(JSON.parse(r)) : new Set(); })();
+  bookmarkSet = (function() { var r = lsGet('bookmarks'); return r ? new Set(JSON.parse(r)) : new Set(); })();
+  QS = ALL_QS.slice(); idx = 0; answers = {}; done = {}; viewMode = 'home';
+  buildCourseTabs();
+buildChapterTabs();
+    updateSubjectUI();
+  
+  showHome();
+}
+
+function switchChapter(chId) {
+  // switchChapter
+  if (chId === currentSubject && viewMode === 'home') return;
+  if (viewMode === 'quiz') saveProgress();
+  saveErr(); saveBookmarks();
+  currentSubject = chId;
+  loadSubjectData(chId);
+  errSet = (function() { var r = lsGet('errors'); return r ? new Set(JSON.parse(r)) : new Set(); })();
+  bookmarkSet = (function() { var r = lsGet('bookmarks'); return r ? new Set(JSON.parse(r)) : new Set(); })();
+  QS = ALL_QS.slice(); idx = 0; answers = {}; done = {}; viewMode = 'home';
+  updateSubjectUI();
+  showHome();
+}
+
+
+
+function buildCourseBar() {{
+  var h = '';
+  Object.keys(COURSES).forEach(function(k) {{
+    var c = COURSES[k];
+    h += '<div class="course-btn' + (k === currentCourse ? ' active' : '') + '" data-course="' + k + '">' + c.name + '</div>';
+  }});
+  var el = document.getElementById('courseBar');
+  if(el) el.innerHTML = h;
+  // Delegate click
+  if(el) el.addEventListener('click', function(e){{
+    var btn = e.target.closest('.course-btn');
+    if(btn) switchCourse(btn.getAttribute('data-course'));
+  }});
+}}
+
+
+function buildCourseTabs() {
+  var h = '';
+  Object.keys(COURSES).forEach(function(k) {
+    var course = COURSES[k];
+    h += '<button class="subject-tab' + (k === currentCourse ? ' active' : '') + '" data-course="' + k + '">' + course.code + ' ' + course.name + '</button>';
+  });
+  var ss = document.getElementById('subjectSwitcher'); if(ss) ss.innerHTML = h;
+  document.querySelectorAll('.subject-tab').forEach(function(t) {
+    t.addEventListener('click', function() {
+      switchCourse(t.getAttribute('data-course'));
+    });
+  });
+}
+function buildChapterTabs() {
+  var chapters = COURSES[currentCourse].chapters;
+  var h = '';
+  chapters.forEach(function(chId) {
+    var name = CHAPTER_NAMES[chId] || chId;
+    var cls = 'chapter-tab' + (chId === currentSubject ? ' active' : '');
+    h += '<button class="' + cls + '" data-ch="' + chId + '">' + name + '</button>';
+  });
+  var el = document.getElementById('chapterSwitcher');
+  if (el) el.innerHTML = h;
+  document.querySelectorAll('.chapter-tab').forEach(function(t) {
+    t.addEventListener('click', function() {
+      switchChapter(t.getAttribute('data-ch'));
+    });
+  });
+}
+
+function updateSubjectUI() {
+  var course = COURSES[currentCourse];
+  var bank = QUESTION_BANKS[currentSubject];
+  var chName = CHAPTER_NAMES[currentSubject] || bank.chapterLabel || '';
+  var bc = document.getElementById('brandCode'); if(bc) bc.innerHTML = '<em>' + course.code + '</em> ' + course.name;
+  document.title = '湖南大学 ' + course.name + ' 考研题库';
+  var tabs = document.querySelectorAll('.subject-tab');
+  tabs.forEach(function(t) {
+    t.classList.toggle('active', t.getAttribute('data-course') === currentCourse);
+  });
+  tabs = document.querySelectorAll('.chapter-tab');
+  tabs.forEach(function(t) {
+    t.classList.toggle('active', t.getAttribute('data-ch') === currentSubject);
+  });
+}
+
+function saveProgress() {
+  if (viewMode !== 'quiz' && viewMode !== 'diff') return;
+  var doneIds = Object.keys(done); if (!doneIds.length) return;
+  var mode = 'all';
+  if (viewMode === 'diff' && QS.length && QS[0]) mode = 'diff:' + QS[0].difficulty;
+  else if (QS.length !== ALL_QS.length) {
+    var allErr = QS.every(function(q) { return errSet.has(q.id); });
+    if (allErr) mode = 'err';
+    else {
+      var allChoice = QS.every(function(q) { return q.type === 'choice'; });
+      if (allChoice) mode = 'choice';
+      else { var allTF = QS.every(function(q) { return q.type === 'truefalse'; }); if (allTF) mode = 'truefalse'; }
+    }
+  }
+  var p = { mode: mode, idx: idx, answers: answers, done: doneIds };
+  lsSetJson('progress', p);
+}
+
+function loadProgress() {
+  return lsGetJson('progress');
+}
+
+function clearProgress() {
+  lsRemove('progress');
+}
+
+function resumeProgress() {
+  var p = loadProgress(); if (!p) return false;
+  answers = p.answers || {}; done = {};
+  (p.done || []).forEach(function(id) { done[id] = true; });
+  var mode = p.mode || 'all';
+  if (mode === 'all') { QS = ALL_QS.slice(); viewMode = 'quiz'; }
+  else if (mode === 'err') { QS = ALL_QS.filter(function(q) { return errSet.has(q.id); }); viewMode = 'quiz'; }
+  else if (mode === 'choice') { QS = ALL_QS.filter(function(q) { return q.type === 'choice'; }); viewMode = 'quiz'; }
+  else if (mode === 'truefalse') { QS = ALL_QS.filter(function(q) { return q.type === 'truefalse'; }); viewMode = 'quiz'; }
+  else if (mode.indexOf('diff:') === 0) { var d = parseInt(mode.split(':')[1]); QS = ALL_QS.filter(function(q) { return q.difficulty === d; }); viewMode = 'diff'; }
+  else { QS = ALL_QS.slice(); viewMode = 'quiz'; }
+  if (!QS.length) { showHome(); return false; }
+  idx = p.idx || 0; if (idx >= QS.length) idx = QS.length - 1;
+  showQuizUI(); prog(); render(idx);
+  return true;
+}
+
+// ==================== 辅助函数 ====================
+
+// ==================== 自动错题收集 ====================
+function autoCollectError(qid, userAnswer, correctAnswer) {
+  var isCorrect = (userAnswer === correctAnswer);
+  if (!isCorrect) {
+    if (!errSet.has(qid)) { errSet.add(qid); saveErr(); }
+  } else {
+    if (errSet.has(qid)) { errSet.delete(qid); saveErr(); }
+  }
+}
+
+// ==================== UI 控制 ====================
+function showQuizUI() {
+  document.getElementById('progWrap').style.display = 'flex';
+  document.getElementById('navRow').style.display = 'flex';
+}
+function hideQuizUI() {
+  document.getElementById('progWrap').style.display = 'none';
+  document.getElementById('navRow').style.display = 'none';
+}
+
+
+// ==================== 渲染 ====================
+var quizEl, progWrap, progBar, progText, progDiff, progModeTag, navRow, navHint, btnPrev, btnNext, btnHome;
+
+function prog() {
+  var n = Object.keys(done).length, t = QS.length;
+  progBar.style.width = Math.round(n / t * 100) + '%';
+  progText.textContent = n + ' / ' + t;
+  if (viewMode === 'diff' && QS[0]) {
+    progDiff.style.display = ''; progDiff.textContent = '🎯 ' + DIFF_NAMES[QS[0].difficulty];
+  } else progDiff.style.display = 'none';
+  progModeTag.style.display = 'none';
+}
+
+function nav() {
+  btnPrev.disabled = (idx === 0);
+  var q = QS[idx]; if (!q) return;
+  var ad = q.id in done;
+  if (!ad) {
+    btnNext.disabled = true;
+    navHint.textContent = '🔒 请先选择答案';
+  } else if (idx >= QS.length - 1 && QS.every(function(q) { return q.id in done; })) {
+    btnNext.disabled = false;
+    navHint.textContent = '全部完成！';
+  } else {
+    btnNext.disabled = false;
+    btnNext.textContent = '下一题 ▶';
+    navHint.textContent = '';
+  }
+}
+
+function render(i) {
+  try {
+  if (i < 0 || i >= QS.length) { showResult(); return; }
+  idx = i; showQuizUI();
+  var q = QS[i], sel = answers[q.id] || null, ad = q.id in done;
+  var dName = DIFF_NAMES[q.difficulty], dCls = q.difficulty === 1 ? 'easy' : (q.difficulty === 3 ? 'hard' : 'mid');
+  var isTF = (q.type === 'truefalse');
+  var typeLabel = isTF ? '判断题' : '选择题';
+  var typeCls = isTF ? 'tf' : 'choice';
+  var correctAnswer = q.answer;
+
+  var h = '<div class="card"><div class="q-head">';
+  h += '<span class="q-num">第 ' + q.id + ' 题</span>';
+  h += '<span class="q-type ' + typeCls + '">' + typeLabel + '</span>';
+  h += '<span class="q-diff ' + dCls + '">' + DIFF_ICONS[q.difficulty] + ' ' + dName + '</span>';
+  h += '<button class="err-toggle' + (bookmarkSet.has(q.id) ? ' on' : '') + '" id="errBtn">' + (bookmarkSet.has(q.id) ? '⭐ 已标记' : '☆ 标记重点') + '</button>';
+  h += '</div>';
+  h += '<div class="q-text">' + q.question + '</div>';
+  // Tags
+  if (q.tags && q.tags.length) {
+    h += '<div class="q-tags">';
+    q.tags.forEach(function(tag) { h += '<span class="q-tag">' + tag + '</span>'; });
+    h += '</div>';
+  }
+  if (isTF) {
+    var tCls = 'tf-btn t', fCls = 'tf-btn f';
+    if (ad) {
+      tCls += ' done'; fCls += ' done';
+      if (correctAnswer === true) tCls += ' ok'; else fCls += ' ok';
+      if (sel === true && correctAnswer !== true) tCls += ' bad';
+      if (sel === false && correctAnswer !== false) fCls += ' bad';
+    } else if (sel === true) tCls += ' sel-t'; else if (sel === false) fCls += ' sel-f';
+    h += '<div class="tf-row"><div class="' + tCls + '" data-v="true">✅ 正确</div><div class="' + fCls + '" data-v="false">❌ 错误</div></div>';
+  } else {
+    var order = Object.keys(q.options);
+    h += '<div class="options">';
+    order.forEach(function(L) {
+      var cls = 'opt';
+      if (ad) {
+        cls += ' done';
+        if (L === correctAnswer) cls += ' ok';
+        else if (L === sel && L !== correctAnswer) cls += ' bad';
+      } else if (L === sel) cls += ' sel';
+      h += '<div class="' + cls + '" data-l="' + L + '"><span class="opt-letter">' + L + '</span><span class="opt-label">' + q.options[L] + '</span></div>';
+    });
+    h += '</div>';
+  }
+
+  if (ad) h += '<div class="explain show" id="exp' + q.id + '"><strong>📖 解析：</strong>' + q.explanation + '</div>';
+  else h += '<div class="explain" id="exp' + q.id + '"></div>';
+  if (!ad) h += '<div class="lock-hint">🔒 选择答案后才能前进</div>';
+
+  quizEl.innerHTML = h;
+
+  // 事件绑定
+  var eb = document.getElementById('errBtn'); if (eb) eb.addEventListener('click', function(e) { e.stopPropagation(); toggleBookmark(q.id); });
+  if (isTF) {
+    quizEl.querySelectorAll('.tf-btn').forEach(function(o) {
+      o.addEventListener('click', function() {
+        pickTF(q.id, o.getAttribute('data-v') === 'true');
+      });
+    });
+  } else {
+    quizEl.querySelectorAll('.opt').forEach(function(o) {
+      o.addEventListener('click', function() {
+        pick(q.id, o.getAttribute('data-l'));
+      });
+    });
+  }
+  nav(); prog();
+    } catch(e) { document.getElementById('quiz').innerHTML = '<h2 style="color:red;padding:20px">Render Error: '+e.message+'</h2>'; }
+}
+
+function toggleBookmark(qid) {
+  bookmarkSet.has(qid) ? bookmarkSet.delete(qid) : bookmarkSet.add(qid);
+  saveBookmarks();
+  var et = document.getElementById('errBtn'); if (et) {
+    et.textContent = bookmarkSet.has(qid) ? '⭐ 已标记' : '☆ 标记重点';
+    et.className = 'err-toggle' + (bookmarkSet.has(qid) ? ' on' : '');
+  }
+}
+
+// ==================== 答案处理 ====================
+function pick(qid, L) { _answer(qid, L); }
+function pickTF(qid, v) { _answer(qid, v); }
+
+function _answer(qid, val) {
+  // 考试模式不允许修改答案
+
+  var prevAnswer = answers[qid];
+  answers[qid] = val;
+  done[qid] = true;
+
+  var q = QS.find(function(x) { return x.id === qid; });
+  if (!q) return;
+
+  // 自动错题收集
+  autoCollectError(qid, val, q.answer);
+
+  saveProgress();
+
+  render(idx);
+  prog(); nav();
+  // 修改答案后更新导航状态
+  if (prevAnswer !== undefined) {
+    navHint.textContent = '✅ 答案已更新';
+  }
+}
+
+
+// ==================== 导航 ====================
+function prev() { if (idx > 0) render(idx - 1); }
+function next() {
+  var q = QS[idx]; if (!q) return;
+  if (!(q.id in done)) return;
+  if (idx >= QS.length - 1 && QS.every(function(q) { return q.id in done; })) showResult();
+  else if (idx < QS.length - 1) render(idx + 1);
+}
+
+// ==================== 考试成绩 ====================
+function showResult() {
+  if (QS.length === 0) { alert('当前没有题目，请重新选择'); showHome(); return; }
+  hideQuizUI(); viewMode = 'result';
+  var cor = 0, wro = 0, una = 0;
+  QS.forEach(function(q) {
+    var ua = answers[q.id];
+    if (ua === undefined) { una++; }
+    else if (ua === q.answer) { cor++; }
+    else { wro++; }
+  });
+  var sc = QS.length > 0 ? Math.round(cor / QS.length * 100) : 0;
+  saveHistory(sc, cor, wro, una);
+  saveLastScore(String(sc));
+  clearProgress();
+  var gd, gc;
+  if (sc >= 90) { gd = '🏅 太棒了！掌握得非常扎实！'; gc = '#2D8C4A' }
+  else if (sc >= 80) { gd = '👍 表现优秀！继续巩固薄弱知识点。'; gc = '#8B1A2B' }
+  else if (sc >= 70) { gd = '📚 良好水平，建议针对错题强化复习。'; gc = '#C4924A' }
+  else if (sc >= 60) { gd = '📖 刚刚及格，需要系统回顾本章内容。'; gc = '#E67E22' }
+  else { gd = '💪 还需努力，建议重新梳理知识点后再做一遍。'; gc = '#D43D3D' }
+
+  var bank = QUESTION_BANKS[currentSubject];
+  var h = '<div class="result-card">';
+  h += '<h2>📊 答题成绩</h2>';
+  h += '<p style="font-size:.78rem;color:var(--grey);margin-bottom:8px">' + bank.name + ' · ' + bank.chapterLabel + '</p>';
+  h += '<div class="score-circle" style="background:linear-gradient(135deg,' + gc + ',' + gc + 'dd)">' + sc + '<small>分</small></div>';
+  h += '<p class="grade-text" style="color:' + gc + '">' + gd + '</p>';
+  h += '<div class="stats"><span style="color:#2D8C4A">✅ 正确：<b>' + cor + '</b></span><span style="color:#D43D3D">❌ 错误：<b>' + wro + '</b></span>';
+  if (una > 0) h += '<span style="color:var(--grey)">⬜ 未答：<b>' + una + '</b></span>';
+  h += '</div>';
+  h += '<p style="margin-top:6px;font-size:.82rem;color:var(--grey)">📌 错题已自动收录 <b style="color:var(--red)">' + getErrCount() + '</b> 题 | ⭐ 标记重点 <b style="color:var(--gold)">' + getBookmarkCount() + '</b> 题</p>';
+
+  // 逐题回顾（可折叠）
+  h += '<div class="review-list"><h3>📋 逐题回顾（点击展开）</h3>';
+  QS.forEach(function(q) {
+    var ua = answers[q.id], ok = ua === q.answer;
+    var icon = ua !== undefined ? (ok ? '✅' : '❌') : '⬜';
+    var ansLabel = q.type === 'truefalse' ? (q.answer ? '✅正确' : '❌错误') : q.answer;
+    var uaL = q.type === 'truefalse' ? (ua === true ? '正确' : (ua === false ? '错误' : '')) : ua;
+    h += '<details class="review-detail"><summary class="review-item">' + icon + ' <b>第' + q.id + '题</b> ';
+    if (ua !== undefined && !ok) h += '<span style="color:#D43D3D">（你：' + uaL + '，正确：' + ansLabel + '）</span>';
+    else if (ua !== undefined && ok) h += '<span style="color:#2D8C4A">（' + uaL + '）</span>';
+    h += '</summary><div class="review-body">';
+    h += '<p><b>题目：</b>' + q.question + '</p>';
+    if (q.type === 'choice') {
+      Object.keys(q.options).forEach(function(L) {
+        h += '<p>' + (L === q.answer ? '✅' : '  ') + ' ' + L + '. ' + q.options[L] + '</p>';
+      });
+    } else {
+      h += '<p>正确答案：' + (q.answer ? '✅ 正确' : '❌ 错误') + '</p>';
+
+    }
+    h += '<p><b>解析：</b>' + q.explanation + '</p>';
+    h += '</div></details>';
+  });
+  h += '</div>';
+
+  h += '<div class="result-actions">';
+  h += '<button class="btn btn-go" id="btnRetry">🔄 重新做题</button>';
+  if (wro > 0) h += '<button class="btn btn-outline-danger" id="btnWrong">📝 只做错题</button>';
+  h += '<button class="btn btn-ghost" id="btnHome2">🏠 返回首页</button>';
+  h += '</div></div>';
+  quizEl.innerHTML = h;
+  document.getElementById('btnRetry').addEventListener('click', retrySame);
+  var bw = document.getElementById('btnWrong'); if (bw) bw.addEventListener('click', doWrongOnly);
+  document.getElementById('btnHome2').addEventListener('click', showHome);
+
+}
+
+function retrySame() { idx = 0; answers = {}; done = {}; quizEl.innerHTML = ''; showQuizUI(); prog(); render(0); }
+function doWrongOnly() {
+  var wl = QS.filter(function(q) { return (q.id in done) && answers[q.id] !== q.answer; });
+  if (!wl.length) { alert('没有错题！🎉'); return; }
+  QS = wl; viewMode = 'quiz'; idx = 0; answers = {}; done = {}; showQuizUI(); prog(); render(0);
+}
+
+// ==================== 历史记录 ====================
+function saveHistory(sc, cor, wro, una) {
+  var records = lsGetJson('history') || [];
+  var timeUsed = 0;
+  records.unshift({
+    id: Date.now(),
+    date: new Date().toISOString(),
+    subject: currentSubject,
+    subjectName: QUESTION_BANKS[currentSubject].name,
+    mode: 'practice',
+    total: QS.length,
+    correct: cor,
+    wrong: wro,
+    unanswered: una,
+    score: sc,
+    timeUsed: timeUsed
+  });
+  // 只保留最近50条
+  if (records.length > 50) records = records.slice(0, 50);
+  lsSetJson('history', records);
+}
+
+function showHistory() {
+  hideQuizUI(); viewMode = 'history';
+  var records = lsGetJson('history') || [];
+  var h = '<div class="home-card"><h2>📋 历史记录</h2>';
+  h += '<div class="filter-row">';
+  h += '<button class="btn btn-sm btn-ghost hist-filter active" data-subj="all">全部</button>';
+  SUBJECT_KEYS.forEach(function(k) {
+    h += '<button class="btn btn-sm btn-ghost hist-filter" data-subj="' + k + '">' + QUESTION_BANKS[k].name + '</button>';
+  });
+  h += '</div>';
+  if (!records.length) {
+    h += '<p style="color:var(--grey);margin:30px 0">暂无历史记录</p>';
+  } else {
+    h += '<div style="overflow-x:auto"><table class="history-table"><thead><tr><th>日期</th><th>科目</th><th>模式</th><th>题数</th><th>正确</th><th>错误</th><th>正确率</th></tr></thead><tbody id="histBody">';
+    records.forEach(function(r) {
+      var modeLabel = '📖练习';
+      h += '<tr class="hist-row" data-subj="' + r.subject + '" data-id="' + r.id + '"><td>' + r.date.slice(0,16).replace('T',' ') + '</td><td>' + r.subjectName + '</td><td>' + modeLabel + '</td><td>' + r.total + '</td><td style="color:#2D8C4A">' + r.correct + '</td><td style="color:#D43D3D">' + r.wrong + '</td><td><b style="color:' + (r.score >= 80 ? '#2D8C4A' : r.score >= 60 ? '#C4924A' : '#D43D3D') + '">' + r.score + '%</b></td></tr>';
+    });
+    h += '</tbody></table></div>';
+  }
+  h += '<div style="text-align:center;margin-top:20px"><button class="btn btn-ghost" id="btnHistBack">← 返回首页</button>';
+  if (records.length > 0) h += ' <button class="btn btn-outline-danger btn-sm" id="btnClearHist">清空历史</button>';
+  h += '</div></div>';
+  quizEl.innerHTML = h;
+  document.getElementById('btnHistBack').addEventListener('click', showHome);
+  var cb = document.getElementById('btnClearHist'); if (cb) cb.addEventListener('click', function() { if (confirm('确定清空所有历史记录？')) { lsRemove('history'); showHistory(); } });
+  // 科目筛选
+  document.querySelectorAll('.hist-filter').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.hist-filter').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var subj = btn.getAttribute('data-subj');
+      document.querySelectorAll('.hist-row').forEach(function(row) {
+        row.style.display = (subj === 'all' || row.getAttribute('data-subj') === subj) ? '' : 'none';
+      });
+    });
+  });
+}
+
+// ==================== 首页 ====================
+function showHome() {
+  hideQuizUI(); viewMode = 'home';
+  var savedProg = loadProgress();
+  QS = ALL_QS.slice(); idx = 0; answers = {}; done = {};
+  var errCount = getErrCount(), bmCount = getBookmarkCount();
+  var bank = QUESTION_BANKS[currentSubject];
+
+  // 从历史记录取最近一次数据
+  var allHistory = lsGetJson('history') || [];
+  var history = allHistory.filter(function(r){ return r.subject === currentSubject; });
+  var lastRecord = history.length ? history[0] : null;
+  var totalAnswered = lastRecord ? (lastRecord.correct + lastRecord.wrong) : 0;
+  var totalCorrect = lastRecord ? lastRecord.correct : 0;
+  var accuracy = lastRecord && lastRecord.total > 0 ? Math.round(lastRecord.correct / lastRecord.total * 100) : 0;
+
+  // 各题型进度
+  var choiceTotal = ALL_QS.filter(function(q){ return q.type==='choice'; }).length;
+  var tfTotal = ALL_QS.filter(function(q){ return q.type==='truefalse'; }).length;
+  var choiceDone = 0, tfDone = 0, allDone = 0;
+  // 从history取最近一次的各题型完成数（粗略估算：按比例）
+  if (lastRecord) {
+    var ratio = lastRecord.total > 0 ? (lastRecord.correct + lastRecord.wrong) / lastRecord.total : 0;
+    choiceDone = Math.round(choiceTotal * ratio);
+    tfDone = Math.round(tfTotal * ratio);
+    allDone = lastRecord.correct + lastRecord.wrong;
+  }
+
+  var h = '<div class="home-card home-wrap">';
+
+  // === 进度恢复横幅 ===
+  if (savedProg) {
+    var doneCount = savedProg.done ? savedProg.done.length : 0;
+    h += '<div style="background:linear-gradient(135deg,#F0F4FF,#E8F0FE);border:2px solid #b0c4de;border-radius:var(--radius);padding:14px 18px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap"><span style="font-size:.88rem;font-weight:600;color:#4A6FA5">📌 上次做到了第 <span style="color:#2D5F9E;font-weight:800">' + (savedProg.idx + 1) + '</span> 题（已完成 ' + doneCount + ' 题）</span><button style="background:#4A6FA5;color:#fff;border:none;border-radius:20px;padding:8px 18px;font-weight:600;font-size:.82rem;cursor:pointer;min-height:36px;white-space:nowrap" id="btnResume">▶ 继续上次</button></div>';
+  }
+
+  // === 核心统计三列 ===
+  h += '<div class="stats-row">';
+  h += '<div class="stats-card"><div class="stats-num">' + totalAnswered + '</div><div class="stats-label">已答题</div></div>';
+  h += '<div class="stats-card"><div class="stats-num">' + totalCorrect + '</div><div class="stats-label">答对</div></div>';
+  h += '<div class="stats-card"><div class="stats-num">' + accuracy + '%</div><div class="stats-label">正确率</div></div>';
+  h += '</div>';
+
+  // === 快捷入口胶囊 ===
+  h += '<div class="quick-guide">🎯 Sword 一战成硕！针对性攻克薄弱点</div>';
+  h += '<div class="quick-row">';
+  h += '<div class="quick-pill err" id="pillErr"><span>⭐</span> 错题集 <span style="font-weight:800">(' + errCount + ')</span></div>';
+  h += '<div class="quick-pill bm" id="pillBM"><span>🔖</span> 收藏 <span style="font-weight:800">(' + bmCount + ')</span></div>';
+  h += '</div>';
+
+
+  // === 2×2 题型卡片 ===
+  h += '<div class="type-grid">';
+  // 全部刷题
+  h += '<div class="type-card" id="tcAll"><div class="type-icon">📝</div><div class="type-label">全部刷题</div><div class="type-sub">干就完了！</div>';
+  h += '<div class="type-bar-wrap"><div class="type-bar-fill" style="width:' + (STATS.total > 0 ? Math.round(allDone/STATS.total*100) : 0) + '%"></div></div>';
+  h += '<div class="type-meta"><span>' + STATS.total + ' 题</span><span class="right">' + (STATS.total > 0 ? Math.round(allDone/STATS.total*100) : 0) + '%</span></div></div>';
+  // 选择题
+  var cpct = choiceTotal > 0 ? Math.round(choiceDone/choiceTotal*100) : 0;
+  h += '<div class="type-card" id="tcChoice"><div class="type-icon">📖</div><div class="type-label">选择题</div><div class="type-sub">A / B / C / D</div>';
+  h += '<div class="type-bar-wrap"><div class="type-bar-fill" style="width:' + cpct + '%"></div></div>';
+  h += '<div class="type-meta"><span>' + choiceTotal + ' 题</span><span class="right">' + cpct + '%</span></div></div>';
+  // 判断题
+  var tpct = tfTotal > 0 ? Math.round(tfDone/tfTotal*100) : 0;
+  h += '<div class="type-card" id="tcTF"><div class="type-icon">⚖️</div><div class="type-label">判断题</div><div class="type-sub">正确 / 错误</div>';
+  h += '<div class="type-bar-wrap"><div class="type-bar-fill" style="width:' + tpct + '%"></div></div>';
+  h += '<div class="type-meta"><span>' + tfTotal + ' 题</span><span class="right">' + tpct + '%</span></div></div>';
+  // 名词解释
+  h += '<div class="type-card" id="tcGlossary"><div class="type-icon">📚</div><div class="type-label">名词解释</div><div class="type-sub">' + bank.chapterLabel + '</div>';
+  h += '<div class="type-bar-wrap"><div class="type-bar-fill" style="width:0%"></div></div>';
+  h += '<div class="type-meta"><span>' + STATS.terms + ' 条</span><span class="right">📖</span></div></div>';
+  h += '</div>';
+
+  // === 底部 ===
+  h += '<div class="home-footer">';
+  h += '<div class="motto">埋骨何须桑梓地，人生无处不青山</div>';
+  h += '<div class="links">';
+  h += '<span id="linkHistory" style="cursor:pointer">📋 历史记录</span>';
+  h += ' &nbsp;·&nbsp; ';
+  h += '<span id="linkBookmark" style="cursor:pointer">⭐ 标记管理</span>';
+  if (errCount > 0) {
+    h += ' &nbsp;·&nbsp; <span id="linkClearErr" style="cursor:pointer;color:#D43D3D">清空错题</span>';
+  }
+  h += '</div>';
+  h += '</div>';
+
+  h += '</div>'; // home-card
+  quizEl.innerHTML = h;
+
+  // === 事件绑定 ===
+  var br = document.getElementById('btnResume'); if (br) br.addEventListener('click', function() { resumeProgress(); });
+  // 胶囊
+  document.getElementById('pillErr').addEventListener('click', startErr);
+  document.getElementById('pillBM').addEventListener('click', function() {
+    if (bookmarkSet.size === 0) { alert('暂无标记题目，刷题时点击 ☆ 可标记重点题！'); return; }
+    var arr = ALL_QS.filter(function(q) { return bookmarkSet.has(q.id); });
+    QS = arr.slice();
+    startQuiz();
+  });
+  // 2×2 卡片（带进度检测）
+  document.getElementById('tcAll').addEventListener('click', function() { QS = ALL_QS.slice(); checkResumeQuiz(function(){ startQuiz(); }); });
+  document.getElementById('tcChoice').addEventListener('click', function() { var arr = ALL_QS.filter(function(q) { return q.type === 'choice'; }); QS = arr.slice(); checkResumeQuiz(function(){ startQuiz(); }); });
+  document.getElementById('tcTF').addEventListener('click', function() { var arr = ALL_QS.filter(function(q) { return q.type === 'truefalse'; }); QS = arr.slice(); checkResumeQuiz(function(){ startQuiz(); }); });
+  document.getElementById('tcGlossary').addEventListener('click', showGlossary);
+  // 底部链接
+  document.getElementById('linkHistory').addEventListener('click', showHistory);
+  document.getElementById('linkBookmark').addEventListener('click', function() { if (bookmarkSet.size === 0) { alert('暂无标记题目！'); return; } var arr = ALL_QS.filter(function(q) { return bookmarkSet.has(q.id); }); QS = arr.slice(); startQuiz(); });
+  
+    var lce = document.getElementById('linkClearErr'); if (lce) lce.addEventListener('click', function() { if (confirm('确定清空错题集？')) { clearErrSet(); var t=document.createElement('div'); t.className='toast'; t.textContent='错题集已清空'; t.style.cssText='position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:10px 24px;border-radius:24px;font-size:.85rem;font-weight:600;z-index:9999'; document.body.appendChild(t); setTimeout(function(){t.style.opacity='0';t.style.transition='opacity .3s';setTimeout(function(){t.remove()},300)},1500); showHome(); } });
+}
+
+function checkResumeQuiz(callback) {
+  var prog = loadProgress();
+  if (prog && prog.done && prog.done.length > 0) {
+    var msg = '上次练习未完成（已完成' + prog.done.length + '题），是否继续？\n\n点"确定"继续上次 | 点"取消"重新开始';
+    if (confirm(msg)) {
+      resumeProgress();
+      return;
+    }
+  }
+  clearProgress();
+  callback();
+}
+
+function startQuiz() { viewMode = 'quiz'; idx = 0; answers = {}; done = {}; showQuizUI(); prog(); render(0); }
+function startErr() {
+  if (errSet.size === 0) { alert('错题集为空，答错题目会自动收录！'); return; }
+  var arr = ALL_QS.filter(function(q) { return errSet.has(q.id); });
+  QS = arr.slice();
+  startQuiz();
+}
+
+
+
+// ==================== 名词解释 ====================
+function showGlossary() {
+  hideQuizUI(); viewMode = 'glossary';
+  var bank = QUESTION_BANKS[currentSubject];
+  var h = '<div class="glossary-card"><h2>📖 名词解释</h2>';
+  h += '<p class="glossary-chapter">' + bank.name + ' · ' + bank.chapterLabel + ' · 共 ' + ALL_TERMS.length + ' 条</p>';
+  ALL_TERMS.forEach(function(t) {
+    h += '<div class="term-block"><div class="term-name">' + t.id + '. ' + t.term + '</div><div class="term-def">' + t.definition + '</div></div>';
+  });
+  h += '<div style="text-align:center;margin-top:24px"><button class="btn btn-ghost" id="btnGlossBack">← 返回首页</button></div>';
+  h += '</div>';
+  quizEl.innerHTML = h;
+  document.getElementById('btnGlossBack').addEventListener('click', showHome);
+}
+
+// ==================== 事件绑定 ====================
+function initDOM() {
+  quizEl = document.getElementById('quiz');
+  progWrap = document.getElementById('progWrap');
+  progBar = document.getElementById('progBar');
+  progText = document.getElementById('progText');
+  progDiff = document.getElementById('progDiff');
+  progModeTag = document.getElementById('progModeTag');
+  navRow = document.getElementById('navRow');
+  navHint = document.getElementById('navHint');
+  btnPrev = document.getElementById('btnPrev');
+  btnNext = document.getElementById('btnNext');
+  btnHome = document.getElementById('btnHome');
+}
+
+initDOM();
+btnPrev.addEventListener('click', prev);
+btnNext.addEventListener('click', next);
+btnHome.addEventListener('click', function() { showHome(); });
+
+document.addEventListener('keydown', function(e) {
+  if (navRow.style.display === 'none') return;
+  var q = QS[idx]; if (!q) return;
+  if (q.type === 'truefalse') { if (e.key === '1' || e.key === 't') { e.preventDefault(); pickTF(q.id, true); } if (e.key === '2' || e.key === 'f') { e.preventDefault(); pickTF(q.id, false); } }
+  else { var km = {'1':'A','2':'B','3':'C','4':'D','a':'A','b':'B','c':'C','d':'D'}; if (e.key in km) { e.preventDefault(); pick(q.id, km[e.key]); } }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); prev(); }
+  if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); next(); }
+  if (e.key === 'Enter') { e.preventDefault(); next(); }
+  if (e.key === 'Escape' || e.key === 'h') { e.preventDefault(); showHome(); }
+});
+
+var tx = 0, ty = 0;
+document.addEventListener('touchstart', function(e) { tx = e.touches[0].clientX; ty = e.touches[0].clientY; }, { passive: true });
+document.addEventListener('touchend', function(e) {
+  if (navRow.style.display === 'none') return;
+  var dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty;
+  if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) { if (dx < -30) next(); else if (dx > 30) prev(); }
+});
+
+// 强制保存进度 - 页面关闭/刷新时
+window.addEventListener('beforeunload', function() {
+  if (viewMode === 'quiz' || viewMode === 'diff') saveProgress();
+  saveErr();
+  saveBookmarks();
+});
+
+// ==================== 旧数据迁移 ====================
+function migrateOldData() {
+  var migrations = [
+    { old: 'biochem_err_v1', newSubj: 'biochemistry', purpose: 'errors' },
+    { old: 'biochem_score_v1', newSubj: 'biochemistry', purpose: 'score' },
+    { old: 'cellbio_err_v2', newSubj: 'cellbiology', purpose: 'errors' },
+    { old: 'cellbio_score_v2', newSubj: 'cellbiology', purpose: 'score' },
+  ];
+  migrations.forEach(function(m) {
+    try {
+      var oldVal = localStorage.getItem(m.old);
+      if (oldVal !== null) {
+        var newKey = m.newSubj + '_' + m.purpose;
+        if (!localStorage.getItem(newKey)) {
+          localStorage.setItem(newKey, oldVal);
+        }
+        localStorage.removeItem(m.old);
+      }
+    } catch(e) {}
+  });
+  // 清理旧进度数据
+  try { localStorage.removeItem('biochem_progress_v1'); } catch(e) {}
+  try { localStorage.removeItem('cellbio_progress_v1'); } catch(e) {}
+}
+
+// ==================== PWA 支持 ====================
+// 1. Canvas 生成图标
+function generateIcon() {
+  try {
+    var size = 192;
+    var canvas = document.createElement('canvas');
+    canvas.width = size; canvas.height = size;
+    var ctx = canvas.getContext('2d');
+    // 红色背景
+    ctx.fillStyle = '#8B1A2B';
+    ctx.beginPath(); ctx.arc(size/2, size/2, size/2, 0, Math.PI*2); ctx.fill();
+    // 白色文字
+    ctx.fillStyle = '#fff';
+    ctx.font = 'bold 72px "PingFang SC","Microsoft YaHei",sans-serif';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText('湖大', size/2, size/2);
+    return canvas.toDataURL('image/png');
+  } catch(e) { return null; }
+}
+
+// 2. Manifest Blob URL
+var iconDataUrl = generateIcon();
+function setupManifest() {
+  try {
+    var manifest = {
+      name: '湖南大学考研题库',
+      short_name: '考研题库',
+      start_url: './',
+      display: 'standalone',
+      background_color: '#F5F0EB',
+      theme_color: '#8B1A2B',
+      icons: [{
+        src: iconDataUrl || '',
+        sizes: '192x192',
+        type: 'image/png'
+      }]
+    };
+    var blob = new Blob([JSON.stringify(manifest)], {type: 'application/json'});
+    var url = URL.createObjectURL(blob);
+    document.getElementById('manifestLink').href = url;
+    if (iconDataUrl) {
+      document.getElementById('appleTouchIcon').href = iconDataUrl;
+    }
+  } catch(e) {}
+}
+
+// 3. Service Worker (Cache-First)
+function registerSW() {
+  if (!('serviceWorker' in navigator)) return;
+  try {
+    var CACHE_NAME = 'huda-quiz-v1';
+    var swCode = [
+      'var CACHE_NAME = "' + CACHE_NAME + '";',
+      'self.addEventListener("install", function(e) {',
+      '  e.waitUntil(self.skipWaiting());',
+      '});',
+      'self.addEventListener("activate", function(e) {',
+      '  e.waitUntil(caches.keys().then(function(keys) {',
+      '    return Promise.all(keys.filter(function(k) { return k !== CACHE_NAME; }).map(function(k) { return caches.delete(k); }));',
+      '  }).then(function() { return self.clients.claim(); }));',
+      '});',
+      'self.addEventListener("fetch", function(e) {',
+      '  if (e.request.method !== "GET") return;',
+      '  e.respondWith(',
+      '    caches.match(e.request).then(function(cached) {',
+      '      if (cached) return cached;',
+      '      return fetch(e.request).then(function(response) {',
+      '        if (response && response.status === 200 && response.type === "basic") {',
+      '          var clone = response.clone();',
+      '          caches.open(CACHE_NAME).then(function(cache) { cache.put(e.request, clone); });',
+      '        }',
+      '        return response;',
+      '      }).catch(function() {',
+      '        return new Response("离线模式 - 资源未缓存", {status:503});',
+      '      });',
+      '    })',
+      '  );',
+      '});'
+    ].join('\n');
+    var swBlob = new Blob([swCode], {type: 'application/javascript'});
+    var swUrl = URL.createObjectURL(swBlob);
+    navigator.serviceWorker.register(swUrl).then(function(reg) {
+      // 注册成功后立即缓存当前页面
+      if (reg.installing) {
+        reg.installing.addEventListener('statechange', function() {
+          if (this.state === 'activated') cacheCurrentPage();
+        });
+      } else if (reg.active) {
+        cacheCurrentPage();
+      }
+    }).catch(function(e) {
+      // 静默降级
+    });
+  } catch(e) {}
+}
+
+function cacheCurrentPage() {
+  try {
+    if ('caches' in window) {
+      caches.open('huda-quiz-v1').then(function(cache) {
+        cache.add(window.location.href).catch(function() {});
+      });
+    }
+  } catch(e) {}
+}
+
+// ==================== PWA 初始化 ====================
+setupManifest();
+registerSW();
+window.addEventListener('load', function() {
+});
+
+// ==================== 初始化 ====================
+migrateOldData();
+var firstCh = COURSES[currentCourse].chapters[0];
+currentSubject = firstCh;
+loadSubjectData(firstCh);
+errSet = (function() {
+  var r = lsGet('errors');
+  return r ? new Set(JSON.parse(r)) : new Set();
+})();
+bookmarkSet = (function() {
+  var r = lsGet('bookmarks');
+  return r ? new Set(JSON.parse(r)) : new Set();
+})();
+buildCourseTabs();
+buildChapterTabs();
+showHome();
+
+})();

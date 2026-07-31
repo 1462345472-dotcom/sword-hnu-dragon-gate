@@ -1,0 +1,1525 @@
+[
+  {
+    "id": 1,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "以下哪项不是蛋白质的生物学功能？",
+    "options": {
+      "A": "催化生化反应",
+      "B": "运输氧气",
+      "C": "贮存遗传信息",
+      "D": "免疫防御"
+    },
+    "answer": "C",
+    "explanation": "核酸（DNA/RNA）贮存遗传信息。蛋白质功能包括催化、运输、结构支持、运动、免疫防御、信号转导等。",
+    "difficulty": 1,
+    "tags": [
+      "蛋白质功能"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "第一个完整获得三级结构的蛋白质是？",
+    "options": {
+      "A": "血红蛋白",
+      "B": "肌红蛋白",
+      "C": "胰岛素",
+      "D": "核糖核酸酶"
+    },
+    "answer": "B",
+    "explanation": "肌红蛋白（Mb）是第一个完整获得三级结构的蛋白质。由一条153个氨基酸残基的多肽链和一个血红素辅基构成。",
+    "difficulty": 1,
+    "tags": [
+      "肌红蛋白",
+      "三级结构"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "肌红蛋白由几段α-螺旋组成？",
+    "options": {
+      "A": "6段",
+      "B": "8段",
+      "C": "10段",
+      "D": "4段"
+    },
+    "answer": "B",
+    "explanation": "肌红蛋白由8段α螺旋组成，约78%的氨基酸都位于α螺旋中。",
+    "difficulty": 1,
+    "tags": [
+      "肌红蛋白",
+      "α螺旋"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "肌红蛋白的氧合曲线形态是？",
+    "options": {
+      "A": "S形曲线",
+      "B": "双曲线",
+      "C": "直线",
+      "D": "抛物线"
+    },
+    "answer": "B",
+    "explanation": "肌红蛋白的氧合曲线为双曲线，与血红蛋白的S形曲线不同，反映其无协同效应的单体特性。",
+    "difficulty": 1,
+    "tags": [
+      "肌红蛋白",
+      "氧合曲线",
+      "双曲线"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "CO剧毒的原因是？",
+    "options": {
+      "A": "破坏血红素结构",
+      "B": "与血红素铁的亲和力比O2高",
+      "C": "氧化血红蛋白",
+      "D": "水解肽键"
+    },
+    "answer": "B",
+    "explanation": "CO与血红素铁配位的亲和力远高于O2，占据O2结合位点导致机体缺氧。",
+    "difficulty": 1,
+    "tags": [
+      "CO",
+      "血红素",
+      "毒性"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "以下哪种蛋白质起结构支持作用？",
+    "options": {
+      "A": "胰岛素",
+      "B": "肌红蛋白",
+      "C": "胶原蛋白",
+      "D": "血红蛋白"
+    },
+    "answer": "C",
+    "explanation": "胶原蛋白在动物结缔组织中起结构支持作用。肌红蛋白贮存氧，血红蛋白运输氧，胰岛素是信号分子。",
+    "difficulty": 1,
+    "tags": [
+      "胶原蛋白",
+      "结构支持"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "肌红蛋白的辅基是？",
+    "options": {
+      "A": "叶绿素",
+      "B": "血红素",
+      "C": "辅酶A",
+      "D": "黄素"
+    },
+    "answer": "B",
+    "explanation": "肌红蛋白由珠蛋白和血红素辅基组成。血红素含Fe(II)原子，只有Fe(II)状态才能与O2结合。",
+    "difficulty": 1,
+    "tags": [
+      "肌红蛋白",
+      "血红素",
+      "辅基"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "蛋白质功能多样性",
+    "type": "choice",
+    "question": "蛋白质作为信号分子的实例是？",
+    "options": {
+      "A": "肌动蛋白",
+      "B": "胶原蛋白",
+      "C": "胰岛素",
+      "D": "角蛋白"
+    },
+    "answer": "C",
+    "explanation": "胰岛素及其受体的相互作用导致血糖浓度下降，是蛋白质作为信号分子的经典实例。",
+    "difficulty": 1,
+    "tags": [
+      "胰岛素",
+      "信号分子"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "蛋白质功能多样性",
+    "type": "truefalse",
+    "question": "肌红蛋白的氧合曲线为S形曲线。",
+    "answer": false,
+    "explanation": "肌红蛋白的氧合曲线为双曲线；血红蛋白因正协同效应呈S形曲线。",
+    "difficulty": 1,
+    "tags": [
+      "肌红蛋白",
+      "氧合曲线"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "蛋白质功能多样性",
+    "type": "truefalse",
+    "question": "只有Fe(II)状态的血红素才能与O2结合。",
+    "answer": true,
+    "explanation": "血红素中的铁必须为亚铁Fe(II)状态才能结合O2。机体通过疏水口袋和细胞色素B5还原酶保护Fe(II)不被氧化。",
+    "difficulty": 1,
+    "tags": [
+      "血红素",
+      "Fe(II)",
+      "氧结合"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "蛋白质功能多样性",
+    "type": "truefalse",
+    "question": "CO与游离血红素结合的能力比O2高25000倍，但在肌红蛋白中只高200倍。",
+    "answer": true,
+    "explanation": "蛋白质结构影响配体结合——肌红蛋白的疏水口袋降低了CO的相对亲和力。",
+    "difficulty": 2,
+    "tags": [
+      "CO",
+      "肌红蛋白",
+      "配体结合"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "成人最主要的血红蛋白HbA的亚基组成是？",
+    "options": {
+      "A": "α2γ2",
+      "B": "α2β2",
+      "C": "α2δ2",
+      "D": "β2γ2"
+    },
+    "answer": "B",
+    "explanation": "成人HbA为α2β2；HbA2为α2δ2；胎儿HbF为α2γ2。",
+    "difficulty": 1,
+    "tags": [
+      "HbA",
+      "亚基组成",
+      "α2β2"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "胎儿血红蛋白HbF的亚基组成是？",
+    "options": {
+      "A": "α2β2",
+      "B": "α2δ2",
+      "C": "α2γ2",
+      "D": "β2γ2"
+    },
+    "answer": "C",
+    "explanation": "HbF为α2γ2。γ链中H21为Ser（成人β链为His），减少BPG结合位点的正电荷，降低对BPG亲和力，使HbF对O2亲和力更高。",
+    "difficulty": 2,
+    "tags": [
+      "HbF",
+      "α2γ2",
+      "胎儿"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白的氧合曲线是？",
+    "options": {
+      "A": "双曲线",
+      "B": "S形曲线",
+      "C": "直线",
+      "D": "指数曲线"
+    },
+    "answer": "B",
+    "explanation": "血红蛋白因多个亚基之间的正协同效应，氧合曲线为S形（sigmoid）。",
+    "difficulty": 1,
+    "tags": [
+      "血红蛋白",
+      "S形曲线",
+      "协同效应"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白由几个亚基组成？",
+    "options": {
+      "A": "2个",
+      "B": "3个",
+      "C": "4个",
+      "D": "6个"
+    },
+    "answer": "C",
+    "explanation": "脊椎动物血红蛋白由4个多肽亚基组成，每个亚基含一个血红素基和一个氧结合部位。",
+    "difficulty": 1,
+    "tags": [
+      "血红蛋白",
+      "四聚体"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白的T态是指？",
+    "options": {
+      "A": "氧合优势构象",
+      "B": "去氧优势构象",
+      "C": "完全氧合态",
+      "D": "变性状态"
+    },
+    "answer": "B",
+    "explanation": "T态（Tense）是去氧优势构象，R态（Relaxed）是氧合优势构象。O2对R态亲和力明显高于T态。",
+    "difficulty": 2,
+    "tags": [
+      "T态",
+      "R态",
+      "构象"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "Bohr效应的本质是？",
+    "options": {
+      "A": "O2浓度对Hb与O2亲和力的影响",
+      "B": "H+和CO2对Hb与O2亲和力的影响",
+      "C": "温度对Hb与O2亲和力的影响",
+      "D": "BPG浓度对Hb与O2亲和力的影响"
+    },
+    "answer": "B",
+    "explanation": "Bohr效应（波尔效应）指H+和CO2浓度升高使Hb对O2的亲和力降低，促进O2在组织中释放。",
+    "difficulty": 2,
+    "tags": [
+      "Bohr效应",
+      "H+",
+      "CO2"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "2,3-二磷酸甘油酸（BPG）对血红蛋白的作用是？",
+    "options": {
+      "A": "增加对O2的亲和力",
+      "B": "降低对O2的亲和力",
+      "C": "促进血红素合成",
+      "D": "维持血红素Fe(II)状态"
+    },
+    "answer": "B",
+    "explanation": "BPG与去氧Hb结合，稳定T态，降低Hb对O2的亲和力，促进O2释放。",
+    "difficulty": 2,
+    "tags": [
+      "BPG",
+      "氧亲和力"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白在红细胞中的质量占比约？",
+    "options": {
+      "A": "10%",
+      "B": "34%",
+      "C": "50%",
+      "D": "5%"
+    },
+    "answer": "B",
+    "explanation": "血红蛋白在红细胞质量的占比高达34%，是红细胞中最丰富的蛋白质。",
+    "difficulty": 1,
+    "tags": [
+      "血红蛋白",
+      "红细胞"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白经尿素处理可以解离成？",
+    "options": {
+      "A": "单个亚基",
+      "B": "α-β二聚体",
+      "C": "α-α二聚体",
+      "D": "完全展开的肽链"
+    },
+    "answer": "B",
+    "explanation": "尿素处理使Hb解离成α-β二聚体，但二聚体保持完整。α-β之间相互作用最大，α-α或β-β间相互作用很小。",
+    "difficulty": 2,
+    "tags": [
+      "血红蛋白",
+      "α-β二聚体",
+      "尿素"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "血红蛋白",
+    "type": "choice",
+    "question": "血红蛋白的协同效应属于？",
+    "options": {
+      "A": "负协同效应",
+      "B": "正协同效应",
+      "C": "无协同效应",
+      "D": "反协同效应"
+    },
+    "answer": "B",
+    "explanation": "血红蛋白是正协同效应的经典例子——一个O2分子的结合增加了剩余位点对O2的亲和力。",
+    "difficulty": 1,
+    "tags": [
+      "正协同效应",
+      "血红蛋白"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "血红蛋白",
+    "type": "truefalse",
+    "question": "成人血红蛋白和胎儿血红蛋白的区别主要在于γ链与β链的差异。",
+    "answer": true,
+    "explanation": "HbF为α2γ2，HbA为α2β2。γ链H21为Ser使HbF对BPG亲和力降低，对O2亲和力增高。",
+    "difficulty": 1,
+    "tags": [
+      "HbF",
+      "HbA",
+      "γ链"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "血红蛋白",
+    "type": "truefalse",
+    "question": "血红蛋白的α链和β链三级结构完全不同。",
+    "answer": false,
+    "explanation": "α链和β链的三级结构与肌红蛋白相似，同属珠蛋白家族。",
+    "difficulty": 1,
+    "tags": [
+      "三级结构",
+      "珠蛋白家族"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "血红蛋白",
+    "type": "truefalse",
+    "question": "BPG浓度升高使血红蛋白对氧的亲和力增加。",
+    "answer": false,
+    "explanation": "BPG与去氧Hb结合稳定T态，降低对O2亲和力，促进O2释放。",
+    "difficulty": 1,
+    "tags": [
+      "BPG",
+      "氧亲和力"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "分子病",
+    "type": "choice",
+    "question": "镰刀型贫血症是由于HbA中哪个氨基酸被替换？",
+    "options": {
+      "A": "β链第6位Glu被Val替换",
+      "B": "α链第6位Glu被Val替换",
+      "C": "β链第6位Val被Glu替换",
+      "D": "α链第6位Val被Glu替换"
+    },
+    "answer": "A",
+    "explanation": "镰刀型贫血症是β链第6位Glu（极性）被Val（非极性）替换，导致去氧时分子聚集形成纤维状沉淀。",
+    "difficulty": 1,
+    "tags": [
+      "镰刀型贫血症",
+      "Glu→Val"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "分子病",
+    "type": "choice",
+    "question": "分子病的定义是什么？",
+    "options": {
+      "A": "由病原体感染引起的蛋白质功能异常",
+      "B": "由基因突变导致蛋白质一级结构改变而引起的遗传性疾病",
+      "C": "由维生素缺乏引起的代谢病",
+      "D": "由蛋白质变性引起的功能丧失"
+    },
+    "answer": "B",
+    "explanation": "分子病是由基因突变导致蛋白质一级结构改变、进而引起功能异常的遗传性疾病。镰刀型贫血症是经典实例。",
+    "difficulty": 1,
+    "tags": [
+      "分子病",
+      "基因突变"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "分子病",
+    "type": "choice",
+    "question": "镰刀型贫血症中，血红蛋白在什么状态下形成纤维状沉淀？",
+    "options": {
+      "A": "氧合状态",
+      "B": "去氧状态",
+      "C": "任何状态",
+      "D": "高温状态"
+    },
+    "answer": "B",
+    "explanation": "去氧时突变Hb分子表面暴露疏水补丁，聚集形成纤维状沉淀，使红细胞变形为镰刀状。",
+    "difficulty": 2,
+    "tags": [
+      "去氧",
+      "纤维状沉淀"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "分子病",
+    "type": "choice",
+    "question": "镰刀型贫血症杂合子对哪种疾病有一定抵抗作用？",
+    "options": {
+      "A": "流感",
+      "B": "疟疾",
+      "C": "天花",
+      "D": "结核"
+    },
+    "answer": "B",
+    "explanation": "镰刀型贫血症杂合子对疟疾有一定抵抗作用，这是杂合子优势的经典例子。",
+    "difficulty": 2,
+    "tags": [
+      "疟疾",
+      "杂合子优势"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "分子病",
+    "type": "choice",
+    "question": "镰刀型贫血症的分子基础是？",
+    "options": {
+      "A": "血红蛋白不能结合氧",
+      "B": "单个氨基酸替换导致分子表面疏水性改变",
+      "C": "血红素被破坏",
+      "D": "血红蛋白不能形成四聚体"
+    },
+    "answer": "B",
+    "explanation": "β链第6位Glu→Val替换，使去氧时分子表面暴露疏水补丁，导致异常聚集。",
+    "difficulty": 2,
+    "tags": [
+      "氨基酸替换",
+      "疏水性"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "分子病",
+    "type": "truefalse",
+    "question": "分子病是指由病原体感染导致的疾病。",
+    "answer": false,
+    "explanation": "分子病是由基因突变导致蛋白质一级结构改变引起的遗传性疾病，如镰刀型贫血症。",
+    "difficulty": 1,
+    "tags": [
+      "分子病",
+      "基因突变"
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "分子病",
+    "type": "truefalse",
+    "question": "镰刀型贫血症患者的所有血红蛋白均异常。",
+    "answer": false,
+    "explanation": "杂合子同时含有正常和突变血红蛋白，仅在去氧条件下突变Hb聚集。纯合子症状严重。",
+    "difficulty": 2,
+    "tags": [
+      "镰刀型贫血症",
+      "杂合子"
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "B淋巴细胞在哪个器官中发育成熟？",
+    "options": {
+      "A": "胸腺",
+      "B": "骨髓",
+      "C": "脾脏",
+      "D": "淋巴结"
+    },
+    "answer": "B",
+    "explanation": "B细胞在骨髓中发育，T细胞在胸腺中完成后期发育。",
+    "difficulty": 1,
+    "tags": [
+      "B细胞",
+      "骨髓"
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "免疫球蛋白IgG的结构特点是？",
+    "options": {
+      "A": "由2条重链和2条轻链组成",
+      "B": "由1条重链和1条轻链组成",
+      "C": "由4条重链组成",
+      "D": "由3条轻链组成"
+    },
+    "answer": "A",
+    "explanation": "IgG由2条相同的重链（H链）和2条相同的轻链（L链）组成，链间由二硫键和非共价键联结。",
+    "difficulty": 1,
+    "tags": [
+      "IgG",
+      "四链结构"
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "抗体分子中决定抗原结合特异性的区域是？",
+    "options": {
+      "A": "恒定区",
+      "B": "高变区",
+      "C": "FC片段",
+      "D": "铰链区"
+    },
+    "answer": "B",
+    "explanation": "高变区位于可变区Y形两臂末端，氨基酸序列决定抗体结合抗原的特异性。",
+    "difficulty": 1,
+    "tags": [
+      "高变区",
+      "抗原特异性"
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "最丰富的抗体类型是？",
+    "options": {
+      "A": "IgA",
+      "B": "IgM",
+      "C": "IgG",
+      "D": "IgE"
+    },
+    "answer": "C",
+    "explanation": "IgG是血清中最丰富的抗体，也是记忆B细胞应答的主要抗体。IgM是初次应答早期主要抗体。IgA是初乳主要抗体。",
+    "difficulty": 2,
+    "tags": [
+      "IgG",
+      "抗体类型"
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "单克隆抗体的定义是？",
+    "options": {
+      "A": "由多种B细胞产生的混合抗体",
+      "B": "由单一B细胞克隆产生的高度均一抗体",
+      "C": "仅存在于血清中的抗体",
+      "D": "人工合成的抗体片段"
+    },
+    "answer": "B",
+    "explanation": "单克隆抗体由单一B细胞克隆产生，高度均一，仅针对某一特定抗原表位。采用杂交瘤技术制备。",
+    "difficulty": 1,
+    "tags": [
+      "单克隆抗体",
+      "杂交瘤"
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "ELISA技术的核心原理是？",
+    "options": {
+      "A": "PCR扩增",
+      "B": "抗原-抗体特异性反应+酶活力测定",
+      "C": "DNA测序",
+      "D": "质谱分析"
+    },
+    "answer": "B",
+    "explanation": "ELISA以待测抗原和酶标抗体的特异性反应为基础，通过酶活力测定确定抗原或抗体含量。",
+    "difficulty": 2,
+    "tags": [
+      "ELISA",
+      "抗原抗体反应"
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "Western Blot中，蛋白质从凝胶转移到固体支持物的方法是？",
+    "options": {
+      "A": "扩散",
+      "B": "毛细管作用",
+      "C": "电泳转移",
+      "D": "离心"
+    },
+    "answer": "C",
+    "explanation": "Western Blot通过电泳技术将已分离的蛋白质从凝胶转移到硝酸纤维素薄膜等固体支持物上。",
+    "difficulty": 2,
+    "tags": [
+      "Western Blot",
+      "电泳转移"
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "细胞免疫系统的核心功能细胞是？",
+    "options": {
+      "A": "B细胞",
+      "B": "巨噬细胞",
+      "C": "T细胞",
+      "D": "浆细胞"
+    },
+    "answer": "C",
+    "explanation": "细胞免疫系统以T细胞为核心，Tc细胞可破坏被病毒感染的宿主细胞。体液免疫以B细胞/抗体为核心。",
+    "difficulty": 1,
+    "tags": [
+      "T细胞",
+      "细胞免疫"
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "MHC蛋白的主要功能是？",
+    "options": {
+      "A": "催化抗体合成",
+      "B": "将蛋白质肽片段展示在细胞表面供T细胞识别",
+      "C": "直接杀死病原体",
+      "D": "产生抗体"
+    },
+    "answer": "B",
+    "explanation": "MHC蛋白与细胞内消化的蛋白质肽片段结合，展示在细胞外表面，供T细胞受体识别。",
+    "difficulty": 2,
+    "tags": [
+      "MHC",
+      "抗原呈递"
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "免疫系统与抗体",
+    "type": "choice",
+    "question": "初乳中的主要抗体是？",
+    "options": {
+      "A": "IgG",
+      "B": "IgM",
+      "C": "IgA",
+      "D": "IgE"
+    },
+    "answer": "C",
+    "explanation": "IgA存在于机体分泌物中，是初乳的主要抗体。IgM是最大的抗体（五聚体）。",
+    "difficulty": 2,
+    "tags": [
+      "IgA",
+      "初乳"
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "免疫系统与抗体",
+    "type": "truefalse",
+    "question": "T淋巴细胞在骨髓中发育成熟。",
+    "answer": false,
+    "explanation": "T细胞迁移到胸腺完成后期发育，B细胞在骨髓中发育。",
+    "difficulty": 1,
+    "tags": [
+      "T细胞",
+      "胸腺"
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "免疫系统与抗体",
+    "type": "truefalse",
+    "question": "ELISA技术通过酶活力测定来确定抗原或抗体含量。",
+    "answer": true,
+    "explanation": "ELISA以抗原-抗体特异性反应为基础，通过酶活力测定来定量抗原或抗体。",
+    "difficulty": 1,
+    "tags": [
+      "ELISA",
+      "酶活力"
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "免疫系统与抗体",
+    "type": "truefalse",
+    "question": "一种抗体可以识别多种不同的抗原表位。",
+    "answer": false,
+    "explanation": "每种抗体具有高度特异性，仅识别特定的抗原表位（抗原决定簇）。多克隆抗体是多种B细胞产生的混合抗体。",
+    "difficulty": 2,
+    "tags": [
+      "抗体",
+      "抗原表位"
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "肌肉蛋白",
+    "type": "choice",
+    "question": "肌肉中最主要的两种蛋白是？",
+    "options": {
+      "A": "肌红蛋白和血红蛋白",
+      "B": "肌球蛋白和肌动蛋白",
+      "C": "肌球蛋白和肌红蛋白",
+      "D": "肌动蛋白和血红蛋白"
+    },
+    "answer": "B",
+    "explanation": "肌肉中最主要的是肌球蛋白（2个重链、4个轻链）和肌动蛋白。二者的相互滑动导致肌肉收缩。",
+    "difficulty": 1,
+    "tags": [
+      "肌球蛋白",
+      "肌动蛋白"
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "肌肉蛋白",
+    "type": "choice",
+    "question": "分子马达的能量来源是？",
+    "options": {
+      "A": "ATP",
+      "B": "核苷三磷酸",
+      "C": "GTP",
+      "D": "NADH"
+    },
+    "answer": "B",
+    "explanation": "分子马达依靠核苷三磷酸（如ATP）作为能量，进行循环式构象变化，推动细胞运动。",
+    "difficulty": 2,
+    "tags": [
+      "分子马达",
+      "核苷三磷酸"
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "肌肉蛋白",
+    "type": "choice",
+    "question": "肌原纤维中暗带称为？",
+    "options": {
+      "A": "I带",
+      "B": "A带",
+      "C": "H区",
+      "D": "Z盘"
+    },
+    "answer": "B",
+    "explanation": "明带称I带，暗带称A带。I带被Z盘分为两半起锚钩作用固定细丝。A带中央H区只有粗丝。",
+    "difficulty": 2,
+    "tags": [
+      "肌原纤维",
+      "A带"
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "肌肉蛋白",
+    "type": "choice",
+    "question": "Z盘在肌原纤维结构中的功能是？",
+    "options": {
+      "A": "提供能量",
+      "B": "起锚钩作用固定细丝",
+      "C": "催化ATP水解",
+      "D": "结合氧"
+    },
+    "answer": "B",
+    "explanation": "I带被Z盘分为两半，Z盘起锚钩作用固定细丝。A带正中间有M线。",
+    "difficulty": 2,
+    "tags": [
+      "Z盘"
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "肌肉蛋白",
+    "type": "truefalse",
+    "question": "肌球蛋白由2个重链和4个轻链组成。",
+    "answer": true,
+    "explanation": "肌球蛋白是肌肉中最主要的蛋白之一，由2个重链和4个轻链组成。",
+    "difficulty": 1,
+    "tags": [
+      "肌球蛋白",
+      "亚基"
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "别构效应的定义是？",
+    "options": {
+      "A": "亚基数量的变化",
+      "B": "配体结合在蛋白质一个部位影响其他部位功能",
+      "C": "蛋白质完全展开",
+      "D": "酶活性被不可逆抑制"
+    },
+    "answer": "B",
+    "explanation": "别构效应指结合在蛋白质特定部位的配体对该分子其他部位产生影响。",
+    "difficulty": 1,
+    "tags": [
+      "别构效应"
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "同促效应与异促效应的区别在于？",
+    "options": {
+      "A": "同促效应中配体相同，异促效应中配体不同",
+      "B": "同促效应发生在同一亚基，异促发生在不同亚基",
+      "C": "同促效应更弱",
+      "D": "两者没有区别"
+    },
+    "answer": "A",
+    "explanation": "同促效应中正常配体也是别构效应物（如O2对Hb）；异促效应中效应物与正常配体不同（如BPG对Hb）。",
+    "difficulty": 2,
+    "tags": [
+      "同促效应",
+      "异促效应"
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "血红蛋白的别构效应物不包括？",
+    "options": {
+      "A": "O2",
+      "B": "H+",
+      "C": "BPG",
+      "D": "NaCl"
+    },
+    "answer": "D",
+    "explanation": "O2是同促效应物，H+、CO2、BPG是异促效应物。NaCl不参与Hb的别构调节。",
+    "difficulty": 2,
+    "tags": [
+      "别构效应物"
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "关于协同效应，正确的描述是？",
+    "options": {
+      "A": "只存在于单体蛋白",
+      "B": "多亚基蛋白中一个配体结合影响后续配体结合",
+      "C": "配体结合后蛋白完全失活",
+      "D": "与蛋白质结构无关"
+    },
+    "answer": "B",
+    "explanation": "协同效应是寡聚蛋白的特性：一个配体（效应物）的结合影响后续配体的结合。血红蛋白是经典例子。",
+    "difficulty": 1,
+    "tags": [
+      "协同效应",
+      "寡聚蛋白"
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "H+和CO2通过什么效应影响血红蛋白的氧结合？",
+    "options": {
+      "A": "Bohr效应",
+      "B": "Pauling效应",
+      "C": "Anfinsen效应",
+      "D": "Edman效应"
+    },
+    "answer": "A",
+    "explanation": "Bohr效应：H+和CO2浓度升高使Hb对O2亲和力降低，促进O2在组织中释放。",
+    "difficulty": 1,
+    "tags": [
+      "Bohr效应"
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "免疫记忆形成的基础是？",
+    "options": {
+      "A": "抗体持续产生",
+      "B": "记忆B细胞和记忆T细胞",
+      "C": "抗原持续存在",
+      "D": "补体系统激活"
+    },
+    "answer": "B",
+    "explanation": "抗原耗尽后少数被激活的B细胞和T细胞成熟为记忆细胞，参与再次免疫（更快更强），这是疫苗的基础。",
+    "difficulty": 2,
+    "tags": [
+      "免疫记忆",
+      "记忆细胞"
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "1型MHC蛋白的分布特点是？",
+    "options": {
+      "A": "仅存在于B细胞",
+      "B": "存在于几乎所有脊椎动物细胞",
+      "C": "仅存在于T细胞",
+      "D": "仅存在于红细胞"
+    },
+    "answer": "B",
+    "explanation": "1型MHC蛋白存在于几乎所有脊椎动物细胞表面；2型MHC主要存在于巨噬细胞和B淋巴细胞表面。",
+    "difficulty": 2,
+    "tags": [
+      "MHC-I",
+      "分布"
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "协同与别构",
+    "type": "choice",
+    "question": "疫苗的原理基于？",
+    "options": {
+      "A": "天然免疫",
+      "B": "免疫记忆",
+      "C": "补体激活",
+      "D": "吞噬作用"
+    },
+    "answer": "B",
+    "explanation": "疫苗利用免疫记忆——初次接触抗原后产生的记忆细胞在再次接触时快速、强烈应答。",
+    "difficulty": 1,
+    "tags": [
+      "疫苗",
+      "免疫记忆"
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "协同与别构",
+    "type": "truefalse",
+    "question": "别构效应是单体蛋白的特性。",
+    "answer": false,
+    "explanation": "别构效应是寡聚蛋白（多亚基蛋白）的特性，如血红蛋白、别构酶等。",
+    "difficulty": 1,
+    "tags": [
+      "别构效应",
+      "寡聚蛋白"
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "协同与别构",
+    "type": "truefalse",
+    "question": "同促效应中正常配体自身就是别构效应物。",
+    "answer": true,
+    "explanation": "如O2既是血红蛋白的正常配体，又作为同促效应物促进更多O2结合。",
+    "difficulty": 1,
+    "tags": [
+      "同促效应",
+      "O2"
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "协同与别构",
+    "type": "truefalse",
+    "question": "巨噬细胞仅参与吞噬作用，不参与抗原呈递。",
+    "answer": false,
+    "explanation": "巨噬细胞既可吞噬大颗粒和细胞，也可作为抗原呈递细胞参与免疫应答。",
+    "difficulty": 2,
+    "tags": [
+      "巨噬细胞",
+      "抗原呈递"
+    ]
+  },
+  {
+    "type": "choice",
+    "topic": "蛋白质功能多样性",
+    "question": "以下哪项不属于蛋白质的转运功能？",
+    "options": {
+      "A": "血红蛋白运输氧气",
+      "B": "转铁蛋白运输铁",
+      "C": "肌红蛋白贮存氧",
+      "D": "胰岛素降低血糖"
+    },
+    "answer": "D",
+    "explanation": "胰岛素降低血糖属于信号转导功能，不是转运功能。",
+    "difficulty": 2,
+    "tags": [
+      "转运功能"
+    ],
+    "id": 61
+  },
+  {
+    "type": "choice",
+    "topic": "蛋白质功能多样性",
+    "question": "肌红蛋白脱去血红素后称为？",
+    "options": {
+      "A": "珠蛋白",
+      "B": "球蛋白",
+      "C": "白蛋白",
+      "D": "组蛋白"
+    },
+    "answer": "A",
+    "explanation": "肌红蛋白脱去血红素成为珠蛋白，与血红蛋白具有同源性。",
+    "difficulty": 1,
+    "tags": [
+      "珠蛋白"
+    ],
+    "id": 62
+  },
+  {
+    "type": "choice",
+    "topic": "蛋白质功能多样性",
+    "question": "肌红蛋白的P50值约为？",
+    "options": {
+      "A": "1 torr",
+      "B": "26 torr",
+      "C": "10 torr",
+      "D": "50 torr"
+    },
+    "answer": "A",
+    "explanation": "肌红蛋白P50约1 torr，反映其对氧的高亲和力。血红蛋白P50约26 torr。",
+    "difficulty": 2,
+    "tags": [
+      "P50"
+    ],
+    "id": 63
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "成人血红蛋白HbA2的亚基组成是？",
+    "options": {
+      "A": "α2β2",
+      "B": "α2δ2",
+      "C": "α2γ2",
+      "D": "β2γ2"
+    },
+    "answer": "B",
+    "explanation": "HbA2为α2δ2。HbA占约95%以上。",
+    "difficulty": 2,
+    "tags": [
+      "HbA2"
+    ],
+    "id": 64
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "成熟红细胞的寿命约多少天？",
+    "options": {
+      "A": "30天",
+      "B": "120天",
+      "C": "365天",
+      "D": "7天"
+    },
+    "answer": "B",
+    "explanation": "成熟红细胞无核和细胞器，不能繁殖，寿命约120天。",
+    "difficulty": 1,
+    "tags": [
+      "红细胞"
+    ],
+    "id": 65
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "静脉血中血红蛋白的氧饱和度约为？",
+    "options": {
+      "A": "96%",
+      "B": "64%",
+      "C": "50%",
+      "D": "100%"
+    },
+    "answer": "B",
+    "explanation": "动脉血约96%，静脉血约64%。",
+    "difficulty": 2,
+    "tags": [
+      "氧饱和度"
+    ],
+    "id": 66
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "血红蛋白在红细胞中的主要功能是？",
+    "options": {
+      "A": "贮存氧",
+      "B": "转运氧",
+      "C": "催化反应",
+      "D": "结构支持"
+    },
+    "answer": "B",
+    "explanation": "血红蛋白在血液中转运O2，肌红蛋白在肌肉中贮存O2。",
+    "difficulty": 1,
+    "tags": [
+      "转运氧"
+    ],
+    "id": 67
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "HbF对BPG的亲和力比HbA低的原因是？",
+    "options": {
+      "A": "γ链H21为Ser而非His",
+      "B": "α链结构不同",
+      "C": "血红素数量少",
+      "D": "亚基数不同"
+    },
+    "answer": "A",
+    "explanation": "γ链H21为Ser减少BPG结合位点正电荷。",
+    "difficulty": 2,
+    "tags": [
+      "HbF",
+      "BPG"
+    ],
+    "id": 68
+  },
+  {
+    "type": "choice",
+    "topic": "血红蛋白",
+    "question": "氧合时血红蛋白发生的构象变化是？",
+    "options": {
+      "A": "R态→T态",
+      "B": "T态→R态",
+      "C": "不变",
+      "D": "先T后R"
+    },
+    "answer": "B",
+    "explanation": "血红蛋白氧合时从T态转变为R态。",
+    "difficulty": 2,
+    "tags": [
+      "T态",
+      "R态"
+    ],
+    "id": 69
+  },
+  {
+    "type": "choice",
+    "topic": "分子病",
+    "question": "镰刀型贫血症的突变发生在？",
+    "options": {
+      "A": "α链",
+      "B": "β链",
+      "C": "γ链",
+      "D": "δ链"
+    },
+    "answer": "B",
+    "explanation": "β链第6位Glu被Val替换。",
+    "difficulty": 1,
+    "tags": [
+      "镰刀型贫血症"
+    ],
+    "id": 70
+  },
+  {
+    "type": "choice",
+    "topic": "分子病",
+    "question": "α和β地中海贫血对哪种疾病有一定抵抗作用？",
+    "options": {
+      "A": "流感",
+      "B": "疟疾",
+      "C": "天花",
+      "D": "结核"
+    },
+    "answer": "B",
+    "explanation": "地中海贫血杂合子对疟疾有一定抵抗作用。",
+    "difficulty": 2,
+    "tags": [
+      "地中海贫血",
+      "疟疾"
+    ],
+    "id": 71
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "T细胞受体识别的抗原必须与什么分子结合？",
+    "options": {
+      "A": "抗体",
+      "B": "MHC蛋白",
+      "C": "补体",
+      "D": "CD4"
+    },
+    "answer": "B",
+    "explanation": "TCR仅识别与MHC膜蛋白结合的抗原肽段。",
+    "difficulty": 2,
+    "tags": [
+      "TCR",
+      "MHC"
+    ],
+    "id": 72
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "IgM的结构形式是？",
+    "options": {
+      "A": "单体",
+      "B": "二聚体",
+      "C": "五聚体",
+      "D": "十聚体"
+    },
+    "answer": "C",
+    "explanation": "IgM以五聚体形式存在。",
+    "difficulty": 2,
+    "tags": [
+      "IgM"
+    ],
+    "id": 73
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "杂交瘤技术融合的两种细胞是？",
+    "options": {
+      "A": "T细胞和B细胞",
+      "B": "效应B细胞和骨髓瘤细胞",
+      "C": "巨噬细胞和T细胞",
+      "D": "B细胞和红细胞"
+    },
+    "answer": "B",
+    "explanation": "融合分泌抗体的效应B细胞和无限繁殖的骨髓瘤细胞。",
+    "difficulty": 1,
+    "tags": [
+      "杂交瘤"
+    ],
+    "id": 74
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "1型MHC蛋白主要将抗原呈递给哪种细胞？",
+    "options": {
+      "A": "B细胞",
+      "B": "辅助T细胞",
+      "C": "细胞毒性T细胞（Tc）",
+      "D": "巨噬细胞"
+    },
+    "answer": "C",
+    "explanation": "MHC-I呈递给Tc细胞；MHC-II呈递给TH细胞。",
+    "difficulty": 3,
+    "tags": [
+      "MHC-I"
+    ],
+    "id": 75
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "ELISA实验中使用酶标二抗的目的是？",
+    "options": {
+      "A": "直接结合抗原",
+      "B": "催化有色产物生成用于检测",
+      "C": "杀死病原体",
+      "D": "沉淀抗原"
+    },
+    "answer": "B",
+    "explanation": "酶标二抗催化底物生成有色产物，通过颜色深浅定量。",
+    "difficulty": 2,
+    "tags": [
+      "ELISA"
+    ],
+    "id": 76
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "Western Blot中常用的固体支持物是？",
+    "options": {
+      "A": "琼脂糖凝胶",
+      "B": "硝酸纤维素薄膜",
+      "C": "聚丙烯酰胺",
+      "D": "硅胶板"
+    },
+    "answer": "B",
+    "explanation": "蛋白质从凝胶电泳转移到硝酸纤维素薄膜上。",
+    "difficulty": 1,
+    "tags": [
+      "Western Blot"
+    ],
+    "id": 77
+  },
+  {
+    "type": "choice",
+    "topic": "免疫系统与抗体",
+    "question": "体液免疫系统主要针对什么？",
+    "options": {
+      "A": "被病毒感染的宿主细胞",
+      "B": "细菌感染和胞外病毒",
+      "C": "移植组织",
+      "D": "肿瘤细胞"
+    },
+    "answer": "B",
+    "explanation": "体液免疫针对细菌感染和胞外病毒；细胞免疫针对被感染细胞和移植组织。",
+    "difficulty": 2,
+    "tags": [
+      "体液免疫"
+    ],
+    "id": 78
+  },
+  {
+    "type": "choice",
+    "topic": "肌肉蛋白",
+    "question": "肌原纤维的明带称为？",
+    "options": {
+      "A": "A带",
+      "B": "I带",
+      "C": "H区",
+      "D": "M线"
+    },
+    "answer": "B",
+    "explanation": "明带称I带，暗带称A带。",
+    "difficulty": 1,
+    "tags": [
+      "I带"
+    ],
+    "id": 79
+  },
+  {
+    "type": "choice",
+    "topic": "肌肉蛋白",
+    "question": "H区位于肌原纤维的什么位置？",
+    "options": {
+      "A": "I带中央",
+      "B": "A带中央",
+      "C": "Z盘两侧",
+      "D": "M线两侧"
+    },
+    "answer": "B",
+    "explanation": "A带中央有H区，只有粗丝无细丝。",
+    "difficulty": 2,
+    "tags": [
+      "H区"
+    ],
+    "id": 80
+  },
+  {
+    "type": "choice",
+    "topic": "协同与别构",
+    "question": "以下哪种是异促效应物？",
+    "options": {
+      "A": "O2对血红蛋白",
+      "B": "底物对别构酶",
+      "C": "BPG对血红蛋白",
+      "D": "cAMP对蛋白激酶A"
+    },
+    "answer": "C",
+    "explanation": "BPG是异促效应物（配体与正常配体O2不同）。",
+    "difficulty": 3,
+    "tags": [
+      "异促效应"
+    ],
+    "id": 81
+  },
+  {
+    "type": "truefalse",
+    "topic": "血红蛋白",
+    "question": "2型MHC蛋白主要将抗原呈递给辅助T细胞（TH）。",
+    "answer": true,
+    "explanation": "MHC-II主要存在于巨噬细胞和B细胞表面，将外源性抗原肽呈递给TH细胞。",
+    "difficulty": 2,
+    "tags": [
+      "MHC-II"
+    ],
+    "id": 82
+  },
+  {
+    "type": "truefalse",
+    "topic": "血红蛋白",
+    "question": "动脉血中血红蛋白的氧饱和度约为96%。",
+    "answer": true,
+    "explanation": "动脉血约96%，静脉血约64%。",
+    "difficulty": 1,
+    "tags": [
+      "氧饱和度"
+    ],
+    "id": 83
+  },
+  {
+    "type": "truefalse",
+    "topic": "分子病",
+    "question": "镰刀型贫血症杂合子对疟疾有抵抗作用，这是杂合子优势的一个例子。",
+    "answer": true,
+    "explanation": "镰刀型贫血症杂合子对疟疾有一定抵抗作用。",
+    "difficulty": 1,
+    "tags": [
+      "杂合子优势"
+    ],
+    "id": 84
+  },
+  {
+    "type": "truefalse",
+    "topic": "免疫系统与抗体",
+    "question": "IgM是血清中最丰富的抗体类型。",
+    "answer": false,
+    "explanation": "IgG是最丰富的抗体；IgM是初次应答早期的主要抗体。",
+    "difficulty": 1,
+    "tags": [
+      "IgG"
+    ],
+    "id": 85
+  },
+  {
+    "type": "truefalse",
+    "topic": "免疫系统与抗体",
+    "question": "半抗原单独就能引起免疫反应。",
+    "answer": false,
+    "explanation": "半抗原必须与载体蛋白结合后才具有抗原性。",
+    "difficulty": 2,
+    "tags": [
+      "半抗原"
+    ],
+    "id": 86
+  },
+  {
+    "type": "truefalse",
+    "topic": "免疫系统与抗体",
+    "question": "单克隆抗体可以识别多个不同的抗原表位。",
+    "answer": false,
+    "explanation": "单克隆抗体仅识别一个特定抗原表位。",
+    "difficulty": 1,
+    "tags": [
+      "单克隆抗体"
+    ],
+    "id": 87
+  },
+  {
+    "type": "truefalse",
+    "topic": "肌肉蛋白",
+    "question": "肌球蛋白由2个重链和2个轻链组成。",
+    "answer": false,
+    "explanation": "肌球蛋白由2个重链和4个轻链组成，共6条多肽链。",
+    "difficulty": 2,
+    "tags": [
+      "肌球蛋白"
+    ],
+    "id": 88
+  }
+]

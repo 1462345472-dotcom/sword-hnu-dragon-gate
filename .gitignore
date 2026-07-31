@@ -1,0 +1,50 @@
+# 大PDF
+*.pdf
+
+# 临时文件
+*.bak
+*.bak2
+_ocr.txt
+_content.txt
+_syllabus.txt
+find_braces.py
+find_bugs.py
+p0_fix.py
+_test.js
+_v.js
+_validate.js
+_check_vars.py
+_quiz_js.js
+runtime_test.js
+process_questions.py
+rebuild.py
+ui_upgrade.css
+
+# 临时目录
+ocr_output/
+deploy/
+.claude/
+
+# 备份
+src_css_backup.txt
+src_css_fix.txt
+
+# 大图片（保留构建需要的）
+湖南大学-logo-2048px.png
+和\ 校徽融合的图.jpg
+
+# 无关文件
+历年报录比/
+湖大考研-复试&拟录取名单汇总/
+湖南大学-2020年/
+湖南大学-2021年/
+湖南大学-2022年/
+湖南大学-2023年/
+湖南大学-2024年/
+湖南大学-2025年/
+湖南大学-2026年/
+湖南大学生物与医药专硕2027考情分析与备考指南.md
+湖南大学生物与医药专硕2027考情分析与备考指南.pdf
+
+# 细胞生物学（未完成）
+细胞生物学题库/
