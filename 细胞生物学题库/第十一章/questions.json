@@ -1,0 +1,1622 @@
+[
+  {
+    "id": 1,
+    "topic": "细胞通信的类型",
+    "type": "choice",
+    "question": "下列哪种细胞通信方式属于长距离信号传递？",
+    "options": {
+      "A": "旁分泌",
+      "B": "自分泌",
+      "C": "内分泌",
+      "D": "突触信号传递"
+    },
+    "answer": "C",
+    "explanation": "内分泌由内分泌细胞分泌激素，通过血液循环运输至全身各处作用于远距离靶细胞，是典型的长距离通信方式。旁分泌作用于邻近细胞，自分泌作用于自身，突触传递也为短距离局部作用。",
+    "difficulty": 1,
+    "tags": [
+      "细胞通信",
+      "内分泌",
+      "信号传递距离"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "细胞通信的类型",
+    "type": "choice",
+    "question": "肿瘤细胞分泌生长因子刺激自身增殖的通信方式属于？",
+    "options": {
+      "A": "内分泌",
+      "B": "旁分泌",
+      "C": "自分泌",
+      "D": "接触依赖性通讯"
+    },
+    "answer": "C",
+    "explanation": "自分泌是指释放信号分子的细胞自身即为该信号分子的靶细胞，可对自身分泌的信号分子产生反应。该信号方式常见于病理条件，如肿瘤细胞分泌生长因子刺激自身增殖。旁分泌作用于邻近细胞；内分泌经血液循环作用于远距离靶细胞。",
+    "difficulty": 1,
+    "tags": [
+      "细胞通信",
+      "自分泌",
+      "肿瘤"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "细胞通信的类型",
+    "type": "choice",
+    "question": "间隙连接与胞间连丝的共同特点是？",
+    "options": {
+      "A": "均需释放化学信号分子",
+      "B": "均可通过交换小分子实现代谢偶联",
+      "C": "仅存在于动物细胞",
+      "D": "信号的传递是单向的"
+    },
+    "answer": "B",
+    "explanation": "间隙连接（动物）和胞间连丝（植物）均可通过交换小分子（如离子、氨基酸、核苷酸等）实现细胞间的代谢偶联或电偶联。这是一种直接的物理连接通信方式，不需要释放化学信号分子，信号可双向传递。",
+    "difficulty": 1,
+    "tags": [
+      "细胞通信",
+      "间隙连接",
+      "胞间连丝",
+      "代谢偶联"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "细胞通信的类型",
+    "type": "choice",
+    "question": "在胚胎发育过程中，下列哪种通信方式对组织内相邻细胞的分化命运起决定性影响？",
+    "options": {
+      "A": "内分泌",
+      "B": "接触依赖性通讯",
+      "C": "突触信号传递",
+      "D": "自分泌"
+    },
+    "answer": "B",
+    "explanation": "接触依赖性通讯通过信号细胞质膜上的信号分子与靶细胞质膜上的受体分子直接相互作用，无需释放信号分子。在胚胎发育中，该方式对相邻细胞的分化命运起决定性影响，如胚胎上皮细胞发育为神经组织依赖于接触依赖性通讯。",
+    "difficulty": 2,
+    "tags": [
+      "细胞通信",
+      "接触依赖性通讯",
+      "胚胎发育"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "细胞通信的类型",
+    "type": "choice",
+    "question": "在创伤组织愈合过程中，下列哪种通信方式对刺激细胞增殖和恢复功能最为关键？",
+    "options": {
+      "A": "内分泌",
+      "B": "旁分泌",
+      "C": "突触信号传递",
+      "D": "间隙连接"
+    },
+    "answer": "B",
+    "explanation": "旁分泌是细胞分泌局部化学介质到细胞外液，经局部扩散作用于邻近靶细胞。多数调节发育的生长因子通过该方式短距离发挥作用，同时对创伤或感染组织刺激细胞增殖、恢复功能具有重要意义。",
+    "difficulty": 2,
+    "tags": [
+      "细胞通信",
+      "旁分泌",
+      "创伤愈合"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "信号分子的分类",
+    "type": "choice",
+    "question": "下列哪种信号分子可以直接自由扩散入细胞并激活效应酶？",
+    "options": {
+      "A": "肾上腺素",
+      "B": "胰岛素",
+      "C": "一氧化氮（NO）",
+      "D": "乙酰胆碱"
+    },
+    "answer": "C",
+    "explanation": "NO和CO属于气体性信号分子，为脂溶性小分子，可直接自由扩散穿过细胞质膜，进入细胞后直接激活效应酶（如鸟苷酸环化酶），产生cGMP。肾上腺素、胰岛素、乙酰胆碱均为亲水性分子，不能直接穿过质膜，需与细胞表面受体结合。",
+    "difficulty": 1,
+    "tags": [
+      "信号分子",
+      "气体信号分子",
+      "NO",
+      "自由扩散"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "信号分子的分类",
+    "type": "choice",
+    "question": "关于疏水性信号分子的描述，正确的是？",
+    "options": {
+      "A": "需通过细胞表面受体发挥效应",
+      "B": "包括神经递质和大多数蛋白质类激素",
+      "C": "可穿过质膜与胞内受体结合调节基因表达",
+      "D": "均为短效信号分子"
+    },
+    "answer": "C",
+    "explanation": "疏水性信号分子（如甾类激素、甲状腺素）是脂溶性的，能穿过细胞质膜进入细胞，与细胞内受体结合形成激素-受体复合体，调节基因表达。它们是血液中的长效信号。A、B描述的是亲水性信号分子的特征。",
+    "difficulty": 1,
+    "tags": [
+      "信号分子",
+      "疏水性信号分子",
+      "胞内受体",
+      "基因表达"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "信号分子的分类",
+    "type": "choice",
+    "question": "大多数神经递质和多肽类激素不能透过靶细胞质膜，其共同的原因是？",
+    "options": {
+      "A": "分子量过大",
+      "B": "属于亲水性信号分子",
+      "C": "被血液中的酶迅速降解",
+      "D": "需要载体介导转运"
+    },
+    "answer": "B",
+    "explanation": "神经递质、局部介质和大多数蛋白质类激素属于亲水性信号分子，不能透过疏水的脂质双分子层，只能与靶细胞表面受体结合，经信号转换机制在胞内产生第二信使或激活蛋白激酶引发应答。",
+    "difficulty": 1,
+    "tags": [
+      "信号分子",
+      "亲水性",
+      "质膜屏障"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "受体的基本概念",
+    "type": "choice",
+    "question": "关于受体的描述，下列哪项是错误的？",
+    "options": {
+      "A": "绝大多数受体为蛋白质且多为糖蛋白",
+      "B": "受体与配体通过共价键不可逆结合",
+      "C": "受体与配体的亲和性用解离常数Kd表示",
+      "D": "少数受体是糖脂或糖蛋白与糖脂的复合物"
+    },
+    "answer": "B",
+    "explanation": "受体与配体通过非共价键（如氢键、疏水键、离子键、范德华力）可逆结合，而非共价键不可逆结合。A正确，已鉴定的受体多为糖蛋白；C正确，Kd值越小亲和性越高；D正确。",
+    "difficulty": 2,
+    "tags": [
+      "受体",
+      "配体结合",
+      "非共价键",
+      "Kd"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "受体的分类",
+    "type": "choice",
+    "question": "甾类激素和甲状腺素的受体主要位于细胞何处？",
+    "options": {
+      "A": "细胞质膜上",
+      "B": "细胞质基质或核基质中",
+      "C": "高尔基体膜上",
+      "D": "内质网膜上"
+    },
+    "answer": "B",
+    "explanation": "甾类激素和甲状腺素是疏水性信号分子，可自由穿过质膜，其受体位于细胞质基质或核基质中（即细胞内受体/核受体）。结合后形成的激素-受体复合体进入细胞核调控靶基因表达。",
+    "difficulty": 1,
+    "tags": [
+      "受体",
+      "胞内受体",
+      "甾类激素",
+      "甲状腺素"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "受体的分类",
+    "type": "choice",
+    "question": "细胞表面受体按信号转导机制分为三大类，下列哪项不属于其中之一？",
+    "options": {
+      "A": "离子通道偶联受体",
+      "B": "G蛋白偶联受体",
+      "C": "核受体",
+      "D": "酶联受体"
+    },
+    "answer": "C",
+    "explanation": "细胞表面受体的三大家族是：离子通道偶联受体、G蛋白偶联受体和酶联受体。核受体属于细胞内受体，位于细胞质或核内，不属于细胞表面受体。",
+    "difficulty": 1,
+    "tags": [
+      "受体分类",
+      "细胞表面受体",
+      "核受体"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "受体-配体结合特性",
+    "type": "choice",
+    "question": "受体与配体的亲和性高低用解离常数Kd表示。若受体A的Kd=10⁻⁹M，受体B的Kd=10⁻⁷M，则？",
+    "options": {
+      "A": "受体A的亲和性高于受体B",
+      "B": "受体B的亲和性高于受体A",
+      "C": "两者亲和性相同",
+      "D": "Kd值不能用于比较亲和性"
+    },
+    "answer": "A",
+    "explanation": "Kd值低代表配体-受体亲和性高（越容易结合），Kd值高代表亲和性低（越容易解离）。Kd=10⁻⁹M小于10⁻⁷M，故受体A的亲和性更高。",
+    "difficulty": 2,
+    "tags": [
+      "受体",
+      "解离常数",
+      "Kd",
+      "亲和性"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "受体的功能",
+    "type": "choice",
+    "question": "受体介导的细胞应答分为快反应和慢反应，慢反应通常通过什么方式实现？",
+    "options": {
+      "A": "改变酶的活性",
+      "B": "改变细胞膜通透性",
+      "C": "改变基因表达",
+      "D": "改变蛋白质构象"
+    },
+    "answer": "C",
+    "explanation": "慢反应（长期反应）通过修饰转录因子刺激或阻遏特异靶基因的表达，改变细胞特异性蛋白表达量，发生速度较慢。快反应则是改变酶类或蛋白质活性影响代谢或运动，速度快。",
+    "difficulty": 2,
+    "tags": [
+      "受体功能",
+      "快反应",
+      "慢反应",
+      "基因表达"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "第二信使",
+    "type": "choice",
+    "question": "下列哪项不是公认的第二信使？",
+    "options": {
+      "A": "cAMP",
+      "B": "IP₃",
+      "C": "ATP",
+      "D": "Ca²⁺"
+    },
+    "answer": "C",
+    "explanation": "公认的第二信使包括cAMP、cGMP、Ca²⁺、DAG和IP₃。ATP是细胞的能量货币，虽然也参与信号过程（为激酶提供磷酸基团），但本身不是作为第二信使通过浓度变化携带信号的分子。",
+    "difficulty": 1,
+    "tags": [
+      "第二信使",
+      "cAMP",
+      "IP₃",
+      "Ca²⁺",
+      "DAG"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "第二信使",
+    "type": "choice",
+    "question": "Sutherland提出的“第二信使学说”中，第一信使和第二信使分别指？",
+    "options": {
+      "A": "受体和G蛋白",
+      "B": "胞外化学信号和胞内信号分子",
+      "C": "激素和受体",
+      "D": "G蛋白和效应酶"
+    },
+    "answer": "B",
+    "explanation": "Sutherland发现cAMP后提出第二信使学说：胞外化学信号（第一信使）不能进入细胞，它作用于细胞表面受体，导致产生胞内信号（第二信使，如cAMP），引发靶细胞内一系列生化反应产生生理效应。",
+    "difficulty": 1,
+    "tags": [
+      "第二信使学说",
+      "Sutherland",
+      "cAMP"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "分子开关",
+    "type": "choice",
+    "question": "G蛋白（三聚体G蛋白）作为分子开关，其活化态和失活态分别对应于？",
+    "options": {
+      "A": "结合GTP为活化态，结合ATP为失活态",
+      "B": "结合GDP为活化态，结合GTP为失活态",
+      "C": "结合GTP为活化态，结合GDP为失活态",
+      "D": "结合cAMP为活化态，结合GDP为失活态"
+    },
+    "answer": "C",
+    "explanation": "G蛋白结合GTP时处于开启（活化）状态，可激活下游效应器；当结合的GTP被水解为GDP时，G蛋白关闭（失活），信号传递终止。GEF促进GDP/GTP交换使G蛋白活化，GAP加速GTP水解使G蛋白失活。",
+    "difficulty": 2,
+    "tags": [
+      "分子开关",
+      "G蛋白",
+      "GTP",
+      "GDP"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "分子开关",
+    "type": "choice",
+    "question": "下列哪个蛋白促进Ras从Ras-GDP（失活态）转变为Ras-GTP（活化态）？",
+    "options": {
+      "A": "GAP（GTP酶活化蛋白）",
+      "B": "GEF（鸟苷酸交换因子）",
+      "C": "GDI（GDP解离抑制因子）",
+      "D": "RGS蛋白"
+    },
+    "answer": "B",
+    "explanation": "GEF（鸟苷酸交换因子）促进Ras释放GDP并结合GTP，使Ras由失活态转为活化态。GAP促进Ras的GTP酶活性，将GTP水解为GDP使其失活。GDI抑制GDP从Ras解离，维持失活态。Sos蛋白是Ras-GEF的重要代表。",
+    "difficulty": 2,
+    "tags": [
+      "分子开关",
+      "GEF",
+      "GAP",
+      "Ras",
+      "GTP酶"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "分子开关",
+    "type": "choice",
+    "question": "钙调蛋白（CaM）作为分子开关，其活化和失活分别依赖什么？",
+    "options": {
+      "A": "磷酸化和去磷酸化",
+      "B": "GTP结合和水解",
+      "C": "Ca²⁺的结合和解离",
+      "D": "cAMP的结合和解离"
+    },
+    "answer": "C",
+    "explanation": "CaM是介导Ca²⁺信号的特异性分子开关，含4个Ca²⁺结合位点。Ca²⁺结合后CaM构象改变而活化，形成Ca²⁺-CaM复合体结合并调控靶酶；Ca²⁺解离后CaM失活。",
+    "difficulty": 2,
+    "tags": [
+      "分子开关",
+      "钙调蛋白",
+      "CaM",
+      "Ca²⁺"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "GPCR结构与机制",
+    "type": "choice",
+    "question": "G蛋白偶联受体（GPCR）最显著的结构特征是？",
+    "options": {
+      "A": "单次跨膜α螺旋",
+      "B": "7次跨膜α螺旋",
+      "C": "12次跨膜α螺旋",
+      "D": "β桶状跨膜结构"
+    },
+    "answer": "B",
+    "explanation": "所有GPCR均具有7次跨膜α螺旋结构，N端在胞外，C端在胞质侧。第5和第6跨膜螺旋之间的胞内环及C末端对受体与G蛋白的相互作用至关重要。RTK是单次跨膜蛋白。",
+    "difficulty": 1,
+    "tags": [
+      "GPCR",
+      "7次跨膜",
+      "结构特征"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "GPCR结构与机制",
+    "type": "choice",
+    "question": "三聚体G蛋白中，哪个亚基通过共价结合的脂分子锚定在质膜上？",
+    "options": {
+      "A": "仅α亚基",
+      "B": "仅β亚基",
+      "C": "仅γ亚基",
+      "D": "α亚基和γ亚基"
+    },
+    "answer": "D",
+    "explanation": "α亚基和γ亚基分别通过共价结合的脂分子锚定在质膜胞浆侧。β亚基与γ亚基形成异二聚体，本身不与质膜直接锚定，而是通过γ亚基的脂锚定间接连接。",
+    "difficulty": 2,
+    "tags": [
+      "G蛋白",
+      "α亚基",
+      "γ亚基",
+      "脂锚定"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "GPCR-cAMP-PKA通路",
+    "type": "choice",
+    "question": "在GPCR介导的cAMP-PKA信号通路中，cAMP直接的作用是？",
+    "options": {
+      "A": "磷酸化下游靶蛋白",
+      "B": "与PKA的调节亚基结合释放催化亚基",
+      "C": "激活腺苷酸环化酶",
+      "D": "与G蛋白α亚基结合"
+    },
+    "answer": "B",
+    "explanation": "cAMP与PKA的调节亚基结合，使调节亚基与催化亚基解离，释放并激活催化亚基。活化的催化亚基再磷酸化下游靶蛋白。A是PKA催化亚基的作用，C错误（AC产生cAMP），D错误。",
+    "difficulty": 2,
+    "tags": [
+      "cAMP",
+      "PKA",
+      "信号通路"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "GPCR-cAMP-PKA通路",
+    "type": "choice",
+    "question": "胰高血糖素促进肝糖原分解的信号转导中，正确的级联顺序是？",
+    "options": {
+      "A": "GPCR→Gαₛ→AC→cAMP→PKA→糖原磷酸化酶激酶→糖原磷酸化酶",
+      "B": "RTK→Ras→Raf→MEK→MAPK→糖原磷酸化酶",
+      "C": "GPCR→PLC→IP₃→Ca²⁺→PKC→糖原磷酸化酶",
+      "D": "细胞因子受体→JAK→STAT→糖原磷酸化酶"
+    },
+    "answer": "A",
+    "explanation": "胰高血糖素（和肾上腺素）通过GPCR-cAMP-PKA通路调控糖原代谢：激素→GPCR→Gαₛ-GTP→激活腺苷酸环化酶（AC）→cAMP升高→激活PKA→磷酸化糖原磷酸化酶激酶→激活糖原磷酸化酶→糖原降解。",
+    "difficulty": 2,
+    "tags": [
+      "cAMP-PKA",
+      "糖原代谢",
+      "胰高血糖素",
+      "级联反应"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "GPCR-cAMP-PKA通路",
+    "type": "choice",
+    "question": "PKA进入细胞核后，通过磷酸化哪个转录因子促进靶基因转录？",
+    "options": {
+      "A": "STAT",
+      "B": "NF-κB",
+      "C": "CREB",
+      "D": "Smad"
+    },
+    "answer": "C",
+    "explanation": "PKA可进入细胞核磷酸化基因调控蛋白CREB（cAMP response element binding protein），磷酸化的CREB与CBP形成复合物，结合靶基因调控序列CRE（cAMP response element），激活靶基因转录。STAT是JAK-STAT通路，NF-κB和Smad分别属于不同通路。",
+    "difficulty": 3,
+    "tags": [
+      "PKA",
+      "CREB",
+      "基因调控",
+      "cAMP"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "GPCR-cAMP-PKA通路",
+    "type": "choice",
+    "question": "霍乱毒素的致病机理是？",
+    "options": {
+      "A": "抑制腺苷酸环化酶活性",
+      "B": "催化Gαₛ的ADP-核糖基化使其丧失GTP酶活性",
+      "C": "阻断G蛋白α亚基与受体的结合",
+      "D": "降解cAMP"
+    },
+    "answer": "B",
+    "explanation": "霍乱毒素具有ADP-核糖转移酶活性，催化Gαₛ的ADP-核糖基化，使Gαₛ丧失GTP酶活性，GTP无法水解为GDP，Gαₛ持续活化，不断激活腺苷酸环化酶→cAMP急剧升高→小肠上皮细胞大量分泌Na⁺和水→严重腹泻。",
+    "difficulty": 2,
+    "tags": [
+      "霍乱毒素",
+      "ADP-核糖基化",
+      "Gαₛ",
+      "cAMP"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "GPCR-cAMP-PKA通路",
+    "type": "choice",
+    "question": "百日咳毒素的致病机理与霍乱毒素不同，其作用靶点是？",
+    "options": {
+      "A": "催化Gαₛ的ADP-核糖基化使其持续活化",
+      "B": "催化Gαᵢ的ADP-核糖基化使其锁定非活化态",
+      "C": "直接激活腺苷酸环化酶",
+      "D": "抑制cAMP磷酸二酯酶"
+    },
+    "answer": "B",
+    "explanation": "百日咳毒素催化Gαᵢ的ADP-核糖基化，阻止Gαᵢ释放GDP，将其锁定在非活化状态。Gαᵢ的失活使其不能抑制腺苷酸环化酶，导致气管上皮细胞cAMP水平增高，液体和黏液分泌减少。这与霍乱毒素（使Gαₛ持续活化，cAMP升高100倍以上引起腹泻）的靶点不同。",
+    "difficulty": 3,
+    "tags": [
+      "百日咳毒素",
+      "Gαᵢ",
+      "ADP-核糖基化",
+      "cAMP"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "PLC-IP₃/DAG通路",
+    "type": "choice",
+    "question": "PLC催化PIP₂水解产生的两个第二信使分别是？",
+    "options": {
+      "A": "cAMP和cGMP",
+      "B": "IP₃和DAG",
+      "C": "IP₃和cAMP",
+      "D": "Ca²⁺和DAG"
+    },
+    "answer": "B",
+    "explanation": "磷脂酶C（PLC）催化膜磷脂PIP₂水解，生成IP₃（水溶性，扩散至胞质）和DAG（亲脂性，锚定在质膜），二者均为第二信使，分别介导Ca²⁺释放和PKC激活，构成双信使系统。",
+    "difficulty": 1,
+    "tags": [
+      "PLC",
+      "PIP₂",
+      "IP₃",
+      "DAG",
+      "双信使系统"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "PLC-IP₃/DAG通路",
+    "type": "choice",
+    "question": "IP₃的主要功能是？",
+    "options": {
+      "A": "激活PKC",
+      "B": "直接磷酸化靶蛋白",
+      "C": "与内质网IP₃门控Ca²⁺通道结合使Ca²⁺释放",
+      "D": "激活腺苷酸环化酶"
+    },
+    "answer": "C",
+    "explanation": "IP₃是水溶性第二信使，通过细胞质扩散与内质网膜上的IP₃门控Ca²⁺通道结合，使其开放，内质网内Ca²⁺顺电化学梯度释放入胞质，提高胞质Ca²⁺浓度。A是DAG的功能，B和D错误。",
+    "difficulty": 2,
+    "tags": [
+      "IP₃",
+      "Ca²⁺释放",
+      "内质网",
+      "第二信使"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "PLC-IP₃/DAG通路",
+    "type": "choice",
+    "question": "关于DAG-PKC信号通路，以下描述正确的是？",
+    "options": {
+      "A": "DAG是水溶性的，扩散入胞质激活PKC",
+      "B": "静息时PKC以活性形式分布于质膜上",
+      "C": "DAG和Ca²⁺协同作用使PKC转位至质膜并被活化",
+      "D": "PKC是非Ca²⁺依赖性的酪氨酸激酶"
+    },
+    "answer": "C",
+    "explanation": "DAG是亲脂性的，锚定在质膜上。静息时PKC以非活性形式分布于胞质。当信号刺激使DAG在质膜积累且胞质Ca²⁺升高时，PKC与Ca²⁺结合并转位到质膜内表面，被DAG活化。PKC是Ca²⁺和磷脂依赖的丝/苏氨酸蛋白激酶。",
+    "difficulty": 2,
+    "tags": [
+      "DAG",
+      "PKC",
+      "Ca²⁺",
+      "信号通路"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Ca²⁺信号途径",
+    "type": "choice",
+    "question": "关于钙火花的描述，下列哪项是正确的？",
+    "options": {
+      "A": "钙火花是持续数分钟的全细胞Ca²⁺升高事件",
+      "B": "钙火花由IP₃受体介导",
+      "C": "钙火花是细胞微区钙信号的基本单元，约2μm、几十毫秒",
+      "D": "钙火花仅存在于心肌细胞中"
+    },
+    "answer": "C",
+    "explanation": "钙火花由一簇雷诺丁受体（Ryanodine受体，而非IP₃受体）介导，是局部、瞬时的Ca²⁺释放事件，空间范围约2μm，持续时间约几十毫秒。大量钙火花在时空上叠加形成全局钙信号，驱动肌肉收缩等反应。",
+    "difficulty": 2,
+    "tags": [
+      "钙火花",
+      "雷诺丁受体",
+      "Ca²⁺信号"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Ca²⁺信号途径",
+    "type": "choice",
+    "question": "硝酸甘油治疗心绞痛的分子机制是利用其体内转化为？",
+    "options": {
+      "A": "cAMP",
+      "B": "NO",
+      "C": "CO",
+      "D": "cGMP"
+    },
+    "answer": "B",
+    "explanation": "硝酸甘油在体内转化为NO，NO可扩散进入血管平滑肌细胞，激活可溶性鸟苷酸环化酶（GC）→cGMP升高→激活PKG→抑制肌动-肌球蛋白复合物信号通路→血管平滑肌舒张→减轻心脏负荷和心肌需氧量。",
+    "difficulty": 2,
+    "tags": [
+      "硝酸甘油",
+      "NO",
+      "cGMP",
+      "血管舒张"
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "Ca²⁺信号途径",
+    "type": "choice",
+    "question": "在Ca²⁺-NO-cGMP-PKG信号途径中，NO的合成依赖于？",
+    "options": {
+      "A": "鸟苷酸环化酶",
+      "B": "腺苷酸环化酶",
+      "C": "一氧化氮合酶（NOS）",
+      "D": "磷脂酶C"
+    },
+    "answer": "C",
+    "explanation": "胞内Ca²⁺浓度升高激活一氧化氮合酶（NOS），NOS催化L-精氨酸生成NO。NO扩散至靶细胞内激活可溶性鸟苷酸环化酶（GC），催化GTP→cGMP。A是NO的下游效应酶，B属于cAMP通路，D属于IP₃/DAG通路的上游。",
+    "difficulty": 2,
+    "tags": [
+      "NO",
+      "NOS",
+      "Ca²⁺",
+      "cGMP"
+    ]
+  },
+  {
+    "id": 32,
+    "topic": "RTK结构与激活",
+    "type": "choice",
+    "question": "RTK被配体激活后发生的关键事件是？",
+    "options": {
+      "A": "受体解聚为单体",
+      "B": "受体二聚化和自磷酸化",
+      "C": "受体进入细胞核",
+      "D": "受体与G蛋白结合"
+    },
+    "answer": "B",
+    "explanation": "RTK被配体（如生长因子）结合后诱导受体二聚化（同源或异源），胞内段的酪氨酸激酶结构域交叉磷酸化（自磷酸化），在特定酪氨酸残基上形成磷酸化位点，为下游含SH2结构域的信号蛋白提供锚定位点。",
+    "difficulty": 1,
+    "tags": [
+      "RTK",
+      "二聚化",
+      "自磷酸化",
+      "受体激活"
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "RTK结构与激活",
+    "type": "choice",
+    "question": "以下哪项不是RTK与细胞因子受体的共同特征？",
+    "options": {
+      "A": "均为单次跨膜蛋白",
+      "B": "激活机制均为二聚化",
+      "C": "胞内段均具有酪氨酸激酶活性",
+      "D": "均介导以调控基因表达为主的长期效应"
+    },
+    "answer": "C",
+    "explanation": "RTK胞内段自身含酪氨酸激酶结构域，而细胞因子受体本身不具备酶活性，其胞内段含有与胞质酪氨酸激酶（如JAK）结合的位点，活性依赖于非受体酪氨酸激酶。A、B正确（均为单次跨膜、二聚化），D正确（酶联受体主要介导长期效应）。",
+    "difficulty": 2,
+    "tags": [
+      "RTK",
+      "细胞因子受体",
+      "酪氨酸激酶",
+      "结构比较"
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "RTK-Ras-MAPK通路",
+    "type": "choice",
+    "question": "在RTK-Ras-MAPK通路中，接头蛋白Grb2通过哪个结构域识别并结合活化RTK的磷酸酪氨酸残基？",
+    "options": {
+      "A": "SH3结构域",
+      "B": "PH结构域",
+      "C": "SH2结构域",
+      "D": "PTB结构域"
+    },
+    "answer": "C",
+    "explanation": "Grb2含有SH2和SH3两种结构域。SH2结构域识别并结合活化RTK的磷酸酪氨酸残基；SH3结构域结合并招募含富含脯氨酸序列的Sos蛋白。PH结构域结合膜磷脂，PTB结构域也结合磷酸酪氨酸但机制不同。",
+    "difficulty": 2,
+    "tags": [
+      "Grb2",
+      "SH2",
+      "SH3",
+      "RTK"
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "RTK-Ras-MAPK通路",
+    "type": "choice",
+    "question": "在Ras-MAPK级联反应中，Raf、MEK、MAPK分别对应哪类激酶？",
+    "options": {
+      "A": "MAPKKK、MAPKK、MAPK",
+      "B": "MAPK、MAPKK、MAPKKK",
+      "C": "MAPKK、MAPKKK、MAPK",
+      "D": "MAPKKK、MAPK、MAPKK"
+    },
+    "answer": "A",
+    "explanation": "Ras-MAPK是三级激酶级联反应：Raf是MAPKKK（MAPK激酶激酶），磷酸化激活MEK；MEK是MAPKK（MAPK激酶），作为双重特异性激酶磷酸化MAPK的苏氨酸和酪氨酸残基；MAPK（ERK）磷酸化下游转录因子调控基因表达。",
+    "difficulty": 2,
+    "tags": [
+      "Ras-MAPK",
+      "Raf",
+      "MEK",
+      "MAPK",
+      "级联反应"
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "RTK-Ras-MAPK通路",
+    "type": "choice",
+    "question": "Sos蛋白在RTK-Ras-MAPK通路中的功能是？",
+    "options": {
+      "A": "作为接头蛋白连接RTK和Ras",
+      "B": "作为Ras-GEF促进Ras的GDP/GTP交换",
+      "C": "直接磷酸化激活Raf",
+      "D": "水解Ras-GTP为Ras-GDP"
+    },
+    "answer": "B",
+    "explanation": "Sos蛋白是Ras的鸟苷酸交换因子（Ras-GEF），与Ras结合后引发其构象改变，促进Ras释放GDP并结合GTP，使Ras由失活态转变为活化态。A是Grb2的功能，C是Ras-GTP的功能，D是GAP的功能。",
+    "difficulty": 2,
+    "tags": [
+      "Sos",
+      "GEF",
+      "Ras",
+      "GDP/GTP交换"
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "RTK-Ras-MAPK通路",
+    "type": "choice",
+    "question": "关于Ras蛋白的描述，下列哪项是错误的？",
+    "options": {
+      "A": "Ras是一种小分子GTP酶开关蛋白",
+      "B": "Ras-GTP为活化态，Ras-GDP为失活态",
+      "C": "约30%的人类恶性肿瘤与Ras基因突变有关",
+      "D": "突变的Ras蛋白无法结合GTP"
+    },
+    "answer": "D",
+    "explanation": "突变的Ras蛋白呈组成型活化——它可以结合GTP，但无法水解GTP为GDP，因此始终处于活化状态，无信号刺激时也能持续引发细胞增生。其他A、B、C均正确。",
+    "difficulty": 2,
+    "tags": [
+      "Ras",
+      "突变",
+      "肿瘤",
+      "组成型活化"
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "RTK-Ras-MAPK通路",
+    "type": "choice",
+    "question": "活化的MAPK（ERK）进入细胞核后的主要功能是？",
+    "options": {
+      "A": "与CREB结合激活cAMP反应元件",
+      "B": "磷酸化多种转录因子的丝/苏氨酸残基调控基因表达",
+      "C": "激活STAT蛋白",
+      "D": "促进IP₃的生成"
+    },
+    "answer": "B",
+    "explanation": "活化的MAPK作为丝/苏氨酸蛋白激酶进入细胞核，磷酸化多种转录因子（如Elk-1、c-Jun、c-Myc等）的丝/苏氨酸残基，调控与细胞增殖、分化、存活相关的基因表达。A是PKA的作用，C是JAK的作用。",
+    "difficulty": 3,
+    "tags": [
+      "MAPK",
+      "ERK",
+      "转录因子",
+      "基因表达"
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "JAK-STAT通路",
+    "type": "choice",
+    "question": "关于细胞因子受体的描述，下列哪项是正确的？",
+    "options": {
+      "A": "自身具有酪氨酸激酶活性",
+      "B": "其胞内段含与胞质Jak激酶的结合位点",
+      "C": "属于7次跨膜蛋白",
+      "D": "通过G蛋白向下游传递信号"
+    },
+    "answer": "B",
+    "explanation": "细胞因子受体是一类与酪氨酸激酶偶联的受体，本身不具备酶活性，但胞内段含有与胞质酪氨酸激酶Jak的结合位点。A错误（自身无酶活性），C错误（单次跨膜），D错误（不偶联G蛋白，属于酶联受体家族）。",
+    "difficulty": 1,
+    "tags": [
+      "细胞因子受体",
+      "Jak",
+      "酪氨酸激酶偶联受体"
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "JAK-STAT通路",
+    "type": "choice",
+    "question": "在JAK-STAT信号通路中，STAT从受体上解离并形成二聚体的前提是？",
+    "options": {
+      "A": "STAT与GDP结合",
+      "B": "STAT的SH2结构域与受体结合并被Jak磷酸化其C端酪氨酸",
+      "C": "STAT被PKC磷酸化",
+      "D": "STAT与Ras蛋白结合"
+    },
+    "answer": "B",
+    "explanation": "STAT通过SH2结构域与受体磷酸化酪氨酸残基结合后，其C端保守酪氨酸残基被Jak磷酸化，磷酸化的STAT从受体解离，两个磷酸化STAT分子通过各自的SH2结构域形成同源或异源二聚体，暴露NLS后入核调控基因表达。",
+    "difficulty": 2,
+    "tags": [
+      "JAK-STAT",
+      "STAT",
+      "磷酸化",
+      "二聚化"
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "PI3K-PKB通路",
+    "type": "choice",
+    "question": "PI3K被募集至质膜后催化的关键反应是？",
+    "options": {
+      "A": "PIP₂水解为IP₃和DAG",
+      "B": "ATP转化为cAMP",
+      "C": "PIP₂磷酸化为PIP₃",
+      "D": "cGMP水解为GMP"
+    },
+    "answer": "C",
+    "explanation": "PI3K催化膜磷脂PIP₂的肌醇环3位羟基磷酸化，生成PIP₃。PIP₃作为膜结合的第二信使，为含PH结构域的信号蛋白（如PKB/Akt和PDK1）提供膜锚定位点。A是PLC的功能，B是AC的功能。",
+    "difficulty": 2,
+    "tags": [
+      "PI3K",
+      "PIP₃",
+      "PIP₂",
+      "PKB/Akt"
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "PI3K-PKB通路",
+    "type": "choice",
+    "question": "PKB/Akt通过PI3K通路活化后，下列哪个是其抗凋亡的作用方式？",
+    "options": {
+      "A": "激活糖原合酶激酶3（GSK3）",
+      "B": "磷酸化促凋亡蛋白Bad使其失活",
+      "C": "促进FOXO进入细胞核启动凋亡基因",
+      "D": "激活caspase级联反应"
+    },
+    "answer": "B",
+    "explanation": "PKB/Akt抗凋亡有两种方式：短期效应是直接磷酸化促凋亡蛋白Bad使其失活；长期效应是磷酸化转录因子FOXO，使其与14-3-3蛋白结合滞留于胞质，无法入核启动凋亡基因转录。A错误（PKB磷酸化抑制GSK3，而非激活），C错误（PKB阻止FOXO入核），D错误。",
+    "difficulty": 3,
+    "tags": [
+      "PKB/Akt",
+      "抗凋亡",
+      "Bad",
+      "FOXO"
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "TGFβ-Smad通路",
+    "type": "choice",
+    "question": "TGFβ-Smad信号通路中，具有组成型激酶活性并募集和磷酸化RI受体的是？",
+    "options": {
+      "A": "RⅠ受体",
+      "B": "RⅡ受体",
+      "C": "RⅢ受体",
+      "D": "Smad4"
+    },
+    "answer": "B",
+    "explanation": "TGFβ受体有三种：RⅢ是蛋白聚糖，负责结合富集TGFβ；RⅡ是组成型活性激酶（自身持续有激酶活性），TGFβ结合后RⅡ募集并磷酸化RⅠ，激活RⅠ的激酶活性；RⅠ再磷酸化R-Smad传递信号。",
+    "difficulty": 2,
+    "tags": [
+      "TGFβ",
+      "Smad",
+      "RⅡ受体",
+      "组成型激酶"
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "Wnt信号通路",
+    "type": "choice",
+    "question": "缺乏Wnt信号时，β-catenin在胞质中的命运是？",
+    "options": {
+      "A": "β-catenin进入细胞核激活基因转录",
+      "B": "β-catenin被GSK3磷酸化后泛素化降解",
+      "C": "β-catenin与TCF结合激活转录",
+      "D": "β-catenin结合Axin使其失活"
+    },
+    "answer": "B",
+    "explanation": "缺乏Wnt信号时，β-catenin与Axin介导的胞质蛋白复合物结合→被GSK3磷酸化→磷酸化的β-catenin被泛素化→被蛋白酶体识别和降解→核内TCF与抑制因子结合抑制靶基因转录。有Wnt信号时，该复合物解离，β-catenin稳定并入核与TCF结合激活转录。",
+    "difficulty": 2,
+    "tags": [
+      "Wnt",
+      "β-catenin",
+      "GSK3",
+      "泛素化降解"
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "Notch信号通路",
+    "type": "choice",
+    "question": "Notch信号通路属于哪种类型的细胞间通信？",
+    "options": {
+      "A": "内分泌信号",
+      "B": "旁分泌信号",
+      "C": "自分泌信号",
+      "D": "接触依赖性通讯"
+    },
+    "answer": "D",
+    "explanation": "Notch信号是一种细胞间接触依赖性通讯方式。其信号分子（DSL配体）和受体（Notch蛋白）均为膜整合蛋白，需要信号细胞与效应细胞直接接触才能传递信号。Notch蛋白经三次切割后释放胞质片段入核调控基因表达，决定应答细胞的分化方向。",
+    "difficulty": 2,
+    "tags": [
+      "Notch",
+      "接触依赖性通讯",
+      "膜整合蛋白",
+      "细胞命运"
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "NF-κB信号通路",
+    "type": "choice",
+    "question": "NF-κB信号通路活化的关键步骤是？",
+    "options": {
+      "A": "NF-κB的磷酸化激活",
+      "B": "I-κB的磷酸化和泛素化降解",
+      "C": "NF-κB的GTP结合",
+      "D": "NF-κB的二聚化"
+    },
+    "answer": "B",
+    "explanation": "静息时NF-κB被I-κB束缚于胞质中处于失活状态。配体（如TNF-α）结合受体后激活I-κB激酶→I-κB被磷酸化后发生多聚泛素化→被蛋白酶体降解→NF-κB解除束缚暴露NLS→入核激活基因转录。",
+    "difficulty": 2,
+    "tags": [
+      "NF-κB",
+      "I-κB",
+      "泛素化",
+      "炎症反应"
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "信号转导的整合",
+    "type": "choice",
+    "question": "在PC12细胞实验中，延长EGF刺激时间可以诱导神经细胞分化而非脂肪细胞分化，这说明了什么？",
+    "options": {
+      "A": "不同受体激活完全不同的信号通路",
+      "B": "信号的强度和持续时间可改变反应的质",
+      "C": "EGF和NGF使用完全不同的受体类型",
+      "D": "EGF不能激活Ras-MAPK通路"
+    },
+    "answer": "B",
+    "explanation": "NGF和EGF均为RTK配体，但NGF是Ras-MAPK通路更强的激活子；EGF受体需延长刺激时间才能更强地激活Ras-MAPK通路。这说明信号的强度或持续时间不同可引发性质不同的细胞反应，体现了信号整合的复杂性。",
+    "difficulty": 3,
+    "tags": [
+      "信号整合",
+      "信号强度",
+      "PC12",
+      "Ras-MAPK"
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "信号转导的控制",
+    "type": "choice",
+    "question": "下列哪种脱敏机制是通过受体-配体复合物进入溶酶体被降解实现的？",
+    "options": {
+      "A": "受体没收",
+      "B": "受体下调",
+      "C": "受体失活",
+      "D": "信号蛋白失活"
+    },
+    "answer": "B",
+    "explanation": "受体下调是指受体-配体复合物经内吞转移至溶酶体被消化降解，受体无法再利用，配体被清除，导致细胞对信号的敏感性下降。受体没收是暂时扣押于早期内体，pH降低使复合物解离后受体返回质膜再利用。",
+    "difficulty": 2,
+    "tags": [
+      "脱敏",
+      "受体下调",
+      "溶酶体",
+      "信号终止"
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "信号转导的控制",
+    "type": "choice",
+    "question": "β-arrestin参与受体脱敏的机制是？",
+    "options": {
+      "A": "降解受体蛋白",
+      "B": "结合磷酸化受体阻断其与G蛋白偶联",
+      "C": "直接水解第二信使",
+      "D": "抑制受体基因表达"
+    },
+    "answer": "B",
+    "explanation": "GRK（G蛋白偶联受体激酶）使结合配体的受体磷酸化后，β-arrestin结合到磷酸化受体上，空间阻断受体与G蛋白的偶联，实现快速脱敏。此为受体失活机制。β-arrestin也参与受体的内吞和泛素化过程。",
+    "difficulty": 3,
+    "tags": [
+      "β-arrestin",
+      "GRK",
+      "受体失活",
+      "脱敏"
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "信号转导的整合",
+    "type": "choice",
+    "question": "多条信号通路最终都激活共同的效应酶，这体现了信号转导的哪种特性？",
+    "options": {
+      "A": "特异性",
+      "B": "放大效应",
+      "C": "收敛性",
+      "D": "发散性"
+    },
+    "answer": "C",
+    "explanation": "信号转导的收敛性是指来自不同受体的信号通过不同传递途径后，汇聚激活共同的效应器（如Ras、Raf或MAPK）。发散性则指同一信号可通过不同下游通路产生多种效应。二者共同构成信号网络的整合特征。",
+    "difficulty": 2,
+    "tags": [
+      "信号整合",
+      "收敛性",
+      "发散性",
+      "交叉对话"
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "信号转导的基本特性",
+    "type": "choice",
+    "question": "下列关于信号转导系统主要特性的描述，错误的是？",
+    "options": {
+      "A": "信号放大最常见的机制是通过蛋白磷酸化级联反应实现",
+      "B": "受体与配体通过结构互补以共价键结合而表现特异性",
+      "C": "信号网络中的正反馈与负反馈帮助整合协调矛盾信号",
+      "D": "细胞需整合不同胞外信号的特异性组合作出程序性反应"
+    },
+    "answer": "B",
+    "explanation": "受体与配体通过结构互补以非共价键（非共价键！）结合而表现特异性，而非共价键。A正确（蛋白磷酸化级联是主要放大方式），C正确（网络化与反馈调节），D正确（整合作用）。",
+    "difficulty": 2,
+    "tags": [
+      "信号转导特性",
+      "特异性",
+      "非共价键",
+      "反馈调节"
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "信号转导的比较",
+    "type": "choice",
+    "question": "GPCR和RTK在信号通路功能上的主要区别是？",
+    "options": {
+      "A": "GPCR主要介导短期代谢效应，RTK主要介导长期基因调控效应",
+      "B": "GPCR介导长期效应，RTK介导短期效应",
+      "C": "二者功能完全相同",
+      "D": "GPCR只起抑制作用，RTK只起激活作用"
+    },
+    "answer": "A",
+    "explanation": "细胞表面受体分工不同：G蛋白偶联受体主要介导短期代谢效应（如离子通道调控、糖原代谢），而酶联受体（如RTK、细胞因子受体）主要介导以调控基因表达为主的长期生物学效应（如细胞增殖、分化、存活）。",
+    "difficulty": 1,
+    "tags": [
+      "GPCR",
+      "RTK",
+      "短期效应",
+      "长期效应",
+      "比较"
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "信号转导复合物装配",
+    "type": "choice",
+    "question": "细胞内信号蛋白复合物的装配方式不包括哪种？",
+    "options": {
+      "A": "依赖支架蛋白预先结合装配",
+      "B": "依赖激活受体的磷酸化位点装配",
+      "C": "依赖核糖体在mRNA上共翻译装配",
+      "D": "依赖质膜上修饰的肌醇磷脂分子装配"
+    },
+    "answer": "C",
+    "explanation": "信号蛋白复合物有三种装配策略：(1)信号蛋白与支架蛋白预先结合；(2)受体激活后自磷酸化为不同信号蛋白提供锚定位点；(3)质膜上形成修饰的肌醇磷脂分子(如PIP₃)募集含PH结构域的信号蛋白。C选项的共翻译装配不是信号复合物的装配方式。",
+    "difficulty": 2,
+    "tags": [
+      "信号复合物",
+      "支架蛋白",
+      "装配策略",
+      "PH结构域"
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "跨知识点综合",
+    "type": "choice",
+    "question": "以下哪种组合正确匹配了信号通路及其关键效应酶？",
+    "options": {
+      "A": "GPCR-cAMP通路——磷脂酶C",
+      "B": "GPCR-IP₃/DAG通路——腺苷酸环化酶",
+      "C": "RTK-Ras通路——磷脂酶C",
+      "D": "Ca²⁺-NO-cGMP途径——一氧化氮合酶和鸟苷酸环化酶"
+    },
+    "answer": "D",
+    "explanation": "D正确：Ca²⁺→激活NOS→NO→激活GC→cGMP→PKG。A错误：GPCR-cAMP通路的关键效应酶是腺苷酸环化酶（AC），而非PLC。B错误：GPCR-IP₃/DAG通路关键效应酶是PLC，而非AC。C错误：RTK-Ras通路的关键效应酶是RTK本身的激酶活性及下游Raf/MEK/MAPK。",
+    "difficulty": 3,
+    "tags": [
+      "跨知识点",
+      "信号通路",
+      "效应酶",
+      "综合比较"
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "跨知识点综合",
+    "type": "choice",
+    "question": "一条信号通路同时激活cAMP和IP₃/DAG两个第二信使系统的可能机制是？",
+    "options": {
+      "A": "同一受体同时偶联Gs和Gq两类G蛋白",
+      "B": "cAMP直接激活PLC",
+      "C": "PKA直接催化PIP₂水解",
+      "D": "IP₃直接激活腺苷酸环化酶"
+    },
+    "answer": "A",
+    "explanation": "某些GPCR可以同时偶联多种G蛋白。例如，同一配体激活的受体可同时偶联Gs（激活AC→cAMP）和Gq（激活PLC→IP₃/DAG），从而同时启动两条第二信使通路，实现信号的多向传递和整合。",
+    "difficulty": 3,
+    "tags": [
+      "跨知识点",
+      "信号整合",
+      "Gs",
+      "Gq",
+      "多通路激活"
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "细胞通信",
+    "question": "简述分泌化学信号进行细胞间通信的四种方式及其主要特点。",
+    "answer": [
+      "内分泌：内分泌细胞分泌激素等信号分子，通过血液循环运输至全身，作用于远距离靶细胞。特点是作用范围广、持续时间长。",
+      "旁分泌：细胞分泌局部化学介质到细胞外液，经局部扩散作用于邻近靶细胞。特点是短距离作用，多数生长因子通过此方式调节发育，且对创伤愈合和组织修复至关重要。",
+      "自分泌：释放信号分子的细胞自身即为靶细胞，可对自身分泌的信号分子产生反应。常见于病理条件，如肿瘤细胞分泌生长因子刺激自身增殖。",
+      "突触信号传递：通过化学突触传递神经信号，实现电信号→化学信号→电信号的快速传导，属于短距离局部作用，速度极快。"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "细胞通信",
+      "内分泌",
+      "旁分泌",
+      "自分泌",
+      "突触传递"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "topic": "细胞表面受体",
+    "question": "简述细胞表面受体的三大类及其核心特征。",
+    "answer": [
+      "离子通道偶联受体：受体本身兼具配体结合位点和离子通道，跨膜信号转导无需中间步骤，又称配体门控通道或递质门控通道。配体结合后通道立即开启/关闭，引发膜电位变化，是最快速的信号应答方式。",
+      "G蛋白偶联受体（GPCR）：细胞表面受体中最大的家族，具7次跨膜α螺旋结构。通过偶联三聚体G蛋白作为分子开关，调控下游效应酶（AC、PLC等）或离子通道，介导多种胞外信号的应答。",
+      "酶联受体：分为两类——一类胞内段具潜在酶活性（如RTK），另一类本身无酶活性但与酶偶联（如细胞因子受体）。一般至少含配体结合域和效应域，主要介导以调控基因表达为主的长期生物学效应。"
+    ],
+    "difficulty": 1,
+    "tags": [
+      "细胞表面受体",
+      "离子通道偶联受体",
+      "GPCR",
+      "酶联受体"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "topic": "GPCR-cAMP-PKA",
+    "question": "简述GPCR-腺苷酸环化酶-cAMP-PKA信号通路的基本过程（以激活型为例）。",
+    "answer": [
+      "受体激活：激素等配体与特异性GPCR结合，导致受体构象改变。",
+      "G蛋白活化：激活的GPCR促使Gs蛋白α亚基释放GDP并结合GTP，Gs解离为Gαₛ-GTP和Gβγ亚基。",
+      "激活效应酶：Gαₛ-GTP结合并激活腺苷酸环化酶（AC），AC催化ATP转化为cAMP，胞内cAMP水平升高。",
+      "信号传递与放大：cAMP与PKA调节亚基结合，释放并激活PKA催化亚基；PKA磷酸化下游靶蛋白（如糖原磷酸化酶激酶、CREB转录因子等），启动级联放大的细胞反应。",
+      "信号终止：Gαₛ的GTP酶活性将GTP水解为GDP，Gαₛ-GDP重新与Gβγ结合恢复静息态；cAMP被磷酸二酯酶（PDE）水解为5'-AMP，信号终止。"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "GPCR",
+      "cAMP",
+      "PKA",
+      "腺苷酸环化酶",
+      "信号通路"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "topic": "PLC-IP₃/DAG",
+    "question": "简述PLC-IP₃/DAG双信使信号通路的基本过程。",
+    "answer": [
+      "受体激活与G蛋白活化：胞外信号结合GPCR→G蛋白解离为Gα-GTP和Gβγ。",
+      "PLC激活：Gα-GTP激活磷脂酶C（PLC）。",
+      "双信使产生：活化的PLC催化质膜PIP₂水解，生成IP₃（水溶性，扩散入胞质）和DAG（亲脂性，锚定于质膜），构成双信使系统。",
+      "IP₃-Ca²⁺分支：IP₃与内质网膜IP₃门控Ca²⁺通道结合→通道开放→内质网Ca²⁺释放入胞质→胞质Ca²⁺升高→Ca²⁺与CaM结合形成Ca²⁺-CaM复合体→激活钙调蛋白激酶等多种靶酶→引发收缩、分泌等效应。",
+      "DAG-PKC分支：DAG在质膜上与Ca²⁺协同将PKC从胞质转位至质膜并激活→PKC磷酸化底物蛋白→介导短期生理效应（细胞分泌、肌肉收缩）和长期效应（细胞增殖、分化）。",
+      "信号终止：IP₃被去磷酸化失活；DAG被DAG激酶磷酸化或DAG脂酶水解失活；胞质Ca²⁺被钙泵回收至内质网或泵出细胞。"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "PLC",
+      "IP₃",
+      "DAG",
+      "双信使系统",
+      "Ca²⁺",
+      "PKC"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "topic": "RTK-Ras-MAPK",
+    "question": "简述RTK-Ras-MAPK信号通路的完整过程及关键蛋白的功能。",
+    "answer": [
+      "配体结合与受体二聚化：生长因子等配体与RTK结合→RTK二聚化→胞内段酪氨酸激酶域交叉自磷酸化特定酪氨酸残基。",
+      "接头蛋白与GEF招募：接头蛋白Grb2的SH2结构域结合活化RTK的磷酸酪氨酸→Grb2的SH3结构域结合并招募Sos（Ras-GEF）→Sos被定位至质膜。",
+      "Ras活化：Sos催化Ras释放GDP并结合GTP→Ras-GTP转变为活化态→激活下游信号。",
+      "MAPK级联反应：Ras-GTP→结合并激活Raf（MAPKKK）→Raf磷酸化激活MEK（MAPKK）→MEK双重磷酸化激活MAPK/ERK（MAPK）。这是一个三级激酶级联放大过程。",
+      "核内效应：活化的MAPK进入细胞核→磷酸化多种转录因子（如Elk-1、c-Jun）的丝/苏氨酸残基→调控与细胞增殖、分化、存活相关的基因表达。",
+      "关键蛋白功能：Grb2（接头蛋白，连接RTK和Sos）、Sos（Ras-GEF，促进Ras GDP/GTP交换）、Ras（小G蛋白开关）、Raf-MEK-MAPK（三级激酶级联）。"
+    ],
+    "difficulty": 3,
+    "tags": [
+      "RTK",
+      "Ras",
+      "MAPK",
+      "Grb2",
+      "Sos",
+      "级联反应"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "topic": "JAK-STAT",
+    "question": "简述JAK-STAT信号通路的基本步骤及其生物学意义。",
+    "answer": [
+      "细胞因子与受体结合：细胞因子与细胞因子受体特异性结合→受体形成二聚体→结合的Jak相互靠近→交叉磷酸化而完全激活。",
+      "受体磷酸化与STAT招募：活化的Jak磷酸化受体胞内段特定酪氨酸残基→形成STAT蛋白（含SH2结构域）的锚定位点。",
+      "STAT磷酸化与二聚化：STAT通过SH2结构域与受体结合→其C端酪氨酸被Jak磷酸化→磷酸化STAT从受体解离→两个磷酸化STAT通过SH2结构域形成二聚体→暴露核定位信号（NLS）。",
+      "入核与基因调控：STAT二聚体转位至细胞核→结合特异基因调控序列→调节靶基因表达。",
+      "生物学意义：调控细胞增殖、分化、迁移和凋亡；STAT3异常持续活化与人类肿瘤相关；该通路还参与心血管疾病、肥胖症、糖尿病和哮喘等疾病发生。"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "JAK-STAT",
+      "细胞因子受体",
+      "STAT",
+      "Jak"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "topic": "信号转导特性",
+    "question": "简述细胞信号转导系统的主要特性。",
+    "answer": [
+      "特异性：受体与配体通过结构互补以非共价键结合，具有结合特异性；激活后介导特定细胞反应，具有效应器特异性。此外结合具有饱和性和可逆性。",
+      "放大效应：胞外信号分子一个分子与受体结合，可使胞内产生大量第二信使（如cAMP升高数千倍），通过蛋白质磷酸化级联反应实现信号逐级放大。",
+      "网络化与反馈调节：细胞信号形成复杂网络，通过正反馈（加速放大信号）和负反馈（限制反应强度与持续时间）调节反应速率与强度，帮助细胞整合协调矛盾信号。",
+      "整合作用：细胞处于多信号环境中，必须整合不同胞外信号的特异性组合，作出程序性反应（如存活、增殖、分化、凋亡），从而维持生命活动的有序性。"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "信号转导",
+      "特异性",
+      "放大效应",
+      "网络化",
+      "整合"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "topic": "信号终止",
+    "question": "简述靶细胞对胞外信号进行脱敏（适应）的五种主要机制。",
+    "answer": [
+      "受体没收：通过配体依赖性受体介导内吞，将受体暂时扣押于早期内体；晚期内体中因pH降低受体-配体解离，受体返回质膜再利用，减少表面可利用受体数目。",
+      "受体下调：受体-配体复合物经内吞转移至溶酶体被消化降解，受体无法再利用且配体被清除，是RTK及细胞因子受体表面减少的基本途径。",
+      "受体失活：GRK使结合配体的受体磷酸化，β-arrestin结合后阻断受体与G蛋白偶联，实现快速脱敏，是GPCR脱敏的重要机制。",
+      "信号蛋白失活：胞内信号蛋白发生改变（如去磷酸化失活或泛素化降解），致使信号级联反应在某环节受阻。",
+      "抑制型蛋白质产生：受体激活后下游反应产生抑制型蛋白质，形成负反馈环，从基因表达水平降低或阻断信号转导途径。"
+    ],
+    "difficulty": 2,
+    "tags": [
+      "脱敏",
+      "受体下调",
+      "受体失活",
+      "信号终止",
+      "负反馈"
+    ],
+    "type": "short",
+    "explanation": ""
+  },
+  {
+    "type": "truefalse",
+    "question": "G蛋白偶联受体(GPCR)是七次跨膜受体超家族，N端在细胞外，C端在细胞内。",
+    "answer": "true",
+    "explanation": "GPCR具有七次跨膜a螺旋结构，N端位于细胞外侧，C端位于细胞内侧与G蛋白相互作用。",
+    "difficulty": 1,
+    "tags": [
+      "GPCR"
+    ],
+    "id": 64,
+    "topic": "信号转导"
+  },
+  {
+    "type": "truefalse",
+    "question": "Gas蛋白激活腺苷酸环化酶(AC)，使cAMP水平升高，进而激活PKA。",
+    "answer": "true",
+    "explanation": "Gas是刺激性G蛋白a亚基，激活AC→cAMP升高→PKA活化。",
+    "difficulty": 1,
+    "tags": [
+      "GPCR",
+      "cAMP"
+    ],
+    "id": 65,
+    "topic": "信号转导"
+  },
+  {
+    "type": "truefalse",
+    "question": "霍乱毒素通过ADP-核糖基化修饰Gas，使其GTPase活性丧失而持续激活。",
+    "answer": "true",
+    "explanation": "霍乱毒素修饰Gas→GTPase失活→Gas持续激活→cAMP持续升高→肠上皮大量分泌→腹泻。",
+    "difficulty": 2,
+    "tags": [
+      "cholera toxin",
+      "Gas"
+    ],
+    "id": 66
+  },
+  {
+    "type": "truefalse",
+    "question": "磷脂酶C(PLC)水解PIP2产生IP3和DAG两种第二信使。",
+    "answer": "true",
+    "explanation": "PLC水解PIP2→IP3(水溶性,开放内质网Ca2+通道)+DAG(膜结合,激活PKC)。",
+    "difficulty": 1,
+    "tags": [
+      "PLC",
+      "IP3",
+      "DAG"
+    ],
+    "id": 67
+  },
+  {
+    "type": "truefalse",
+    "question": "IP3是水溶性第二信使，作用于内质网膜上的IP3受体Ca2+通道。",
+    "answer": "true",
+    "explanation": "IP3水溶扩散至内质网→IP3受体(Ca2+通道)开放→内质网Ca2+释放→胞质Ca2+升高。",
+    "difficulty": 2,
+    "tags": [
+      "IP3"
+    ],
+    "id": 68
+  },
+  {
+    "type": "truefalse",
+    "question": "钙调蛋白(CaM)是细胞内重要的Ca2+结合蛋白，参与多种Ca2+依赖性信号通路。",
+    "answer": "true",
+    "explanation": "CaM结合Ca2+后构象改变，可激活CaM激酶(CaMK)等多种靶蛋白。",
+    "difficulty": 1,
+    "tags": [
+      "calmodulin",
+      "Ca2+"
+    ],
+    "id": 69
+  },
+  {
+    "type": "truefalse",
+    "question": "受体酪氨酸激酶(RTK)通过二聚化和自身磷酸化招募Grb2-Sos-Ras等信号蛋白。",
+    "answer": "true",
+    "explanation": "配体→RTK二聚化→交叉磷酸化Tyr→磷酸化Tyr作为SH2停泊位点→招募Grb2-Sos→激活Ras。",
+    "difficulty": 2,
+    "tags": [
+      "RTK",
+      "Ras"
+    ],
+    "id": 70,
+    "topic": "信号转导"
+  },
+  {
+    "type": "truefalse",
+    "question": "Ras蛋白具有GTPase活性，GTP结合型活化，GDP结合型失活。",
+    "answer": "true",
+    "explanation": "Ras是小G蛋白：GTP型活化→Raf→MEK→ERK。GAP促进GTP水解失活，GEF促进GDP/GTP交换激活。",
+    "difficulty": 2,
+    "tags": [
+      "Ras",
+      "small GTPase"
+    ],
+    "id": 71
+  },
+  {
+    "type": "truefalse",
+    "question": "JAK-STAT通路中，STAT被磷酸化后形成二聚体直接入核调控基因转录。",
+    "answer": "true",
+    "explanation": "JAK磷酸化STAT→STAT二聚化→入核→结合DNA调控靶基因。这是最直接的受体-核通路。",
+    "difficulty": 2,
+    "tags": [
+      "JAK-STAT"
+    ],
+    "id": 72
+  },
+  {
+    "type": "truefalse",
+    "question": "NO作为气体信号分子直接扩散入细胞，激活胞内可溶性鸟苷酸环化酶。",
+    "answer": "true",
+    "explanation": "NO不通过膜受体，直接扩散入细胞→激活sGC→cGMP升高→PKG活化。",
+    "difficulty": 2,
+    "tags": [
+      "NO",
+      "cGMP"
+    ],
+    "id": 73
+  },
+  {
+    "type": "truefalse",
+    "question": "Wnt信号通路中，beta-catenin是关键的转录共激活因子。",
+    "answer": "true",
+    "explanation": "无Wnt时beta-catenin被降解复合物磷酸化后泛素化降解；Wnt存在时beta-catenin积累入核与TCF/LEF激活靶基因。",
+    "difficulty": 2,
+    "tags": [
+      "Wnt",
+      "beta-catenin"
+    ],
+    "id": 74
+  },
+  {
+    "type": "truefalse",
+    "question": "信号级联放大是指一个信号分子通过多步酶促反应最终产生大量终产物的过程。",
+    "answer": "true",
+    "explanation": "每个GPCR激活多个G蛋白→每个激活AC产生多个cAMP→每步放大，最终~10^8倍放大。",
+    "difficulty": 1,
+    "tags": [
+      "signal amplification"
+    ],
+    "id": 75
+  },
+  {
+    "type": "truefalse",
+    "question": "受体脱敏是指受体在持续刺激下信号响应减弱或消失的现象。",
+    "answer": "true",
+    "explanation": "脱敏机制：受体磷酸化(PKA/PKC/GRK)、beta-arrestin招募、内吞、降解、转录下调。",
+    "difficulty": 2,
+    "tags": [
+      "desensitization"
+    ],
+    "id": 76
+  },
+  {
+    "type": "truefalse",
+    "question": "内分泌信号通过血液循环运输至远距离靶细胞发挥作用。",
+    "answer": "true",
+    "explanation": "内分泌(endocrine)激素入血运至远距靶组织。区别于旁分泌(局部)、自分泌(自身)、突触传递。",
+    "difficulty": 1,
+    "tags": [
+      "endocrine"
+    ],
+    "id": 77
+  },
+  {
+    "type": "multi",
+    "question": "下列哪些分子属于第二信使？",
+    "options": {
+      "A": "cAMP",
+      "B": "IP3",
+      "C": "DAG",
+      "D": "Ca2+",
+      "E": "cGMP"
+    },
+    "answer": "ABCDE",
+    "explanation": "cAMP/IP3/DAG/Ca2+/cGMP均属第二信使，在信号转导中传递和放大信号。",
+    "difficulty": 1,
+    "tags": [
+      "second messenger"
+    ],
+    "id": 78
+  },
+  {
+    "type": "multi",
+    "question": "关于GPCR信号通路，正确的描述有？",
+    "options": {
+      "A": "配体结合导致GPCR构象改变激活G蛋白",
+      "B": "Ga-GTP与Gbg解离后分别调控下游效应器",
+      "C": "Ga具有GTPase活性，水解GTP后与Gbg重新结合",
+      "D": "Gs激活腺苷酸环化酶，Gi抑制腺苷酸环化酶",
+      "E": "Gq激活PLC-beta产生IP3和DAG"
+    },
+    "answer": "ABCDE",
+    "explanation": "A/B/C描述GPCR-G蛋白激活-失活循环。D是Gs/Gi不同作用。E是Gq-PLC通路。全部正确。",
+    "difficulty": 2,
+    "tags": [
+      "GPCR",
+      "G protein"
+    ],
+    "id": 79,
+    "topic": "信号转导"
+  },
+  {
+    "type": "multi",
+    "question": "下列哪些属于酶偶联受体？",
+    "options": {
+      "A": "受体酪氨酸激酶(RTK)",
+      "B": "JAK-STAT受体",
+      "C": "TGF-beta受体",
+      "D": "G蛋白偶联受体",
+      "E": "受体鸟苷酸环化酶"
+    },
+    "answer": "ABCE",
+    "explanation": "ABCE均具有酶活性或直接偶联酶。D(GPCR)不具酶活性，通过三聚体G蛋白间接调控。",
+    "difficulty": 2,
+    "tags": [
+      "enzyme-linked receptor"
+    ],
+    "id": 80
+  },
+  {
+    "type": "multi",
+    "question": "关于RTK-Ras-MAPK信号通路，正确的步骤有？",
+    "options": {
+      "A": "配体结合诱导RTK二聚化和自磷酸化",
+      "B": "Grb2通过SH2结构域结合磷酸化酪氨酸",
+      "C": "Sos催化Ras的GDP/GTP交换",
+      "D": "Ras-GTP激活Raf启动MAPK级联",
+      "E": "ERK入核磷酸化转录因子调控基因表达"
+    },
+    "answer": "ABCDE",
+    "explanation": "A→B→C→D→E是RTK-Ras-MAPK完整步骤，全部正确。",
+    "difficulty": 2,
+    "tags": [
+      "RTK",
+      "MAPK"
+    ],
+    "id": 81,
+    "topic": "信号转导"
+  },
+  {
+    "type": "multi",
+    "question": "下列哪些是分子开关？",
+    "options": {
+      "A": "三聚体G蛋白",
+      "B": "小G蛋白(Ras/Rho/Rab等)",
+      "C": "蛋白激酶/蛋白磷酸酶对",
+      "D": "cAMP",
+      "E": "转录因子"
+    },
+    "answer": "ABC",
+    "explanation": "A和B是GTPase开关。C是磷酸化开关。D是第二信使不是开关。E是效应器不是开关。",
+    "difficulty": 2,
+    "tags": [
+      "molecular switch"
+    ],
+    "id": 82
+  },
+  {
+    "type": "multi",
+    "question": "以下哪些属于细胞通信的类型？",
+    "options": {
+      "A": "内分泌",
+      "B": "旁分泌",
+      "C": "自分泌",
+      "D": "突触传递",
+      "E": "间隙连接直接通讯"
+    },
+    "answer": "ABCDE",
+    "explanation": "五种均为细胞通信方式。内分泌(远距/血液)、旁分泌(邻近)、自分泌(自身)、突触(神经递质)、间隙连接(直接连通)。",
+    "difficulty": 1,
+    "tags": [
+      "cell communication"
+    ],
+    "id": 83
+  },
+  {
+    "type": "multi",
+    "question": "受体脱敏的机制包括哪些？",
+    "options": {
+      "A": "受体磷酸化(PKA/PKC/GRK)",
+      "B": "beta-arrestin结合阻止G蛋白偶联",
+      "C": "受体内吞减少表面受体数量",
+      "D": "受体蛋白的泛素化降解",
+      "E": "受体基因的转录下调"
+    },
+    "answer": "ABCDE",
+    "explanation": "五种均为脱敏机制，从快到慢：磷酸化+arrestin(秒-分)→内吞(分-时)→降解(时-天)→转录下调(最慢)。",
+    "difficulty": 2,
+    "tags": [
+      "desensitization"
+    ],
+    "id": 84
+  }
+]

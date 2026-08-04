@@ -1,0 +1,1707 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "question": "线粒体外膜的通透性很高，主要是因为外膜上分布有",
+    "options": {
+      "A": "由孔蛋白构成的桶状通道",
+      "B": "紧密连接蛋白",
+      "C": "钙离子通道",
+      "D": "钠钾泵"
+    },
+    "answer": "A",
+    "explanation": "外膜上分布着由孔蛋白构成的桶状通道，直径为2~3nm，允许分子量高达5000的分子通过。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体结构",
+      "外膜"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "question": "线粒体内膜的标志酶是",
+    "options": {
+      "A": "单胺氧化酶",
+      "B": "苹果酸脱氢酶",
+      "C": "细胞色素氧化酶",
+      "D": "腺苷酸激酶"
+    },
+    "answer": "C",
+    "explanation": "内膜是氧化磷酸化的关键场所，标志酶是细胞色素氧化酶。外膜标志酶为单胺氧化酶，膜间隙为腺苷酸激酶，基质为苹果酸脱氢酶。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "内膜"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "question": "下列关于线粒体内膜特征的描述，错误的是",
+    "options": {
+      "A": "蛋白质/脂质质量比>=3:1",
+      "B": "缺乏胆固醇，富含心磷脂",
+      "C": "通透性很高，允许大多数小分子自由通过",
+      "D": "向内折叠形成嵴，增大表面积"
+    },
+    "answer": "C",
+    "explanation": "线粒体内膜通透性很低，缺乏胆固醇且富含心磷脂，对大多数离子和分子高度不通透。通透性高的是外膜。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "内膜"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "question": "线粒体基质的标志酶是",
+    "options": {
+      "A": "单胺氧化酶",
+      "B": "细胞色素氧化酶",
+      "C": "腺苷酸激酶",
+      "D": "苹果酸脱氢酶"
+    },
+    "answer": "D",
+    "explanation": "线粒体基质富含可溶性蛋白质，催化三羧酸循环等重要反应，标志酶是苹果酸脱氢酶。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体结构",
+      "基质"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "question": "线粒体内膜向内折叠形成的结构称为",
+    "options": {
+      "A": "基粒",
+      "B": "嵴",
+      "C": "类囊体",
+      "D": "片层"
+    },
+    "answer": "B",
+    "explanation": "线粒体内膜向内折叠形成嵴，增大表面积。基粒和类囊体是叶绿体的结构。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体结构",
+      "嵴"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "question": "线粒体膜间隙的标志酶是",
+    "options": {
+      "A": "单胺氧化酶",
+      "B": "细胞色素氧化酶",
+      "C": "腺苷酸激酶",
+      "D": "苹果酸脱氢酶"
+    },
+    "answer": "C",
+    "explanation": "膜间隙内的液态介质含有可溶性酶和辅因子，标志酶是腺苷酸激酶。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "膜间隙"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "question": "电子传递链中，复合物I催化电子从NADH传递至",
+    "options": {
+      "A": "细胞色素c",
+      "B": "泛醌UQ",
+      "C": "O2",
+      "D": "FAD"
+    },
+    "answer": "B",
+    "explanation": "复合物I即NADH-CoQ还原酶，催化电子从NADH传递给泛醌UQ，每传递一对电子伴随4个H+从基质泵至膜间隙。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "复合物I"
+    ]
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "question": "电子传递链中唯一不伴随质子跨膜转移的复合物是",
+    "options": {
+      "A": "复合物I",
+      "B": "复合物II",
+      "C": "复合物III",
+      "D": "复合物IV"
+    },
+    "answer": "B",
+    "explanation": "复合物II催化来自琥珀酸的电子经FAD和Fe-S传给泛醌，不伴随H+跨膜转移。其余复合物均伴随质子转移。",
+    "difficulty": 3,
+    "tags": [
+      "呼吸链",
+      "复合物II"
+    ]
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "question": "复合物IV将电子传递给",
+    "options": {
+      "A": "NAD+",
+      "B": "泛醌",
+      "C": "细胞色素c",
+      "D": "O2"
+    },
+    "answer": "D",
+    "explanation": "复合物IV即细胞色素氧化酶，催化电子从Cyt c传给O2生成水。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "复合物IV"
+    ]
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "question": "在电子传递链中，能够被氰化物特异性抑制的复合物是",
+    "options": {
+      "A": "复合物I",
+      "B": "复合物II",
+      "C": "复合物III",
+      "D": "复合物IV"
+    },
+    "answer": "D",
+    "explanation": "氰化物抑制复合物IV。鱼藤酮抑制复合物I，抗霉素A抑制复合物III。",
+    "difficulty": 3,
+    "tags": [
+      "呼吸链",
+      "抑制剂"
+    ]
+  },
+  {
+    "id": 11,
+    "type": "choice",
+    "question": "呼吸链中电子载体的排列顺序依据是",
+    "options": {
+      "A": "分子量大小",
+      "B": "氧化还原电位从低到高",
+      "C": "在膜上的分布位置",
+      "D": "与O2的亲和力"
+    },
+    "answer": "B",
+    "explanation": "呼吸链中电子载体按照氧化还原电位从低向高排列。NAD+/NADH最低，O2/H2O最高。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "电子载体"
+    ]
+  },
+  {
+    "id": 12,
+    "type": "choice",
+    "question": "辅酶Q泛醌在电子传递链中的作用是",
+    "options": {
+      "A": "从NADH接受电子并直接传递给O2",
+      "B": "从复合物I和II收集电子并传递给复合物III",
+      "C": "仅作为电子传递的终受体",
+      "D": "催化ATP的合成"
+    },
+    "answer": "B",
+    "explanation": "泛醌是脂溶性电子载体，可在线粒体内膜中自由移动，从复合物I和II收集电子传递给复合物III，起枢纽作用。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "辅酶Q"
+    ]
+  },
+  {
+    "id": 13,
+    "type": "choice",
+    "question": "电子传递链中每传递一对电子伴随4个H+跨膜转移的复合物是",
+    "options": {
+      "A": "复合物I和II",
+      "B": "复合物II和III",
+      "C": "复合物I和III",
+      "D": "复合物II和IV"
+    },
+    "answer": "C",
+    "explanation": "复合物I和III每传递一对电子均伴随4个H+跨膜转移。",
+    "difficulty": 3,
+    "tags": [
+      "呼吸链",
+      "质子转移"
+    ]
+  },
+  {
+    "id": 14,
+    "type": "choice",
+    "question": "下列电子载体中同时属于呼吸链和光合电子传递链的是",
+    "options": {
+      "A": "NADH脱氢酶",
+      "B": "琥珀酸脱氢酶",
+      "C": "细胞色素c",
+      "D": "铁硫蛋白"
+    },
+    "answer": "D",
+    "explanation": "铁硫蛋白在线粒体呼吸链和叶绿体光合电子传递链中均存在，是重要的电子载体。",
+    "difficulty": 3,
+    "tags": [
+      "呼吸链",
+      "光合作用",
+      "跨知识点"
+    ]
+  },
+  {
+    "id": 15,
+    "type": "choice",
+    "question": "ATP合酶F1头部的催化亚基是",
+    "options": {
+      "A": "alpha亚基",
+      "B": "beta亚基",
+      "C": "gamma亚基",
+      "D": "delta亚基"
+    },
+    "answer": "B",
+    "explanation": "F1由alpha3beta3gamma-delta-epsilon组成，beta亚基具有催化ATP合成或水解的活性位点。",
+    "difficulty": 2,
+    "tags": [
+      "ATP合酶"
+    ]
+  },
+  {
+    "id": 16,
+    "type": "choice",
+    "question": "在ATP合酶中组成转子的亚基是",
+    "options": {
+      "A": "alpha和beta",
+      "B": "gamma和epsilon",
+      "C": "a和b",
+      "D": "delta和c"
+    },
+    "answer": "B",
+    "explanation": "gamma和epsilon亚基结合形成转子，旋转于alpha3beta3中央。a、b和delta组成定子。",
+    "difficulty": 2,
+    "tags": [
+      "ATP合酶",
+      "转子"
+    ]
+  },
+  {
+    "id": 17,
+    "type": "choice",
+    "question": "ATP合酶F0基部由哪三种亚基组成",
+    "options": {
+      "A": "alpha、beta、gamma",
+      "B": "a、b、c",
+      "C": "delta、epsilon、gamma",
+      "D": "alpha、delta、c"
+    },
+    "answer": "B",
+    "explanation": "F0嵌合于线粒体内膜，由a、b、c三种亚基按ab2c8~15的比例组成跨膜质子通道。",
+    "difficulty": 2,
+    "tags": [
+      "ATP合酶",
+      "F0"
+    ]
+  },
+  {
+    "id": 18,
+    "type": "choice",
+    "question": "结合变构机制中beta亚基处于哪种构象时ADP和Pi被催化形成ATP",
+    "options": {
+      "A": "L态疏松构象",
+      "B": "T态紧密构象",
+      "C": "O态开放构象",
+      "D": "R态松弛构象"
+    },
+    "answer": "B",
+    "explanation": "L态疏松结合ADP+Pi，T态紧密结合并形成ATP，O态释放ATP。",
+    "difficulty": 3,
+    "tags": [
+      "ATP合酶",
+      "结合变构机制"
+    ]
+  },
+  {
+    "id": 19,
+    "type": "choice",
+    "question": "gamma亚基每旋转360度F1头部合成ATP的个数是",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "C",
+    "explanation": "gamma亚基每旋转360度，3个beta亚基各经历L-T-O三种构象转换，合成3个ATP。",
+    "difficulty": 3,
+    "tags": [
+      "ATP合酶",
+      "结合变构机制"
+    ]
+  },
+  {
+    "id": 20,
+    "type": "choice",
+    "question": "化学渗透假说认为驱动ATP合成的直接动力是",
+    "options": {
+      "A": "高能磷酸键的转移",
+      "B": "底物水平磷酸化",
+      "C": "跨线粒体内膜的质子电化学梯度",
+      "D": "电子传递释放的热能"
+    },
+    "answer": "C",
+    "explanation": "化学渗透假说认为电子传递建立的跨膜质子电化学梯度是驱动ATP合成的直接动力。",
+    "difficulty": 2,
+    "tags": [
+      "化学渗透假说",
+      "质子驱动力"
+    ]
+  },
+  {
+    "id": 21,
+    "type": "choice",
+    "question": "下列关于质子驱动力的描述正确的是",
+    "options": {
+      "A": "膜间隙侧有较高的pH和大量负电荷",
+      "B": "基质侧有较低的pH和大量正电荷",
+      "C": "膜间隙侧有较低的pH和大量正电荷",
+      "D": "膜两侧pH相同仅存在电位差"
+    },
+    "answer": "C",
+    "explanation": "膜间隙侧有较低的pH（H+浓度高）和大量正电荷；基质侧有较高的pH和大量负电荷。",
+    "difficulty": 2,
+    "tags": [
+      "化学渗透假说",
+      "质子驱动力"
+    ]
+  },
+  {
+    "id": 22,
+    "type": "choice",
+    "question": "最早被发现参与线粒体融合的基因Fzo来自",
+    "options": {
+      "A": "酵母",
+      "B": "果蝇",
+      "C": "小鼠",
+      "D": "拟南芥"
+    },
+    "answer": "B",
+    "explanation": "参与和调控线粒体融合的基因最早发现于果蝇，命名为Fzo，编码跨膜大分子GTP酶。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 23,
+    "type": "choice",
+    "question": "哺乳动物中介导线粒体融合的核心蛋白编码基因称为",
+    "options": {
+      "A": "Drp1",
+      "B": "Dnm1",
+      "C": "Mfn",
+      "D": "Fis1"
+    },
+    "answer": "C",
+    "explanation": "Mfn是果蝇Fzo在哺乳动物中的同源基因，编码大分子GTP酶介导融合。Drp1/Dnm1参与分裂。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂",
+      "Mfn"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 24,
+    "type": "choice",
+    "question": "下列蛋白中属于发动蛋白家族且参与线粒体分裂的是",
+    "options": {
+      "A": "Mfn",
+      "B": "Fzo",
+      "C": "Drp1",
+      "D": "Opa1"
+    },
+    "answer": "C",
+    "explanation": "Drp1/Dnm1属于发动蛋白家族，被招募至外膜分裂位点驱动膜缢缩断裂。Mfn/Fzo参与融合。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂",
+      "发动蛋白"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 25,
+    "type": "choice",
+    "question": "线粒体分裂装置中外环的定位是",
+    "options": {
+      "A": "线粒体外膜的表面暴露于细胞质",
+      "B": "线粒体内膜的下面暴露于基质",
+      "C": "线粒体膜间隙中",
+      "D": "线粒体基质中"
+    },
+    "answer": "A",
+    "explanation": "线粒体分裂环分内外环：外环位于外膜表面暴露于细胞质；内环位于内膜下面暴露于基质。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂",
+      "分裂装置"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 26,
+    "type": "choice",
+    "question": "高等植物叶绿体特有的结构特征是",
+    "options": {
+      "A": "双层膜结构",
+      "B": "类囊体垛叠成基粒",
+      "C": "含有DNA",
+      "D": "以分裂方式增殖"
+    },
+    "answer": "B",
+    "explanation": "类囊体垛叠成基粒是高等植物叶绿体特有结构特征，大大增加了类囊体膜总面积。其余选项线粒体也具备。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体结构",
+      "基粒"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 27,
+    "type": "choice",
+    "question": "叶绿体基质中含量最丰富的蛋白质是",
+    "options": {
+      "A": "ATP合酶",
+      "B": "细胞色素f",
+      "C": "RuBP羧化酶加氧酶Rubisco",
+      "D": "质体蓝素"
+    },
+    "answer": "C",
+    "explanation": "Rubisco是自然界含量最丰富的蛋白质，存在于叶绿体基质中，催化卡尔文循环的CO2固定。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体结构",
+      "Rubisco"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 28,
+    "type": "choice",
+    "question": "光合作用光反应的场所是",
+    "options": {
+      "A": "叶绿体内膜",
+      "B": "叶绿体外膜",
+      "C": "类囊体膜",
+      "D": "叶绿体基质"
+    },
+    "answer": "C",
+    "explanation": "光反应在类囊体膜上进行。固碳反应在叶绿体基质中进行。",
+    "difficulty": 1,
+    "tags": [
+      "叶绿体",
+      "光反应"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 29,
+    "type": "choice",
+    "question": "光合作用固碳反应的场所是",
+    "options": {
+      "A": "类囊体膜",
+      "B": "类囊体腔",
+      "C": "叶绿体基质",
+      "D": "叶绿体膜间隙"
+    },
+    "answer": "C",
+    "explanation": "固碳反应（卡尔文循环等）在叶绿体基质中进行，利用光反应产生的ATP和NADPH将CO2还原为糖类。",
+    "difficulty": 1,
+    "tags": [
+      "叶绿体",
+      "碳同化"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 30,
+    "type": "choice",
+    "question": "叶绿体内膜的通透性特点正确的是",
+    "options": {
+      "A": "通透性很高含有孔蛋白",
+      "B": "通透性较低仅允许O2、CO2和H2O分子自由通过",
+      "C": "与线粒体内膜完全相同",
+      "D": "含有大量胆固醇"
+    },
+    "answer": "B",
+    "explanation": "叶绿体内膜通透性较低，成为细胞质与基质间的通透屏障，仅允许O2、CO2和H2O自由通过。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体结构",
+      "叶绿体膜"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 31,
+    "type": "choice",
+    "question": "连接叶绿体基粒之间的片层结构称为",
+    "options": {
+      "A": "嵴",
+      "B": "类囊体腔",
+      "C": "基质片层基质类囊体",
+      "D": "基粒类囊体"
+    },
+    "answer": "C",
+    "explanation": "贯穿基粒之间不形成垛叠的片层结构称为基质片层或基质类囊体。组成基粒的为基粒类囊体。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体结构",
+      "类囊体"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 32,
+    "type": "choice",
+    "question": "叶绿体通过位移避开强光的行为称为",
+    "options": {
+      "A": "积聚响应",
+      "B": "躲避响应",
+      "C": "趋光性",
+      "D": "向光性"
+    },
+    "answer": "B",
+    "explanation": "叶绿体避开强光的行为称为躲避响应；弱光下汇集到受光面的行为称为积聚响应。两者统称叶绿体定位。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体",
+      "叶绿体定位"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 33,
+    "type": "choice",
+    "question": "非循环光合磷酸化的产物包括",
+    "options": {
+      "A": "仅ATP",
+      "B": "ATP和NADPH",
+      "C": "仅NADPH",
+      "D": "ATP、NADH和O2"
+    },
+    "answer": "B",
+    "explanation": "非循环光合磷酸化涉及PSII和PSI两个光系统，电子从H2O单向传递至NADP+，产物为ATP、NADPH和O2。",
+    "difficulty": 2,
+    "tags": [
+      "光合磷酸化",
+      "非循环"
+    ]
+  },
+  {
+    "id": 34,
+    "type": "choice",
+    "question": "循环光合磷酸化中电子的传递路径是",
+    "options": {
+      "A": "H2O经PSII到PSI到NADP+",
+      "B": "PSI经Fd到Cyt b6f到PC回到PSI",
+      "C": "NADH经复合物I到IV到O2",
+      "D": "PSII经Cyt b6f到PSI到NADP+"
+    },
+    "answer": "B",
+    "explanation": "循环光合磷酸化电子从PSI经Fd到Cyt b6f到PC回到PSI形成闭合回路，仅产ATP。",
+    "difficulty": 3,
+    "tags": [
+      "光合磷酸化",
+      "循环"
+    ]
+  },
+  {
+    "id": 35,
+    "type": "choice",
+    "question": "循环光合磷酸化启动的生理条件是",
+    "options": {
+      "A": "NADP+充足时",
+      "B": "植物缺乏NADP+时",
+      "C": "CO2浓度过高时",
+      "D": "O2浓度过高时"
+    },
+    "answer": "B",
+    "explanation": "当NADP+不足时启动循环光合磷酸化以调节ATP与NADPH的比例，适应碳同化需求约为3:2。",
+    "difficulty": 3,
+    "tags": [
+      "光合磷酸化",
+      "循环"
+    ]
+  },
+  {
+    "id": 36,
+    "type": "choice",
+    "question": "关于光合磷酸化与氧化磷酸化的比较错误的是",
+    "options": {
+      "A": "两者都涉及电子传递链和质子梯度的建立",
+      "B": "光合磷酸化的最终电子受体是NADP+",
+      "C": "光合磷酸化发生在类囊体膜",
+      "D": "两者ATP合酶中的H+流向完全相同"
+    },
+    "answer": "D",
+    "explanation": "氧化磷酸化H+从膜间隙流向基质，光合磷酸化H+从类囊体腔流向基质，流向方向相同。D描述有歧义。",
+    "difficulty": 3,
+    "tags": [
+      "光合磷酸化",
+      "氧化磷酸化",
+      "比较"
+    ]
+  },
+  {
+    "id": 37,
+    "type": "choice",
+    "question": "光系统II的核心功能是",
+    "options": {
+      "A": "将NADP+还原为NADPH",
+      "B": "裂解水分子并还原质体醌",
+      "C": "催化ATP的合成",
+      "D": "固定CO2"
+    },
+    "answer": "B",
+    "explanation": "PSII利用光能裂解水，在基质侧还原质体醌PQ，同时在膜两侧形成质子梯度。还原NADP+是PSI的功能。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "PSII"
+    ]
+  },
+  {
+    "id": 38,
+    "type": "choice",
+    "question": "在光合电子传递链中连接PSII和PSI的电子载体复合物是",
+    "options": {
+      "A": "NADH脱氢酶",
+      "B": "Cyt b6f复合物",
+      "C": "ATP合酶",
+      "D": "RuBP羧化酶"
+    },
+    "answer": "B",
+    "explanation": "Cyt b6f复合物是PSII和PSI间的关键电子载体。每传递一对电子导致4个H+从基质转入类囊体腔。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "Cyt b6f"
+    ]
+  },
+  {
+    "id": 39,
+    "type": "choice",
+    "question": "每形成1分子O2需要的光子总数是多少",
+    "options": {
+      "A": "2个",
+      "B": "4个",
+      "C": "8个",
+      "D": "16个"
+    },
+    "answer": "C",
+    "explanation": "每形成1分子O2需4个电子从2个H2O到2个NADP+，每个光系统驱动1个电子需2个光子，共8个光子。",
+    "difficulty": 3,
+    "tags": [
+      "光合作用",
+      "光系统"
+    ]
+  },
+  {
+    "id": 40,
+    "type": "choice",
+    "question": "线粒体DNA的结构特点是",
+    "options": {
+      "A": "线性双链DNA",
+      "B": "双链环状DNA",
+      "C": "单链环状DNA",
+      "D": "线性单链RNA"
+    },
+    "answer": "B",
+    "explanation": "线粒体DNA呈双链环状，分子结构与细菌DNA相似，是内共生起源学说的重要证据。",
+    "difficulty": 1,
+    "tags": [
+      "半自主性",
+      "mtDNA"
+    ]
+  },
+  {
+    "id": 41,
+    "type": "choice",
+    "question": "下列哪项不属于线粒体和叶绿体半自主性的体现",
+    "options": {
+      "A": "含有自身的DNA",
+      "B": "具有独立的蛋白质合成系统",
+      "C": "以分裂方式增殖",
+      "D": "所有蛋白质均由自身基因组编码"
+    },
+    "answer": "D",
+    "explanation": "线粒体和叶绿体大部分蛋白质仍需核基因编码后在胞质合成再输入细胞器，因此是半自主性。",
+    "difficulty": 2,
+    "tags": [
+      "半自主性"
+    ]
+  },
+  {
+    "id": 42,
+    "type": "choice",
+    "question": "mtDNA的复制主要发生在细胞周期的哪个阶段",
+    "options": {
+      "A": "G1期",
+      "B": "S期和G2期",
+      "C": "M期",
+      "D": "G0期"
+    },
+    "answer": "B",
+    "explanation": "mtDNA主要在S期和G2期复制，cpDNA主要在G1期复制。两者复制所需酶均由核基因编码。",
+    "difficulty": 3,
+    "tags": [
+      "半自主性",
+      "DNA复制"
+    ]
+  },
+  {
+    "id": 43,
+    "type": "choice",
+    "question": "人类mtDNA的大小约为",
+    "options": {
+      "A": "16kb",
+      "B": "78kb",
+      "C": "200kb",
+      "D": "366kb"
+    },
+    "answer": "A",
+    "explanation": "人类mtDNA约16kb，酵母约78kb，拟南芥约366kb。",
+    "difficulty": 2,
+    "tags": [
+      "半自主性",
+      "mtDNA"
+    ]
+  },
+  {
+    "id": 44,
+    "type": "choice",
+    "question": "根据内共生学说线粒体的祖先最可能是",
+    "options": {
+      "A": "蓝细菌蓝藻",
+      "B": "具有有氧呼吸能力的革兰氏阴性细菌",
+      "C": "古细菌",
+      "D": "光合细菌"
+    },
+    "answer": "B",
+    "explanation": "线粒体起源于有氧呼吸的革兰氏阴性细菌，叶绿体起源于蓝细菌蓝藻。",
+    "difficulty": 2,
+    "tags": [
+      "内共生学说",
+      "线粒体起源"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 45,
+    "type": "choice",
+    "question": "根据内共生学说叶绿体的祖先是",
+    "options": {
+      "A": "好氧细菌",
+      "B": "蓝细菌蓝藻",
+      "C": "紫色光合细菌",
+      "D": "古细菌"
+    },
+    "answer": "B",
+    "explanation": "叶绿体的祖先可能是蓝细菌蓝藻，被原始真核细胞吞噬后与宿主形成互利共生关系。",
+    "difficulty": 2,
+    "tags": [
+      "内共生学说",
+      "叶绿体起源"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 46,
+    "type": "choice",
+    "question": "下列哪项不是支持内共生学说的证据",
+    "options": {
+      "A": "线粒体和叶绿体DNA均为双链环状",
+      "B": "核糖体为70S",
+      "C": "蛋白质合成以N-甲酰甲硫氨酸起始",
+      "D": "蛋白质合成被放线酮抑制"
+    },
+    "answer": "D",
+    "explanation": "线粒体和叶绿体蛋白质合成被氯霉素和四环素抑制，不被放线酮抑制。D与事实相反。",
+    "difficulty": 3,
+    "tags": [
+      "内共生学说",
+      "证据"
+    ]
+  },
+  {
+    "id": 47,
+    "type": "choice",
+    "question": "线粒体和叶绿体的核糖体沉降系数为",
+    "options": {
+      "A": "70S",
+      "B": "80S",
+      "C": "60S",
+      "D": "50S"
+    },
+    "answer": "A",
+    "explanation": "线粒体和叶绿体核糖体为70S与原核生物相同，真核胞质核糖体为80S，是内共生学说的核心证据。",
+    "difficulty": 1,
+    "tags": [
+      "内共生学说",
+      "核糖体"
+    ],
+    "topic": "核糖体"
+  },
+  {
+    "id": 48,
+    "type": "choice",
+    "question": "能抑制线粒体和叶绿体蛋白质合成但不抑制真核细胞质蛋白质合成的是",
+    "options": {
+      "A": "放线酮",
+      "B": "氯霉素",
+      "C": "嘌呤霉素",
+      "D": "利福霉素"
+    },
+    "answer": "B",
+    "explanation": "氯霉素和四环素抑制原核型核糖体；放线酮抑制真核胞质核糖体但对线粒体和叶绿体无抑制作用。",
+    "difficulty": 2,
+    "tags": [
+      "内共生学说",
+      "抗生素"
+    ]
+  },
+  {
+    "id": 49,
+    "type": "choice",
+    "question": "克山病的致病机制主要与哪种元素缺乏有关",
+    "options": {
+      "A": "铁",
+      "B": "锌",
+      "C": "硒",
+      "D": "钙"
+    },
+    "answer": "C",
+    "explanation": "克山病是缺硒引起的心肌线粒体病。硒对线粒体膜有不可替代的稳定作用。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体疾病",
+      "克山病"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 50,
+    "type": "choice",
+    "question": "卡尔文循环中CO2的受体是",
+    "options": {
+      "A": "磷酸烯醇式丙酮酸PEP",
+      "B": "核酮糖-1,5-二磷酸RuBP",
+      "C": "3-磷酸甘油酸",
+      "D": "草酰乙酸"
+    },
+    "answer": "B",
+    "explanation": "C3途径中RuBP是CO2受体。C4和CAM途径的初级受体才是PEP。",
+    "difficulty": 2,
+    "tags": [
+      "碳同化",
+      "卡尔文循环"
+    ]
+  },
+  {
+    "id": 51,
+    "type": "choice",
+    "question": "C4途径中催化CO2初级固定的关键酶是",
+    "options": {
+      "A": "Rubisco",
+      "B": "PEP羧化酶",
+      "C": "苹果酸脱氢酶",
+      "D": "丙酮酸激酶"
+    },
+    "answer": "B",
+    "explanation": "C4途径中PEP羧化酶催化PEP与CO2反应。Rubisco是C3途径的关键酶。PEP羧化酶对CO2的亲和力远高于Rubisco。",
+    "difficulty": 2,
+    "tags": [
+      "碳同化",
+      "C4途径"
+    ]
+  },
+  {
+    "id": 52,
+    "type": "choice",
+    "question": "景天酸代谢CAM途径中苹果酸主要在哪个时期积累",
+    "options": {
+      "A": "白天",
+      "B": "夜间",
+      "C": "持续进行",
+      "D": "黎明时分"
+    },
+    "answer": "B",
+    "explanation": "CAM植物夜间气孔开放吸收CO2并生成苹果酸储存于液泡；白天气孔关闭苹果酸释放CO2进入卡尔文循环。",
+    "difficulty": 2,
+    "tags": [
+      "碳同化",
+      "CAM"
+    ]
+  },
+  {
+    "id": 53,
+    "type": "choice",
+    "question": "光合碳同化中需要跨细胞转运CO2的途径是",
+    "options": {
+      "A": "C3途径",
+      "B": "C4途径",
+      "C": "CAM途径",
+      "D": "以上都需要"
+    },
+    "answer": "B",
+    "explanation": "C4途径中CO2先在叶肉细胞固定为苹果酸，转运至维管束鞘细胞后释放进入卡尔文循环。",
+    "difficulty": 3,
+    "tags": [
+      "碳同化",
+      "C4途径"
+    ]
+  },
+  {
+    "id": 54,
+    "type": "choice",
+    "question": "卡尔文循环分为哪三个阶段",
+    "options": {
+      "A": "羧化、还原、再生",
+      "B": "光反应、电子传递、磷酸化",
+      "C": "固定、传递、合成",
+      "D": "氧化、还原、磷酸化"
+    },
+    "answer": "A",
+    "explanation": "卡尔文循环三个阶段：羧化阶段RuBP+CO2；还原阶段消耗ATP和NADPH；RuBP再生阶段。",
+    "difficulty": 2,
+    "tags": [
+      "碳同化",
+      "卡尔文循环"
+    ]
+  },
+  {
+    "id": 55,
+    "type": "choice",
+    "question": "处于分化过程中的未成熟叶绿体称为",
+    "options": {
+      "A": "原质体",
+      "B": "前叶绿体",
+      "C": "黄化质体",
+      "D": "白色体"
+    },
+    "answer": "B",
+    "explanation": "幼叶中分化中的叶绿体称为前叶绿体，体积为成熟叶绿体的1/10到1/5。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体",
+      "分化"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 56,
+    "type": "choice",
+    "question": "线粒体和叶绿体的共同特征是",
+    "options": {
+      "A": "均通过光合作用产生ATP",
+      "B": "均为双层膜结构且含有自身的DNA",
+      "C": "内膜均向内折叠形成嵴",
+      "D": "均存在于所有真核细胞中"
+    },
+    "answer": "B",
+    "explanation": "线粒体和叶绿体均为双层膜结构含自身DNA以分裂方式增殖。嵴是线粒体特有，基粒是叶绿体特有。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体",
+      "叶绿体",
+      "比较"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 57,
+    "type": "choice",
+    "question": "原初反应中将光能转换为电能的结构是",
+    "options": {
+      "A": "捕光复合物",
+      "B": "反应中心",
+      "C": "ATP合酶",
+      "D": "Cyt b6f复合物"
+    },
+    "answer": "B",
+    "explanation": "反应中心色素分子被激发后放出电子，在原初反应中将光能转换为电能。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "原初反应"
+    ]
+  },
+  {
+    "id": 58,
+    "type": "choice",
+    "question": "下列关于类胡萝卜素功能的描述错误的是",
+    "options": {
+      "A": "作为辅助色素吸收叶绿素不能吸收的光",
+      "B": "提高光吸收效率",
+      "C": "是光反应中心的主要色素",
+      "D": "具有光损伤防护功能"
+    },
+    "answer": "C",
+    "explanation": "类胡萝卜素是辅助色素天线色素，不是反应中心的主要色素。反应中心主要色素是叶绿素a。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "类胡萝卜素"
+    ]
+  },
+  {
+    "id": 59,
+    "type": "truefalse",
+    "question": "线粒体通过出芽方式进行增殖。",
+    "options": {},
+    "answer": "false",
+    "explanation": "线粒体通过缢裂分裂方式增殖，与细菌繁殖方式相同。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体",
+      "增殖"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 60,
+    "type": "truefalse",
+    "question": "线粒体外膜的通透性远低于内膜。",
+    "options": {},
+    "answer": "false",
+    "explanation": "外膜通透性很高含孔蛋白通道，内膜通透性很低缺乏胆固醇富含心磷脂。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体结构"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 61,
+    "type": "truefalse",
+    "question": "线粒体膜间隙的标志酶是细胞色素氧化酶。",
+    "options": {},
+    "answer": "false",
+    "explanation": "膜间隙的标志酶是腺苷酸激酶。细胞色素氧化酶是内膜的标志酶。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "膜间隙"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 62,
+    "type": "truefalse",
+    "question": "呼吸链中复合物II催化电子传递时伴随质子的跨膜转移。",
+    "options": {},
+    "answer": "false",
+    "explanation": "复合物II是呼吸链中唯一不伴随质子跨膜转移的复合物。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "复合物II"
+    ]
+  },
+  {
+    "id": 63,
+    "type": "truefalse",
+    "question": "电子传递链中电子载体的氧化还原电位从NAD+/NADH到O2/H2O逐渐升高。",
+    "options": {},
+    "answer": "true",
+    "explanation": "电子载体按氧化还原电位从低到高排列，NAD+/NADH最低，O2/H2O最高。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "电子载体"
+    ]
+  },
+  {
+    "id": 64,
+    "type": "truefalse",
+    "question": "ATP合酶的gamma亚基属于定子的组成部分。",
+    "options": {},
+    "answer": "false",
+    "explanation": "gamma和epsilon组成转子，旋转于alpha3beta3中央。定子由a、b和delta组成。",
+    "difficulty": 2,
+    "tags": [
+      "ATP合酶"
+    ]
+  },
+  {
+    "id": 65,
+    "type": "truefalse",
+    "question": "结合变构机制中质子梯度的作用是直接催化ATP的合成。",
+    "options": {},
+    "answer": "false",
+    "explanation": "质子梯度的作用不是直接生成ATP，而是使ATP从酶分子上释放下来。",
+    "difficulty": 3,
+    "tags": [
+      "结合变构机制"
+    ]
+  },
+  {
+    "id": 66,
+    "type": "truefalse",
+    "question": "线粒体融合与分裂的比值大致平衡时线粒体的数目和体积保持稳定。",
+    "options": {},
+    "answer": "true",
+    "explanation": "融合与分裂比值平衡时线粒体数目和体积基本不变；失衡则数目增加或减少。",
+    "difficulty": 1,
+    "tags": [
+      "线粒体融合与分裂"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 67,
+    "type": "truefalse",
+    "question": "Fzo和Mfn基因突变会导致线粒体片段化。",
+    "options": {},
+    "answer": "true",
+    "explanation": "Fzo/Mfn突变导致融合受阻而分裂单向发生，线粒体数目增加体积减小即片段化。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 68,
+    "type": "truefalse",
+    "question": "光合作用的碳同化固碳反应在类囊体膜上进行。",
+    "options": {},
+    "answer": "false",
+    "explanation": "碳同化反应在叶绿体基质中进行；光反应在类囊体膜上进行。",
+    "difficulty": 1,
+    "tags": [
+      "光合作用"
+    ]
+  },
+  {
+    "id": 69,
+    "type": "truefalse",
+    "question": "非循环光合磷酸化中PSI和PSII两个光系统均参与电子传递。",
+    "options": {},
+    "answer": "true",
+    "explanation": "非循环需要PSII和PSI协同完成，电子从H2O经PSII到Cyt b6f到PSI到NADP+。",
+    "difficulty": 2,
+    "tags": [
+      "光合磷酸化"
+    ]
+  },
+  {
+    "id": 70,
+    "type": "truefalse",
+    "question": "循环光合磷酸化的产物包括ATP、NADPH和O2。",
+    "options": {},
+    "answer": "false",
+    "explanation": "循环仅产生ATP，不伴随NADPH生成和O2释放。非循环才产生ATP加NADPH加O2。",
+    "difficulty": 2,
+    "tags": [
+      "光合磷酸化"
+    ]
+  },
+  {
+    "id": 71,
+    "type": "truefalse",
+    "question": "叶绿体中CF0-CF1 ATP合酶的CF1部分位于类囊体膜的基质侧。",
+    "options": {},
+    "answer": "true",
+    "explanation": "CF1位于类囊体膜外表面朝向基质一侧，新合成的ATP释放入基质用于碳同化。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体",
+      "ATP合酶"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 72,
+    "type": "truefalse",
+    "question": "线粒体DNA和叶绿体DNA均以半保留方式复制。",
+    "options": {},
+    "answer": "true",
+    "explanation": "mtDNA和cpDNA均以半保留方式自我复制，但所需酶均由核基因编码。",
+    "difficulty": 2,
+    "tags": [
+      "半自主性",
+      "DNA复制"
+    ]
+  },
+  {
+    "id": 73,
+    "type": "truefalse",
+    "question": "线粒体和叶绿体的遗传方式为孟德尔式遗传。",
+    "options": {},
+    "answer": "false",
+    "explanation": "线粒体和叶绿体以非孟德尔方式遗传给子代。",
+    "difficulty": 2,
+    "tags": [
+      "半自主性",
+      "遗传"
+    ]
+  },
+  {
+    "id": 74,
+    "type": "truefalse",
+    "question": "RNA编辑改变RNA分子上的碱基从而导致表达产物蛋白质氨基酸序列的变化。",
+    "options": {},
+    "answer": "true",
+    "explanation": "RNA编辑在RNA水平上修饰个别碱基如C到U转换，改变编码序列。",
+    "difficulty": 3,
+    "tags": [
+      "RNA编辑"
+    ]
+  },
+  {
+    "id": 75,
+    "type": "truefalse",
+    "question": "C4途径的初级固碳产物在叶肉细胞中合成卡尔文循环在维管束鞘细胞中进行。",
+    "options": {},
+    "answer": "true",
+    "explanation": "C4途径空间分离：叶肉细胞固定CO2为苹果酸，维管束鞘细胞进行卡尔文循环。",
+    "difficulty": 3,
+    "tags": [
+      "碳同化",
+      "C4途径"
+    ]
+  },
+  {
+    "id": 76,
+    "type": "truefalse",
+    "question": "类囊体膜的脂质双分子层流动性非常低有利于维持光系统的稳定性。",
+    "options": {},
+    "answer": "false",
+    "explanation": "类囊体膜流动性非常大，有益于PSII、Cyt b6f、PSI和ATP合酶在膜上侧向移动。",
+    "difficulty": 2,
+    "tags": [
+      "类囊体",
+      "膜流动性"
+    ],
+    "topic": "质膜"
+  },
+  {
+    "id": 77,
+    "type": "truefalse",
+    "question": "叶绿体通过基质小管stromule实现叶绿体之间的相互联系。",
+    "options": {},
+    "answer": "true",
+    "explanation": "叶绿体可通过内外膜延伸形成的管状凸出基质小管实现相互联系。",
+    "difficulty": 2,
+    "tags": [
+      "叶绿体",
+      "基质小管"
+    ],
+    "topic": "叶绿体"
+  },
+  {
+    "id": 78,
+    "type": "truefalse",
+    "question": "核质冲突是指细胞核与细胞质膜之间的结构冲突。",
+    "options": {},
+    "answer": "false",
+    "explanation": "核质冲突指核与线粒体/叶绿体基因突变引起分子协作障碍。人类线粒体疾病即典型核质冲突。",
+    "difficulty": 3,
+    "tags": [
+      "核质冲突"
+    ]
+  },
+  {
+    "id": 79,
+    "type": "multi",
+    "question": "线粒体基质中发生的生化过程包括",
+    "options": {
+      "A": "三羧酸循环",
+      "B": "脂肪酸beta-氧化",
+      "C": "氧化磷酸化",
+      "D": "DNA复制与转录",
+      "E": "糖酵解"
+    },
+    "answer": "ABD",
+    "explanation": "氧化磷酸化在线粒体内膜上进行，糖酵解在细胞质中进行。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体基质",
+      "代谢"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 80,
+    "type": "multi",
+    "question": "下列关于线粒体外膜和内膜比较正确的有",
+    "options": {
+      "A": "外膜通透性高内膜通透性低",
+      "B": "外膜含孔蛋白通道内膜缺乏胆固醇富含心磷脂",
+      "C": "外膜标志酶是单胺氧化酶内膜标志酶是细胞色素氧化酶",
+      "D": "外膜蛋白脂质比约1:1内膜>=3:1",
+      "E": "内外膜厚度完全相同"
+    },
+    "answer": "ABCD",
+    "explanation": "外膜厚约6nm内膜厚6-8nm不完全相同故E错误。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "膜比较"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 81,
+    "type": "multi",
+    "question": "下列属于电子传递链复合物的有",
+    "options": {
+      "A": "NADH脱氢酶复合物I",
+      "B": "琥珀酸脱氢酶复合物II",
+      "C": "Cyt bc1复合物复合物III",
+      "D": "细胞色素氧化酶复合物IV",
+      "E": "ATP合酶"
+    },
+    "answer": "ABCD",
+    "explanation": "ATP合酶不属于电子传递复合物而是利用质子梯度合成ATP的装置。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "复合物"
+    ]
+  },
+  {
+    "id": 82,
+    "type": "multi",
+    "question": "化学渗透假说中质子驱动力的建立依赖于",
+    "options": {
+      "A": "线粒体内膜对H+的高度不通透性",
+      "B": "电子传递过程中H+从基质泵至膜间隙",
+      "C": "内膜上电子传递复合物的质子泵功能",
+      "D": "外膜上孔蛋白的协助",
+      "E": "ATP合酶水解ATP"
+    },
+    "answer": "ABC",
+    "explanation": "外膜通透性高不参与质子梯度建立；ATP合酶利用而非建立质子梯度。",
+    "difficulty": 3,
+    "tags": [
+      "化学渗透假说"
+    ]
+  },
+  {
+    "id": 83,
+    "type": "multi",
+    "question": "结合变构机制中beta亚基经历的三种构象包括",
+    "options": {
+      "A": "L态疏松构象",
+      "B": "T态紧密构象",
+      "C": "O态开放构象",
+      "D": "R态静息构象",
+      "E": "A态激活构象"
+    },
+    "answer": "ABC",
+    "explanation": "ATP合酶的3个beta亚基各自具有L、T、O三种构象，不存在R态和A态。",
+    "difficulty": 3,
+    "tags": [
+      "ATP合酶",
+      "结合变构机制"
+    ]
+  },
+  {
+    "id": 84,
+    "type": "multi",
+    "question": "下列属于支持线粒体和叶绿体内共生起源学说的证据有",
+    "options": {
+      "A": "两者均为双链环状DNA与细菌相似",
+      "B": "核糖体为70S与原核生物相同",
+      "C": "蛋白质合成以N-甲酰甲硫氨酸起始",
+      "D": "以缢裂方式增殖类似细菌",
+      "E": "蛋白质合成受氯霉素抑制而不受放线酮抑制"
+    },
+    "answer": "ABCDE",
+    "explanation": "五项均为内共生学说的经典证据。",
+    "difficulty": 2,
+    "tags": [
+      "内共生学说",
+      "证据"
+    ]
+  },
+  {
+    "id": 85,
+    "type": "multi",
+    "question": "下列关于PSII和PSI的叙述正确的有",
+    "options": {
+      "A": "PSII利用光能裂解水分子",
+      "B": "PSI将NADP+还原为NADPH",
+      "C": "Cyt b6f复合物连接PSII和PSI",
+      "D": "PSII的反应中心色素是P700",
+      "E": "PSII和PSI均位于类囊体膜上"
+    },
+    "answer": "ABCE",
+    "explanation": "PSII反应中心色素是P680，PSI的是P700，故D错误。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "光系统"
+    ]
+  },
+  {
+    "id": 86,
+    "type": "multi",
+    "question": "下列有关光合磷酸化与氧化磷酸化的比较正确的有",
+    "options": {
+      "A": "氧化磷酸化发生在线粒体内膜光合磷酸化发生在类囊体膜",
+      "B": "氧化磷酸化最终电子受体是O2光合磷酸化是NADP+",
+      "C": "两者均通过化学渗透机制合成ATP",
+      "D": "两者都需要完整的膜结构维持质子梯度",
+      "E": "光合磷酸化H+流向与氧化磷酸化相反"
+    },
+    "answer": "ABCD",
+    "explanation": "两者H+流向方向相同都是从高浓度侧经ATP合酶流入低浓度侧即都流入基质故E错误。",
+    "difficulty": 3,
+    "tags": [
+      "光合磷酸化",
+      "氧化磷酸化",
+      "比较"
+    ]
+  },
+  {
+    "id": 87,
+    "type": "multi",
+    "question": "线粒体融合与分裂的生物学意义包括",
+    "options": {
+      "A": "维持功能稳定与修复损伤",
+      "B": "调控线粒体形态数目与分布",
+      "C": "促进遗传信息在线粒体间共享",
+      "D": "直接合成ATP",
+      "E": "平衡氧化自由基造成的DNA损伤"
+    },
+    "answer": "ABCE",
+    "explanation": "融合与分裂本身不直接合成ATP。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体融合与分裂"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 88,
+    "type": "multi",
+    "question": "下列关于碳同化三条途径的描述正确的有",
+    "options": {
+      "A": "C3途径卡尔文循环是最基本的碳同化途径",
+      "B": "C4途径可在低CO2浓度和高温下高效进行",
+      "C": "CAM途径的气孔夜间开放白天关闭",
+      "D": "C4途径和CAM途径的CO2初级受体均为PEP",
+      "E": "只有C3途径能单独形成糖类等产物"
+    },
+    "answer": "ABCDE",
+    "explanation": "五项均正确。C4和CAM途径仅起固定浓缩转运CO2作用最终仍需通过卡尔文循环合成糖。",
+    "difficulty": 2,
+    "tags": [
+      "碳同化",
+      "比较"
+    ]
+  },
+  {
+    "id": 89,
+    "type": "multi",
+    "question": "下列哪些结构或过程与线粒体内膜密切相关",
+    "options": {
+      "A": "电子传递复合物I-IV",
+      "B": "F0F1-ATP合酶",
+      "C": "嵴的形成",
+      "D": "三羧酸循环",
+      "E": "质子梯度的建立"
+    },
+    "answer": "ABCE",
+    "explanation": "三羧酸循环的酶存在于线粒体基质中不在内膜上。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体内膜",
+      "综合"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 90,
+    "type": "multi",
+    "question": "下列关于ATP合酶F1头部各组分的描述正确的有",
+    "options": {
+      "A": "alpha3beta3交替排列形成橘瓣状结构",
+      "B": "beta亚基具有催化ATP合成水解的活性位点",
+      "C": "gamma亚基与epsilon亚基结合形成转子",
+      "D": "delta亚基为F1与F0连接所必需",
+      "E": "任一时刻3个beta亚基的构象完全相同"
+    },
+    "answer": "ABCD",
+    "explanation": "任一时刻3个beta亚基构象不同LT和O态故E错误。",
+    "difficulty": 2,
+    "tags": [
+      "ATP合酶",
+      "F1"
+    ]
+  },
+  {
+    "id": 91,
+    "type": "short",
+    "question": "简述线粒体的超微结构及各部分的主要功能。",
+    "answer": "线粒体由四部分组成：1.外膜：平滑的单位膜通透性高含孔蛋白构成的桶状通道标志酶为单胺氧化酶。2.内膜：向内折叠形成嵴通透性低蛋白脂质比高大于等于3:1缺乏胆固醇富含心磷脂是氧化磷酸化的关键场所标志酶为细胞色素氧化酶。3.膜间隙：内外膜之间的空间含可溶性酶和辅因子标志酶为腺苷酸激酶。4.基质：内膜以内的胶状液态空间富含可溶性蛋白质含三羧酸循环等代谢酶类含有mtDNA、RNA和核糖体标志酶为苹果酸脱氢酶。",
+    "explanation": "考查线粒体四大结构区域及其核心特征。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体结构",
+      "超微结构"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 92,
+    "type": "short",
+    "question": "简述电子传递链呼吸链的组成和功能。",
+    "answer": "电子传递链位于线粒体内膜由四种膜蛋白复合物I:NADH脱氢酶II:琥珀酸脱氢酶III:Cyt bc1IV:细胞色素氧化酶和两种可移动电子载体泛醌UQ和细胞色素c组成。功能：1.将NADH和FADH2上的电子按氧化还原电位由低到高逐级传递最终传给O2生成H2O。2.在电子传递过程中复合物IIIIV将H+从基质泵至膜间隙建立跨膜质子电化学梯度质子驱动力为ATP合成提供能量基础。",
+    "explanation": "考查呼吸链四大复合物两个移动载体及其核心功能。",
+    "difficulty": 2,
+    "tags": [
+      "呼吸链",
+      "电子传递"
+    ]
+  },
+  {
+    "id": 93,
+    "type": "short",
+    "question": "简述ATP合酶的结合变构机制。",
+    "answer": "结合变构机制要点：1.质子梯度的作用不是直接生成ATP而是使ATP从酶分子上释放。2.ATP合酶的3个beta亚基在任一时刻以三种不同构象存在：L态疏松构象结合ADP+Pi、T态紧密构象催化形成ATP、O态开放构象释放ATP。3.质子流通过F0驱动c亚基环和gamma亚基旋转gamma亚基每旋转120度即改变一个beta亚基的构象每旋转360度合成3个ATP。4.该机制将质子驱动力势能通过旋转催化转化为ATP中的化学能。",
+    "explanation": "考查结合变构机制核心原理：三种构象转换与旋转催化。",
+    "difficulty": 3,
+    "tags": [
+      "ATP合酶",
+      "结合变构机制"
+    ]
+  },
+  {
+    "id": 94,
+    "type": "short",
+    "question": "比较非循环光合磷酸化与循环光合磷酸化的异同。",
+    "answer": "相同点：均在类囊体膜上进行均通过建立跨膜质子梯度驱动ATP合酶合成ATP。不同点：1.非循环PSII和PSI均参与电子来自H2O光解经PSII到Cyt b6f到PSI到NADP+电子单向传递产物为ATP加NADPH加O2。2.循环仅PSI参与电子从PSI到Fd到Cyt b6f到PC回到PSI形成闭合回路仅产生ATP。3.生理意义：非循环产生同化力ATP+NADPH供碳同化使用；循环在NADP+不足时调节ATP与NADPH比例约为3:2。",
+    "explanation": "需区分两种光合磷酸化的电子路径参与组分和产物。",
+    "difficulty": 3,
+    "tags": [
+      "光合磷酸化",
+      "比较"
+    ]
+  },
+  {
+    "id": 95,
+    "type": "short",
+    "question": "简述线粒体和叶绿体半自主性的主要表现。",
+    "answer": "半自主性体现在：1.含有自身DNA即mtDNA和cpDNA均为双链环状能以半保留方式自我复制。2.具有独立的基因表达系统含有70S核糖体tRNA和RNA聚合酶能转录翻译自身部分蛋白质。3.以分裂方式增殖。4.但自主性不完整大部分蛋白质如DNA聚合酶RNA聚合酶核糖体蛋白等仍由核基因编码在胞质合成后输入。DNA复制和基因表达受核基因调控。遗传方式为非孟德尔式。",
+    "explanation": "重点考查半自主性既自主又不完全自主的双重特征。",
+    "difficulty": 2,
+    "tags": [
+      "半自主性"
+    ]
+  },
+  {
+    "id": 96,
+    "type": "short",
+    "question": "列举支持内共生起源学说的主要证据。",
+    "answer": "主要证据：1.DNA方面：线粒体和叶绿体DNA为双链环状无组蛋白结合与细菌相似。2.核糖体方面：为70S核糖体与原核生物一致。3.蛋白质合成方面：以N-甲酰甲硫氨酸起始被氯霉素四环素抑制不被放线酮抑制。4.增殖方式：通过缢裂方式分裂类似细菌。5.膜特性：内膜与细菌质膜相似外膜与真核细胞内膜系统相似。6.分子序列：DNA碱基比例和基因结构更接近原核生物。7.现存共生现象佐证：胞内共生蓝藻蓝小体表现基因片段转移等行为。",
+    "explanation": "七个方面的证据需覆盖DNA核糖体蛋白质合成增殖膜分子序列和现存共生现象。",
+    "difficulty": 2,
+    "tags": [
+      "内共生学说",
+      "证据"
+    ]
+  },
+  {
+    "id": 97,
+    "type": "short",
+    "question": "简述线粒体融合与分裂的分子机制及生物学意义。",
+    "answer": "分子机制：1.融合由跨膜大分子GTP酶介导果蝇Fzo哺乳动物Mfn定位在线粒体外膜直接介导膜融合。2.分裂由发动蛋白家族大分子GTP酶介导如Drp1Dnm1。Fis1定位于外膜Mdv1招募Drp1Drp1组装驱动膜缢缩断裂。意义：1.维持功能稳定平衡氧化自由基造成的DNA损伤受损线粒体通过融合获取正常组分。2.调控形态与数目融合分裂比值决定线粒体群体状态。3.促进遗传信息共享植物细胞mtDNA不均等分布需频繁融合分裂实现共享。",
+    "explanation": "需分别说明融合和分裂的关键分子及其功能以及三点生物学意义。",
+    "difficulty": 3,
+    "tags": [
+      "线粒体融合与分裂"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 98,
+    "type": "short",
+    "question": "比较氧化磷酸化和光合磷酸化的异同点。",
+    "answer": "相同点：1.均涉及电子传递链和质子梯度的建立。2.均通过质子驱动力驱动ATP合酶合成ATP化学渗透机制。3.均需要完整的膜结构维持质子梯度。不同点：1.场所氧化在线粒体内膜光合在类囊体膜。2.电子来源氧化来自NADH和FADH2光合来自H2O光解。3.最终电子受体氧化为O2光合为NADP+。4.产物氧化为ATP加H2O光合为ATP加NADPH加O2。5.1对电子跨膜次数氧化为3次光合为2次。",
+    "explanation": "从场所电子来源终受体产物等维度比较。",
+    "difficulty": 3,
+    "tags": [
+      "氧化磷酸化",
+      "光合磷酸化",
+      "比较"
+    ]
+  },
+  {
+    "id": 99,
+    "type": "short",
+    "question": "简述光合作用的两个阶段及其相互关系。",
+    "answer": "光合作用分两个阶段：1.光反应在类囊体膜上进行。光合色素吸收光能经原初反应将光能转换为电能再经电子传递和光合磷酸化将电能转换为活跃化学能ATP和NADPH同时水光解释放O2。2.固碳反应暗反应在叶绿体基质中进行。利用光反应产生的ATP和NADPH通过卡尔文循环将CO2还原为糖类将活跃化学能转变为稳定化学能。相互关系：光反应为固碳反应提供ATP和NADPH同化力。固碳反应速率受光反应产物供应的调节。两者在结构上空间分离功能上紧密偶联。",
+    "explanation": "考查光反应与暗反应的场所产物及相互依存关系。",
+    "difficulty": 2,
+    "tags": [
+      "光合作用",
+      "光反应",
+      "暗反应"
+    ]
+  },
+  {
+    "id": 100,
+    "type": "short",
+    "question": "从结构和功能两个角度说明线粒体内膜如何适应氧化磷酸化的需求。",
+    "answer": "结构适应：1.内膜向内折叠形成嵴极大增加表面积为大量电子传递复合物和ATP合酶提供锚定位点。2.蛋白脂质质量比大于等于3:1富含功能蛋白。3.缺乏胆固醇而富含心磷脂使内膜对H+高度不通透是建立质子梯度的必要条件。功能适应：1.内膜上嵌有按氧化还原电位严格排列的四种电子传递复合物和两种可移动载体。2.内膜上分布有ATP合酶F0F1利用质子回流驱动ATP合成。3.内膜上有特异性转运蛋白如ATPADP交换载体磷酸载体实现代谢物选择性跨膜运输。",
+    "explanation": "需结合内膜结构特异性嵴蛋白脂质比心磷脂和功能装置呼吸链复合物ATP合酶转运蛋白阐述。",
+    "difficulty": 2,
+    "tags": [
+      "线粒体内膜",
+      "结构与功能适应"
+    ],
+    "topic": "线粒体"
+  },
+  {
+    "id": 101,
+    "type": "short",
+    "question": "简述C4途径与CAM途径在CO2固定策略上的异同。",
+    "answer": "相同点：1.均以PEP为初级CO2受体。2.均以PEP羧化酶为关键酶。3.初级固碳产物均为草酰乙酸到苹果酸四碳化合物。4.均需通过卡尔文循环最终合成糖类。5.均为对特殊环境的适应。不同点：1.策略C4是空间分离叶肉细胞到维管束鞘细胞CAM是时间分离夜间固定到白天释放。2.气孔行为C4昼夜均可开放CAM夜间开放白天关闭。3.适应环境C4适应高温和低CO2CAM适应干旱环境减少水分蒸发。",
+    "explanation": "比较两种途径在时空分离策略气孔行为和适应环境上的差异。",
+    "difficulty": 3,
+    "tags": [
+      "碳同化",
+      "C4",
+      "CAM",
+      "比较"
+    ]
+  },
+  {
+    "id": 102,
+    "type": "short",
+    "question": "以线粒体和叶绿体为例说明核质互作的含义和重要性。",
+    "answer": "含义：核质互作是指真核细胞中细胞核与线粒体叶绿体之间在遗传信息交流和基因表达调控上的双向分子协作机制。具体表现：1.线粒体和叶绿体的DNA复制转录和翻译所需的DNA聚合酶RNA聚合酶核糖体蛋白等均由核基因编码并在胞质合成后输入。2.核基因的表达调控影响线粒体和叶绿体的功能状态。3.线粒体和叶绿体的功能状态通过逆行信号反馈调节核基因表达。重要性：1.有序的核质互作是细胞器正常生命活动的基本保证。2.核质互作失调导致核质冲突如人类线粒体疾病即为典型核质冲突的表现。",
+    "explanation": "考查核质双向调控的内涵及其生理和病理意义。",
+    "difficulty": 3,
+    "tags": [
+      "核质互作",
+      "半自主性"
+    ]
+  }
+]
