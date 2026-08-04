@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "definition": "核酸变性解链后，碱基共轭双键暴露增加，导致260 nm处紫外吸收值升高的现象。常用ε(P)（摩尔磷吸光系数）的升高来定量描述，是监测DNA变性的重要指标。",
+    "term": "增色效应（hyperchromic effect）"
+  },
+  {
+    "id": 2,
+    "definition": "变性DNA复性重新形成双螺旋结构后，碱基重新堆叠于双螺旋内部，导致260 nm处紫外吸收值降低的现象。减色效应伴随复性过程，与增色效应互逆。",
+    "term": "减色效应（hypochromic effect）"
+  },
+  {
+    "id": 3,
+    "definition": "DNA热变性引起物化性质（常用260 nm紫外吸收）改变一半时的温度，是衡量DNA双链热稳定性的重要参数。Tm与GC含量成正比，受离子强度、pH等因素影响，常用于确定PCR退火温度。",
+    "term": "熔解温度/Tm值（melting temperature）"
+  },
+  {
+    "id": 4,
+    "definition": "核酸在加热、极端pH、低离子强度或变性剂（尿素、甲酰胺等）作用下，双螺旋区碱基对间氢键断裂，双链解离为单链的过程。变性不涉及磷酸二酯键断裂，一级结构保持不变，伴有增色效应。",
+    "term": "DNA变性（DNA denaturation）"
+  },
+  {
+    "id": 5,
+    "definition": "变性因素去除后，解开的互补单链按碱基互补配对原则重新形成双螺旋结构的过程。热变性DNA经缓慢冷却复性的过程特称为退火。复性伴随减色效应、黏度升高等性质变化。",
+    "term": "DNA复性（DNA renaturation）"
+  },
+  {
+    "id": 6,
+    "definition": "热变性DNA经缓慢冷却恢复到天然双螺旋结构的复性过程。也是PCR反应的关键步骤，指降温后引物与单链模板DNA按碱基互补配对结合。退火温度一般为引物Tm值减去5℃。",
+    "term": "退火（annealing）"
+  },
+  {
+    "id": 7,
+    "definition": "利用核酸变性和复性性质，将不同来源的核酸片段（DNA-DNA或DNA-RNA）按碱基互补配对规则形成异源双链，从而对特定目标核酸进行定性或定量分析的技术。Southern blot和Northern blot均基于此原理。",
+    "term": "核酸分子杂交（nucleic acid hybridization）"
+  },
+  {
+    "id": 8,
+    "definition": "将DNA经限制性内切酶消化和琼脂糖凝胶电泳分离后，变性并转移至硝酸纤维素膜或尼龙膜上，用标记探针进行杂交以检测特定DNA片段的技术。以发明人Edwin Southern命名。",
+    "term": "Southern印迹（Southern blot）"
+  },
+  {
+    "id": 9,
+    "definition": "将RNA经电泳按分子量大小分离后，转移至膜上与标记探针杂交以检测特定RNA分子的技术。其名称相对于Southern blot而来，用于研究基因表达水平（mRNA丰度）。",
+    "term": "Northern印迹（Northern blot）"
+  },
+  {
+    "id": 10,
+    "definition": "一段带有检测标记、序列已知且与目的基因互补的核酸片段（DNA或RNA）。探针通过分子杂交与目标序列特异性结合，产生可检测的杂交信号，从复杂基因组中识别目的基因。",
+    "term": "基因探针（gene probe）"
+  },
+  {
+    "id": 11,
+    "definition": "一种体外酶促扩增特定DNA片段的技术。通过变性(94~95℃)→退火(37~65℃)→延伸(72℃)的反复温度循环，以Taq DNA聚合酶催化，使目标DNA以2^n形式指数扩增，具有高灵敏度和强特异性。",
+    "term": "聚合酶链式反应/PCR（polymerase chain reaction）"
+  },
+  {
+    "id": 12,
+    "definition": "以DNA初始浓度(C0)与复性时间(t)的乘积Cot值为横坐标、复性率为纵坐标绘制的曲线。其中Cot1/2（复性率达50%时的Cot值）与DNA序列复杂度成正比，用于研究基因组结构和复性动力学。",
+    "term": "Cot曲线（Cot curve）"
+  },
+  {
+    "id": 13,
+    "definition": "一类能识别双链DNA中特定碱基序列（通常为4~8 bp回文序列）并在识别位点内部或附近切割的核酸内切酶。Ⅱ型限制性内切酶是基因工程中最常用的工具酶，切割后可产生黏性末端或平末端。",
+    "term": "限制性内切酶（restriction endonuclease）"
+  },
+  {
+    "id": 14,
+    "definition": "从多核苷酸链内部切割磷酸二酯键的核酸酶，水解产物为核酸片段（寡核苷酸）。限制性内切酶属于此类。与之相对的是核酸外切酶（从末端逐个切下核苷酸）。",
+    "term": "核酸内切酶（endonuclease）"
+  },
+  {
+    "id": 15,
+    "definition": "从多核苷酸链的末端开始逐个切下核苷酸的核酸酶，产生单核苷酸产物。按断裂位置分3'-磷酸二酯酶（产生5'-磷酸核苷酸）和5'-磷酸二酯酶（产生3'-磷酸核苷酸）。",
+    "term": "核酸外切酶（exonuclease）"
+  },
+  {
+    "id": 16,
+    "definition": "Sanger发明的DNA测序方法。在四组反应中分别加入一种ddNTP（2',3'-双脱氧核苷三磷酸），因其缺乏3'-OH使新生链随机终止，产生不同长度片段，经PAGE电泳分离后读取DNA序列。",
+    "term": "双脱氧链终止法（dideoxy chain termination method）"
+  },
+  {
+    "id": 17,
+    "definition": "在固相支持物上原位合成寡核苷酸或直接将大量DNA探针有序固定，然后与标记样品杂交，通过检测杂交信号获取样品遗传信息的技术。可用于基因型测定、表达谱分析和病原检测等。",
+    "term": "基因芯片/DNA微阵列（DNA microarray）"
+  },
+  {
+    "id": 18,
+    "definition": "通过浓硫酸或过氯酸将核酸中的有机磷水解为无机磷，在酸性条件下与钼酸生成磷钼酸，再被还原为钼蓝（最大吸收660 nm），在一定范围内光密度与磷含量成正比，据此计算核酸含量的方法。",
+    "term": "定磷法（phosphorus determination method）"
+  },
+  {
+    "id": 19,
+    "definition": "利用铯离子在超速离心力场中形成密度梯度，不同浮力密度的生物大分子在其中沉降到各自等密度位置的分离方法。可分离DNA、RNA和蛋白质，测定DNA浮力密度及GC含量，分离不同构象DNA。",
+    "term": "氯化铯密度梯度离心（CsCl density gradient centrifugation）"
+  },
+  {
+    "id": 20,
+    "definition": "利用真核生物mRNA 3'端poly(A)尾巴与固定在固相支持物（如纤维素）上的oligo(dT)12-18通过A-T碱基配对结合，从而从总RNA中特异性分离poly(A)+ mRNA的亲和层析方法。",
+    "term": "寡聚脱氧胸苷酸亲和层析（oligo(dT) affinity chromatography）"
+  }
+]

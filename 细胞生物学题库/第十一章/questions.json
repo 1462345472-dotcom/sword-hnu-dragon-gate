@@ -1168,7 +1168,7 @@
       "突触传递"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "细胞间通信分为内分泌（经血液远距离）、旁分泌（局部扩散）、自分泌（自我刺激）和突触传递（快速定向）四种方式。"
   },
   {
     "id": 57,
@@ -1187,7 +1187,7 @@
       "酶联受体"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "细胞表面受体分为离子通道偶联受体（快速）、G蛋白偶联受体（七次跨膜）和酶联受体（介导长期效应）三大类。"
   },
   {
     "id": 58,
@@ -1209,7 +1209,7 @@
       "信号通路"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "GPCR活化Gs蛋白后激活AC产生cAMP，cAMP激活PKA磷酸化下游靶蛋白，经级联放大后由PDE水解终止信号。"
   },
   {
     "id": 59,
@@ -1233,7 +1233,7 @@
       "PKC"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "GPCR激活PLC水解PIP2产生IP3（释放Ca2+）和DAG（激活PKC），构成双信使系统，分别介导不同的细胞效应。"
   },
   {
     "id": 60,
@@ -1257,7 +1257,7 @@
       "级联反应"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "RTK-Ras-MAPK通路经Grb2-Sos活化Ras，启动Raf-MEK-MAPK三级激酶级联，调控细胞增殖分化相关基因表达。"
   },
   {
     "id": 61,
@@ -1278,7 +1278,7 @@
       "Jak"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "JAK-STAT通路中细胞因子诱导受体二聚化使JAK交叉激活，磷酸化STAT使其二聚化入核，调节靶基因表达。"
   },
   {
     "id": 62,
@@ -1299,7 +1299,7 @@
       "整合"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "细胞信号转导具有特异性、放大效应、网络化反馈调节和整合性等特征，确保细胞对多信号环境做出精确反应。"
   },
   {
     "id": 63,
@@ -1321,7 +1321,7 @@
       "负反馈"
     ],
     "type": "short",
-    "explanation": ""
+    "explanation": "靶细胞通过受体没收、受体下调、受体失活、信号蛋白失活和产生抑制性蛋白五种机制实现对持续信号的脱敏适应。"
   },
   {
     "type": "truefalse",
