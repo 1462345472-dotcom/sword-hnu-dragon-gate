@@ -3,7 +3,7 @@
 import json, os, sys, base64
 
 BASE_DIR = r'c:\Users\Lenovo\Desktop\湖南大学'
-OUTPUT = os.path.join(BASE_DIR, '生物化学题库', '湖南大学题库(1).html')
+OUTPUT = os.path.join(BASE_DIR, '生物化学题库', '湖南大学题库系统.html')
 
 # ============================================================
 # 数据源
