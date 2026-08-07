@@ -1,15 +1,5 @@
 [
   {
-    "point": "本考试为硕士研究生招生考试中的笔试科目。",
-    "source": "考纲",
-    "chapter_hint": ""
-  },
-  {
-    "point": "考查目标为测试生物化学基本理论、基本知识和基本方法，考查思维能力、运用生物化学知识解释各种生命活动现象的能力以及运用相关研究方法分析和解决生物学问题的能力。",
-    "source": "考纲",
-    "chapter_hint": ""
-  },
-  {
     "point": "糖类",
     "source": "考纲",
     "chapter_hint": ""
@@ -350,7 +340,67 @@
     "chapter_hint": ""
   },
   {
+    "point": "mRNA、tRNA、rRNA的转录后加工过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "逆转录的过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "逆转录病毒的生活周期",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "RNA的复制：单链RNA病毒的RNA复制，双链RNA病毒的RNA复制",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "RNA传递加工遗传信息",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
     "point": "蛋白质的合成和加工",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "mRNA在蛋白质生物合成中的作用、原理和密码子的概念、特点",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "tRNA、核糖体在蛋白质生物合成中的作用和原理",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "参与蛋白质生物合成的主要分子的种类和功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质生物合成的过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "翻译后的加工过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "真核生物与原核生物蛋白质合成的区别",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质合成的抑制剂",
     "source": "考纲",
     "chapter_hint": ""
   },
@@ -360,22 +410,22 @@
     "chapter_hint": ""
   },
   {
-    "point": "名词解释；",
+    "point": "基因表达调控的基本原理",
     "source": "考纲",
     "chapter_hint": ""
   },
   {
-    "point": "填空题；",
+    "point": "原核生物和真核生物基因表达调控的区别",
     "source": "考纲",
     "chapter_hint": ""
   },
   {
-    "point": "选择题；",
+    "point": "转录水平上的基因表达调控和翻译水平上的基因表达调控",
     "source": "考纲",
     "chapter_hint": ""
   },
   {
-    "point": "问答题。",
+    "point": "翻译后加工和蛋白质降解的调节",
     "source": "考纲",
     "chapter_hint": ""
   }
