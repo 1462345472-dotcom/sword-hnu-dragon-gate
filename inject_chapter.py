@@ -31,22 +31,37 @@ def inject(html, obj_text, after_key):
     return html[:insert_at] + ',"' + key + '":' + obj_text + html[insert_at:]
 
 def main():
-    key = "biochem_15"
-    label = "15 新陈代谢总论"
-    questions = json.load(open("生物化学题库/第十五章/questions.json", encoding="utf-8"))
-    terms = json.load(open("生物化学题库/第十五章/terms.json", encoding="utf-8"))
+    import argparse
+    ap = argparse.ArgumentParser(description="向臻至版 HTML 注入一个生化章节对象")
+    ap.add_argument("key", help="章节键,如 biochem_16")
+    ap.add_argument("label", help="chapterLabel,如 16 生物能学")
+    ap.add_argument("display_name", help="CHAPTER_NAMES 显示名,如 第十六章 生物能学")
+    ap.add_argument("questions", help="questions.json 路径")
+    ap.add_argument("terms", help="terms.json 路径")
+    ap.add_argument("--after", default="biochem_14", help="插入到哪个章节之后(默认 biochem_14)")
+    ap.add_argument("--backup", action="store_true", help="注入前先备份 HTML 到 .superpowers/sdd/backups/")
+    args = ap.parse_args()
+
+    questions = json.load(open(args.questions, encoding="utf-8"))
+    terms = json.load(open(args.terms, encoding="utf-8"))
     for t in terms:
-        t["chapter"] = key
-    obj_text = build_chapter_obj(key, label, questions, terms)
+        t["chapter"] = args.key
+    obj_text = build_chapter_obj(args.key, args.label, questions, terms)
     path = "生物化学题库/湖南大学题库系统-臻至版.html"
     html = open(path, encoding="utf-8", errors="ignore").read()
-    new_html = inject(html, obj_text, after_key="biochem_14")
+    if args.backup:
+        import os, time
+        os.makedirs(".superpowers/sdd/backups", exist_ok=True)
+        bak = f".superpowers/sdd/backups/html_before_{args.key}.html"
+        open(bak, "w", encoding="utf-8").write(html)
+        print(f"已备份到 {bak}")
+    new_html = inject(html, obj_text, after_key=args.after)
     # CHAPTER_NAMES 同步
     m = re.search(r'CHAPTER_NAMES\s*=\s*\{', new_html)
     if m:
-        new_html = new_html[:m.end()] + '"' + key + '":"第十五章 新陈代谢总论",' + new_html[m.end():]
+        new_html = new_html[:m.end()] + '"' + args.key + '":"' + args.display_name + '",' + new_html[m.end():]
     open(path, "w", encoding="utf-8").write(new_html)
-    print(f"已插入 {key}({len(questions)} 题, {len(terms)} 术语)")
+    print(f"已插入 {args.key}({len(questions)} 题, {len(terms)} 术语)")
 
 if __name__ == "__main__":
     main()
