@@ -1,0 +1,382 @@
+[
+  {
+    "point": "本考试为硕士研究生招生考试中的笔试科目。",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "考查目标为测试生物化学基本理论、基本知识和基本方法，考查思维能力、运用生物化学知识解释各种生命活动现象的能力以及运用相关研究方法分析和解决生物学问题的能力。",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖类",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖的主要分类及其各自的代表",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖聚合物及其代表和它们的生物学功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂类与生物膜",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "生物体内脂质的分类，其代表脂及各自特点",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂质的化学结构及其功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "生物膜的化学组成和结构，“流体镶嵌模型”的要点",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质的化学组成，20种氨基酸的简写符号",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "氨基酸的理化性质及化学反应",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质分子的结构（一级、二级、高级结构的概念及形式）",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质一级结构测定的一般步骤",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质的理化性质及分离纯化和纯度鉴定的方法",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质的变性作用",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质结构与功能的关系",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "核酸",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "核酸的基本化学组成及分类",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "核苷酸的结构",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "DNA和RNA一级结构的概念和二级结构特点；DNA的三级结构",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "RNA的分类及各类RNA的生物学功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "核酸的主要理化特性",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "酶学",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "酶的作用特点",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "酶的作用机理",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "影响酶促反应的因素",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "酶的提纯与活力鉴定的基本方法",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "常见酶的种类、结构与功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "维生素和辅酶",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "维生素的分类及性质",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "各种维生素的活性形式、生理功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "激素",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "激素的分类，植物激素的结构和功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "激素的化学本质和作用机制",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "新陈代谢和生物能学",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "新陈代谢的概念、类型及其特点",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "ATP与高能磷酸化合物",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "ATP的生物学功能",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "电子传递过程与ATP的生成",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "呼吸链的组分、呼吸链中传递体的排列顺序",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "氧化磷酸化作用",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖的分解代谢和合成代谢",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖的代谢途径，包括物质代谢、能量代谢和有关的酶",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖的无氧分解、有氧氧化的概念、部位和过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "戊糖磷酸途径的主要过程和生物学意义",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖异生作用的概念、场所、原料及主要途径",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖原合成和分解作用的概念、反应步骤及限速酶",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "糖酵解、丙酮酸的氧化脱羧和三羧酸循环的反应过程及催化反应的关键酶",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂类的代谢与合成",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂肪动员的概念、限速酶；甘油代谢",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂肪酸的β-氧化过程及其能量的计算",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "酮体的生成和利用",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "脂肪酸合成的场所、原料及过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "胆固醇合成的部位、原料及胆固醇的转化及排泄",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "核酸的代谢",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "外源核酸的消化和吸收",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "碱基的分解",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "嘌呤、嘧啶核苷酸的生物合成",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "氨基酸代谢",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "氨基酸的分解",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "氨基酸及其衍生物的合成",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "DNA、RNA的合成",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "DNA复制的一般规律",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "参与DNA复制的酶类与蛋白质因子的种类和作用（重点是原核生物的DNA聚合酶）",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "DNA复制的基本过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "真核生物与原核生物DNA复制的比较",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "转录的基本概念；参与转录的酶及有关因子",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "原核生物的转录过程",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "RNA转录后加工的意义",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "蛋白质的合成和加工",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "基因表达调控",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "名词解释；",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "填空题；",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "选择题；",
+    "source": "考纲",
+    "chapter_hint": ""
+  },
+  {
+    "point": "问答题。",
+    "source": "考纲",
+    "chapter_hint": ""
+  }
+]
