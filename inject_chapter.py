@@ -60,6 +60,20 @@ def main():
     m = re.search(r'CHAPTER_NAMES\s*=\s*\{', new_html)
     if m:
         new_html = new_html[:m.end()] + '"' + args.key + '":"' + args.display_name + '",' + new_html[m.end():]
+    # COURSES 章节导航同步(在 chapters 数组中 after_key 后插入新章节)
+    # 注意:用固定长度计算结束引号位置,不能用 find 找下一个引号(会错位)
+    ci = new_html.find('COURSES = ')
+    if ci != -1:
+        cstart = new_html.find('"chapters"', ci)
+        arr_start = new_html.find('[', cstart)
+        key_str = '"' + args.after + '"'
+        key_pos = new_html.find(key_str, arr_start)
+        if key_pos != -1:
+            insert_at = key_pos + len(key_str)
+            new_html = new_html[:insert_at] + ',"' + args.key + '"' + new_html[insert_at:]
+            print(f"COURSES 导航已加入 {args.key}")
+        else:
+            print(f"警告: COURSES.chapters 中未找到 {args.after},未更新导航")
     open(path, "w", encoding="utf-8").write(new_html)
     print(f"已插入 {args.key}({len(questions)} 题, {len(terms)} 术语)")
 
