@@ -1,1593 +1,3814 @@
 [
-  {
-    "id": 1,
-    "type": "choice",
-    "question": "蛋白质合成后必须转运到特定部位才能参与细胞结构组装并发挥生物学功能，这一过程称为？",
-    "options": {
-      "A": "蛋白质折叠",
-      "B": "蛋白质修饰",
-      "C": "蛋白质分选（靶向转运）",
-      "D": "蛋白质降解"
-    },
-    "answer": "C",
-    "explanation": "蛋白质分选（又称蛋白质靶向转运）是指蛋白质合成后转运到特定部位的过程，是细胞维持正常结构和功能的基础。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 2,
-    "type": "choice",
-    "question": "真核细胞中绝大多数蛋白质由什么基因编码？",
-    "options": {
-      "A": "线粒体基因",
-      "B": "叶绿体基因",
-      "C": "核基因",
-      "D": "质粒基因"
-    },
-    "answer": "C",
-    "explanation": "真核细胞中除少量蛋白质在线粒体和叶绿体内合成外，绝大多数蛋白质由核基因编码，在细胞质基质核糖体上合成后再分选至特定部位。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 3,
-    "type": "choice",
-    "question": "细胞质基质中游离核糖体合成的蛋白质，其转运方式为？",
-    "options": {
-      "A": "共翻译转运",
-      "B": "翻译后转运",
-      "C": "膜泡运输",
-      "D": "门控转运"
-    },
-    "answer": "B",
-    "explanation": "游离核糖体上合成的蛋白质采用翻译后转运途径，即先在细胞质基质中完成多肽链合成，再转运至靶细胞器。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 4,
-    "type": "choice",
-    "question": "糙面内质网膜结合的核糖体合成的蛋白质，其转运方式为？",
-    "options": {
-      "A": "共翻译转运途径",
-      "B": "翻译后转运途径",
-      "C": "跨膜转运",
-      "D": "选择性的门控转运"
-    },
-    "answer": "A",
-    "explanation": "附着核糖体合成的蛋白质采用共翻译转运途径，边合成边转入内质网腔或定位在ER膜上。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 5,
-    "type": "choice",
-    "question": "翻译后转运途径的蛋白质合成场所是？",
-    "options": {
-      "A": "糙面内质网附着核糖体",
-      "B": "细胞质基质游离核糖体",
-      "C": "线粒体核糖体",
-      "D": "高尔基体"
-    },
-    "answer": "B",
-    "explanation": "翻译后转运途径的蛋白质在细胞质基质游离核糖体上完成合成，再转运至膜围绕的细胞器。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 6,
-    "type": "choice",
-    "question": "共翻译转运途径的蛋白质转运特点是？",
-    "options": {
-      "A": "合成完成后转运",
-      "B": "边合成边转运",
-      "C": "不需要信号序列",
-      "D": "直接通过核孔转运"
-    },
-    "answer": "B",
-    "explanation": "共翻译转运途径是边合成边转运的方式，肽链延伸的同时进入内质网腔或插入内质网膜。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 7,
-    "type": "choice",
-    "question": "下列哪种蛋白质不经过共翻译转运途径分选？",
-    "options": {
-      "A": "分泌蛋白",
-      "B": "细胞膜蛋白",
-      "C": "线粒体基质蛋白",
-      "D": "溶酶体酶"
-    },
-    "answer": "C",
-    "explanation": "线粒体基质蛋白在细胞质基质游离核糖体上合成后通过翻译后转运进入线粒体，属于翻译后转运途径。分泌蛋白、细胞膜蛋白、溶酶体酶均经过共翻译转运途径。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 8,
-    "type": "choice",
-    "question": "下列细胞器中，哪一组完全依赖翻译后转运途径接受蛋白质？",
-    "options": {
-      "A": "内质网、高尔基体",
-      "B": "线粒体、叶绿体、过氧化物酶体",
-      "C": "溶酶体、内体",
-      "D": "细胞膜、分泌泡"
-    },
-    "answer": "B",
-    "explanation": "线粒体、叶绿体和过氧化物酶体都是通过翻译后转运途径接受细胞质基质中合成的蛋白质。内质网-高尔基体系统通过共翻译转运途径。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 9,
-    "type": "choice",
-    "question": "共翻译转运途径主要涉及哪些转运机制？",
-    "options": {
-      "A": "仅跨膜转运",
-      "B": "跨膜转运和膜泡运输",
-      "C": "仅膜泡运输",
-      "D": "门控转运和跨膜转运"
-    },
-    "answer": "B",
-    "explanation": "共翻译转运途径主要有跨膜转运（内质网方向）和膜泡运输（内质网→高尔基体→靶部位）两种机制。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 10,
-    "type": "choice",
-    "question": "翻译后转运途径中，蛋白质从细胞质基质转运至细胞核的机制是？",
-    "options": {
-      "A": "跨膜转运",
-      "B": "膜泡运输",
-      "C": "选择性门控转运",
-      "D": "细胞质基质转运"
-    },
-    "answer": "C",
-    "explanation": "蛋白质通过核孔复合体在核-质间双向选择性转运，属于选择性门控转运。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 11,
-    "type": "choice",
-    "question": "以下哪项不属于蛋白质在细胞内的转运机制？",
-    "options": {
-      "A": "跨膜转运",
-      "B": "膜泡运输",
-      "C": "选择性门控转运",
-      "D": "主动运输（离子泵）"
-    },
-    "answer": "D",
-    "explanation": "蛋白质的细胞内转运机制包括跨膜转运、膜泡运输、选择性门控转运和细胞质基质转运。主动运输（离子泵）属于小分子物质的跨膜转运方式。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 12,
-    "type": "choice",
-    "question": "在共翻译转运中，当多肽链延伸至约多少个氨基酸残基时，信号序列与SRP结合？",
-    "options": {
-      "A": "约20个",
-      "B": "约50个",
-      "C": "约80个",
-      "D": "约120个"
-    },
-    "answer": "C",
-    "explanation": "当多肽链延伸至约80个氨基酸残基时，N端的内质网信号序列暴露并与SRP结合，导致肽链延伸暂停。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 13,
-    "type": "choice",
-    "question": "信号假说认为分泌蛋白N端携带短信号序列，该序列的功能是？",
-    "options": {
-      "A": "促进蛋白质折叠",
-      "B": "指导核糖体转移至内质网膜并继续翻译",
-      "C": "促进蛋白质降解",
-      "D": "激活核糖体"
-    },
-    "answer": "B",
-    "explanation": "信号假说由Blobel和Sabatini提出，认为分泌蛋白N端信号序列翻译后会结合相关因子，指导核糖体转移至内质网膜并继续翻译。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 14,
-    "type": "choice",
-    "question": "SRP（信号识别颗粒）在共翻译转运中的主要功能是？",
-    "options": {
-      "A": "切除信号肽",
-      "B": "识别信号序列并暂停肽链延伸，引导核糖体-新生肽复合物至内质网膜",
-      "C": "促进蛋白质折叠",
-      "D": "水解GTP提供能量"
-    },
-    "answer": "B",
-    "explanation": "SRP识别并结合信号序列与核糖体，暂停肽链延伸，并将核糖体-新生肽复合物引导至内质网膜上的SRP受体。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 15,
-    "type": "choice",
-    "question": "在共翻译转运过程中，SRP脱离信号序列和核糖体的条件是？",
-    "options": {
-      "A": "SRP与SRP受体结合后",
-      "B": "核糖体-新生肽复合物与移位子结合后",
-      "C": "信号肽被切除后",
-      "D": "蛋白质合成完成后"
-    },
-    "answer": "B",
-    "explanation": "核糖体-新生肽复合物与内质网膜的移位子结合后，SRP脱离信号序列和核糖体，返回细胞质基质重复使用，肽链延伸恢复。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 16,
-    "type": "choice",
-    "question": "在共翻译转运中，参与强化SRP与SRP受体结合的GTP分子数量为？",
-    "options": {
-      "A": "1分子",
-      "B": "2分子",
-      "C": "3分子",
-      "D": "4分子"
-    },
-    "answer": "B",
-    "explanation": "2分子GTP分别结合SRP-p54亚基和SRP受体α亚基，强化复合物间的相互作用。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 17,
-    "type": "choice",
-    "question": "共翻译转运中，信号肽被切除的位置在？",
-    "options": {
-      "A": "细胞质基质",
-      "B": "内质网膜面",
-      "C": "高尔基体",
-      "D": "核糖体"
-    },
-    "answer": "B",
-    "explanation": "内质网膜面的信号肽酶切除信号肽并将其快速降解，信号肽不会进入内质网腔。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 18,
-    "type": "choice",
-    "question": "共翻译转运过程中，肽链是以何种构象进入内质网膜的？",
-    "options": {
-      "A": "α-螺旋构象",
-      "B": "β-折叠构象",
-      "C": "袢环（loop）形式",
-      "D": "完全伸展的线性形式"
-    },
-    "answer": "C",
-    "explanation": "呈环化构象的信号肽与移位子组分结合并打开孔道后，引导肽链以袢环（loop）形式进入内质网膜。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 19,
-    "type": "choice",
-    "question": "信号肽的氨基酸组成中，疏水核心区的主要作用是？",
-    "options": {
-      "A": "与DNA结合",
-      "B": "被信号肽酶识别并切割",
-      "C": "形成疏水核心，介导与SRP的识别结合",
-      "D": "促进核糖体组装"
-    },
-    "answer": "C",
-    "explanation": "信号肽中部的疏水氨基酸形成疏水核心区（N端和C端各含3个碱性/极性氨基酸），是SRP识别并结合的关键区域。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 20,
-    "type": "choice",
-    "question": "信号肽的长度一般为多少个氨基酸残基？",
-    "options": {
-      "A": "5~10个",
-      "B": "10~16个",
-      "C": "16~26个",
-      "D": "30~40个"
-    },
-    "answer": "C",
-    "explanation": "信号肽一般由16~26个氨基酸残基组成，包括N端碱性区、中部疏水核心区和C端加工区。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 21,
-    "type": "choice",
-    "question": "SRP受体的另一个名称是？",
-    "options": {
-      "A": "移位子",
-      "B": "停靠蛋白（DP）",
-      "C": "信号肽酶",
-      "D": "Sec61复合体"
-    },
-    "answer": "B",
-    "explanation": "SRP受体又称停靠蛋白（DP），是内质网膜上的整合蛋白，由α和β亚基组成，负责与SRP结合将核糖体-新生肽复合物锚定至内质网膜。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 22,
-    "type": "choice",
-    "question": "SRP的化学本质是？",
-    "options": {
-      "A": "单纯蛋白质",
-      "B": "核糖核蛋白复合体",
-      "C": "脂蛋白",
-      "D": "糖蛋白"
-    },
-    "answer": "B",
-    "explanation": "SRP是核糖核蛋白复合体，由6种不同的蛋白质和1个约300个核苷酸的7S RNA组成。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 23,
-    "type": "choice",
-    "question": "内质网膜整合蛋白跨膜区的共同特征是？",
-    "options": {
-      "A": "由20~25个亲水氨基酸残基形成β-折叠",
-      "B": "由20~25个疏水氨基酸残基形成α-螺旋",
-      "C": "由10~15个疏水氨基酸残基形成α-螺旋",
-      "D": "由30~40个亲水氨基酸残基形成无规卷曲"
-    },
-    "answer": "B",
-    "explanation": "内质网膜整合蛋白的跨膜区均由20~25个疏水氨基酸残基形成α-螺旋，这是跨膜蛋白的共同特征。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 24,
-    "type": "choice",
-    "question": "决定单次跨膜蛋白拓扑学特征的关键内在序列是？",
-    "options": {
-      "A": "信号肽和导肽",
-      "B": "停止转移序列和信号锚定序列",
-      "C": "KDEL和KKXX",
-      "D": "起始转移序列和核定位信号"
-    },
-    "answer": "B",
-    "explanation": "单次跨膜蛋白的拓扑学特征由内在停止转移序列（STA）和信号锚定序列（SA）决定。STA使肽链停止跨膜转移，SA兼具信号肽和膜锚定功能。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 25,
-    "type": "choice",
-    "question": "影响新生肽链跨膜取向的因素是？",
-    "options": {
-      "A": "跨膜片段侧翼氨基酸残基的电荷分布",
-      "B": "信号肽酶活性",
-      "C": "SRP浓度",
-      "D": "核糖体大小"
-    },
-    "answer": "A",
-    "explanation": "跨膜片段侧翼氨基酸残基的电荷分布影响新生肽链的跨膜取向，带正电荷的氨基酸残基一侧通常朝向细胞质基质。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 26,
-    "type": "choice",
-    "question": "线粒体蛋白依赖的信号序列称为？",
-    "options": {
-      "A": "信号肽",
-      "B": "信号斑",
-      "C": "导肽（N端导肽）",
-      "D": "KDEL序列"
-    },
-    "answer": "C",
-    "explanation": "线粒体蛋白依靠N端导肽进行靶向，导肽是翻译后转运途径中的信号序列。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 27,
-    "type": "choice",
-    "question": "叶绿体蛋白N端含有的靶向序列长度约为？",
-    "options": {
-      "A": "10~20个氨基酸",
-      "B": "40~50个氨基酸（转运肽）",
-      "C": "80~100个氨基酸",
-      "D": "5~10个氨基酸"
-    },
-    "answer": "B",
-    "explanation": "叶绿体蛋白N端含有40~50个氨基酸的转运肽（基质输入序列），负责将前体蛋白导向叶绿体。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 28,
-    "type": "choice",
-    "question": "过氧化物酶体蛋白的靶向序列位于？",
-    "options": {
-      "A": "N端",
-      "B": "C端（内在靶向序列）",
-      "C": "蛋白质中部",
-      "D": "N端和C端均有"
-    },
-    "answer": "B",
-    "explanation": "过氧化物酶体蛋白靠C端的内在靶向序列（如SKL序列）进行分选，与线粒体和叶绿体蛋白依赖N端导肽不同。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 29,
-    "type": "choice",
-    "question": "翻译后转运的蛋白质在转运前需要维持什么状态？",
-    "options": {
-      "A": "完全折叠的天然构象",
-      "B": "非折叠或部分折叠状态",
-      "C": "与核糖体结合的状态",
-      "D": "磷酸化状态"
-    },
-    "answer": "B",
-    "explanation": "翻译后转运的蛋白质需要在分子伴侣协助下保持非折叠或部分折叠状态，才能穿过膜输入装置。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 30,
-    "type": "choice",
-    "question": "在线粒体蛋白转运过程中，协助维持前体蛋白非折叠状态的分子伴侣是？",
-    "options": {
-      "A": "GroEL/GroES",
-      "B": "Hsp70",
-      "C": "钙联蛋白",
-      "D": "钙网蛋白"
-    },
-    "answer": "B",
-    "explanation": "细胞质基质Hsp70与前体蛋白结合，维持其非折叠或部分折叠状态；线粒体基质Hsp70则驱动蛋白质的转运和水解ATP供能。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 31,
-    "type": "choice",
-    "question": "在线粒体基质中，驱动蛋白质转运的能量来源于？",
-    "options": {
-      "A": "GTP水解",
-      "B": "ATP水解（Hsp70催化）",
-      "C": "跨膜电化学梯度",
-      "D": "NADH氧化"
-    },
-    "answer": "B",
-    "explanation": "线粒体基质分子伴侣Hsp70与输入的蛋白质结合并水解ATP以驱动蛋白质的转运。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 32,
-    "type": "choice",
-    "question": "叶绿体蛋白质转运与线粒体蛋白质转运在能量来源上的主要区别是？",
-    "options": {
-      "A": "叶绿体不需要ATP",
-      "B": "叶绿体不产生跨内膜的电化学梯度，ATP是几近唯一的动力来源",
-      "C": "叶绿体使用GTP而不是ATP",
-      "D": "线粒体不需要分子伴侣"
-    },
-    "answer": "B",
-    "explanation": "与线粒体不同，叶绿体不产生跨内膜的电化学梯度，因此ATP水解供能几乎是叶绿体蛋白质转运唯一的动力来源。",
-    "difficulty": 3,
-    "tags": []
-  },
-  {
-    "id": 33,
-    "type": "choice",
-    "question": "线粒体外膜上识别N端基质靶向序列的受体是？",
-    "options": {
-      "A": "Tim23/17",
-      "B": "Tom40",
-      "C": "Tom20/22",
-      "D": "Oxal"
-    },
-    "answer": "C",
-    "explanation": "Tom20/22是线粒体外膜上的输入受体，识别并结合前体蛋白N端的基质靶向序列。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 34,
-    "type": "choice",
-    "question": "线粒体外膜上的蛋白质输入通道是？",
-    "options": {
-      "A": "Tim23/17",
-      "B": "Tom40",
-      "C": "Tim9/10",
-      "D": "Oxal"
-    },
-    "answer": "B",
-    "explanation": "Tom40是线粒体外膜上的蛋白质输入孔道，而Tim23/17是内膜上的转运蛋白通道。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 35,
-    "type": "choice",
-    "question": "线粒体内膜上的蛋白质转运通道是？",
-    "options": {
-      "A": "Tom40",
-      "B": "Tom20/22",
-      "C": "Tim23/17",
-      "D": "Tim9/10"
-    },
-    "answer": "C",
-    "explanation": "Tim23/17是线粒体内膜上的主要蛋白质转运通道蛋白。Tom系列位于外膜，Tim系列位于内膜。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 36,
-    "type": "choice",
-    "question": "在线粒体膜间隙中作为分子伴侣协助蛋白质转运的是？",
-    "options": {
-      "A": "Hsp70",
-      "B": "Hsp60",
-      "C": "Tim9/Tim10",
-      "D": "GroEL"
-    },
-    "answer": "C",
-    "explanation": "Tim9/Tim10是膜间隙中的分子伴侣，协助不含N端基质靶向序列的蛋白质在外膜与内膜通道之间转运。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 37,
-    "type": "choice",
-    "question": "识别线粒体内膜蛋白中疏水结构域的蛋白是？",
-    "options": {
-      "A": "Tom20",
-      "B": "Tim23",
-      "C": "Oxal",
-      "D": "Tim9"
-    },
-    "answer": "C",
-    "explanation": "Oxal是线粒体内膜蛋白，识别内源性内膜蛋白中的疏水结构域，协助其装配到内膜上。",
-    "difficulty": 3,
-    "tags": []
-  },
-  {
-    "id": 38,
-    "type": "choice",
-    "question": "真核细胞内最重要的运输系统是？",
-    "options": {
-      "A": "跨膜转运",
-      "B": "膜泡运输",
-      "C": "门控转运",
-      "D": "细胞骨架运输"
-    },
-    "answer": "B",
-    "explanation": "膜泡运输是真核细胞内最重要的运输系统，也是蛋白质分选的特有方式，普遍存在于真核细胞中。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 39,
-    "type": "choice",
-    "question": "膜泡运输与胞吞胞吐的关系，下列描述正确的是？",
-    "options": {
-      "A": "两者完全相同",
-      "B": "胞吞胞吐是膜泡运输的一种，但膜泡运输更广义，主要指细胞内部内膜系统之间的运输",
-      "C": "膜泡运输仅指胞吐",
-      "D": "胞吞仅由细胞骨架完成"
-    },
-    "answer": "B",
-    "explanation": "胞吞胞吐是膜泡运输的特殊形式（细胞与外界之间），而膜泡运输更广义，主要指细胞内部内膜系统之间的运输。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 40,
-    "type": "choice",
-    "question": "膜泡运输的共同特征不包括？",
-    "options": {
-      "A": "囊泡形成",
-      "B": "囊泡转运",
-      "C": "膜融合",
-      "D": "蛋白质去磷酸化"
-    },
-    "answer": "D",
-    "explanation": "膜泡运输（含胞吞胞吐）均依赖囊泡形成、转运与膜融合三个基本过程，蛋白质去磷酸化并非其共同特征。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 41,
-    "type": "choice",
-    "question": "COPII包被膜泡介导的运输方向是？",
-    "options": {
-      "A": "高尔基体→内质网（逆向运输）",
-      "B": "内质网→高尔基体（顺向运输）",
-      "C": "高尔基体→细胞膜",
-      "D": "细胞膜→内体"
-    },
-    "answer": "B",
-    "explanation": "COPII介导顺向运输（anterograde），负责将蛋白质从内质网转运至高尔基体。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 42,
-    "type": "choice",
-    "question": "COPII包被装配的起始蛋白是？",
-    "options": {
-      "A": "Sec23/Sec24",
-      "B": "Sec13/Sec31",
-      "C": "Sar1（小分子GTP结合蛋白）",
-      "D": "ARF"
-    },
-    "answer": "C",
-    "explanation": "Sar1是COPII包被装配的起始蛋白，它首先与内质网膜结合，GTP交换后招募其他包被蛋白。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 43,
-    "type": "choice",
-    "question": "催化Sar1发生GDP/GTP交换的内质网膜蛋白是？",
-    "options": {
-      "A": "Sec23",
-      "B": "Sec12（鸟苷酸交换因子）",
-      "C": "Sec24",
-      "D": "SRP受体"
-    },
-    "answer": "B",
-    "explanation": "Sec12是内质网膜上的鸟苷酸交换因子（GEF），催化Sar1-GDP转换为Sar1-GTP，启动COPII包被装配。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 44,
-    "type": "choice",
-    "question": "COPII包被中发挥骨架作用的组分是？",
-    "options": {
-      "A": "Sar1",
-      "B": "Sec23/Sec24复合体",
-      "C": "Sec13/Sec31复合体",
-      "D": "Sec16"
-    },
-    "answer": "C",
-    "explanation": "Sec13/Sec31蛋白具有自组装形成网格结构的特点，发挥COPII包被骨架的作用。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 45,
-    "type": "choice",
-    "question": "促进Sar1-GTP水解的COPII组分是？",
-    "options": {
-      "A": "Sec13",
-      "B": "Sec16",
-      "C": "Sec23亚基",
-      "D": "Sec31"
-    },
-    "answer": "C",
-    "explanation": "Sec23亚基具有GTP酶激活蛋白（GAP）活性，促进GTP被Sar1水解，引发包被去装配。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 46,
-    "type": "choice",
-    "question": "内质网待转运膜蛋白具有的二酸分选信号（Asp-X-Glu）的受体是COPII中的？",
-    "options": {
-      "A": "Sar1",
-      "B": "Sec23",
-      "C": "Sec24亚基",
-      "D": "Sec31"
-    },
-    "answer": "C",
-    "explanation": "COPII中的Sec24亚基作为二酸分选信号（Asp-X-Glu）的受体，识别结合后将膜蛋白包装进COPII膜泡。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 47,
-    "type": "choice",
-    "question": "Sec16在COPII包被装配中的作用是？",
-    "options": {
-      "A": "作为GTP酶开关",
-      "B": "结合内质网膜胞质表面，提高包被蛋白聚合效率",
-      "C": "识别分选信号",
-      "D": "组成骨架蛋白"
-    },
-    "answer": "B",
-    "explanation": "Sec16是大的纤维蛋白，结合在内质网膜胞质表面，与已装配复合物相互作用，提高包被蛋白聚合效率。",
-    "difficulty": 3,
-    "tags": []
-  },
-  {
-    "id": 48,
-    "type": "choice",
-    "question": "COPI包被膜泡介导的运输方向是？",
-    "options": {
-      "A": "内质网→高尔基体（顺向运输）",
-      "B": "高尔基体→内质网（逆向运输）",
-      "C": "细胞膜→高尔基体",
-      "D": "高尔基体→细胞膜"
-    },
-    "answer": "B",
-    "explanation": "COPI介导逆向运输（retrograde），负责将蛋白质从高尔基体转运回内质网，也在高尔基体膜囊之间发挥回收作用。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 49,
-    "type": "choice",
-    "question": "COPI包被膜泡运输的货物类型不包括？",
-    "options": {
-      "A": "再循环的膜脂双层",
-      "B": "内质网驻留的可溶性蛋白",
-      "C": "新合成的分泌蛋白",
-      "D": "内质网驻留的膜蛋白"
-    },
-    "answer": "C",
-    "explanation": "COPI运输的是再循环的膜脂双层、内质网驻留蛋白（可溶性和膜蛋白），新合成的分泌蛋白由COPII顺向运输。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 50,
-    "type": "choice",
-    "question": "COPI包被中的小分子GTP结合蛋白是？",
-    "options": {
-      "A": "Sar1",
-      "B": "Rab",
-      "C": "ARF",
-      "D": "Ras"
-    },
-    "answer": "C",
-    "explanation": "ARF是COPI包被中的小分子GTP结合蛋白，起分子开关调控作用，调节包被蛋白复合物的装配与去装配。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 51,
-    "type": "choice",
-    "question": "COPI的核心功能是？",
-    "options": {
-      "A": "介导新合成蛋白质的顺向运输",
-      "B": "回收错误分选的逃逸蛋白，是一种纠错机制",
-      "C": "参与胞吞过程",
-      "D": "降解错误折叠的蛋白质"
-    },
-    "answer": "B",
-    "explanation": "COPI是COPII的补充，用于将本不应被COPII转运的蛋白质（逃逸蛋白）再转运回来，实质上是一种纠错机制。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 52,
-    "type": "choice",
-    "question": "COPI包被含有几种不同的蛋白质亚基？",
-    "options": {
-      "A": "3种",
-      "B": "5种",
-      "C": "7种",
-      "D": "9种"
-    },
-    "answer": "C",
-    "explanation": "COPI包被含有7种不同的蛋白质亚基和一种GTP结合蛋白ARF。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 53,
-    "type": "choice",
-    "question": "内质网可溶性驻留蛋白（如蛋白二硫键异构酶）的回收信号是？",
-    "options": {
-      "A": "KKXX（C端）",
-      "B": "KDEL（C端）",
-      "C": "N端信号肽",
-      "D": "SKL（C端）"
-    },
-    "answer": "B",
-    "explanation": "内质网可溶性蛋白C端具有KDEL回收信号（K=赖氨酸，D=天冬氨酸，E=谷氨酸，L=亮氨酸），被KDEL受体识别后回收至内质网。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 54,
-    "type": "choice",
-    "question": "内质网膜蛋白（如SRP受体）的回收信号是？",
-    "options": {
-      "A": "KDEL",
-      "B": "KKXX（C端，K为赖氨酸，X为任意氨基酸）",
-      "C": "SKL",
-      "D": "RGD序列"
-    },
-    "answer": "B",
-    "explanation": "内质网膜蛋白C端含有KKXX回收信号，其受体是COPI的α和β亚基，促进膜蛋白返回内质网。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 55,
-    "type": "choice",
-    "question": "KDEL受体主要定位在？",
-    "options": {
-      "A": "内质网膜",
-      "B": "高尔基体TGN区及COPI/COPII膜泡膜上",
-      "C": "细胞膜",
-      "D": "线粒体膜"
-    },
-    "answer": "B",
-    "explanation": "KDEL受体主要定位在高尔基体TGN区（或CGN）、COPI和COPII包被膜泡的膜上，识别并结合KDEL信号实现回收。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 56,
-    "type": "choice",
-    "question": "网格蛋白/接头蛋白包被膜泡的核心功能不包括？",
-    "options": {
-      "A": "介导分泌泡的形成",
-      "B": "参与受体介导的内吞泡形成",
-      "C": "介导蛋白质从内质网至高尔基体的顺向运输",
-      "D": "参与细胞内物质的分选与转运"
-    },
-    "answer": "C",
-    "explanation": "介导内质网至高尔基体顺向运输的是COPII包被膜泡，而网格蛋白包被膜泡负责高尔基体TGN区的分泌泡形成和细胞膜处的内吞泡形成。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 57,
-    "type": "choice",
-    "question": "网格蛋白/接头蛋白包被膜泡的双层包被结构中，外层和内层分别由什么组成？",
-    "options": {
-      "A": "外层-接头蛋白；内层-网格蛋白",
-      "B": "外层-网格蛋白；内层-接头蛋白复合物",
-      "C": "外层-Sec13/Sec31；内层-Sec23/Sec24",
-      "D": "外层-COPI；内层-COPII"
-    },
-    "answer": "B",
-    "explanation": "典型网格蛋白/接头蛋白包被膜泡为双层结构：外层由网格蛋白组成，内层由接头蛋白复合物组成。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 58,
-    "type": "choice",
-    "question": "纯化的网格蛋白分子具有何种结构特征？",
-    "options": {
-      "A": "双螺旋结构",
-      "B": "三腿（triskelion）结构",
-      "C": "四聚体结构",
-      "D": "球形结构"
-    },
-    "answer": "B",
-    "explanation": "纯化的网格蛋白分子呈三腿结构（triskelion），每个分支包含一条重链和一条轻链。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 59,
-    "type": "choice",
-    "question": "介导网格蛋白/接头蛋白包被膜泡从供体膜断裂的关键蛋白是？",
-    "options": {
-      "A": "ARF",
-      "B": "Sar1",
-      "C": "发动蛋白（Dynamin）",
-      "D": "Rab"
-    },
-    "answer": "C",
-    "explanation": "发动蛋白（Dynamin）具有GTP酶活性，围绕膜泡颈部聚合，水解GTP释放能量驱动膜泡断裂释放。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 60,
-    "type": "choice",
-    "question": "发动蛋白断裂膜泡的机制依赖于？",
-    "options": {
-      "A": "ATP水解供能",
-      "B": "GTP水解供能",
-      "C": "Ca²⁺信号",
-      "D": "蛋白磷酸化"
-    },
-    "answer": "B",
-    "explanation": "发动蛋白通过催化GTP水解释放能量，驱动自身构象改变，最终导致膜泡从供体膜断裂并释放。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 61,
-    "type": "choice",
-    "question": "网格蛋白包被膜泡脱包被的能量来源于？",
-    "options": {
-      "A": "GTP水解",
-      "B": "ATP水解（Hsp70驱动）",
-      "C": "质子梯度",
-      "D": "不需要能量"
-    },
-    "answer": "B",
-    "explanation": "胞质内Hsp70蛋白（组成型分子伴侣）驱动ATP水解，为包被去组装供能。此外ARF从GTP→GDP的转换也调控脱包被。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 62,
-    "type": "choice",
-    "question": "发动蛋白依赖的断裂机制是哪种包被膜泡的特点？",
-    "options": {
-      "A": "COPII",
-      "B": "COPI",
-      "C": "网格蛋白/接头蛋白",
-      "D": "以上全部"
-    },
-    "answer": "C",
-    "explanation": "GTP酶依赖的断裂机制是网格蛋白包被膜泡的特点，尚未发现GTP酶以类似方式参与COPI和COPII包被膜泡的断裂。",
-    "difficulty": 3,
-    "tags": []
-  },
-  {
-    "id": 63,
-    "type": "choice",
-    "question": "将网格蛋白连接到质膜上的蛋白是？",
-    "options": {
-      "A": "发动蛋白",
-      "B": "网格蛋白本身",
-      "C": "接头蛋白复合物",
-      "D": "Rab蛋白"
-    },
-    "answer": "C",
-    "explanation": "接头蛋白复合物的功能之一是连接作用，将网格蛋白网格包被连接到质膜上。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 64,
-    "type": "choice",
-    "question": "AP复合物是？",
-    "options": {
-      "A": "同四聚体",
-      "B": "异四聚体",
-      "C": "同二聚体",
-      "D": "单体蛋白"
-    },
-    "answer": "B",
-    "explanation": "AP1、AP2、AP3均为异四聚体，每种复合物包含4种不同的接头蛋白亚基各一个拷贝。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 65,
-    "type": "choice",
-    "question": "介导转运膜泡与靶膜锚定的关键蛋白是？",
-    "options": {
-      "A": "SNARE蛋白",
-      "B": "Rab蛋白（小分子GTP结合蛋白）",
-      "C": "发动蛋白",
-      "D": "网格蛋白"
-    },
-    "answer": "B",
-    "explanation": "Rab蛋白是小分子GTP结合蛋白，属于GTP酶超家族成员，通过GTP/GDP转换调控膜泡与靶膜的锚定。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 66,
-    "type": "choice",
-    "question": "Rab-GTP锚定在转运膜泡上的方式是通过？",
-    "options": {
-      "A": "共价键连接到膜蛋白上",
-      "B": "其类异戊二烯基团插入膜泡膜中",
-      "C": "与网格蛋白结合",
-      "D": "直接穿过膜脂双层"
-    },
-    "answer": "B",
-    "explanation": "Rab-GTP构象改变后，通过其共价连接的类异戊二烯基团插入转运膜泡膜中，从而结合在膜泡表面。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 67,
-    "type": "choice",
-    "question": "Rab-GDP转换为Rab-GTP的催化因子是？",
-    "options": {
-      "A": "GAP（GTP酶激活蛋白）",
-      "B": "GEF（鸟苷酸交换因子）",
-      "C": "Sar1",
-      "D": "Sec12"
-    },
-    "answer": "B",
-    "explanation": "鸟苷酸交换因子（GEF）催化Rab-GDP转换为Rab-GTP，引发Rab构象改变并锚定到膜泡上。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 68,
-    "type": "choice",
-    "question": "介导转运膜泡与靶膜融合的主要蛋白对是？",
-    "options": {
-      "A": "Rab/Rab效应器",
-      "B": "v-SNARE/t-SNARE",
-      "C": "ARF/GEF",
-      "D": "COPII/COPI"
-    },
-    "answer": "B",
-    "explanation": "转运膜泡的v-SNARE识别并结合靶膜的t-SNARE，形成稳定的SNARE四螺旋束复合体，驱动膜融合。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 69,
-    "type": "choice",
-    "question": "SNARE复合体融合后解离需要的能量来源于？",
-    "options": {
-      "A": "GTP水解",
-      "B": "ATP水解",
-      "C": "质子驱动力",
-      "D": "Ca²⁺内流"
-    },
-    "answer": "B",
-    "explanation": "SNARE复合体解离需要消耗ATP水解提供的能量，释放的SNARE蛋白亚基可循环用于其他融合事件。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 70,
-    "type": "choice",
-    "question": "脱包被使膜泡上的v-SNARE暴露，其生理意义是？",
-    "options": {
-      "A": "使膜泡更容易被降解",
-      "B": "为后续膜泡与靶膜的融合做好准备",
-      "C": "促进膜泡逆向运输",
-      "D": "防止膜泡过早融合"
-    },
-    "answer": "B",
-    "explanation": "脱包被使v-SNARE得以暴露在膜泡表面，为后续与靶膜上的t-SNARE配对融合做好准备。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 71,
-    "type": "choice",
-    "question": "ARF蛋白参与了哪两种包被膜泡的装配调控？",
-    "options": {
-      "A": "COPII和COPI",
-      "B": "COPI和网格蛋白/接头蛋白",
-      "C": "COPII和网格蛋白/接头蛋白",
-      "D": "仅COPI"
-    },
-    "answer": "B",
-    "explanation": "ARF参与COPI包被膜泡的装配与去装配，也参与网格蛋白包被膜泡的装配调节。COPII中使用的是Sar1。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 72,
-    "type": "choice",
-    "question": "下列关于三种包被膜泡GTP结合蛋白的配对，正确的是？",
-    "options": {
-      "A": "COPII-ARF；COPI-Sar1；网格蛋白-Rab",
-      "B": "COPII-Sar1；COPI-ARF；网格蛋白-ARF",
-      "C": "COPII-Rab；COPI-ARF；网格蛋白-Sar1",
-      "D": "COPII-ARF；COPI-Rab；网格蛋白-Sar1"
-    },
-    "answer": "B",
-    "explanation": "COPII使用Sar1作为GTP结合蛋白；COPI使用ARF（大部分情况下）；网格蛋白包被膜泡也使用ARF（大部分情况下）。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 73,
-    "type": "choice",
-    "question": "COPII包被膜泡与网格蛋白/接头蛋白包被膜泡在装配起始上的共同点是？",
-    "options": {
-      "A": "均由Rab蛋白启动",
-      "B": "均由小分子GTP结合蛋白启动",
-      "C": "均由发动蛋白启动",
-      "D": "均不需要GTP结合蛋白"
-    },
-    "answer": "B",
-    "explanation": "COPII的装配由Sar1启动，网格蛋白/接头蛋白包被的装配由ARF启动，两者均为小分子GTP结合蛋白。COPI也由ARF启动。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 74,
-    "type": "truefalse",
-    "question": "蛋白质分选仅发生在真核细胞中，原核细胞中不存在蛋白质的定向转运。",
-    "answer": "true",
-    "explanation": "原核细胞也有蛋白质分选机制，但本章讨论的均为核基因编码的蛋白质分选，主要针对真核细胞。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 75,
-    "type": "truefalse",
-    "question": "所有核基因编码的蛋白质均在细胞质基质游离核糖体上合成。",
-    "answer": "false",
-    "explanation": "核基因编码的蛋白质合成场所分为两类：细胞质基质中的游离核糖体（翻译后转运）和糙面内质网膜结合的核糖体（共翻译转运）。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 76,
-    "type": "truefalse",
-    "question": "共翻译转运途径中，蛋白质合成完全结束后才开始转运。",
-    "answer": "false",
-    "explanation": "共翻译转运是边合成边转运的方式，合成开始后即启动转运过程。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 77,
-    "type": "truefalse",
-    "question": "翻译后转运的蛋白质在转运时不依赖于任何信号序列。",
-    "answer": "false",
-    "explanation": "翻译后转运也依赖于信号序列（统称为导肽），如线粒体蛋白依赖N端导肽，叶绿体蛋白依赖转运肽等。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 78,
-    "type": "truefalse",
-    "question": "SRP与SRP受体的结合不需要GTP参与。",
-    "answer": "false",
-    "explanation": "2分子GTP分别结合SRP-p54亚基和SRP受体α亚基，强化复合物间的相互作用。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 79,
-    "type": "truefalse",
-    "question": "内质网腔内的信号肽酶负责切除信号肽。",
-    "answer": "false",
-    "explanation": "信号肽酶定位在内质网膜面（胞质面），切除信号肽后立即将其降解，并非定位在内质网腔内。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 80,
-    "type": "truefalse",
-    "question": "跨膜蛋白的跨膜区均由20~25个疏水氨基酸残基形成α-螺旋。",
-    "answer": "true",
-    "explanation": "这是内质网膜整合蛋白跨膜区的共同特征。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 81,
-    "type": "truefalse",
-    "question": "带正电荷的氨基酸残基一侧通常朝向内质网腔。",
-    "answer": "false",
-    "explanation": "带正电荷的氨基酸残基一侧通常朝向细胞质基质，这决定了跨膜蛋白的拓扑取向。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 82,
-    "type": "truefalse",
-    "question": "翻译后转运过程不需要分子伴侣的协助。",
-    "answer": "false",
-    "explanation": "翻译后转运需要分子伴侣（如Hsp70）协助，使蛋白质保持非折叠或部分折叠状态以穿过膜输入装置。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 83,
-    "type": "truefalse",
-    "question": "翻译后转运需要消耗能量。",
-    "answer": "true",
-    "explanation": "翻译后转运过程需要ATP提供能量，分子伴侣Hsp70水解ATP驱动蛋白质转运。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 84,
-    "type": "truefalse",
-    "question": "线粒体和叶绿体的蛋白质转运机制完全相同。",
-    "answer": "false",
-    "explanation": "两者虽有相似之处，但叶绿体不产生跨内膜的电化学梯度，ATP是其几乎唯一的动力来源，而线粒体可利用内膜电化学梯度。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 85,
-    "type": "truefalse",
-    "question": "COPII包被膜泡介导从高尔基体到内质网的逆向运输。",
-    "answer": "false",
-    "explanation": "COPII介导顺向运输（内质网→高尔基体），COPI介导逆向运输（高尔基体→内质网）。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 86,
-    "type": "truefalse",
-    "question": "COPI包被膜泡运输是COPII的补充，本质上是一种纠错机制。",
-    "answer": "true",
-    "explanation": "COPI将本不应被COPII转运的逃逸蛋白回收至内质网，是细胞维持内膜系统蛋白质组分的关键纠错机制。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 87,
-    "type": "truefalse",
-    "question": "内质网可溶性驻留蛋白的回收信号KKXX位于C端。",
-    "answer": "false",
-    "explanation": "内质网可溶性驻留蛋白的回收信号是KDEL（C端），内质网膜蛋白的回收信号才是KKXX（C端）。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 88,
-    "type": "truefalse",
-    "question": "发动蛋白依赖GTP水解使膜泡从供体膜断裂。",
-    "answer": "true",
-    "explanation": "发动蛋白具有GTP酶活性，围绕膜泡颈部聚合，水解GTP驱动膜泡断裂。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 89,
-    "type": "truefalse",
-    "question": "COPII和COPI包被膜泡的断裂也依赖于发动蛋白。",
-    "answer": "false",
-    "explanation": "发动蛋白依赖的GTP酶断裂机制是网格蛋白包被膜泡的特点，尚未发现以类似方式参与COPI和COPII的断裂。",
-    "difficulty": 3,
-    "tags": []
-  },
-  {
-    "id": 90,
-    "type": "truefalse",
-    "question": "Rab蛋白与Sar1和ARF属于同一蛋白超家族。",
-    "answer": "true",
-    "explanation": "Rab、Sar1和ARF均为小分子GTP结合蛋白，同属GTP酶超家族成员，均具有分子开关调控功能。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 91,
-    "type": "truefalse",
-    "question": "膜泡脱包被后暴露的v-SNARE用于与靶膜上的t-SNARE配对融合。",
-    "answer": "true",
-    "explanation": "脱包被使v-SNARE在膜泡表面暴露，为后续与靶膜t-SNARE的特异性配对和膜融合做好准备。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 92,
-    "type": "truefalse",
-    "question": "膜泡运输仅存在于具有内膜系统的真核细胞中。",
-    "answer": "true",
-    "explanation": "膜泡运输是真核细胞内膜系统的特有运输方式，由内膜系统细胞器出芽形成转运囊泡。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 93,
-    "type": "truefalse",
-    "question": "KDEL受体仅定位在高尔基体的TGN区。",
-    "answer": "false",
-    "explanation": "KDEL受体主要定位在高尔基体TGN区（或CGN），以及COPI和COPII包被膜泡的膜上。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 94,
-    "type": "multi",
-    "question": "下列关于翻译后转运途径的正确描述有？",
-    "options": {
-      "A": "在细胞质基质游离核糖体上完成多肽链的合成",
-      "B": "转运至线粒体、叶绿体、过氧化物酶体及细胞核",
-      "C": "部分蛋白质成为细胞质基质中的可溶性驻留蛋白",
-      "D": "依赖N端信号肽和SRP引导至内质网",
-      "E": "转运过程需要分子伴侣和ATP"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：翻译后转运不依赖SRP和内质网，而是依靠导肽等信号序列直接靶向相应细胞器。翻译后转运在游离核糖体上完成合成后转运至线粒体、叶绿体、过氧化物酶体、细胞核或留在细胞质基质中，需要分子伴侣和ATP。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 95,
-    "type": "multi",
-    "question": "共翻译转运途径的蛋白质最终可定位于？",
-    "options": {
-      "A": "分泌至胞外",
-      "B": "细胞膜",
-      "C": "内质网腔（驻留蛋白）",
-      "D": "线粒体基质",
-      "E": "高尔基体和溶酶体（腔/膜）"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：线粒体基质蛋白经翻译后转运途径。共翻译转运途径的蛋白质可定位于胞外（分泌蛋白）、细胞膜（及内膜系统膜）、内质网腔/高尔基体/溶酶体（驻留蛋白和膜蛋白）。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 96,
-    "type": "multi",
-    "question": "下列关于信号肽的正确描述有？",
-    "options": {
-      "A": "一般由16~26个氨基酸残基组成",
-      "B": "位于蛋白质的N端",
-      "C": "N端和C端含有疏水氨基酸",
-      "D": "中部含有疏水氨基酸核心区",
-      "E": "C端和N端的3个氨基酸残基分别为碱性和极性氨基酸"
-    },
-    "answer": "ABDE",
-    "explanation": "C错误：疏水氨基酸核心区在信号肽中部，N端含碱性氨基酸，C端含极性氨基酸。A、B、D、E均为正确描述。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 97,
-    "type": "multi",
-    "question": "以下哪些因子是共翻译转运所必需的？",
-    "options": {
-      "A": "信号肽",
-      "B": "SRP",
-      "C": "SRP受体（停靠蛋白）",
-      "D": "分子伴侣Hsp70",
-      "E": "移位子"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：分子伴侣Hsp70主要参与翻译后转运（如线粒体转运）。共翻译转运必需的因子包括信号肽、SRP、SRP受体和移位子，还涉及GTP和信号肽酶。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 98,
-    "type": "multi",
-    "question": "下列关于线粒体蛋白质转运的正确描述有？",
-    "options": {
-      "A": "前体蛋白需与Hsp70结合保持非折叠状态",
-      "B": "外膜上的Tom20/22为输入受体",
-      "C": "外膜上的输入通道为Tom40",
-      "D": "内膜上的转运通道为Tim23/17",
-      "E": "线粒体蛋白质转运完全不需要ATP"
-    },
-    "answer": "ABCD",
-    "explanation": "E错误：线粒体蛋白质转运需要ATP，由基质Hsp70水解ATP驱动。A、B、C、D均为线粒体蛋白质转运的正确描述。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 99,
-    "type": "multi",
-    "question": "下列哪些属于COPII包被蛋白的组分？",
-    "options": {
-      "A": "Sar1",
-      "B": "Sec23/Sec24复合体",
-      "C": "Sec13/Sec31复合体",
-      "D": "ARF",
-      "E": "Sec16"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：ARF是COPI和网格蛋白包被膜泡中的GTP结合蛋白，不是COPII的组分。COPII的组分包括Sar1、Sec23/Sec24、Sec13/Sec31和Sec16。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 100,
-    "type": "multi",
-    "question": "COPI包被膜泡运输的货物包括？",
-    "options": {
-      "A": "再循环的膜脂双层",
-      "B": "内质网驻留的可溶性蛋白（含KDEL序列）",
-      "C": "新合成的分泌蛋白",
-      "D": "内质网驻留的膜蛋白（含KKXX序列）",
-      "E": "错误分选的逃逸蛋白"
-    },
-    "answer": "ABDE",
-    "explanation": "C错误：新合成的分泌蛋白由COPII顺向运输。COPI逆向运输的货物包括膜脂双层、含KDEL的可溶性驻留蛋白、含KKXX的膜驻留蛋白以及逃逸蛋白。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 101,
-    "type": "multi",
-    "question": "下列关于KDEL信号序列的正确描述有？",
-    "options": {
-      "A": "位于内质网可溶性驻留蛋白的C端",
-      "B": "由4个氨基酸残基（赖-天冬-谷-亮）组成",
-      "C": "受体主要定位在高尔基体TGN区",
-      "D": "受体也存在于COPI和COPII膜泡膜上",
-      "E": "KKXX信号与KDEL信号的受体相同"
-    },
-    "answer": "ABCD",
-    "explanation": "E错误：KKXX信号（内质网膜蛋白）的受体是COPI的α和β亚基，与KDEL信号受体不同。A、B、C、D均为KDEL的正确描述。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 102,
-    "type": "multi",
-    "question": "网格蛋白/接头蛋白包被膜泡中，接头蛋白复合物的功能包括？",
-    "options": {
-      "A": "将网格蛋白网格包被连接到质膜上",
-      "B": "促使膜结合蛋白富集到包被膜区",
-      "C": "增加已装配包被的稳定性",
-      "D": "水解GTP驱动膜泡断裂",
-      "E": "结合被转运蛋白的分选信号，决定蛋白的包装或排除"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：水解GTP驱动膜泡断裂的是发动蛋白（Dynamin），而非接头蛋白。A、B、C、E均为接头蛋白复合物的功能。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 103,
-    "type": "multi",
-    "question": "下列关于膜泡脱包被的正确描述有？",
-    "options": {
-      "A": "膜泡形成后不久即发生包被解聚",
-      "B": "ARF从GTP状态转变为GDP状态调控脱包被",
-      "C": "Hsp70驱动ATP水解为去组装供能",
-      "D": "脱包被后释放的包被蛋白不可再利用",
-      "E": "脱包被使v-SNARE暴露，为膜融合做好准备"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：脱包被释放出的三腿网格蛋白可被循环再利用。A、B、C、E均为正确的脱包被描述。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 104,
-    "type": "multi",
-    "question": "下列关于SNARE蛋白的正确描述有？",
-    "options": {
-      "A": "v-SNARE位于转运膜泡上",
-      "B": "t-SNARE位于靶膜上",
-      "C": "v-SNARE与t-SNARE特异性配对形成四螺旋束复合体",
-      "D": "SNARE复合体的稳定性依靠大量非共价键维系",
-      "E": "融合后SNARE复合体解离不需要消耗能量"
-    },
-    "answer": "ABCD",
-    "explanation": "E错误：SNARE复合体融合后解离需要消耗ATP水解提供的能量。A、B、C、D均为SNARE蛋白的正确描述。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 105,
-    "type": "multi",
-    "question": "以下哪些蛋白属于小分子GTP结合蛋白（GTP酶超家族成员）？",
-    "options": {
-      "A": "Sar1",
-      "B": "ARF",
-      "C": "Rab",
-      "D": "Sec16",
-      "E": "发动蛋白（Dynamin）"
-    },
-    "answer": "ABCE",
-    "explanation": "D错误：Sec16是大的纤维蛋白，不属于GTP酶超家族。Sar1（COPII）、ARF（COPI和网格蛋白）、Rab（锚定）和发动蛋白（膜泡断裂）均为GTP结合蛋白，其中Sar1、ARF、Rab和发动蛋白均具有GTP酶活性。",
-    "difficulty": 2,
-    "tags": []
-  },
-  {
-    "id": 106,
-    "type": "multi",
-    "question": "膜泡运输的生理意义包括？",
-    "options": {
-      "A": "实现蛋白质在内膜系统各区室间的高效转运和分选",
-      "B": "维持各细胞器独特的蛋白质组成和功能特异性",
-      "C": "支持细胞分泌活动（如激素释放、神经递质释放）",
-      "D": "介导细胞对外界物质的摄入（内吞）",
-      "E": "是生物合成途径中膜流维持动态平衡的基础"
-    },
-    "answer": "ABCDE",
-    "explanation": "A、B、C、D、E全部正确。膜泡运输是内膜系统蛋白质分选的核心方式，维持细胞器特异性，支持胞吐和胞吞，是膜流动态平衡的基础。",
-    "difficulty": 1,
-    "tags": []
-  },
-  {
-    "id": 107,
-    "type": "short",
-    "question": "简述共翻译转运途径的基本过程。",
-    "answer": "共翻译转运是边合成边转运的蛋白质分选方式：①在游离核糖体上起始合成，约80个氨基酸残基时N端信号肽暴露，与SRP结合使肽链延伸暂停；②SRP与内质网膜SRP受体结合，核糖体-新生肽复合物锚定至内质网膜（2分子GTP强化结合）；③核糖体-新生肽复合物与移位子结合，SRP解离回收，肽链延伸恢复；④环化信号肽引导肽链以袢环形式进入内质网腔（耗能）；⑤信号肽酶切除信号肽并降解；⑥肽链合成完成并在内质网腔中折叠；⑦核糖体释放，移位子关闭。",
-    "difficulty": 2,
-    "explanation": "共翻译转运边合成边穿过内质网膜，依赖信号肽-SRP系统将新生肽链靶向至内质网腔进行折叠加工。",
-    "tags": []
-  },
-  {
-    "id": 108,
-    "type": "short",
-    "question": "比较翻译后转运途径与共翻译转运途径的主要区别。",
-    "answer": "①合成场所不同：翻译后转运在细胞质基质游离核糖体上完成全部合成，共翻译转运起始于游离核糖体但大部分在附着核糖体上进行；②转运时机不同：翻译后转运是合成后转运，共翻译转运是边合成边转运；③靶向部位不同：翻译后转运主要去向线粒体、叶绿体、过氧化物酶体、细胞核及细胞质基质，共翻译转运主要去向内质网-高尔基体-细胞膜/胞外/溶酶体方向；④信号序列不同：翻译后转运依赖导肽（N端导肽、转运肽等），共翻译转运依赖信号肽和SRP系统。",
-    "difficulty": 2,
-    "explanation": "翻译后转运在细胞质基质完成合成后再转入细胞器，共翻译转运边合成边转入内质网，两条途径方向不同。",
-    "tags": []
-  },
-  {
-    "id": 109,
-    "type": "short",
-    "question": "简述信号假说的主要内容和意义。",
-    "answer": "信号假说由Blobel和Sabatini提出：①分泌蛋白N端携带一段短信号序列（信号肽），该序列在翻译后暴露并结合相关因子（SRP）；②SRP识别信号肽后暂停肽链延伸，引导核糖体-新生肽复合物转移至内质网膜上的SRP受体；③核糖体-新生肽与内质网膜移位子结合后，SRP解离，肽链继续合成并进入内质网腔。信号假说揭示了蛋白质分选的分子基础，为共翻译转运机制提供了理论框架。",
-    "difficulty": 2,
-    "explanation": "信号假说由Blobel提出，认为分泌蛋白N端信号肽被SRP识别后引导核糖体-新生肽复合物定位于内质网膜。",
-    "tags": []
-  },
-  {
-    "id": 110,
-    "type": "short",
-    "question": "简述蛋白质在细胞内转运的四种基本机制。",
-    "answer": "①跨膜转运：蛋白质直接穿过细胞器膜的蛋白转运通道，如共翻译转运中蛋白质进入内质网腔以及翻译后转运中进入线粒体、叶绿体等；②膜泡运输：蛋白质被包裹在转运膜泡中，从供体膜出芽形成膜泡，运至靶膜并融合释放，是内膜系统间的主要转运方式；③选择性门控转运：蛋白质通过核孔复合体在核-质间双向选择性转运；④细胞质基质转运：与细胞骨架系统密切相关，上述几种转运机制均涉及蛋白质在细胞质基质中的运动。",
-    "difficulty": 2,
-    "explanation": "蛋白质在胞内通过跨膜转运、膜泡运输、选择性门控转运和细胞质基质转运四种基本机制实现定向分选。",
-    "tags": []
-  },
-  {
-    "id": 111,
-    "type": "short",
-    "question": "简述COPII包被膜泡的装配过程。",
-    "answer": "①Sar1-GDP在Sec12（鸟苷酸交换因子）催化下置换为Sar1-GTP，构象改变暴露疏水N端插入ER膜，起募集者作用；②Sar1-GTP提供Sec23/Sec24复合物的结合位点，形成三重复合物；③Sec13/Sec31与三重复合物结合，Sec13/Sec31自组装形成网格骨架，Sec16结合在ER膜胞质面提高聚合效率；④Sec23亚基促进GTP水解，Sar1-GDP从膜泡释放，引发COPII包被去装配解聚；⑤去装配后包被蛋白可循环再利用。",
-    "difficulty": 2,
-    "explanation": "COPII膜泡装配由Sar1-GTP启动并募集Sec23/Sec24和Sec13/Sec31复合物，GTP水解后包被解聚回收再利用。",
-    "tags": []
-  },
-  {
-    "id": 112,
-    "type": "short",
-    "question": "简述内质网驻留蛋白的保留与回收机制。",
-    "answer": "内质网驻留蛋白通过两种机制维持定位：①有效排斥：转运膜泡将驻留蛋白有效排斥在外，如驻留蛋白形成大复合物无法被包装进COPII膜泡；②回收机制：对误包装入COPII膜泡的逃逸蛋白，通过回收信号介导的逆运输将其返回内质网——可溶性驻留蛋白（如分子伴侣、PDI）C端含KDEL信号，被高尔基体TGN区的KDEL受体识别，经COPI膜泡回收；膜驻留蛋白（如SRP受体）C端含KKXX信号，被COPI的α/β亚基识别回收。",
-    "difficulty": 2,
-    "explanation": "内质网驻留蛋白通过形成大复合物被物理排阻，逃逸蛋白通过KDEL或KKXX回收信号经COPI膜泡逆向运输返回。",
-    "tags": []
-  },
-  {
-    "id": 113,
-    "type": "short",
-    "question": "比较COPII、COPI和网格蛋白/接头蛋白三种包被膜泡的异同。",
-    "answer": "①运输方向：COPII介导顺向运输（内质网→高尔基体）；COPI介导逆向运输（高尔基体→内质网，及高尔基体膜囊间）；网格蛋白介导TGN→细胞膜/内体/溶酶体以及内吞泡形成。②GTP结合蛋白：COPII使用Sar1；COPI使用ARF；网格蛋白包被膜泡也主要使用ARF。③包被组成：COPII含Sec23/24、Sec13/31、Sec16；COPI含7种亚基；网格蛋白包被为双层结构（外层网格蛋白+内层接头蛋白）。④断裂机制：网格蛋白依赖发动蛋白GTP酶断裂，COPII和COPI不依赖此机制。⑤共性：均涉及供体膜出芽、膜泡形成、运输、与靶膜融合等过程。",
-    "difficulty": 2,
-    "explanation": "COPII介导ER→高尔基体顺向运输，COPI介导逆向运输，网格蛋白介导TGN出芽运输和内吞泡形成。",
-    "tags": []
-  },
-  {
-    "id": 114,
-    "type": "short",
-    "question": "简述转运膜泡与靶膜锚定与融合的分子机制。",
-    "answer": "锚定机制：①Rab蛋白在GEF催化下从Rab-GDP转换为Rab-GTP，构象改变；②Rab-GTP通过类异戊二烯基团插入膜泡膜中；③Rab-GTP与靶膜上的Rab效应器结合，使膜泡锚定在靶膜上；④融合后Rab-GTP水解为Rab-GDP并从膜泡释放。融合机制：①膜泡上的v-SNARE与靶膜上的t-SNARE特异性配对；②形成稳定的SNARE四螺旋束复合体，拉近两层膜并驱动融合；③融合完成后消耗ATP使SNARE复合体解离，SNARE亚基可循环利用。",
-    "difficulty": 2,
-    "explanation": "转运膜泡通过Rab-GTP锚定至靶膜，v-SNARE与t-SNARE特异性配对形成四螺旋束复合体驱动膜融合。",
-    "tags": []
-  },
-  {
-    "id": 115,
-    "type": "short",
-    "question": "简述分子伴侣在蛋白质翻译后转运中的作用。",
-    "answer": "翻译后转运中的分子伴侣主要功能：①维持蛋白非折叠态：细胞质基质中Hsp70与新合成的前体蛋白结合，使其保持非折叠或部分折叠状态，便于穿过膜输入通道；②驱动转运：线粒体基质中Hsp70与进入的蛋白质结合并水解ATP，利用ATP水解释放的能量拉动蛋白质穿过膜通道进入基质；③协助折叠：蛋白质进入细胞器后，分子伴侣（如线粒体中的Hsp60/GroEL）协助其正确折叠为活性构象。此外，膜间隙中的Tim9/Tim10也起分子伴侣作用协助蛋白质转运。",
-    "difficulty": 2,
-    "explanation": "分子伴侣维持前体蛋白非折叠态以便穿过膜通道，并利用ATP水解驱动蛋白转运和协助进入细胞器后正确折叠。",
-    "tags": []
-  },
-  {
-    "id": 116,
-    "type": "short",
-    "question": "简述网格蛋白/接头蛋白包被膜泡的形成过程（从装配到脱包被）。",
-    "answer": "①起始装配：ARF在小G蛋白调控下启动网格蛋白/接头蛋白包被的起始装配；②聚合：网格蛋白在供体膜上聚合，募集接头蛋白复合物结合至膜胞质面，共同驱动膜出芽；③货物分选：接头蛋白结合被转运蛋白的分选信号，决定蛋白的包装或排除；④膜泡断裂：发动蛋白（Dynamin）围绕膜泡颈部聚合，催化GTP水解驱动构象改变，使膜泡从供体膜断裂释放；⑤脱包被：膜泡形成后不久，ARF-GTP→ARF-GDP转换，Hsp70驱动ATP水解为去组装供能，外层网格蛋白和内层接头蛋白解聚，释放的包被蛋白可循环再利用。",
-    "difficulty": 2,
-    "explanation": "网格蛋白膜泡形成经历ARF起始→网格蛋白/接头蛋白聚合→发动蛋白断裂→ARF-GDP触发脱包被四个阶段。",
-    "tags": []
-  },
-  {
-    "id": 117,
-    "type": "short",
-    "question": "简述膜泡运输的生理意义。",
-    "answer": "①实现蛋白质在内膜系统各区室间高效有序的转运和分选，是内膜系统蛋白质运输的核心方式；②维持各细胞器独特的蛋白质组成和功能特异性——尽管膜泡在细胞器间不断流动，但各细胞器通过回收信号维持自身蛋白组分；③支持细胞分泌活动（如激素释放、神经递质释放）和细胞对外界物质的摄入（受体介导内吞），是细胞与外界物质交换的基础；④生物合成途径中维持膜流的动态平衡，使细胞膜和各细胞器膜的面积和组成保持稳定。",
-    "difficulty": 1,
-    "explanation": "膜泡运输实现内膜系统间蛋白质高效有序分选，维持各细胞器蛋白组特异性，支撑分泌和内吞等活动。",
-    "tags": []
-  },
-  {
-    "id": 118,
-    "type": "short",
-    "question": "真核细胞如何确保内质网驻留蛋白不被COPII膜泡大量带入高尔基体？",
-    "answer": "通过双重机制：①物理排阻——驻留蛋白在ER腔中可形成大的多亚基复合物，其尺寸过大无法被COPII膜泡包装；②信号回收——即使少量驻留蛋白被误包装为逃逸蛋白进入COPII膜泡到达高尔基体，也会通过回收信号（可溶性蛋白的KDEL、膜蛋白的KKXX）被相应受体识别，经COPI膜泡逆向运输回内质网。此外，COPII包被本身具有选择性，依赖Sec24识别正确的分选信号（如二酸信号Asp-X-Glu），提高了运输的特异性。",
-    "difficulty": 3,
-    "explanation": "内质网驻留蛋白通过形成超大复合物被物理排阻，逃逸蛋白通过KDEL/KKXX信号经COPI逆向回收回内质网。",
-    "tags": []
-  }
+ {
+  "id": 1,
+  "type": "choice",
+  "question": "蛋白质合成后必须转运到特定部位才能参与细胞结构组装并发挥生物学功能，这一过程称为？",
+  "options": {
+   "A": "蛋白质折叠",
+   "B": "蛋白质修饰",
+   "C": "蛋白质分选（靶向转运）",
+   "D": "蛋白质降解"
+  },
+  "answer": "C",
+  "explanation": "蛋白质分选（又称蛋白质靶向转运）是指蛋白质合成后转运到特定部位的过程，是细胞维持正常结构和功能的基础。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 2,
+  "type": "choice",
+  "question": "真核细胞中绝大多数蛋白质由什么基因编码？",
+  "options": {
+   "A": "线粒体基因",
+   "B": "叶绿体基因",
+   "C": "核基因",
+   "D": "质粒基因"
+  },
+  "answer": "C",
+  "explanation": "真核细胞中除少量蛋白质在线粒体和叶绿体内合成外，绝大多数蛋白质由核基因编码，在细胞质基质核糖体上合成后再分选至特定部位。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 3,
+  "type": "choice",
+  "question": "细胞质基质中游离核糖体合成的蛋白质，其转运方式为？",
+  "options": {
+   "A": "共翻译转运",
+   "B": "翻译后转运",
+   "C": "膜泡运输",
+   "D": "门控转运"
+  },
+  "answer": "B",
+  "explanation": "游离核糖体上合成的蛋白质采用翻译后转运途径，即先在细胞质基质中完成多肽链合成，再转运至靶细胞器。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 4,
+  "type": "choice",
+  "question": "糙面内质网膜结合的核糖体合成的蛋白质，其转运方式为？",
+  "options": {
+   "A": "共翻译转运途径",
+   "B": "翻译后转运途径",
+   "C": "跨膜转运",
+   "D": "选择性的门控转运"
+  },
+  "answer": "A",
+  "explanation": "附着核糖体合成的蛋白质采用共翻译转运途径，边合成边转入内质网腔或定位在ER膜上。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 5,
+  "type": "choice",
+  "question": "翻译后转运途径的蛋白质合成场所是？",
+  "options": {
+   "A": "糙面内质网附着核糖体",
+   "B": "细胞质基质游离核糖体",
+   "C": "线粒体核糖体",
+   "D": "高尔基体"
+  },
+  "answer": "B",
+  "explanation": "翻译后转运途径的蛋白质在细胞质基质游离核糖体上完成合成，再转运至膜围绕的细胞器。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 6,
+  "type": "choice",
+  "question": "共翻译转运途径的蛋白质转运特点是？",
+  "options": {
+   "A": "合成完成后转运",
+   "B": "边合成边转运",
+   "C": "不需要信号序列",
+   "D": "直接通过核孔转运"
+  },
+  "answer": "B",
+  "explanation": "共翻译转运途径是边合成边转运的方式，肽链延伸的同时进入内质网腔或插入内质网膜。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 7,
+  "type": "choice",
+  "question": "下列哪种蛋白质不经过共翻译转运途径分选？",
+  "options": {
+   "A": "分泌蛋白",
+   "B": "细胞膜蛋白",
+   "C": "线粒体基质蛋白",
+   "D": "溶酶体酶"
+  },
+  "answer": "C",
+  "explanation": "线粒体基质蛋白在细胞质基质游离核糖体上合成后通过翻译后转运进入线粒体，属于翻译后转运途径。分泌蛋白、细胞膜蛋白、溶酶体酶均经过共翻译转运途径。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 8,
+  "type": "choice",
+  "question": "下列细胞器中，哪一组完全依赖翻译后转运途径接受蛋白质？",
+  "options": {
+   "A": "内质网、高尔基体",
+   "B": "线粒体、叶绿体、过氧化物酶体",
+   "C": "溶酶体、内体",
+   "D": "细胞膜、分泌泡"
+  },
+  "answer": "B",
+  "explanation": "线粒体、叶绿体和过氧化物酶体都是通过翻译后转运途径接受细胞质基质中合成的蛋白质。内质网-高尔基体系统通过共翻译转运途径。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 9,
+  "type": "choice",
+  "question": "共翻译转运途径主要涉及哪些转运机制？",
+  "options": {
+   "A": "仅跨膜转运",
+   "B": "跨膜转运和膜泡运输",
+   "C": "仅膜泡运输",
+   "D": "门控转运和跨膜转运"
+  },
+  "answer": "B",
+  "explanation": "共翻译转运途径主要有跨膜转运（内质网方向）和膜泡运输（内质网→高尔基体→靶部位）两种机制。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 10,
+  "type": "choice",
+  "question": "翻译后转运途径中，蛋白质从细胞质基质转运至细胞核的机制是？",
+  "options": {
+   "A": "跨膜转运",
+   "B": "膜泡运输",
+   "C": "选择性门控转运",
+   "D": "细胞质基质转运"
+  },
+  "answer": "C",
+  "explanation": "蛋白质通过核孔复合体在核-质间双向选择性转运，属于选择性门控转运。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 11,
+  "type": "choice",
+  "question": "以下哪项不属于蛋白质在细胞内的转运机制？",
+  "options": {
+   "A": "跨膜转运",
+   "B": "膜泡运输",
+   "C": "选择性门控转运",
+   "D": "主动运输（离子泵）"
+  },
+  "answer": "D",
+  "explanation": "蛋白质的细胞内转运机制包括跨膜转运、膜泡运输、选择性门控转运和细胞质基质转运。主动运输（离子泵）属于小分子物质的跨膜转运方式。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 12,
+  "type": "choice",
+  "question": "在共翻译转运中，当多肽链延伸至约多少个氨基酸残基时，信号序列与SRP结合？",
+  "options": {
+   "A": "约20个",
+   "B": "约50个",
+   "C": "约80个",
+   "D": "约120个"
+  },
+  "answer": "C",
+  "explanation": "当多肽链延伸至约80个氨基酸残基时，N端的内质网信号序列暴露并与SRP结合，导致肽链延伸暂停。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 13,
+  "type": "choice",
+  "question": "信号假说认为分泌蛋白N端携带短信号序列，该序列的功能是？",
+  "options": {
+   "A": "促进蛋白质折叠",
+   "B": "指导核糖体转移至内质网膜并继续翻译",
+   "C": "促进蛋白质降解",
+   "D": "激活核糖体"
+  },
+  "answer": "B",
+  "explanation": "信号假说由Blobel和Sabatini提出，认为分泌蛋白N端信号序列翻译后会结合相关因子，指导核糖体转移至内质网膜并继续翻译。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 14,
+  "type": "choice",
+  "question": "SRP（信号识别颗粒）在共翻译转运中的主要功能是？",
+  "options": {
+   "A": "切除信号肽",
+   "B": "识别信号序列并暂停肽链延伸，引导核糖体-新生肽复合物至内质网膜",
+   "C": "促进蛋白质折叠",
+   "D": "水解GTP提供能量"
+  },
+  "answer": "B",
+  "explanation": "SRP识别并结合信号序列与核糖体，暂停肽链延伸，并将核糖体-新生肽复合物引导至内质网膜上的SRP受体。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 15,
+  "type": "choice",
+  "question": "在共翻译转运过程中，SRP脱离信号序列和核糖体的条件是？",
+  "options": {
+   "A": "SRP与SRP受体结合后",
+   "B": "核糖体-新生肽复合物与移位子结合后",
+   "C": "信号肽被切除后",
+   "D": "蛋白质合成完成后"
+  },
+  "answer": "B",
+  "explanation": "核糖体-新生肽复合物与内质网膜的移位子结合后，SRP脱离信号序列和核糖体，返回细胞质基质重复使用，肽链延伸恢复。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 16,
+  "type": "choice",
+  "question": "在共翻译转运中，参与强化SRP与SRP受体结合的GTP分子数量为？",
+  "options": {
+   "A": "1分子",
+   "B": "2分子",
+   "C": "3分子",
+   "D": "4分子"
+  },
+  "answer": "B",
+  "explanation": "2分子GTP分别结合SRP-p54亚基和SRP受体α亚基，强化复合物间的相互作用。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 17,
+  "type": "choice",
+  "question": "共翻译转运中，信号肽被切除的位置在？",
+  "options": {
+   "A": "细胞质基质",
+   "B": "内质网腔面",
+   "C": "高尔基体",
+   "D": "核糖体"
+  },
+  "answer": "B",
+  "explanation": "内质网腔面的信号肽酶切除信号肽并将其快速降解，信号肽不会进入内质网腔。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 18,
+  "type": "choice",
+  "question": "共翻译转运过程中，肽链是以何种构象进入内质网膜的？",
+  "options": {
+   "A": "α-螺旋构象",
+   "B": "β-折叠构象",
+   "C": "袢环（loop）形式",
+   "D": "完全伸展的线性形式"
+  },
+  "answer": "C",
+  "explanation": "呈环化构象的信号肽与移位子组分结合并打开孔道后，引导肽链以袢环（loop）形式进入内质网膜。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 19,
+  "type": "choice",
+  "question": "信号肽的氨基酸组成中，疏水核心区的主要作用是？",
+  "options": {
+   "A": "与DNA结合",
+   "B": "被信号肽酶识别并切割",
+   "C": "形成疏水核心，介导与SRP的识别结合",
+   "D": "促进核糖体组装"
+  },
+  "answer": "C",
+  "explanation": "信号肽中部的疏水氨基酸形成疏水核心区（N端和C端各含3个碱性/极性氨基酸），是SRP识别并结合的关键区域。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 20,
+  "type": "choice",
+  "question": "信号肽的长度一般为多少个氨基酸残基？",
+  "options": {
+   "A": "5~10个",
+   "B": "10~16个",
+   "C": "16~26个",
+   "D": "30~40个"
+  },
+  "answer": "C",
+  "explanation": "信号肽一般由16~26个氨基酸残基组成，包括N端碱性区、中部疏水核心区和C端加工区。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 21,
+  "type": "choice",
+  "question": "SRP受体的另一个名称是？",
+  "options": {
+   "A": "移位子",
+   "B": "停靠蛋白（DP）",
+   "C": "信号肽酶",
+   "D": "Sec61复合体"
+  },
+  "answer": "B",
+  "explanation": "SRP受体又称停靠蛋白（DP），是内质网膜上的整合蛋白，由α和β亚基组成，负责与SRP结合将核糖体-新生肽复合物锚定至内质网膜。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 22,
+  "type": "choice",
+  "question": "SRP的化学本质是？",
+  "options": {
+   "A": "单纯蛋白质",
+   "B": "核糖核蛋白复合体",
+   "C": "脂蛋白",
+   "D": "糖蛋白"
+  },
+  "answer": "B",
+  "explanation": "SRP是核糖核蛋白复合体，由6种不同的蛋白质和1个约300个核苷酸的7S RNA组成。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 23,
+  "type": "choice",
+  "question": "内质网膜整合蛋白跨膜区的共同特征是？",
+  "options": {
+   "A": "由20~25个亲水氨基酸残基形成β-折叠",
+   "B": "由20~25个疏水氨基酸残基形成α-螺旋",
+   "C": "由10~15个疏水氨基酸残基形成α-螺旋",
+   "D": "由30~40个亲水氨基酸残基形成无规卷曲"
+  },
+  "answer": "B",
+  "explanation": "内质网膜整合蛋白的跨膜区均由20~25个疏水氨基酸残基形成α-螺旋，这是跨膜蛋白的共同特征。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 24,
+  "type": "choice",
+  "question": "决定单次跨膜蛋白拓扑学特征的关键内在序列是？",
+  "options": {
+   "A": "信号肽和导肽",
+   "B": "停止转移序列和信号锚定序列",
+   "C": "KDEL和KKXX",
+   "D": "起始转移序列和核定位信号"
+  },
+  "answer": "B",
+  "explanation": "单次跨膜蛋白的拓扑学特征由内在停止转移序列（STA）和信号锚定序列（SA）决定。STA使肽链停止跨膜转移，SA兼具信号肽和膜锚定功能。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 25,
+  "type": "choice",
+  "question": "影响新生肽链跨膜取向的因素是？",
+  "options": {
+   "A": "跨膜片段侧翼氨基酸残基的电荷分布",
+   "B": "信号肽酶活性",
+   "C": "SRP浓度",
+   "D": "核糖体大小"
+  },
+  "answer": "A",
+  "explanation": "跨膜片段侧翼氨基酸残基的电荷分布影响新生肽链的跨膜取向，带正电荷的氨基酸残基一侧通常朝向细胞质基质。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 26,
+  "type": "choice",
+  "question": "线粒体蛋白依赖的信号序列称为？",
+  "options": {
+   "A": "信号肽",
+   "B": "信号斑",
+   "C": "导肽（N端导肽）",
+   "D": "KDEL序列"
+  },
+  "answer": "C",
+  "explanation": "线粒体蛋白依靠N端导肽进行靶向，导肽是翻译后转运途径中的信号序列。",
+  "difficulty": 1,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 27,
+  "type": "choice",
+  "question": "叶绿体蛋白N端含有的靶向序列长度约为？",
+  "options": {
+   "A": "10~20个氨基酸",
+   "B": "40~50个氨基酸（转运肽）",
+   "C": "80~100个氨基酸",
+   "D": "5~10个氨基酸"
+  },
+  "answer": "B",
+  "explanation": "叶绿体蛋白N端含有40~50个氨基酸的转运肽（基质输入序列），负责将前体蛋白导向叶绿体。",
+  "difficulty": 1,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 28,
+  "type": "choice",
+  "question": "过氧化物酶体蛋白的靶向序列位于？",
+  "options": {
+   "A": "N端",
+   "B": "C端（内在靶向序列）",
+   "C": "蛋白质中部",
+   "D": "N端和C端均有"
+  },
+  "answer": "B",
+  "explanation": "过氧化物酶体蛋白靠C端的内在靶向序列（如SKL序列）进行分选，与线粒体和叶绿体蛋白依赖N端导肽不同。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 29,
+  "type": "choice",
+  "question": "翻译后转运的蛋白质在转运前需要维持什么状态？",
+  "options": {
+   "A": "完全折叠的天然构象",
+   "B": "非折叠或部分折叠状态",
+   "C": "与核糖体结合的状态",
+   "D": "磷酸化状态"
+  },
+  "answer": "B",
+  "explanation": "翻译后转运的蛋白质需要在分子伴侣协助下保持非折叠或部分折叠状态，才能穿过膜输入装置。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 30,
+  "type": "choice",
+  "question": "在线粒体蛋白转运过程中，协助维持前体蛋白非折叠状态的分子伴侣是？",
+  "options": {
+   "A": "GroEL/GroES",
+   "B": "Hsp70",
+   "C": "钙联蛋白",
+   "D": "钙网蛋白"
+  },
+  "answer": "B",
+  "explanation": "细胞质基质Hsp70与前体蛋白结合，维持其非折叠或部分折叠状态；线粒体基质Hsp70则驱动蛋白质的转运和水解ATP供能。",
+  "difficulty": 1,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 31,
+  "type": "choice",
+  "question": "在线粒体基质中，驱动蛋白质转运的能量来源于？",
+  "options": {
+   "A": "GTP水解",
+   "B": "ATP水解（Hsp70催化）",
+   "C": "跨膜电化学梯度",
+   "D": "NADH氧化"
+  },
+  "answer": "B",
+  "explanation": "线粒体基质分子伴侣Hsp70与输入的蛋白质结合并水解ATP以驱动蛋白质的转运。",
+  "difficulty": 1,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 32,
+  "type": "choice",
+  "question": "叶绿体蛋白质转运与线粒体蛋白质转运在能量来源上的主要区别是？",
+  "options": {
+   "A": "叶绿体不需要ATP",
+   "B": "叶绿体不产生跨内膜的电化学梯度，ATP是几近唯一的动力来源",
+   "C": "叶绿体使用GTP而不是ATP",
+   "D": "线粒体不需要分子伴侣"
+  },
+  "answer": "B",
+  "explanation": "与线粒体不同，叶绿体不产生跨内膜的电化学梯度，因此ATP水解供能几乎是叶绿体蛋白质转运唯一的动力来源。",
+  "difficulty": 3,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 33,
+  "type": "choice",
+  "question": "线粒体外膜上识别N端基质靶向序列的受体是？",
+  "options": {
+   "A": "Tim23/17",
+   "B": "Tom40",
+   "C": "Tom20/22",
+   "D": "Oxal"
+  },
+  "answer": "C",
+  "explanation": "Tom20/22是线粒体外膜上的输入受体，识别并结合前体蛋白N端的基质靶向序列。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 34,
+  "type": "choice",
+  "question": "线粒体外膜上的蛋白质输入通道是？",
+  "options": {
+   "A": "Tim23/17",
+   "B": "Tom40",
+   "C": "Tim9/10",
+   "D": "Oxal"
+  },
+  "answer": "B",
+  "explanation": "Tom40是线粒体外膜上的蛋白质输入孔道，而Tim23/17是内膜上的转运蛋白通道。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 35,
+  "type": "choice",
+  "question": "线粒体内膜上的蛋白质转运通道是？",
+  "options": {
+   "A": "Tom40",
+   "B": "Tom20/22",
+   "C": "Tim23/17",
+   "D": "Tim9/10"
+  },
+  "answer": "C",
+  "explanation": "Tim23/17是线粒体内膜上的主要蛋白质转运通道蛋白。Tom系列位于外膜，Tim系列位于内膜。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 36,
+  "type": "choice",
+  "question": "在线粒体膜间隙中作为分子伴侣协助蛋白质转运的是？",
+  "options": {
+   "A": "Hsp70",
+   "B": "Hsp60",
+   "C": "Tim9/Tim10",
+   "D": "GroEL"
+  },
+  "answer": "C",
+  "explanation": "Tim9/Tim10是膜间隙中的分子伴侣，协助不含N端基质靶向序列的蛋白质在外膜与内膜通道之间转运。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 37,
+  "type": "choice",
+  "question": "识别线粒体内膜蛋白中疏水结构域的蛋白是？",
+  "options": {
+   "A": "Tom20",
+   "B": "Tim23",
+   "C": "Oxal",
+   "D": "Tim9"
+  },
+  "answer": "C",
+  "explanation": "Oxal是线粒体内膜蛋白，识别内源性内膜蛋白中的疏水结构域，协助其装配到内膜上。",
+  "difficulty": 3,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 38,
+  "type": "choice",
+  "question": "真核细胞内最重要的运输系统是？",
+  "options": {
+   "A": "跨膜转运",
+   "B": "膜泡运输",
+   "C": "门控转运",
+   "D": "细胞骨架运输"
+  },
+  "answer": "B",
+  "explanation": "膜泡运输是真核细胞内最重要的运输系统，也是蛋白质分选的特有方式，普遍存在于真核细胞中。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 39,
+  "type": "choice",
+  "question": "膜泡运输与胞吞胞吐的关系，下列描述正确的是？",
+  "options": {
+   "A": "两者完全相同",
+   "B": "胞吞胞吐是膜泡运输的一种，但膜泡运输更广义，主要指细胞内部内膜系统之间的运输",
+   "C": "膜泡运输仅指胞吐",
+   "D": "胞吞仅由细胞骨架完成"
+  },
+  "answer": "B",
+  "explanation": "胞吞胞吐是膜泡运输的特殊形式（细胞与外界之间），而膜泡运输更广义，主要指细胞内部内膜系统之间的运输。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 40,
+  "type": "choice",
+  "question": "膜泡运输的共同特征不包括？",
+  "options": {
+   "A": "囊泡形成",
+   "B": "囊泡转运",
+   "C": "膜融合",
+   "D": "蛋白质去磷酸化"
+  },
+  "answer": "D",
+  "explanation": "膜泡运输（含胞吞胞吐）均依赖囊泡形成、转运与膜融合三个基本过程，蛋白质去磷酸化并非其共同特征。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 41,
+  "type": "choice",
+  "question": "COPII包被膜泡介导的运输方向是？",
+  "options": {
+   "A": "高尔基体→内质网（逆向运输）",
+   "B": "内质网→高尔基体（顺向运输）",
+   "C": "高尔基体→细胞膜",
+   "D": "细胞膜→内体"
+  },
+  "answer": "B",
+  "explanation": "COPII介导顺向运输（anterograde），负责将蛋白质从内质网转运至高尔基体。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 42,
+  "type": "choice",
+  "question": "COPII包被装配的起始蛋白是？",
+  "options": {
+   "A": "Sec23/Sec24",
+   "B": "Sec13/Sec31",
+   "C": "Sar1（小分子GTP结合蛋白）",
+   "D": "ARF"
+  },
+  "answer": "C",
+  "explanation": "Sar1是COPII包被装配的起始蛋白，它首先与内质网膜结合，GTP交换后招募其他包被蛋白。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 43,
+  "type": "choice",
+  "question": "催化Sar1发生GDP/GTP交换的内质网膜蛋白是？",
+  "options": {
+   "A": "Sec23",
+   "B": "Sec12（鸟苷酸交换因子）",
+   "C": "Sec24",
+   "D": "SRP受体"
+  },
+  "answer": "B",
+  "explanation": "Sec12是内质网膜上的鸟苷酸交换因子（GEF），催化Sar1-GDP转换为Sar1-GTP，启动COPII包被装配。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 44,
+  "type": "choice",
+  "question": "COPII包被中发挥骨架作用的组分是？",
+  "options": {
+   "A": "Sar1",
+   "B": "Sec23/Sec24复合体",
+   "C": "Sec13/Sec31复合体",
+   "D": "Sec16"
+  },
+  "answer": "C",
+  "explanation": "Sec13/Sec31蛋白具有自组装形成网格结构的特点，发挥COPII包被骨架的作用。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 45,
+  "type": "choice",
+  "question": "促进Sar1-GTP水解的COPII组分是？",
+  "options": {
+   "A": "Sec13",
+   "B": "Sec16",
+   "C": "Sec23亚基",
+   "D": "Sec31"
+  },
+  "answer": "C",
+  "explanation": "Sec23亚基具有GTP酶激活蛋白（GAP）活性，促进GTP被Sar1水解，引发包被去装配。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 46,
+  "type": "choice",
+  "question": "内质网待转运膜蛋白具有的二酸分选信号（Asp-X-Glu）的受体是COPII中的？",
+  "options": {
+   "A": "Sar1",
+   "B": "Sec23",
+   "C": "Sec24亚基",
+   "D": "Sec31"
+  },
+  "answer": "C",
+  "explanation": "COPII中的Sec24亚基作为二酸分选信号（Asp-X-Glu）的受体，识别结合后将膜蛋白包装进COPII膜泡。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 47,
+  "type": "choice",
+  "question": "Sec16在COPII包被装配中的作用是？",
+  "options": {
+   "A": "作为GTP酶开关",
+   "B": "结合内质网膜胞质表面，提高包被蛋白聚合效率",
+   "C": "识别分选信号",
+   "D": "组成骨架蛋白"
+  },
+  "answer": "B",
+  "explanation": "Sec16是大的纤维蛋白，结合在内质网膜胞质表面，与已装配复合物相互作用，提高包被蛋白聚合效率。",
+  "difficulty": 3,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 48,
+  "type": "choice",
+  "question": "COPI包被膜泡介导的运输方向是？",
+  "options": {
+   "A": "内质网→高尔基体（顺向运输）",
+   "B": "高尔基体→内质网（逆向运输）",
+   "C": "细胞膜→高尔基体",
+   "D": "高尔基体→细胞膜"
+  },
+  "answer": "B",
+  "explanation": "COPI介导逆向运输（retrograde），负责将蛋白质从高尔基体转运回内质网，也在高尔基体膜囊之间发挥回收作用。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 49,
+  "type": "choice",
+  "question": "COPI包被膜泡运输的货物类型不包括？",
+  "options": {
+   "A": "再循环的膜脂双层",
+   "B": "内质网驻留的可溶性蛋白",
+   "C": "新合成的分泌蛋白",
+   "D": "内质网驻留的膜蛋白"
+  },
+  "answer": "C",
+  "explanation": "COPI运输的是再循环的膜脂双层、内质网驻留蛋白（可溶性和膜蛋白），新合成的分泌蛋白由COPII顺向运输。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 50,
+  "type": "choice",
+  "question": "COPI包被中的小分子GTP结合蛋白是？",
+  "options": {
+   "A": "Sar1",
+   "B": "Rab",
+   "C": "ARF",
+   "D": "Ras"
+  },
+  "answer": "C",
+  "explanation": "ARF是COPI包被中的小分子GTP结合蛋白，起分子开关调控作用，调节包被蛋白复合物的装配与去装配。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 51,
+  "type": "choice",
+  "question": "COPI的核心功能是？",
+  "options": {
+   "A": "介导新合成蛋白质的顺向运输",
+   "B": "回收错误分选的逃逸蛋白，是一种纠错机制",
+   "C": "参与胞吞过程",
+   "D": "降解错误折叠的蛋白质"
+  },
+  "answer": "B",
+  "explanation": "COPI是COPII的补充，用于将本不应被COPII转运的蛋白质（逃逸蛋白）再转运回来，实质上是一种纠错机制。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 52,
+  "type": "choice",
+  "question": "COPI包被含有几种不同的蛋白质亚基？",
+  "options": {
+   "A": "3种",
+   "B": "5种",
+   "C": "7种",
+   "D": "9种"
+  },
+  "answer": "C",
+  "explanation": "COPI包被含有7种不同的蛋白质亚基和一种GTP结合蛋白ARF。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 53,
+  "type": "choice",
+  "question": "内质网可溶性驻留蛋白（如蛋白二硫键异构酶）的回收信号是？",
+  "options": {
+   "A": "KKXX（C端）",
+   "B": "KDEL（C端）",
+   "C": "N端信号肽",
+   "D": "SKL（C端）"
+  },
+  "answer": "B",
+  "explanation": "内质网可溶性蛋白C端具有KDEL回收信号（K=赖氨酸，D=天冬氨酸，E=谷氨酸，L=亮氨酸），被KDEL受体识别后回收至内质网。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 54,
+  "type": "choice",
+  "question": "内质网膜蛋白（如SRP受体）的回收信号是？",
+  "options": {
+   "A": "KDEL",
+   "B": "KKXX（C端，K为赖氨酸，X为任意氨基酸）",
+   "C": "SKL",
+   "D": "RGD序列"
+  },
+  "answer": "B",
+  "explanation": "内质网膜蛋白C端含有KKXX回收信号，其受体是COPI的α和β亚基，促进膜蛋白返回内质网。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 55,
+  "type": "choice",
+  "question": "KDEL受体主要定位在？",
+  "options": {
+   "A": "内质网膜",
+   "B": "高尔基体TGN区及COPI/COPII膜泡膜上",
+   "C": "细胞膜",
+   "D": "线粒体膜"
+  },
+  "answer": "B",
+  "explanation": "KDEL受体主要定位在高尔基体TGN区（或CGN）、COPI和COPII包被膜泡的膜上，识别并结合KDEL信号实现回收。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 56,
+  "type": "choice",
+  "question": "网格蛋白/接头蛋白包被膜泡的核心功能不包括？",
+  "options": {
+   "A": "介导分泌泡的形成",
+   "B": "参与受体介导的内吞泡形成",
+   "C": "介导蛋白质从内质网至高尔基体的顺向运输",
+   "D": "参与细胞内物质的分选与转运"
+  },
+  "answer": "C",
+  "explanation": "介导内质网至高尔基体顺向运输的是COPII包被膜泡，而网格蛋白包被膜泡负责高尔基体TGN区的分泌泡形成和细胞膜处的内吞泡形成。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 57,
+  "type": "choice",
+  "question": "网格蛋白/接头蛋白包被膜泡的双层包被结构中，外层和内层分别由什么组成？",
+  "options": {
+   "A": "外层-接头蛋白；内层-网格蛋白",
+   "B": "外层-网格蛋白；内层-接头蛋白复合物",
+   "C": "外层-Sec13/Sec31；内层-Sec23/Sec24",
+   "D": "外层-COPI；内层-COPII"
+  },
+  "answer": "B",
+  "explanation": "典型网格蛋白/接头蛋白包被膜泡为双层结构：外层由网格蛋白组成，内层由接头蛋白复合物组成。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 58,
+  "type": "choice",
+  "question": "纯化的网格蛋白分子具有何种结构特征？",
+  "options": {
+   "A": "双螺旋结构",
+   "B": "三腿（triskelion）结构",
+   "C": "四聚体结构",
+   "D": "球形结构"
+  },
+  "answer": "B",
+  "explanation": "纯化的网格蛋白分子呈三腿结构（triskelion），每个分支包含一条重链和一条轻链。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 59,
+  "type": "choice",
+  "question": "介导网格蛋白/接头蛋白包被膜泡从供体膜断裂的关键蛋白是？",
+  "options": {
+   "A": "ARF",
+   "B": "Sar1",
+   "C": "发动蛋白（Dynamin）",
+   "D": "Rab"
+  },
+  "answer": "C",
+  "explanation": "发动蛋白（Dynamin）具有GTP酶活性，围绕膜泡颈部聚合，水解GTP释放能量驱动膜泡断裂释放。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 60,
+  "type": "choice",
+  "question": "发动蛋白断裂膜泡的机制依赖于？",
+  "options": {
+   "A": "ATP水解供能",
+   "B": "GTP水解供能",
+   "C": "Ca²⁺信号",
+   "D": "蛋白磷酸化"
+  },
+  "answer": "B",
+  "explanation": "发动蛋白通过催化GTP水解释放能量，驱动自身构象改变，最终导致膜泡从供体膜断裂并释放。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 61,
+  "type": "choice",
+  "question": "网格蛋白包被膜泡脱包被的能量来源于？",
+  "options": {
+   "A": "GTP水解",
+   "B": "ATP水解（Hsp70驱动）",
+   "C": "质子梯度",
+   "D": "不需要能量"
+  },
+  "answer": "B",
+  "explanation": "胞质内Hsp70蛋白（组成型分子伴侣）驱动ATP水解，为包被去组装供能。此外ARF从GTP→GDP的转换也调控脱包被。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 62,
+  "type": "choice",
+  "question": "发动蛋白依赖的断裂机制是哪种包被膜泡的特点？",
+  "options": {
+   "A": "COPII",
+   "B": "COPI",
+   "C": "网格蛋白/接头蛋白",
+   "D": "以上全部"
+  },
+  "answer": "C",
+  "explanation": "GTP酶依赖的断裂机制是网格蛋白包被膜泡的特点，尚未发现GTP酶以类似方式参与COPI和COPII包被膜泡的断裂。",
+  "difficulty": 3,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 63,
+  "type": "choice",
+  "question": "将网格蛋白连接到质膜上的蛋白是？",
+  "options": {
+   "A": "发动蛋白",
+   "B": "网格蛋白本身",
+   "C": "接头蛋白复合物",
+   "D": "Rab蛋白"
+  },
+  "answer": "C",
+  "explanation": "接头蛋白复合物的功能之一是连接作用，将网格蛋白网格包被连接到质膜上。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 64,
+  "type": "choice",
+  "question": "AP复合物是？",
+  "options": {
+   "A": "同四聚体",
+   "B": "异四聚体",
+   "C": "同二聚体",
+   "D": "单体蛋白"
+  },
+  "answer": "B",
+  "explanation": "AP1、AP2、AP3均为异四聚体，每种复合物包含4种不同的接头蛋白亚基各一个拷贝。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 65,
+  "type": "choice",
+  "question": "介导转运膜泡与靶膜锚定的关键蛋白是？",
+  "options": {
+   "A": "SNARE蛋白",
+   "B": "Rab蛋白（小分子GTP结合蛋白）",
+   "C": "发动蛋白",
+   "D": "网格蛋白"
+  },
+  "answer": "B",
+  "explanation": "Rab蛋白是小分子GTP结合蛋白，属于GTP酶超家族成员，通过GTP/GDP转换调控膜泡与靶膜的锚定。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 66,
+  "type": "choice",
+  "question": "Rab-GTP锚定在转运膜泡上的方式是通过？",
+  "options": {
+   "A": "共价键连接到膜蛋白上",
+   "B": "其类异戊二烯基团插入膜泡膜中",
+   "C": "与网格蛋白结合",
+   "D": "直接穿过膜脂双层"
+  },
+  "answer": "B",
+  "explanation": "Rab-GTP构象改变后，通过其共价连接的类异戊二烯基团插入转运膜泡膜中，从而结合在膜泡表面。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 67,
+  "type": "choice",
+  "question": "Rab-GDP转换为Rab-GTP的催化因子是？",
+  "options": {
+   "A": "GAP（GTP酶激活蛋白）",
+   "B": "GEF（鸟苷酸交换因子）",
+   "C": "Sar1",
+   "D": "Sec12"
+  },
+  "answer": "B",
+  "explanation": "鸟苷酸交换因子（GEF）催化Rab-GDP转换为Rab-GTP，引发Rab构象改变并锚定到膜泡上。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 68,
+  "type": "choice",
+  "question": "介导转运膜泡与靶膜融合的主要蛋白对是？",
+  "options": {
+   "A": "Rab/Rab效应器",
+   "B": "v-SNARE/t-SNARE",
+   "C": "ARF/GEF",
+   "D": "COPII/COPI"
+  },
+  "answer": "B",
+  "explanation": "转运膜泡的v-SNARE识别并结合靶膜的t-SNARE，形成稳定的SNARE四螺旋束复合体，驱动膜融合。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 69,
+  "type": "choice",
+  "question": "SNARE复合体融合后解离需要的能量来源于？",
+  "options": {
+   "A": "GTP水解",
+   "B": "ATP水解",
+   "C": "质子驱动力",
+   "D": "Ca²⁺内流"
+  },
+  "answer": "B",
+  "explanation": "SNARE复合体解离需要消耗ATP水解提供的能量，释放的SNARE蛋白亚基可循环用于其他融合事件。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 70,
+  "type": "choice",
+  "question": "脱包被使膜泡上的v-SNARE暴露，其生理意义是？",
+  "options": {
+   "A": "使膜泡更容易被降解",
+   "B": "为后续膜泡与靶膜的融合做好准备",
+   "C": "促进膜泡逆向运输",
+   "D": "防止膜泡过早融合"
+  },
+  "answer": "B",
+  "explanation": "脱包被使v-SNARE得以暴露在膜泡表面，为后续与靶膜上的t-SNARE配对融合做好准备。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 71,
+  "type": "choice",
+  "question": "ARF蛋白参与了哪两种包被膜泡的装配调控？",
+  "options": {
+   "A": "COPII和COPI",
+   "B": "COPI和网格蛋白/接头蛋白",
+   "C": "COPII和网格蛋白/接头蛋白",
+   "D": "仅COPI"
+  },
+  "answer": "B",
+  "explanation": "ARF参与COPI包被膜泡的装配与去装配，也参与网格蛋白包被膜泡的装配调节。COPII中使用的是Sar1。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 72,
+  "type": "choice",
+  "question": "下列关于三种包被膜泡GTP结合蛋白的配对，正确的是？",
+  "options": {
+   "A": "COPII-ARF；COPI-Sar1；网格蛋白-Rab",
+   "B": "COPII-Sar1；COPI-ARF；网格蛋白-ARF",
+   "C": "COPII-Rab；COPI-ARF；网格蛋白-Sar1",
+   "D": "COPII-ARF；COPI-Rab；网格蛋白-Sar1"
+  },
+  "answer": "B",
+  "explanation": "COPII使用Sar1作为GTP结合蛋白；COPI使用ARF（大部分情况下）；网格蛋白包被膜泡也使用ARF（大部分情况下）。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 73,
+  "type": "choice",
+  "question": "COPII包被膜泡与网格蛋白/接头蛋白包被膜泡在装配起始上的共同点是？",
+  "options": {
+   "A": "均由Rab蛋白启动",
+   "B": "均由小分子GTP结合蛋白启动",
+   "C": "均由发动蛋白启动",
+   "D": "均不需要GTP结合蛋白"
+  },
+  "answer": "B",
+  "explanation": "COPII的装配由Sar1启动，网格蛋白/接头蛋白包被的装配由ARF启动，两者均为小分子GTP结合蛋白。COPI也由ARF启动。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 74,
+  "type": "truefalse",
+  "question": "蛋白质分选仅发生在真核细胞中，原核细胞中不存在蛋白质的定向转运。",
+  "answer": "false",
+  "explanation": "原核细胞同样存在蛋白质的定向转运（如分泌蛋白经Sec途径跨膜转运），该说法错误。蛋白质分选并非真核细胞特有，本章讨论的主要是真核细胞核基因编码蛋白质的分选。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 75,
+  "type": "truefalse",
+  "question": "所有核基因编码的蛋白质均在细胞质基质游离核糖体上合成。",
+  "answer": "false",
+  "explanation": "核基因编码的蛋白质合成场所分为两类：细胞质基质中的游离核糖体（翻译后转运）和糙面内质网膜结合的核糖体（共翻译转运）。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 76,
+  "type": "truefalse",
+  "question": "共翻译转运途径中，蛋白质合成完全结束后才开始转运。",
+  "answer": "false",
+  "explanation": "共翻译转运是边合成边转运的方式，合成开始后即启动转运过程。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 77,
+  "type": "truefalse",
+  "question": "翻译后转运的蛋白质在转运时不依赖于任何信号序列。",
+  "answer": "false",
+  "explanation": "翻译后转运也依赖于信号序列（统称为导肽），如线粒体蛋白依赖N端导肽，叶绿体蛋白依赖转运肽等。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 78,
+  "type": "truefalse",
+  "question": "SRP与SRP受体的结合不需要GTP参与。",
+  "answer": "false",
+  "explanation": "2分子GTP分别结合SRP-p54亚基和SRP受体α亚基，强化复合物间的相互作用。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 79,
+  "type": "truefalse",
+  "question": "内质网腔内的信号肽酶负责切除信号肽。",
+  "answer": "false",
+  "explanation": "信号肽酶定位在内质网膜腔面，切除信号肽后立即将其降解；信号肽切除发生在内质网腔侧而非胞质侧。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 80,
+  "type": "truefalse",
+  "question": "跨膜蛋白的跨膜区均由20~25个疏水氨基酸残基形成α-螺旋。",
+  "answer": "true",
+  "explanation": "这是内质网膜整合蛋白跨膜区的共同特征。",
+  "difficulty": 1,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 81,
+  "type": "truefalse",
+  "question": "带正电荷的氨基酸残基一侧通常朝向内质网腔。",
+  "answer": "false",
+  "explanation": "带正电荷的氨基酸残基一侧通常朝向细胞质基质，这决定了跨膜蛋白的拓扑取向。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 82,
+  "type": "truefalse",
+  "question": "翻译后转运过程不需要分子伴侣的协助。",
+  "answer": "false",
+  "explanation": "翻译后转运需要分子伴侣（如Hsp70）协助，使蛋白质保持非折叠或部分折叠状态以穿过膜输入装置。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 83,
+  "type": "truefalse",
+  "question": "翻译后转运需要消耗能量。",
+  "answer": "true",
+  "explanation": "翻译后转运过程需要ATP提供能量，分子伴侣Hsp70水解ATP驱动蛋白质转运。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 84,
+  "type": "truefalse",
+  "question": "线粒体和叶绿体的蛋白质转运机制完全相同。",
+  "answer": "false",
+  "explanation": "两者虽有相似之处，但叶绿体不产生跨内膜的电化学梯度，ATP是其几乎唯一的动力来源，而线粒体可利用内膜电化学梯度。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 85,
+  "type": "truefalse",
+  "question": "COPII包被膜泡介导从高尔基体到内质网的逆向运输。",
+  "answer": "false",
+  "explanation": "COPII介导顺向运输（内质网→高尔基体），COPI介导逆向运输（高尔基体→内质网）。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 86,
+  "type": "truefalse",
+  "question": "COPI包被膜泡运输是COPII的补充，本质上是一种纠错机制。",
+  "answer": "true",
+  "explanation": "COPI将本不应被COPII转运的逃逸蛋白回收至内质网，是细胞维持内膜系统蛋白质组分的关键纠错机制。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 87,
+  "type": "truefalse",
+  "question": "内质网可溶性驻留蛋白的回收信号KKXX位于C端。",
+  "answer": "false",
+  "explanation": "内质网可溶性驻留蛋白的回收信号是KDEL（C端），内质网膜蛋白的回收信号才是KKXX（C端）。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 88,
+  "type": "truefalse",
+  "question": "发动蛋白依赖GTP水解使膜泡从供体膜断裂。",
+  "answer": "true",
+  "explanation": "发动蛋白具有GTP酶活性，围绕膜泡颈部聚合，水解GTP驱动膜泡断裂。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 89,
+  "type": "truefalse",
+  "question": "COPII和COPI包被膜泡的断裂也依赖于发动蛋白。",
+  "answer": "false",
+  "explanation": "发动蛋白依赖的GTP酶断裂机制是网格蛋白包被膜泡的特点，尚未发现以类似方式参与COPI和COPII的断裂。",
+  "difficulty": 3,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 90,
+  "type": "truefalse",
+  "question": "Rab蛋白与Sar1和ARF属于同一蛋白超家族。",
+  "answer": "true",
+  "explanation": "Rab、Sar1和ARF均为小分子GTP结合蛋白，同属GTP酶超家族成员，均具有分子开关调控功能。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 91,
+  "type": "truefalse",
+  "question": "膜泡脱包被后暴露的v-SNARE用于与靶膜上的t-SNARE配对融合。",
+  "answer": "true",
+  "explanation": "脱包被使v-SNARE在膜泡表面暴露，为后续与靶膜t-SNARE的特异性配对和膜融合做好准备。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 92,
+  "type": "truefalse",
+  "question": "膜泡运输仅存在于具有内膜系统的真核细胞中。",
+  "answer": "true",
+  "explanation": "膜泡运输是真核细胞内膜系统的特有运输方式，由内膜系统细胞器出芽形成转运囊泡。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 93,
+  "type": "truefalse",
+  "question": "KDEL受体仅定位在高尔基体的TGN区。",
+  "answer": "false",
+  "explanation": "KDEL受体主要定位在高尔基体TGN区（或CGN），以及COPI和COPII包被膜泡的膜上。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 94,
+  "type": "multi",
+  "question": "下列关于翻译后转运途径的正确描述有？",
+  "options": {
+   "A": "在细胞质基质游离核糖体上完成多肽链的合成",
+   "B": "转运至线粒体、叶绿体、过氧化物酶体及细胞核",
+   "C": "部分蛋白质成为细胞质基质中的可溶性驻留蛋白",
+   "D": "依赖N端信号肽和SRP引导至内质网",
+   "E": "转运过程需要分子伴侣和ATP"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：翻译后转运不依赖SRP和内质网，而是依靠导肽等信号序列直接靶向相应细胞器。翻译后转运在游离核糖体上完成合成后转运至线粒体、叶绿体、过氧化物酶体、细胞核或留在细胞质基质中，需要分子伴侣和ATP。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 95,
+  "type": "multi",
+  "question": "共翻译转运途径的蛋白质最终可定位于？",
+  "options": {
+   "A": "分泌至胞外",
+   "B": "细胞膜",
+   "C": "内质网腔（驻留蛋白）",
+   "D": "线粒体基质",
+   "E": "高尔基体和溶酶体（腔/膜）"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：线粒体基质蛋白经翻译后转运途径。共翻译转运途径的蛋白质可定位于胞外（分泌蛋白）、细胞膜（及内膜系统膜）、内质网腔/高尔基体/溶酶体（驻留蛋白和膜蛋白）。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 96,
+  "type": "multi",
+  "question": "下列关于信号肽的正确描述有？",
+  "options": {
+   "A": "一般由16~26个氨基酸残基组成",
+   "B": "位于蛋白质的N端",
+   "C": "N端和C端含有疏水氨基酸",
+   "D": "中部含有疏水氨基酸核心区",
+   "E": "C端和N端的3个氨基酸残基分别为碱性和极性氨基酸"
+  },
+  "answer": "ABDE",
+  "explanation": "C错误：疏水氨基酸核心区在信号肽中部，N端含碱性氨基酸，C端含极性氨基酸。A、B、D、E均为正确描述。",
+  "difficulty": 2,
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 97,
+  "type": "multi",
+  "question": "以下哪些因子是共翻译转运所必需的？",
+  "options": {
+   "A": "信号肽",
+   "B": "SRP",
+   "C": "SRP受体（停靠蛋白）",
+   "D": "分子伴侣Hsp70",
+   "E": "移位子"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：分子伴侣Hsp70主要参与翻译后转运（如线粒体转运）。共翻译转运必需的因子包括信号肽、SRP、SRP受体和移位子，还涉及GTP和信号肽酶。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 98,
+  "type": "multi",
+  "question": "下列关于线粒体蛋白质转运的正确描述有？",
+  "options": {
+   "A": "前体蛋白需与Hsp70结合保持非折叠状态",
+   "B": "外膜上的Tom20/22为输入受体",
+   "C": "外膜上的输入通道为Tom40",
+   "D": "内膜上的转运通道为Tim23/17",
+   "E": "线粒体蛋白质转运完全不需要ATP"
+  },
+  "answer": "ABCD",
+  "explanation": "E错误：线粒体蛋白质转运需要ATP，由基质Hsp70水解ATP驱动。A、B、C、D均为线粒体蛋白质转运的正确描述。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运"
+ },
+ {
+  "id": 99,
+  "type": "multi",
+  "question": "下列哪些属于COPII包被蛋白的组分？",
+  "options": {
+   "A": "Sar1",
+   "B": "Sec23/Sec24复合体",
+   "C": "Sec13/Sec31复合体",
+   "D": "ARF",
+   "E": "Sec16"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：ARF是COPI和网格蛋白包被膜泡中的GTP结合蛋白，不是COPII的组分。COPII的组分包括Sar1、Sec23/Sec24、Sec13/Sec31和Sec16。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 100,
+  "type": "multi",
+  "question": "COPI包被膜泡运输的货物包括？",
+  "options": {
+   "A": "再循环的膜脂双层",
+   "B": "内质网驻留的可溶性蛋白（含KDEL序列）",
+   "C": "新合成的分泌蛋白",
+   "D": "内质网驻留的膜蛋白（含KKXX序列）",
+   "E": "错误分选的逃逸蛋白"
+  },
+  "answer": "ABDE",
+  "explanation": "C错误：新合成的分泌蛋白由COPII顺向运输。COPI逆向运输的货物包括膜脂双层、含KDEL的可溶性驻留蛋白、含KKXX的膜驻留蛋白以及逃逸蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 101,
+  "type": "multi",
+  "question": "下列关于KDEL信号序列的正确描述有？",
+  "options": {
+   "A": "位于内质网可溶性驻留蛋白的C端",
+   "B": "由4个氨基酸残基（赖-天冬-谷-亮）组成",
+   "C": "受体主要定位在高尔基体TGN区",
+   "D": "受体也存在于COPI和COPII膜泡膜上",
+   "E": "KKXX信号与KDEL信号的受体相同"
+  },
+  "answer": "ABCD",
+  "explanation": "E错误：KKXX信号（内质网膜蛋白）的受体是COPI的α和β亚基，与KDEL信号受体不同。A、B、C、D均为KDEL的正确描述。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 102,
+  "type": "multi",
+  "question": "网格蛋白/接头蛋白包被膜泡中，接头蛋白复合物的功能包括？",
+  "options": {
+   "A": "将网格蛋白网格包被连接到质膜上",
+   "B": "促使膜结合蛋白富集到包被膜区",
+   "C": "增加已装配包被的稳定性",
+   "D": "水解GTP驱动膜泡断裂",
+   "E": "结合被转运蛋白的分选信号，决定蛋白的包装或排除"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：水解GTP驱动膜泡断裂的是发动蛋白（Dynamin），而非接头蛋白。A、B、C、E均为接头蛋白复合物的功能。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 103,
+  "type": "multi",
+  "question": "下列关于膜泡脱包被的正确描述有？",
+  "options": {
+   "A": "膜泡形成后不久即发生包被解聚",
+   "B": "ARF从GTP状态转变为GDP状态调控脱包被",
+   "C": "Hsp70驱动ATP水解为去组装供能",
+   "D": "脱包被后释放的包被蛋白不可再利用",
+   "E": "脱包被使v-SNARE暴露，为膜融合做好准备"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：脱包被释放出的三腿网格蛋白可被循环再利用。A、B、C、E均为正确的脱包被描述。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 104,
+  "type": "multi",
+  "question": "下列关于SNARE蛋白的正确描述有？",
+  "options": {
+   "A": "v-SNARE位于转运膜泡上",
+   "B": "t-SNARE位于靶膜上",
+   "C": "v-SNARE与t-SNARE特异性配对形成四螺旋束复合体",
+   "D": "SNARE复合体的稳定性依靠大量非共价键维系",
+   "E": "融合后SNARE复合体解离不需要消耗能量"
+  },
+  "answer": "ABCD",
+  "explanation": "E错误：SNARE复合体融合后解离需要消耗ATP水解提供的能量。A、B、C、D均为SNARE蛋白的正确描述。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 105,
+  "type": "multi",
+  "question": "以下哪些蛋白具有GTP酶活性（属于GTP酶超家族成员）？",
+  "options": {
+   "A": "Sar1",
+   "B": "ARF",
+   "C": "Rab",
+   "D": "Sec16",
+   "E": "发动蛋白（Dynamin）"
+  },
+  "answer": "ABCE",
+  "explanation": "D错误：Sec16是大的纤维蛋白，不属于GTP酶超家族。Sar1（COPII）、ARF（COPI和网格蛋白）、Rab（锚定）和发动蛋白（膜泡断裂）均为GTP结合蛋白，其中Sar1、ARF、Rab和发动蛋白均具有GTP酶活性。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 106,
+  "type": "multi",
+  "question": "膜泡运输的生理意义包括？",
+  "options": {
+   "A": "实现蛋白质在内膜系统各区室间的高效转运和分选",
+   "B": "维持各细胞器独特的蛋白质组成和功能特异性",
+   "C": "支持细胞分泌活动（如激素释放、神经递质释放）",
+   "D": "介导细胞对外界物质的摄入（内吞）",
+   "E": "是生物合成途径中膜流维持动态平衡的基础"
+  },
+  "answer": "ABCDE",
+  "explanation": "A、B、C、D、E全部正确。膜泡运输是内膜系统蛋白质分选的核心方式，维持细胞器特异性，支持胞吐和胞吞，是膜流动态平衡的基础。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 107,
+  "type": "short",
+  "question": "简述共翻译转运途径的基本过程。",
+  "answer": "共翻译转运是边合成边转运的蛋白质分选方式：①在游离核糖体上起始合成，约80个氨基酸残基时N端信号肽暴露，与SRP结合使肽链延伸暂停；②SRP与内质网膜SRP受体结合，核糖体-新生肽复合物锚定至内质网膜（2分子GTP强化结合）；③核糖体-新生肽复合物与移位子结合，SRP解离回收，肽链延伸恢复；④环化信号肽引导肽链以袢环形式进入内质网腔（耗能）；⑤信号肽酶切除信号肽并降解；⑥肽链合成完成并在内质网腔中折叠；⑦核糖体释放，移位子关闭。",
+  "difficulty": 2,
+  "explanation": "共翻译转运边合成边穿过内质网膜，依赖信号肽-SRP系统将新生肽链靶向至内质网腔进行折叠加工。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 108,
+  "type": "short",
+  "question": "比较翻译后转运途径与共翻译转运途径的主要区别。",
+  "answer": "①合成场所不同：翻译后转运在细胞质基质游离核糖体上完成全部合成，共翻译转运起始于游离核糖体但大部分在附着核糖体上进行；②转运时机不同：翻译后转运是合成后转运，共翻译转运是边合成边转运；③靶向部位不同：翻译后转运主要去向线粒体、叶绿体、过氧化物酶体、细胞核及细胞质基质，共翻译转运主要去向内质网-高尔基体-细胞膜/胞外/溶酶体方向；④信号序列不同：翻译后转运依赖导肽（N端导肽、转运肽等），共翻译转运依赖信号肽和SRP系统。",
+  "difficulty": 2,
+  "explanation": "翻译后转运在细胞质基质完成合成后再转入细胞器，共翻译转运边合成边转入内质网，两条途径方向不同。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 109,
+  "type": "short",
+  "question": "简述信号假说的主要内容和意义。",
+  "answer": "信号假说由Blobel和Sabatini提出：①分泌蛋白N端携带一段短信号序列（信号肽），该序列在翻译后暴露并结合相关因子（SRP）；②SRP识别信号肽后暂停肽链延伸，引导核糖体-新生肽复合物转移至内质网膜上的SRP受体；③核糖体-新生肽与内质网膜移位子结合后，SRP解离，肽链继续合成并进入内质网腔。信号假说揭示了蛋白质分选的分子基础，为共翻译转运机制提供了理论框架。",
+  "difficulty": 2,
+  "explanation": "信号假说由Blobel提出，认为分泌蛋白N端信号肽被SRP识别后引导核糖体-新生肽复合物定位于内质网膜。",
+  "tags": [
+   "共翻译转运",
+   "蛋白质分选"
+  ],
+  "topic": "共翻译转运"
+ },
+ {
+  "id": 110,
+  "type": "short",
+  "question": "简述蛋白质在细胞内转运的四种基本机制。",
+  "answer": "①跨膜转运：蛋白质直接穿过细胞器膜的蛋白转运通道，如共翻译转运中蛋白质进入内质网腔以及翻译后转运中进入线粒体、叶绿体等；②膜泡运输：蛋白质被包裹在转运膜泡中，从供体膜出芽形成膜泡，运至靶膜并融合释放，是内膜系统间的主要转运方式；③选择性门控转运：蛋白质通过核孔复合体在核-质间双向选择性转运；④细胞质基质转运：与细胞骨架系统密切相关，上述几种转运机制均涉及蛋白质在细胞质基质中的运动。",
+  "difficulty": 2,
+  "explanation": "蛋白质在胞内通过跨膜转运、膜泡运输、选择性门控转运和细胞质基质转运四种基本机制实现定向分选。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 111,
+  "type": "short",
+  "question": "简述COPII包被膜泡的装配过程。",
+  "answer": "①Sar1-GDP在Sec12（鸟苷酸交换因子）催化下置换为Sar1-GTP，构象改变暴露疏水N端插入ER膜，起募集者作用；②Sar1-GTP提供Sec23/Sec24复合物的结合位点，形成三重复合物；③Sec13/Sec31与三重复合物结合，Sec13/Sec31自组装形成网格骨架，Sec16结合在ER膜胞质面提高聚合效率；④Sec23亚基促进GTP水解，Sar1-GDP从膜泡释放，引发COPII包被去装配解聚；⑤去装配后包被蛋白可循环再利用。",
+  "difficulty": 2,
+  "explanation": "COPII膜泡装配由Sar1-GTP启动并募集Sec23/Sec24和Sec13/Sec31复合物，GTP水解后包被解聚回收再利用。",
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 112,
+  "type": "short",
+  "question": "简述内质网驻留蛋白的保留与回收机制。",
+  "answer": "内质网驻留蛋白通过两种机制维持定位：①有效排斥：转运膜泡将驻留蛋白有效排斥在外，如驻留蛋白形成大复合物无法被包装进COPII膜泡；②回收机制：对误包装入COPII膜泡的逃逸蛋白，通过回收信号介导的逆运输将其返回内质网——可溶性驻留蛋白（如分子伴侣、PDI）C端含KDEL信号，被高尔基体TGN区的KDEL受体识别，经COPI膜泡回收；膜驻留蛋白（如SRP受体）C端含KKXX信号，被COPI的α/β亚基识别回收。",
+  "difficulty": 2,
+  "explanation": "内质网驻留蛋白通过形成大复合物被物理排阻，逃逸蛋白通过KDEL或KKXX回收信号经COPI膜泡逆向运输返回。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 113,
+  "type": "short",
+  "question": "比较COPII、COPI和网格蛋白/接头蛋白三种包被膜泡的异同。",
+  "answer": "①运输方向：COPII介导顺向运输（内质网→高尔基体）；COPI介导逆向运输（高尔基体→内质网，及高尔基体膜囊间）；网格蛋白介导TGN→细胞膜/内体/溶酶体以及内吞泡形成。②GTP结合蛋白：COPII使用Sar1；COPI使用ARF；网格蛋白包被膜泡也主要使用ARF。③包被组成：COPII含Sec23/24、Sec13/31、Sec16；COPI含7种亚基；网格蛋白包被为双层结构（外层网格蛋白+内层接头蛋白）。④断裂机制：网格蛋白依赖发动蛋白GTP酶断裂，COPII和COPI不依赖此机制。⑤共性：均涉及供体膜出芽、膜泡形成、运输、与靶膜融合等过程。",
+  "difficulty": 2,
+  "explanation": "COPII介导ER→高尔基体顺向运输，COPI介导逆向运输，网格蛋白介导TGN出芽运输和内吞泡形成。",
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 114,
+  "type": "short",
+  "question": "简述转运膜泡与靶膜锚定与融合的分子机制。",
+  "answer": "锚定机制：①Rab蛋白在GEF催化下从Rab-GDP转换为Rab-GTP，构象改变；②Rab-GTP通过类异戊二烯基团插入膜泡膜中；③Rab-GTP与靶膜上的Rab效应器结合，使膜泡锚定在靶膜上；④融合后Rab-GTP水解为Rab-GDP并从膜泡释放。融合机制：①膜泡上的v-SNARE与靶膜上的t-SNARE特异性配对；②形成稳定的SNARE四螺旋束复合体，拉近两层膜并驱动融合；③融合完成后消耗ATP使SNARE复合体解离，SNARE亚基可循环利用。",
+  "difficulty": 2,
+  "explanation": "转运膜泡通过Rab-GTP锚定至靶膜，v-SNARE与t-SNARE特异性配对形成四螺旋束复合体驱动膜融合。",
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 115,
+  "type": "short",
+  "question": "简述分子伴侣在蛋白质翻译后转运中的作用。",
+  "answer": "翻译后转运中的分子伴侣主要功能：①维持蛋白非折叠态：细胞质基质中Hsp70与新合成的前体蛋白结合，使其保持非折叠或部分折叠状态，便于穿过膜输入通道；②驱动转运：线粒体基质中Hsp70与进入的蛋白质结合并水解ATP，利用ATP水解释放的能量拉动蛋白质穿过膜通道进入基质；③协助折叠：蛋白质进入细胞器后，分子伴侣（如线粒体中的Hsp60/GroEL）协助其正确折叠为活性构象。此外，膜间隙中的Tim9/Tim10也起分子伴侣作用协助蛋白质转运。",
+  "difficulty": 2,
+  "explanation": "分子伴侣维持前体蛋白非折叠态以便穿过膜通道，并利用ATP水解驱动蛋白转运和协助进入细胞器后正确折叠。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 116,
+  "type": "short",
+  "question": "简述网格蛋白/接头蛋白包被膜泡的形成过程（从装配到脱包被）。",
+  "answer": "①起始装配：ARF在小G蛋白调控下启动网格蛋白/接头蛋白包被的起始装配；②聚合：网格蛋白在供体膜上聚合，募集接头蛋白复合物结合至膜胞质面，共同驱动膜出芽；③货物分选：接头蛋白结合被转运蛋白的分选信号，决定蛋白的包装或排除；④膜泡断裂：发动蛋白（Dynamin）围绕膜泡颈部聚合，催化GTP水解驱动构象改变，使膜泡从供体膜断裂释放；⑤脱包被：膜泡形成后不久，ARF-GTP→ARF-GDP转换，Hsp70驱动ATP水解为去组装供能，外层网格蛋白和内层接头蛋白解聚，释放的包被蛋白可循环再利用。",
+  "difficulty": 2,
+  "explanation": "网格蛋白膜泡形成经历ARF起始→网格蛋白/接头蛋白聚合→发动蛋白断裂→ARF-GDP触发脱包被四个阶段。",
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "id": 117,
+  "type": "short",
+  "question": "简述膜泡运输的生理意义。",
+  "answer": "①实现蛋白质在内膜系统各区室间高效有序的转运和分选，是内膜系统蛋白质运输的核心方式；②维持各细胞器独特的蛋白质组成和功能特异性——尽管膜泡在细胞器间不断流动，但各细胞器通过回收信号维持自身蛋白组分；③支持细胞分泌活动（如激素释放、神经递质释放）和细胞对外界物质的摄入（受体介导内吞），是细胞与外界物质交换的基础；④生物合成途径中维持膜流的动态平衡，使细胞膜和各细胞器膜的面积和组成保持稳定。",
+  "difficulty": 1,
+  "explanation": "膜泡运输实现内膜系统间蛋白质高效有序分选，维持各细胞器蛋白组特异性，支撑分泌和内吞等活动。",
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选"
+ },
+ {
+  "id": 118,
+  "type": "short",
+  "question": "真核细胞如何确保内质网驻留蛋白不被COPII膜泡大量带入高尔基体？",
+  "answer": "通过双重机制：①物理排阻——驻留蛋白在ER腔中可形成大的多亚基复合物，其尺寸过大无法被COPII膜泡包装；②信号回收——即使少量驻留蛋白被误包装为逃逸蛋白进入COPII膜泡到达高尔基体，也会通过回收信号（可溶性蛋白的KDEL、膜蛋白的KKXX）被相应受体识别，经COPI膜泡逆向运输回内质网。此外，COPII包被本身具有选择性，依赖Sec24识别正确的分选信号（如二酸信号Asp-X-Glu），提高了运输的特异性。",
+  "difficulty": 3,
+  "explanation": "内质网驻留蛋白通过形成超大复合物被物理排阻，逃逸蛋白通过KDEL/KKXX信号经COPI逆向回收回内质网。",
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输"
+ },
+ {
+  "type": "choice",
+  "question": "细胞质基质中的可溶性驻留蛋白和骨架蛋白的合成场所及转运方式是（　）",
+  "options": {
+   "A": "糙面内质网附着核糖体合成，共翻译转运",
+   "B": "细胞质基质游离核糖体合成，翻译后转运",
+   "C": "线粒体核糖体合成",
+   "D": "高尔基体合成"
+  },
+  "answer": "B",
+  "explanation": "细胞质基质中的可溶性驻留蛋白和骨架蛋白在细胞质基质游离核糖体上完成合成后留在细胞质基质中，属翻译后转运途径的范畴。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "蛋白质分选"
+  ],
+  "topic": "翻译后转运",
+  "id": 119
+ },
+ {
+  "type": "choice",
+  "question": "分泌蛋白从内质网转运至高尔基体所采用的转运方式是（　）",
+  "options": {
+   "A": "选择性门控转运",
+   "B": "膜泡运输",
+   "C": "跨膜转运",
+   "D": "直接扩散"
+  },
+  "answer": "B",
+  "explanation": "共翻译转运途径中，蛋白质进入内质网后经膜泡运输（COPII包被膜泡）从内质网转运至高尔基体，再分选至靶部位。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "蛋白质分选"
+  ],
+  "topic": "膜泡运输",
+  "id": 120
+ },
+ {
+  "type": "choice",
+  "question": "下列采用翻译后转运途径进入细胞器的蛋白质是（　）",
+  "options": {
+   "A": "分泌蛋白",
+   "B": "细胞膜蛋白",
+   "C": "过氧化物酶体基质蛋白",
+   "D": "溶酶体酶"
+  },
+  "answer": "C",
+  "explanation": "过氧化物酶体基质蛋白在细胞质基质游离核糖体上合成后，经翻译后转运途径进入过氧化物酶体；分泌蛋白、细胞膜蛋白和溶酶体酶均经共翻译转运途径。",
+  "difficulty": 1,
+  "tags": [
+   "翻译后转运",
+   "过氧化物酶体"
+  ],
+  "topic": "翻译后转运",
+  "id": 121
+ },
+ {
+  "type": "choice",
+  "question": "共翻译转运中信号肽被切除后的去向是（　）",
+  "options": {
+   "A": "随蛋白质进入内质网腔",
+   "B": "被快速降解",
+   "C": "返回细胞质基质重复使用",
+   "D": "插入内质网膜形成跨膜区"
+  },
+  "answer": "B",
+  "explanation": "内质网腔面的信号肽酶切除信号肽后将其快速降解，信号肽不会进入内质网腔。",
+  "difficulty": 1,
+  "tags": [
+   "信号肽",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 122
+ },
+ {
+  "type": "choice",
+  "question": "SRP中负责识别并结合信号肽的亚基是（　）",
+  "options": {
+   "A": "p54亚基",
+   "B": "7S RNA",
+   "C": "p19亚基",
+   "D": "p72亚基"
+  },
+  "answer": "A",
+  "explanation": "SRP由6种蛋白质和1个7S RNA组成，其中p54亚基负责识别并结合新生肽N端的信号肽，2分子GTP分别结合SRP-p54亚基和SRP受体α亚基以强化相互作用。",
+  "difficulty": 3,
+  "tags": [
+   "SRP",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 123
+ },
+ {
+  "type": "choice",
+  "question": "共翻译转运中肽链延伸暂时停止的生理意义是（　）",
+  "options": {
+   "A": "防止新生肽N端损伤和成熟前折叠",
+   "B": "等待mRNA降解",
+   "C": "为核糖体更换密码子",
+   "D": "防止信号肽被切除"
+  },
+  "answer": "A",
+  "explanation": "当多肽链延伸至约80个氨基酸残基时，N端内质网信号序列暴露并与SRP结合，导致肽链延伸暂时停止，防止新生肽N端损伤和成熟前折叠。",
+  "difficulty": 2,
+  "tags": [
+   "SRP",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 124
+ },
+ {
+  "type": "choice",
+  "question": "信号假说提出的实验背景是（　）",
+  "options": {
+   "A": "Palade发现游离核糖体合成非分泌蛋白、附着核糖体合成分泌蛋白",
+   "B": "Watson发现DNA双螺旋",
+   "C": "Blobel发现核糖体的化学组成",
+   "D": "电镜观察发现高尔基体"
+  },
+  "answer": "A",
+  "explanation": "Palade发现细胞质游离核糖体合成非分泌蛋白、内质网附着核糖体合成分泌蛋白，但无法解释两类核糖体的功能差异；Blobel和Sabatini据此提出信号假说，推测差异源于蛋白质本身。",
+  "difficulty": 2,
+  "tags": [
+   "信号假说",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 125
+ },
+ {
+  "type": "choice",
+  "question": "共翻译转运中，核糖体-新生肽复合物所结合的移位子的本质是（　）",
+  "options": {
+   "A": "内质网膜上的蛋白转运通道",
+   "B": "细胞质基质中的游离蛋白",
+   "C": "高尔基体上的受体",
+   "D": "核糖体蛋白"
+  },
+  "answer": "A",
+  "explanation": "移位子是内质网膜上的蛋白转运通道（如Sec61复合体），核糖体-新生肽复合物与其结合后，SRP解离，肽链继续合成并进入内质网腔。",
+  "difficulty": 2,
+  "tags": [
+   "移位子",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 126
+ },
+ {
+  "type": "choice",
+  "question": "信号肽在共翻译转运中的后期作用是（　）",
+  "options": {
+   "A": "与SRP结合暂停翻译",
+   "B": "引导核糖体锚定内质网膜",
+   "C": "打开移位子孔道",
+   "D": "切除自身"
+  },
+  "answer": "C",
+  "explanation": "呈环化构象的信号肽与移位子组分结合并打开孔道，信号肽穿入内质网膜，引导肽链以袢环形式进入内质网膜；除早期引导锚定外，打开移位子孔道是信号肽的后期作用。",
+  "difficulty": 3,
+  "tags": [
+   "信号肽",
+   "移位子"
+  ],
+  "topic": "共翻译转运",
+  "id": 127
+ },
+ {
+  "type": "choice",
+  "question": "引导新生肽链穿过内质网膜移位子的序列称为（　）",
+  "options": {
+   "A": "内在停止转移锚定序列（STA）",
+   "B": "起始转移序列",
+   "C": "内在信号锚定序列（SA）",
+   "D": "KDEL序列"
+  },
+  "answer": "B",
+  "explanation": "起始转移序列是引导新生肽链穿过内质网膜移位子的序列，蛋白质N端的信号肽可视为其一种；其与停止转移序列终止穿膜的作用相反。",
+  "difficulty": 2,
+  "tags": [
+   "起始转移序列",
+   "跨膜蛋白"
+  ],
+  "topic": "共翻译转运",
+  "id": 128
+ },
+ {
+  "type": "choice",
+  "question": "内在停止转移锚定序列（STA）的特点是（　）",
+  "options": {
+   "A": "与内质网膜具有强亲和力，且常位于多肽内部",
+   "B": "位于蛋白质N端",
+   "C": "亲水性氨基酸组成",
+   "D": "仅存在于分泌蛋白中"
+  },
+  "answer": "A",
+  "explanation": "STA是终止多肽向内质网膜转运的疏水性序列，与内质网膜具有强亲和力且常位于多肽内部，进入转运通道时发出“停止”信号使肽链停止穿膜并锚定在脂双层中。",
+  "difficulty": 2,
+  "tags": [
+   "停止转移序列",
+   "跨膜蛋白"
+  ],
+  "topic": "共翻译转运",
+  "id": 129
+ },
+ {
+  "type": "choice",
+  "question": "内在信号锚定序列（SA）的功能是（　）",
+  "options": {
+   "A": "兼具信号肽功能和跨膜锚定功能",
+   "B": "仅能终止肽链转移",
+   "C": "促进蛋白质降解",
+   "D": "识别KDEL信号"
+  },
+  "answer": "A",
+  "explanation": "SA是多肽链中兼具信号肽功能和跨膜锚定功能的疏水性序列，既能引导核糖体-新生肽链复合物至内质网，同时自身嵌入内质网膜脂双层后永久锚定。",
+  "difficulty": 2,
+  "tags": [
+   "信号锚定序列",
+   "跨膜蛋白"
+  ],
+  "topic": "共翻译转运",
+  "id": 130
+ },
+ {
+  "type": "choice",
+  "question": "仅含N端信号序列而无内在停止转移锚定序列（STA）的肽链，其命运是（　）",
+  "options": {
+   "A": "肽链完全进入内质网腔，形成可溶性蛋白",
+   "B": "锚定在膜上形成膜蛋白",
+   "C": "在细胞质基质中降解",
+   "D": "返回细胞核"
+  },
+  "answer": "A",
+  "explanation": "序列组合决定蛋白质定位与类型：仅含N端信号序列、无STA的肽链完全进入内质网腔，最终成为可溶性蛋白（如分泌蛋白）；含STA则成为膜蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "id": 131
+ },
+ {
+  "type": "choice",
+  "question": "下列属于I型单次跨膜蛋白实例的是（　）",
+  "options": {
+   "A": "LDL受体",
+   "B": "转铁蛋白受体",
+   "C": "细胞色素P450",
+   "D": "葡糖转运蛋白"
+  },
+  "answer": "A",
+  "explanation": "I型单次跨膜蛋白含可切割的N端信号序列+STA，实例包括LDL受体、流感病毒血凝素、胰岛素受体；转铁蛋白受体为II型，细胞色素P450为III型。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "I型"
+  ],
+  "topic": "共翻译转运",
+  "id": 132
+ },
+ {
+  "type": "choice",
+  "question": "下列属于II型单次跨膜蛋白实例的是（　）",
+  "options": {
+   "A": "胰岛素受体",
+   "B": "转铁蛋白受体",
+   "C": "细胞色素P450",
+   "D": "G蛋白偶联受体"
+  },
+  "answer": "B",
+  "explanation": "II型单次跨膜蛋白无切割型N端信号序列、含SA、N端含正电，N端亲水区朝向细胞质基质，实例包括无唾液酸糖蛋白受体和转铁蛋白受体。",
+  "difficulty": 3,
+  "tags": [
+   "跨膜蛋白",
+   "II型"
+  ],
+  "topic": "共翻译转运",
+  "id": 133
+ },
+ {
+  "type": "choice",
+  "question": "下列属于III型单次跨膜蛋白实例的是（　）",
+  "options": {
+   "A": "细胞色素P450",
+   "B": "LDL受体",
+   "C": "无唾液酸糖蛋白受体",
+   "D": "电压门控Ca2+通道"
+  },
+  "answer": "A",
+  "explanation": "III型单次跨膜蛋白无切割型N端信号序列、近N端含疏水跨膜片段，拓扑取向与I型相同（N端朝向内质网腔），实例为细胞色素P450。",
+  "difficulty": 3,
+  "tags": [
+   "跨膜蛋白",
+   "III型"
+  ],
+  "topic": "共翻译转运",
+  "id": 134
+ },
+ {
+  "type": "choice",
+  "question": "下列属于IV型多次跨膜蛋白实例的是（　）",
+  "options": {
+   "A": "G蛋白偶联受体",
+   "B": "胰岛素受体",
+   "C": "流感病毒血凝素",
+   "D": "转铁蛋白受体"
+  },
+  "answer": "A",
+  "explanation": "IV型多次跨膜蛋白含多个起始转移序列和多个STA，肽链多次穿膜，实例包括G蛋白偶联受体、葡糖转运蛋白和电压门控Ca2+通道。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "IV型"
+  ],
+  "topic": "共翻译转运",
+  "id": 135
+ },
+ {
+  "type": "choice",
+  "question": "多次跨膜蛋白的形成取决于（　）",
+  "options": {
+   "A": "多个起始转移序列与多个内在停止转移锚定序列的组合",
+   "B": "单个信号肽",
+   "C": "KDEL信号",
+   "D": "SRP的数量"
+  },
+  "answer": "A",
+  "explanation": "含多个起始转移序列和多个内在停止转移锚定序列（STA）的肽链可多次跨膜，形成多次跨膜蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "id": 136
+ },
+ {
+  "type": "choice",
+  "question": "线粒体基质蛋白输入的第一步是（　）",
+  "options": {
+   "A": "前体蛋白与分子伴侣Hsp70结合保持未折叠状态",
+   "B": "基质靶向序列被切除",
+   "C": "与Tim23/17结合",
+   "D": "蛋白质折叠成活性形式"
+  },
+  "answer": "A",
+  "explanation": "前体蛋白在细胞质基质游离核糖体上合成后，首先与分子伴侣Hsp70结合，保持未折叠或部分折叠状态，其N端具有线粒体基质靶向序列。",
+  "difficulty": 1,
+  "tags": [
+   "线粒体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 137
+ },
+ {
+  "type": "choice",
+  "question": "线粒体基质蛋白输入后，基质靶向序列的处置是（　）",
+  "options": {
+   "A": "被基质蛋白酶切除",
+   "B": "保留在蛋白N端参与折叠",
+   "C": "插入内膜形成跨膜区",
+   "D": "被磷酸化修饰"
+  },
+  "answer": "A",
+  "explanation": "输入的蛋白质进入线粒体基质后，基质靶向序列被切除，同时Hsp70从新输入的基质蛋白上释放下来，蛋白质折叠成活性形式完成其功能。",
+  "difficulty": 2,
+  "tags": [
+   "线粒体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 138
+ },
+ {
+  "type": "choice",
+  "question": "线粒体内膜蛋白输入途径b与途径a的主要区别是（　）",
+  "options": {
+   "A": "途径b的前体蛋白不含N端基质靶向序列",
+   "B": "途径b蛋白具有内在疏水结构域，可被内膜蛋白Oxal识别",
+   "C": "途径b不需要输入受体",
+   "D": "途径b直接穿过外膜进入膜间隙"
+  },
+  "answer": "B",
+  "explanation": "途径b的内膜蛋白除与途径a相同的N端基质靶向序列、输入受体和孔道外，还具有内在疏水结构域，可被内膜蛋白Oxal识别，前体先进入基质、切割后再装配到内膜上。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "内膜蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 139
+ },
+ {
+  "type": "choice",
+  "question": "线粒体膜间隙蛋白输入途径c中，含多个内在靶向序列的蛋白被下列哪组受体识别（　）",
+  "options": {
+   "A": "Tom70/Tom22",
+   "B": "Tom20/22",
+   "C": "Tim23/17",
+   "D": "Oxal"
+  },
+  "answer": "A",
+  "explanation": "途径c不含N端基质靶向序列，但含多个被Tom70/Tom22识别的内在靶向序列，膜间隙蛋白Tim9/Tim10作为分子伴侣协助输入蛋白在外膜与内膜通道之间转运。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "膜间隙蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 140
+ },
+ {
+  "type": "choice",
+  "question": "线粒体膜间隙蛋白输入途径a的实例是（　）",
+  "options": {
+   "A": "细胞色素b2",
+   "B": "细胞色素c",
+   "C": "ATP合成酶",
+   "D": "转铁蛋白受体"
+  },
+  "answer": "A",
+  "explanation": "途径a与内膜蛋白途径a类似，主要区别在于蛋白质（如细胞色素b2）的内在靶向序列定位在膜间隙，转运过程中被内膜上的蛋白酶切割，释放的蛋白质折叠并与血红素结合。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "膜间隙蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 141
+ },
+ {
+  "type": "choice",
+  "question": "线粒体膜间隙蛋白输入途径b的特点是（　）",
+  "options": {
+   "A": "转运的蛋白质经外膜Tom40输入孔直接进入膜间隙",
+   "B": "必须经过内膜蛋白酶切割",
+   "C": "依赖Oxal识别",
+   "D": "需要基质靶向序列"
+  },
+  "answer": "A",
+  "explanation": "途径b的蛋白质通过外膜Tom40输入孔直接进入膜间隙，这一途径不涉及内膜上的蛋白酶切割。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "膜间隙蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 142
+ },
+ {
+  "type": "choice",
+  "question": "叶绿体基质蛋白输入时前体蛋白的状态是（　）",
+  "options": {
+   "A": "以非折叠形式输入叶绿体基质",
+   "B": "以完全折叠的天然构象输入",
+   "C": "与膜泡结合后输入",
+   "D": "先经高尔基体加工"
+  },
+  "answer": "A",
+  "explanation": "核基因编码的叶绿体基质蛋白在细胞质基质中合成后具有N端基质输入序列，这些前体蛋白以非折叠形式输入叶绿体基质，转运依赖基质Hsp70和ATP。",
+  "difficulty": 2,
+  "tags": [
+   "叶绿体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 143
+ },
+ {
+  "type": "choice",
+  "question": "类囊体蛋白分选的SRP传导途径的实例是（　）",
+  "options": {
+   "A": "质体蓝素蛋白",
+   "B": "金属结合蛋白",
+   "C": "核酮糖-1,5-二磷酸羧化酶",
+   "D": "细胞色素b2"
+  },
+  "answer": "A",
+  "explanation": "质体蓝素蛋白前体在基质中保持非折叠态，与叶绿体SRP结合，在叶绿体SRP受体和转运蛋白SecY介导下进入类囊体腔，之后类囊体靶向序列被切除。",
+  "difficulty": 3,
+  "tags": [
+   "叶绿体",
+   "类囊体蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 144
+ },
+ {
+  "type": "choice",
+  "question": "类囊体蛋白分选的pH依赖途径进入类囊体腔的关键是（　）",
+  "options": {
+   "A": "类囊体靶向序列N端精氨酸残基和跨内膜pH梯度",
+   "B": "SRP介导",
+   "C": "SecY转运蛋白",
+   "D": "GTP水解供能"
+  },
+  "answer": "A",
+  "explanation": "pH依赖途径中，类囊体靶向序列N端精氨酸残基和跨内膜pH梯度是其进入类囊体腔的关键，膜上特定转运蛋白协助其进入，进入后靶向序列切除、蛋白成熟。",
+  "difficulty": 3,
+  "tags": [
+   "叶绿体",
+   "类囊体蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 145
+ },
+ {
+  "type": "truefalse",
+  "question": "蛋白质分选仅存在于特化的分泌细胞中。",
+  "answer": "false",
+  "explanation": "蛋白质分选普遍存在于所有真核细胞中，是细胞维持正常结构和功能的基础，并非分泌细胞特有。",
+  "difficulty": 1,
+  "tags": [
+   "蛋白质分选"
+  ],
+  "topic": "蛋白质分选",
+  "id": 146
+ },
+ {
+  "type": "truefalse",
+  "question": "细胞质基质中的可溶性驻留蛋白和骨架蛋白经翻译后转运途径定位。",
+  "answer": "true",
+  "explanation": "翻译后转运途径的蛋白质可在细胞质基质游离核糖体上完成合成后，成为细胞质基质中的可溶性驻留蛋白和骨架蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 147
+ },
+ {
+  "type": "truefalse",
+  "question": "信号肽被切除后立即被快速降解。",
+  "answer": "true",
+  "explanation": "内质网腔面的信号肽酶切除信号肽后将其快速降解，信号肽不会进入内质网腔。",
+  "difficulty": 1,
+  "tags": [
+   "信号肽",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 148
+ },
+ {
+  "type": "truefalse",
+  "question": "多肽链合成折叠完成后，核糖体从内质网膜释放，移位子通道关闭。",
+  "answer": "true",
+  "explanation": "多肽链合成折叠完成后，核糖体从内质网膜上释放，移位子通道关闭，转运过程终止。",
+  "difficulty": 1,
+  "tags": [
+   "移位子",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 149
+ },
+ {
+  "type": "truefalse",
+  "question": "起始转移序列与停止转移序列对穿膜的作用相反。",
+  "answer": "true",
+  "explanation": "起始转移序列能启动穿膜，与停止转移序列终止穿膜的作用相反；两者配合决定跨膜蛋白的拓扑学特征。",
+  "difficulty": 2,
+  "tags": [
+   "起始转移序列",
+   "停止转移序列"
+  ],
+  "topic": "共翻译转运",
+  "id": 150
+ },
+ {
+  "type": "truefalse",
+  "question": "内在信号锚定序列（SA）嵌入内质网膜脂双层后永久锚定。",
+  "answer": "true",
+  "explanation": "SA既能引导核糖体-新生肽链复合物至内质网，同时其自身嵌入内质网膜脂双层后永久锚定，兼具信号肽和跨膜锚定功能。",
+  "difficulty": 2,
+  "tags": [
+   "信号锚定序列"
+  ],
+  "topic": "共翻译转运",
+  "id": 151
+ },
+ {
+  "type": "truefalse",
+  "question": "I型单次跨膜蛋白的N端亲水区朝向内质网腔。",
+  "answer": "true",
+  "explanation": "I型单次跨膜蛋白含可切割的N端信号序列+STA，N端亲水区朝向内质网腔，C端亲水区朝向细胞质基质。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "id": 152
+ },
+ {
+  "type": "truefalse",
+  "question": "跨膜片段侧翼带负电荷的氨基酸残基一侧通常朝向细胞质基质。",
+  "answer": "false",
+  "explanation": "带正电荷的氨基酸残基一侧通常朝向细胞质基质，这决定跨膜蛋白的拓扑取向；负电荷侧翼通常朝向内质网腔。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "id": 153
+ },
+ {
+  "type": "truefalse",
+  "question": "线粒体基质靶向序列在蛋白质进入基质后被切除。",
+  "answer": "true",
+  "explanation": "输入的蛋白质在基质中，基质靶向序列被切除，同时Hsp70从新输入的基质蛋白上释放下来，蛋白质再折叠成活性形式。",
+  "difficulty": 2,
+  "tags": [
+   "线粒体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 154
+ },
+ {
+  "type": "choice",
+  "question": "膜泡运输中，转运膜泡在细胞内的移动依赖（　）",
+  "options": {
+   "A": "分子马达沿微管或微丝驱动",
+   "B": "自由扩散",
+   "C": "核孔复合体转运",
+   "D": "胞质环流"
+  },
+  "answer": "A",
+  "explanation": "膜泡在分子马达介导下沿微管或微丝转运至目的地，与靶细胞器或细胞膜融合，这是膜泡运输的关键步骤之一。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "细胞骨架"
+  ],
+  "topic": "膜泡运输",
+  "id": 155
+ },
+ {
+  "type": "choice",
+  "question": "转运膜泡可以携带的“货物”包括（　）",
+  "options": {
+   "A": "可溶性蛋白、膜蛋白与膜脂",
+   "B": "仅可溶性蛋白",
+   "C": "仅膜蛋白",
+   "D": "仅小分子离子"
+  },
+  "answer": "A",
+  "explanation": "膜泡运输不仅涉及蛋白质的转运，还介导膜脂等组分的转运，可溶性蛋白、膜蛋白与膜脂均可作为货物被包装进转运膜泡。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "货物"
+  ],
+  "topic": "膜泡运输",
+  "id": 156
+ },
+ {
+  "type": "choice",
+  "question": "COPI包被膜泡的分离与鉴定方法是（　）",
+  "options": {
+   "A": "用不能被水解的GTP类似物处理细胞诱导聚集，再经密度梯度离心分离",
+   "B": "荧光显微镜直接观察",
+   "C": "免疫共沉淀",
+   "D": "PCR扩增"
+  },
+  "answer": "A",
+  "explanation": "COPI包被膜泡可通过用不能被水解的GTP类似物处理细胞诱导其聚集，并通过密度梯度离心法从细胞匀浆中分离。",
+  "difficulty": 3,
+  "tags": [
+   "COPI",
+   "研究方法"
+  ],
+  "topic": "膜泡运输",
+  "id": 157
+ },
+ {
+  "type": "choice",
+  "question": "驻留蛋白被错误包装进入转运膜泡后成为（　）",
+  "options": {
+   "A": "逃逸蛋白",
+   "B": "信号肽",
+   "C": "转运蛋白",
+   "D": "分子伴侣"
+  },
+  "answer": "A",
+  "explanation": "驻留蛋白因某些原因未被正确分选、被错误包装进入转运膜泡，从而逃逸到其本不应存在的细胞器中，就形成了逃逸蛋白。",
+  "difficulty": 1,
+  "tags": [
+   "逃逸蛋白",
+   "COPI"
+  ],
+  "topic": "膜泡运输",
+  "id": 158
+ },
+ {
+  "type": "choice",
+  "question": "COPII膜泡运输的选择特异性依赖（　）",
+  "options": {
+   "A": "被转运蛋白的靶向分选序列，膜泡包被直接识别并结合",
+   "B": "蛋白质的分子量大小",
+   "C": "膜泡运输速率",
+   "D": "细胞质基质中的离子浓度"
+  },
+  "answer": "A",
+  "explanation": "COPII膜泡运输具有选择特异性，依赖被转运蛋白的靶向分选序列，以此区分需包装转运的蛋白与需排除的滞留蛋白，膜泡包被直接识别并结合靶向序列或分选信号。",
+  "difficulty": 2,
+  "tags": [
+   "COPII",
+   "选择特异性"
+  ],
+  "topic": "膜泡运输",
+  "id": 159
+ },
+ {
+  "type": "choice",
+  "question": "COPI包被膜泡逆向运输的路径是（　）",
+  "options": {
+   "A": "内质网→高尔基体",
+   "B": "高尔基体反面膜囊→顺面膜囊/CGN→内质网",
+   "C": "高尔基体→细胞膜",
+   "D": "细胞膜→内体"
+  },
+  "answer": "B",
+  "explanation": "COPI介导逆向运输，具体路径为：高尔基体反面膜囊→高尔基体顺面膜囊、顺面网状区（CGN）→内质网。",
+  "difficulty": 1,
+  "tags": [
+   "COPI",
+   "逆向运输"
+  ],
+  "topic": "膜泡运输",
+  "id": 160
+ },
+ {
+  "type": "choice",
+  "question": "COPI包被膜泡运输的生物学意义是（　）",
+  "options": {
+   "A": "防止内质网腔蛋白损失，维持细胞器蛋白质组分特异性",
+   "B": "降解错误折叠蛋白",
+   "C": "促进细胞分裂",
+   "D": "合成新的膜脂"
+  },
+  "answer": "A",
+  "explanation": "COPI运输防止内质网腔蛋白（如参与新合成分泌蛋白正确折叠的分子伴侣）的损失；每种膜组分具有自身独特的回收信号，使细胞器在膜泡不断运动过程中保持独特蛋白质组分。",
+  "difficulty": 2,
+  "tags": [
+   "COPI",
+   "意义"
+  ],
+  "topic": "膜泡运输",
+  "id": 161
+ },
+ {
+  "type": "choice",
+  "question": "分泌途径中，网格蛋白/接头蛋白包被膜泡从TGN转运货物至（　）",
+  "options": {
+   "A": "细胞膜、内体、溶酶体、黑色素体、血小板囊泡和植物细胞液泡",
+   "B": "仅细胞膜",
+   "C": "内质网",
+   "D": "线粒体和叶绿体"
+  },
+  "answer": "A",
+  "explanation": "在分泌途径中，网格蛋白/接头蛋白包被膜泡负责从高尔基体TGN向细胞膜、内体、溶酶体、黑色素体、血小板囊泡和植物细胞液泡的货物转运过程中膜泡的形成。",
+  "difficulty": 2,
+  "tags": [
+   "网格蛋白",
+   "分泌途径"
+  ],
+  "topic": "膜泡运输",
+  "id": 162
+ },
+ {
+  "type": "choice",
+  "question": "GGA接头蛋白的结构特点是（　）",
+  "options": {
+   "A": "由单一多肽链组成",
+   "B": "异四聚体",
+   "C": "同四聚体",
+   "D": "三腿结构"
+  },
+  "answer": "A",
+  "explanation": "经典接头蛋白复合物为AP1、AP2、AP3三种（均为异四聚体）；其他接头蛋白如GGA由单一多肽链组成。",
+  "difficulty": 3,
+  "tags": [
+   "接头蛋白",
+   "GGA"
+  ],
+  "topic": "膜泡运输",
+  "id": 163
+ },
+ {
+  "type": "choice",
+  "question": "关于AP3复合物包被蛋白的正确说法是（　）",
+  "options": {
+   "A": "是否含有网格蛋白未知",
+   "B": "肯定不含网格蛋白",
+   "C": "由三腿结构组成",
+   "D": "仅存在于植物细胞"
+  },
+  "answer": "A",
+  "explanation": "AP1、AP2、AP3三种经典接头蛋白复合物中，AP3复合物的包被蛋白是否含有网格蛋白目前未知。",
+  "difficulty": 3,
+  "tags": [
+   "接头蛋白",
+   "AP3"
+  ],
+  "topic": "膜泡运输",
+  "id": 164
+ },
+ {
+  "type": "choice",
+  "question": "新近证据表明，胞吞过程中网格蛋白包被膜泡的形成（　）",
+  "options": {
+   "A": "不需要ARF参与",
+   "B": "完全依赖ARF",
+   "C": "依赖Sar1",
+   "D": "依赖Rab蛋白"
+  },
+  "answer": "A",
+  "explanation": "网格蛋白包被膜泡大部分需要ARF参与，但新近证据表明在胞吞作用过程中不需要ARF参与。",
+  "difficulty": 3,
+  "tags": [
+   "ARF",
+   "网格蛋白",
+   "内吞"
+  ],
+  "topic": "膜泡运输",
+  "id": 165
+ },
+ {
+  "type": "choice",
+  "question": "网格蛋白在供体膜上聚合后，其后续作用是（　）",
+  "options": {
+   "A": "募集接头蛋白复合物到供体膜的胞质面并与之结合",
+   "B": "直接水解GTP使膜泡断裂",
+   "C": "识别KDEL信号",
+   "D": "关闭移位子"
+  },
+  "answer": "A",
+  "explanation": "网格蛋白在供体膜上聚合后，可募集接头蛋白复合物到供体膜的胞质面并与之结合，共同组装形成包被并驱动膜出芽；膜泡断裂由发动蛋白完成。",
+  "difficulty": 2,
+  "tags": [
+   "网格蛋白",
+   "装配"
+  ],
+  "topic": "膜泡运输",
+  "id": 166
+ },
+ {
+  "type": "choice",
+  "question": "下列不属于膜泡运输三个关键步骤的是（　）",
+  "options": {
+   "A": "供体膜出芽、装配和断裂形成包被转运膜泡",
+   "B": "马达蛋白驱动膜泡沿微管运输",
+   "C": "转运膜泡与靶膜的锚定和融合",
+   "D": "蛋白质的磷酸化修饰"
+  },
+  "answer": "D",
+  "explanation": "膜泡运输的关键步骤包括供体膜的出芽、装配和断裂，马达蛋白驱动的膜泡运输，以及转运膜泡与靶膜的锚定和融合；蛋白质磷酸化修饰不属于膜泡运输的基本步骤。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "关键步骤"
+  ],
+  "topic": "膜泡运输",
+  "id": 167
+ },
+ {
+  "type": "choice",
+  "question": "Rab效应器的作用是（　）",
+  "options": {
+   "A": "与Rab-GTP结合使转运膜泡锚定在适当的靶膜上",
+   "B": "水解GTP使膜泡断裂",
+   "C": "合成类异戊二烯基团",
+   "D": "切割信号肽"
+  },
+  "answer": "A",
+  "explanation": "Rab-GTP通过类异戊二烯基团插入膜泡膜后，与靶膜上的Rab效应器结合，从而使转运膜泡被锚定在适当的靶膜上。",
+  "difficulty": 2,
+  "tags": [
+   "Rab蛋白",
+   "锚定"
+  ],
+  "topic": "膜泡运输",
+  "id": 168
+ },
+ {
+  "type": "choice",
+  "question": "膜泡运输中膜泡移动的“轨道”是（　）",
+  "options": {
+   "A": "微管（由马达蛋白驱动）",
+   "B": "细胞质基质中的游离水分子",
+   "C": "核孔复合体",
+   "D": "内质网腔"
+  },
+  "answer": "A",
+  "explanation": "膜泡在细胞内由马达蛋白驱动，以微管为轨道进行运输（在第八章细胞骨架部分详述）。",
+  "difficulty": 1,
+  "tags": [
+   "膜泡运输",
+   "微管"
+  ],
+  "topic": "膜泡运输",
+  "id": 169
+ },
+ {
+  "type": "choice",
+  "question": "COPII装配中，Sar1-GTP暴露出疏水N端插入ER膜后所起的作用是（　）",
+  "options": {
+   "A": "对包被蛋白的进一步装配起募集者作用",
+   "B": "直接形成网格骨架",
+   "C": "水解GTP为装配供能",
+   "D": "识别货物分选信号"
+  },
+  "answer": "A",
+  "explanation": "GTP结合引发Sar1构象改变，暴露出疏水N端并插入ER膜，膜结合的Sar1对包被蛋白的进一步装配起募集者作用，随后提供Sec23/Sec24复合物的结合位点。",
+  "difficulty": 3,
+  "tags": [
+   "COPII",
+   "Sar1"
+  ],
+  "topic": "膜泡运输",
+  "id": 170
+ },
+ {
+  "type": "choice",
+  "question": "内质网待转运膜蛋白的二酸分选信号（Asp-X-Glu）体现了COPII膜泡运输的（　）",
+  "options": {
+   "A": "选择特异性",
+   "B": "能量来源",
+   "C": "膜泡断裂机制",
+   "D": "脱包被机制"
+  },
+  "answer": "A",
+  "explanation": "内质网待转运膜蛋白具有二酸分选信号（如Asp-X-Glu），COPII中的Sec24亚基作为该信号的受体，识别结合后将膜蛋白包装进COPII膜泡，这体现了COPII膜泡运输的选择特异性。",
+  "difficulty": 2,
+  "tags": [
+   "COPII",
+   "选择特异性",
+   "二酸信号"
+  ],
+  "topic": "膜泡运输",
+  "id": 171
+ },
+ {
+  "type": "truefalse",
+  "question": "叶绿体基质蛋白的输入主要依赖跨内膜的电化学梯度提供动力。",
+  "answer": "false",
+  "explanation": "与线粒体不同，叶绿体不产生跨内膜的电化学梯度，ATP水解供能几乎是叶绿体蛋白质转运唯一的动力来源。",
+  "difficulty": 2,
+  "tags": [
+   "叶绿体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 172
+ },
+ {
+  "type": "truefalse",
+  "question": "类囊体蛋白分选的pH依赖途径需要跨内膜的pH梯度。",
+  "answer": "true",
+  "explanation": "pH依赖途径中，类囊体靶向序列N端精氨酸残基和跨内膜pH梯度是蛋白质进入类囊体腔的关键。",
+  "difficulty": 3,
+  "tags": [
+   "叶绿体",
+   "类囊体蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 173
+ },
+ {
+  "type": "truefalse",
+  "question": "COPI包被膜泡在高尔基体膜囊之间发挥修饰酶类的回收利用作用。",
+  "answer": "true",
+  "explanation": "COPI包被膜泡介导从高尔基体回收货物转运至内质网的膜泡形成，也在高尔基体膜囊之间相关修饰酶类的回收利用中发挥作用。",
+  "difficulty": 2,
+  "tags": [
+   "COPI",
+   "回收"
+  ],
+  "topic": "膜泡运输",
+  "id": 174
+ },
+ {
+  "type": "truefalse",
+  "question": "驻留蛋白形成的大复合物可被COPII膜泡顺利包装转运。",
+  "answer": "false",
+  "explanation": "转运膜泡将驻留蛋白有效排斥在外，如驻留蛋白形成大复合物后其尺寸过大无法被COPII膜泡包装，这是驻留蛋白维持定位的机制之一。",
+  "difficulty": 2,
+  "tags": [
+   "驻留蛋白",
+   "COPII"
+  ],
+  "topic": "膜泡运输",
+  "id": 175
+ },
+ {
+  "type": "truefalse",
+  "question": "表达不能结合并水解GTP的突变型发动蛋白，会产生被发动蛋白包绕的、具有较长颈部的膜泡芽体。",
+  "answer": "true",
+  "explanation": "实验证据表明，若表达不能结合并水解GTP的突变型发动蛋白，则无法形成独立的膜泡，仅产生被发动蛋白包绕的、具有较长颈部的膜泡芽体。",
+  "difficulty": 3,
+  "tags": [
+   "发动蛋白",
+   "实验证据"
+  ],
+  "topic": "膜泡运输",
+  "id": 176
+ },
+ {
+  "type": "truefalse",
+  "question": "GGA是由单一多肽链组成的接头蛋白。",
+  "answer": "true",
+  "explanation": "经典接头蛋白复合物AP1、AP2、AP3均为异四聚体，而其他接头蛋白如GGA由单一多肽链组成。",
+  "difficulty": 2,
+  "tags": [
+   "接头蛋白",
+   "GGA"
+  ],
+  "topic": "膜泡运输",
+  "id": 177
+ },
+ {
+  "type": "truefalse",
+  "question": "膜泡融合发生后，Rab蛋白结合的GTP水解为GDP，Rab-GDP从膜泡释放。",
+  "answer": "true",
+  "explanation": "膜泡融合发生后，与Rab蛋白结合的GTP水解为GDP，引发Rab-GDP从膜泡释放，完成Rab的循环。",
+  "difficulty": 2,
+  "tags": [
+   "Rab蛋白",
+   "循环"
+  ],
+  "topic": "膜泡运输",
+  "id": 178
+ },
+ {
+  "type": "truefalse",
+  "question": "SNARE复合体解离释放的蛋白亚基可循环用于其他融合事件。",
+  "answer": "true",
+  "explanation": "融合完成后，消耗ATP水解提供的能量使SNARE复合体解离，释放的SNARE蛋白亚基可再用于其他融合事件。",
+  "difficulty": 2,
+  "tags": [
+   "SNARE",
+   "膜融合"
+  ],
+  "topic": "膜泡运输",
+  "id": 179
+ },
+ {
+  "type": "truefalse",
+  "question": "新近证据表明，胞吞过程中网格蛋白包被膜泡的形成不需要ARF参与。",
+  "answer": "true",
+  "explanation": "网格蛋白包被膜泡大部分需要ARF参与，但新近证据表明在胞吞作用过程中不需要ARF参与。",
+  "difficulty": 3,
+  "tags": [
+   "ARF",
+   "内吞"
+  ],
+  "topic": "膜泡运输",
+  "id": 180
+ },
+ {
+  "type": "multi",
+  "question": "蛋白质在细胞内的转运机制包括（　）",
+  "options": {
+   "A": "跨膜转运",
+   "B": "膜泡运输",
+   "C": "选择性门控转运",
+   "D": "细胞质基质转运",
+   "E": "主动运输（离子泵）"
+  },
+  "answer": "ABCD",
+  "explanation": "蛋白质的细胞内转运机制包括跨膜转运、膜泡运输、选择性门控转运和细胞质基质转运；主动运输（离子泵）属于小分子物质的跨膜转运方式，不属于蛋白质转运机制。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "转运机制"
+  ],
+  "topic": "蛋白质分选",
+  "id": 181
+ },
+ {
+  "type": "multi",
+  "question": "翻译后转运途径蛋白质的靶向部位包括（　）",
+  "options": {
+   "A": "线粒体",
+   "B": "叶绿体",
+   "C": "过氧化物酶体",
+   "D": "细胞核",
+   "E": "细胞质基质"
+  },
+  "answer": "ABCDE",
+  "explanation": "翻译后转运途径的蛋白质在细胞质基质游离核糖体上完成合成后，转运至线粒体、叶绿体、过氧化物酶体及细胞核，或成为细胞质基质中的可溶性驻留蛋白和骨架蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "靶向部位"
+  ],
+  "topic": "翻译后转运",
+  "id": 182
+ },
+ {
+  "type": "multi",
+  "question": "信号肽的结构组成包括（　）",
+  "options": {
+   "A": "N端的碱性氨基酸区",
+   "B": "中部的疏水核心区",
+   "C": "C端的极性氨基酸加工区",
+   "D": "N端的疏水核心区",
+   "E": "C端不含任何氨基酸"
+  },
+  "answer": "ABC",
+  "explanation": "信号肽一般由16~26个氨基酸残基组成，分为N端碱性区、中部疏水核心区和C端加工区三部分；疏水核心区位于中部而非N端，D、E错误。",
+  "difficulty": 2,
+  "tags": [
+   "信号肽",
+   "结构"
+  ],
+  "topic": "共翻译转运",
+  "id": 183
+ },
+ {
+  "type": "multi",
+  "question": "SRP在共翻译转运中的功能包括（　）",
+  "options": {
+   "A": "识别并结合新生肽N端的信号肽",
+   "B": "结合核糖体使肽链合成暂停",
+   "C": "引导核糖体-新生肽复合物与内质网膜SRP受体结合",
+   "D": "将复合物锚定到内质网膜上",
+   "E": "切除信号肽"
+  },
+  "answer": "ABCD",
+  "explanation": "SRP可结合新生肽N端信号序列和核糖体，使肽链合成暂停，并引导复合物与SRP受体结合锚定至内质网膜；信号肽的切除由内质网腔面的信号肽酶完成，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "SRP",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 184
+ },
+ {
+  "type": "multi",
+  "question": "内质网膜整合蛋白拓扑学分类的依据包括（　）",
+  "options": {
+   "A": "是否含有可切割的N端ER信号序列",
+   "B": "肽链的拓扑取向",
+   "C": "跨膜次数",
+   "D": "跨膜片段侧翼氨基酸残基的电荷分布",
+   "E": "蛋白质的分子量大小"
+  },
+  "answer": "ABCD",
+  "explanation": "拓扑学分类依据包括是否含可切割的N端ER信号序列、肽链拓扑取向和跨膜次数；新生肽链的跨膜取向还受侧翼氨基酸电荷分布影响（正电荷一侧朝向细胞质基质）。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "id": 185
+ },
+ {
+  "type": "multi",
+  "question": "线粒体内膜蛋白输入途径a的要素包括（　）",
+  "options": {
+   "A": "蛋白质N端具有基质靶向序列",
+   "B": "外膜上Tom22/20作为识别N端基质靶向序列的输入受体",
+   "C": "利用Tom40作为外膜输入孔道",
+   "D": "内膜转运蛋白为Tim23/17",
+   "E": "输入过程不需要任何分子伴侣"
+  },
+  "answer": "ABCD",
+  "explanation": "途径a的蛋白具有N端基质靶向序列，经Tom22/20受体识别、Tom40外膜孔道和Tim23/17内膜通道输入；输入过程需要分子伴侣协助，E错误。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "内膜蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 186
+ },
+ {
+  "type": "multi",
+  "question": "线粒体膜间隙蛋白输入途径a的特点包括（　）",
+  "options": {
+   "A": "与内膜蛋白输入途径a类似",
+   "B": "蛋白质的内在靶向序列定位在膜间隙",
+   "C": "转运过程中被内膜上的蛋白酶切割",
+   "D": "释放的蛋白质折叠并与血红素结合",
+   "E": "不涉及任何蛋白酶切割"
+  },
+  "answer": "ABCD",
+  "explanation": "途径a与内膜蛋白途径a类似，主要区别在于内在靶向序列定位在膜间隙，蛋白质被内膜蛋白酶切割后折叠并与血红素结合（如细胞色素b2）；途径b才不涉及内膜蛋白酶切割。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "膜间隙蛋白"
+  ],
+  "topic": "翻译后转运",
+  "id": 187
+ },
+ {
+  "type": "multi",
+  "question": "叶绿体蛋白分选的特点包括（　）",
+  "options": {
+   "A": "前体蛋白以非折叠形式输入叶绿体基质",
+   "B": "转运依赖基质Hsp70的作用",
+   "C": "ATP水解供能几乎是唯一的动力来源",
+   "D": "进入基质后N端基质靶向序列被切除",
+   "E": "依赖跨内膜的电化学梯度供能"
+  },
+  "answer": "ABCD",
+  "explanation": "叶绿体不产生跨内膜的电化学梯度，ATP水解供能几乎是唯一动力来源，E错误；前体蛋白以非折叠形式输入，依赖基质Hsp70，基质靶向序列进入后被切除。",
+  "difficulty": 2,
+  "tags": [
+   "叶绿体",
+   "翻译后转运"
+  ],
+  "topic": "翻译后转运",
+  "id": 188
+ },
+ {
+  "type": "multi",
+  "question": "三种包被膜泡（COPII、COPI、网格蛋白）的共性包括（　）",
+  "options": {
+   "A": "均涉及供体膜出芽形成膜泡",
+   "B": "膜泡形成后运输至靶膜",
+   "C": "与靶膜融合释放内容物",
+   "D": "装配均依赖小分子GTP结合蛋白启动",
+   "E": "断裂均依赖发动蛋白的GTP酶活性"
+  },
+  "answer": "ABCD",
+  "explanation": "三种包被膜泡均涉及供体膜出芽、膜泡运输和与靶膜融合，装配均由小分子GTP结合蛋白启动（COPII-Sar1，COPI与网格蛋白-ARF）；发动蛋白依赖的GTP酶断裂机制是网格蛋白包被膜泡的特点，E错误。",
+  "difficulty": 3,
+  "tags": [
+   "膜泡运输",
+   "包被膜泡"
+  ],
+  "topic": "膜泡运输",
+  "id": 189
+ },
+ {
+  "type": "multi",
+  "question": "COPII包被装配的组分与过程包括（　）",
+  "options": {
+   "A": "Sar1-GTP暴露出疏水N端插入ER膜",
+   "B": "Sar1与膜结合提供Sec23/Sec24复合物的结合位点",
+   "C": "Sec13/Sec31自组装形成网格结构发挥骨架作用",
+   "D": "Sec16结合在内质网膜胞质面提高包被蛋白聚合效率",
+   "E": "装配由ARF启动"
+  },
+  "answer": "ABCD",
+  "explanation": "COPII装配由Sar1-GTP启动，随后募集Sec23/Sec24形成三重复合物，Sec13/Sec31形成骨架，Sec16提高聚合效率；COPII的GTP结合蛋白是Sar1而非ARF，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "COPII",
+   "装配"
+  ],
+  "topic": "膜泡运输",
+  "id": 190
+ },
+ {
+  "type": "multi",
+  "question": "关于逃逸蛋白的正确描述有（　）",
+  "options": {
+   "A": "是驻留蛋白被错误包装进入转运膜泡后形成的",
+   "B": "可随COPII膜泡被带到高尔基体",
+   "C": "通过COPI膜泡的回收机制返回正常驻留部位",
+   "D": "可溶性驻留蛋白靠KDEL信号、膜蛋白靠KKXX信号回收",
+   "E": "逃逸蛋白直接被蛋白酶体降解"
+  },
+  "answer": "ABCD",
+  "explanation": "逃逸蛋白是驻留蛋白被错误包装进入转运膜泡形成的，细胞通过COPI膜泡的回收机制（KDEL/KKXX信号识别）将其返回正常驻留部位，并非被蛋白酶体降解，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "逃逸蛋白",
+   "COPI"
+  ],
+  "topic": "膜泡运输",
+  "id": 191
+ },
+ {
+  "type": "multi",
+  "question": "网格蛋白/接头蛋白包被膜泡介导的转运途径包括（　）",
+  "options": {
+   "A": "分泌途径中从TGN向细胞膜、溶酶体等的货物转运",
+   "B": "受体介导的内吞泡形成",
+   "C": "内质网到高尔基体的顺向运输",
+   "D": "向内体、黑色素体、血小板囊泡和植物液泡的转运",
+   "E": "高尔基体到内质网的逆向运输"
+  },
+  "answer": "ABD",
+  "explanation": "网格蛋白/接头蛋白包被膜泡介导TGN分泌泡形成（向细胞膜、内体、溶酶体、黑色素体、血小板囊泡、植物液泡）和受体介导内吞泡形成；内质网到高尔基体顺向运输由COPII负责，逆向运输由COPI负责。",
+  "difficulty": 2,
+  "tags": [
+   "网格蛋白",
+   "转运途径"
+  ],
+  "topic": "膜泡运输",
+  "id": 192
+ },
+ {
+  "type": "multi",
+  "question": "接头蛋白复合物的类型包括（　）",
+  "options": {
+   "A": "AP1",
+   "B": "AP2",
+   "C": "AP3",
+   "D": "GGA",
+   "E": "Sec23"
+  },
+  "answer": "ABCD",
+  "explanation": "经典接头蛋白复合物包括AP1、AP2、AP3三种（均为异四聚体），其他接头蛋白如GGA由单一多肽链组成；Sec23是COPII包被蛋白组分，不属于接头蛋白。",
+  "difficulty": 2,
+  "tags": [
+   "接头蛋白",
+   "类型"
+  ],
+  "topic": "膜泡运输",
+  "id": 193
+ },
+ {
+  "type": "multi",
+  "question": "发动蛋白（Dynamin）的特征包括（　）",
+  "options": {
+   "A": "是网格蛋白包被膜泡从供体膜断裂的关键蛋白",
+   "B": "具有GTP酶活性",
+   "C": "围绕出芽膜泡颈部聚合",
+   "D": "通过水解GTP驱动自身构象改变使膜泡断裂释放",
+   "E": "参与COPI和COPII包被膜泡的断裂"
+  },
+  "answer": "ABCD",
+  "explanation": "发动蛋白围绕膜泡颈部聚合，通过催化GTP水解释放能量驱动构象改变使膜泡断裂；此GTP酶依赖的断裂机制是网格蛋白包被膜泡的特点，尚未发现其以类似方式参与COPI和COPII的断裂，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "发动蛋白",
+   "膜泡断裂"
+  ],
+  "topic": "膜泡运输",
+  "id": 194
+ },
+ {
+  "type": "multi",
+  "question": "分泌途径中网格蛋白/接头蛋白包被膜泡的货物目的地包括（　）",
+  "options": {
+   "A": "细胞膜",
+   "B": "内体和溶酶体",
+   "C": "黑色素体",
+   "D": "血小板囊泡和植物细胞液泡",
+   "E": "细胞核"
+  },
+  "answer": "ABCD",
+  "explanation": "分泌途径中网格蛋白包被膜泡从TGN向细胞膜、内体、溶酶体、黑色素体、血小板囊泡和植物细胞液泡转运货物；蛋白质进入细胞核经选择性门控转运，不依赖网格蛋白膜泡。",
+  "difficulty": 2,
+  "tags": [
+   "网格蛋白",
+   "分泌途径"
+  ],
+  "topic": "膜泡运输",
+  "id": 195
+ },
+ {
+  "type": "multi",
+  "question": "关于移位子（Sec61复合体）的正确描述有（　）",
+  "options": {
+   "A": "位于内质网膜上",
+   "B": "核糖体-新生肽复合物与其结合后SRP解离",
+   "C": "信号肽与移位子组分结合并打开孔道",
+   "D": "是共翻译转运必需的蛋白转运通道",
+   "E": "参与过氧化物酶体基质蛋白的转运"
+  },
+  "answer": "ABCD",
+  "explanation": "移位子位于内质网膜，是共翻译转运必需的蛋白转运通道；核糖体-新生肽复合物与移位子结合后SRP解离，环化信号肽结合并打开孔道；过氧化物酶体蛋白经peroxin易位体转运，与移位子无关。",
+  "difficulty": 3,
+  "tags": [
+   "移位子",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 196
+ },
+ {
+  "type": "multi",
+  "question": "翻译后转运途径的靶向信号包括（　）",
+  "options": {
+   "A": "线粒体蛋白N端导肽",
+   "B": "叶绿体蛋白N端转运肽",
+   "C": "过氧化物酶体蛋白C端内在靶向序列（如SKL）",
+   "D": "信号斑（空间构象型信号）",
+   "E": "信号肽"
+  },
+  "answer": "ABCD",
+  "explanation": "翻译后转运依赖导肽类信号序列：线粒体N端导肽、叶绿体转运肽、过氧化物酶体C端靶向序列，还有空间构象型的信号斑；信号肽是共翻译转运的信号，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "翻译后转运",
+   "靶向信号"
+  ],
+  "topic": "翻译后转运",
+  "id": 197
+ },
+ {
+  "type": "multi",
+  "question": "关于ARF的正确描述有（　）",
+  "options": {
+   "A": "是COPI包被中的小分子GTP结合蛋白",
+   "B": "参与网格蛋白包被膜泡的装配调节",
+   "C": "是结合GDP/GTP的分子开关调控蛋白",
+   "D": "核苷酸交换与水解调节包被蛋白复合物的装配与去装配",
+   "E": "是COPII包被膜泡的GTP结合蛋白"
+  },
+  "answer": "ABCD",
+  "explanation": "ARF是COPI包被和网格蛋白包被膜泡的GTP结合蛋白，起分子开关调控作用；COPII包被膜泡使用的GTP结合蛋白是Sar1，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "ARF",
+   "膜泡运输"
+  ],
+  "topic": "膜泡运输",
+  "id": 198
+ },
+ {
+  "type": "multi",
+  "question": "关于COPI包被膜泡的正确描述有（　）",
+  "options": {
+   "A": "含有7种不同的蛋白质亚基",
+   "B": "含有一种GTP结合蛋白ARF",
+   "C": "介导高尔基体到内质网的逆向运输",
+   "D": "本质上是COPII转运的纠错机制",
+   "E": "不能被GTP类似物诱导聚集"
+  },
+  "answer": "ABCD",
+  "explanation": "COPI含7种蛋白亚基和ARF，介导逆向运输并回收逃逸蛋白，是纠错机制；可通过不能被水解的GTP类似物处理细胞诱导其聚集并经密度梯度离心分离，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "COPI",
+   "组成"
+  ],
+  "topic": "膜泡运输",
+  "id": 199
+ },
+ {
+  "type": "multi",
+  "question": "关于分泌蛋白转运的正确描述有（　）",
+  "options": {
+   "A": "在细胞质基质游离核糖体上起始合成",
+   "B": "经信号肽-SRP介导转移至糙面内质网",
+   "C": "边合成边转运进入内质网腔",
+   "D": "经高尔基体加工分选",
+   "E": "经分泌泡释放到细胞外"
+  },
+  "answer": "ABCDE",
+  "explanation": "分泌蛋白在游离核糖体起始合成，经信号肽-SRP引导至糙面内质网边合成边转运，再经膜泡运输至高尔基体加工分选，最终经分泌泡释放到胞外，全过程正确。",
+  "difficulty": 2,
+  "tags": [
+   "分泌蛋白",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "id": 200
+ },
+ {
+  "type": "multi",
+  "question": "维持各细胞器蛋白质组分特异性的机制包括（　）",
+  "options": {
+   "A": "转运膜泡将驻留蛋白有效排斥在外",
+   "B": "可溶性驻留蛋白经KDEL信号回收",
+   "C": "膜驻留蛋白经KKXX信号回收",
+   "D": "COPI逆向运输回收逃逸蛋白",
+   "E": "泛素-蛋白酶体途径降解所有逃逸蛋白"
+  },
+  "answer": "ABCD",
+  "explanation": "细胞器蛋白组分特异性靠有效排斥、KDEL/KKXX回收信号和COPI逆向运输维持；逃逸蛋白被回收而非被泛素-蛋白酶体降解，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "细胞器特异性"
+  ],
+  "topic": "膜泡运输",
+  "id": 201
+ },
+ {
+  "type": "multi",
+  "question": "关于Rab蛋白的正确描述有（　）",
+  "options": {
+   "A": "是小分子GTP结合蛋白",
+   "B": "属于开关调控蛋白GTP酶超家族成员",
+   "C": "在GEF催化下由Rab-GDP转换为Rab-GTP",
+   "D": "通过类异戊二烯基团插入转运膜泡膜中",
+   "E": "固定在靶膜上不参与循环"
+  },
+  "answer": "ABCD",
+  "explanation": "Rab是小分子GTP结合蛋白，经GEF催化GTP/GDP转换，以类异戊二烯基团锚定膜泡，与靶膜Rab效应器结合完成锚定；融合后GTP水解为GDP，Rab-GDP从膜泡释放参与循环，E错误。",
+  "difficulty": 2,
+  "tags": [
+   "Rab蛋白",
+   "锚定"
+  ],
+  "topic": "膜泡运输",
+  "id": 202
+ },
+ {
+  "type": "short",
+  "question": "简述蛋白质分选的概念与两条基本途径。",
+  "answer": "①概念：蛋白质合成后必须转运到特定部位才能参与细胞结构组装并发挥生物学功能，这一过程称为蛋白质靶向转运或蛋白质分选。\n②共翻译转运途径：一种边合成边转运的蛋白质分选方式，在游离核糖体上起始合成后由信号肽-SRP引导至糙面内质网，新生肽边合成边转入内质网腔或定位在ER膜上，再经膜泡运输至高尔基体加工分选至最终目的地。\n③翻译后转运途径：一种合成后转运的蛋白质分选方式，在细胞质基质游离核糖体上完成多肽链合成后，在导肽等信号序列指引下转运至线粒体、叶绿体、过氧化物酶体及细胞核，或留在细胞质基质中。",
+  "difficulty": 2,
+  "tags": [
+   "蛋白质分选",
+   "基本途径"
+  ],
+  "topic": "蛋白质分选",
+  "explanation": "蛋白质分选包括共翻译转运（边合成边转运，靶向内质网系统）和翻译后转运（合成后转运，靶向线粒体等细胞器）两条途径。",
+  "id": 203
+ },
+ {
+  "type": "short",
+  "question": "简述信号肽的结构组成与功能。",
+  "answer": "①结构组成：信号肽位于新生肽的N端，一般由16~26个氨基酸残基组成，包括三部分——N端碱性氨基酸区、中部疏水核心区和C端极性氨基酸加工区。\n②暂停翻译：当多肽链延伸至约80个氨基酸时，暴露的N端信号肽与细胞质基质中的SRP结合，使肽链合成暂停。\n③引导锚定：引导核糖体-新生肽复合物锚定到内质网膜上。\n④打开移位子：呈环化构象的信号肽与移位子组分结合并打开孔道，引导肽链进入内质网。\n⑤被切除：进入内质网后被内质网腔面的信号肽酶切除并快速降解。",
+  "difficulty": 2,
+  "tags": [
+   "信号肽",
+   "结构",
+   "功能"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "信号肽由N端碱性区、中部疏水核心区和C端加工区组成，功能为暂停翻译、引导锚定、打开移位子，后被信号肽酶切除。",
+  "id": 204
+ },
+ {
+  "type": "short",
+  "question": "简述SRP的组成及其在共翻译转运中的作用。",
+  "answer": "①组成：SRP（信号识别颗粒）是核糖核蛋白复合体，由6种不同蛋白质和一条约300个核苷酸的7S RNA组成，分布于细胞质基质。\n②识别与暂停：SRP可结合新生肽N端的信号序列和核糖体，使肽链合成暂停，防止新生肽N端损伤和成熟前折叠。\n③引导锚定：引导核糖体-新生肽复合物与内质网膜上的SRP受体（停靠蛋白）结合，将复合物锚定到内质网膜上。\n④解离回收：核糖体-新生肽复合物与移位子结合后，SRP脱离信号序列和核糖体，返回细胞质基质重复使用。",
+  "difficulty": 2,
+  "tags": [
+   "SRP",
+   "组成",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "SRP由6种蛋白质和7S RNA组成，功能为识别信号肽暂停翻译、引导复合物锚定内质网膜，随后解离回收。",
+  "id": 205
+ },
+ {
+  "type": "short",
+  "question": "简述共翻译转运中GTP的作用。",
+  "answer": "①强化结合：2分子GTP分别结合SRP-p54亚基和SRP受体α亚基，强化SRP与SRP受体间的相互作用，使核糖体-新生肽复合物稳定锚定至内质网膜。\n②水解供能：GTP随后被水解为GDP，使SRP与SRP受体分离，SRP返回细胞质基质重复使用。\n③意义：GTP的结合与水解构成共翻译转运早期阶段的分子开关，保证转运过程的定向性和可循环性。",
+  "difficulty": 3,
+  "tags": [
+   "GTP",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "GTP分别结合SRP-p54和受体α亚基强化锚定，水解后使SRP解离循环利用。",
+  "id": 206
+ },
+ {
+  "type": "short",
+  "question": "简述移位子在共翻译转运中的作用。",
+  "answer": "①通道功能：移位子是内质网膜上的蛋白转运通道，是新生肽链进入内质网腔的必经通路。\n②结合解离：核糖体-新生肽复合物与移位子结合后，SRP脱离信号序列和核糖体，返回细胞质基质重复使用，肽链延伸恢复。\n③开孔引导：呈环化构象的信号肽与移位子组分结合并打开孔道，引导肽链以袢环形式进入内质网腔（该过程消耗能量）。\n④关闭终止：多肽链合成折叠完成后，核糖体从内质网膜释放，移位子通道关闭，转运过程终止。",
+  "difficulty": 2,
+  "tags": [
+   "移位子",
+   "共翻译转运"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "移位子作为内质网膜蛋白转运通道，承接SRP解离、介导信号肽开孔引导肽链入腔，转运完成后关闭。",
+  "id": 207
+ },
+ {
+  "type": "short",
+  "question": "简述起始转移序列、内在停止转移锚定序列（STA）与内在信号锚定序列（SA）的区别与联系。",
+  "answer": "①起始转移序列：引导新生肽链穿过内质网膜移位子的序列，蛋白质N端的信号肽可视为其一种，能启动穿膜。\n②STA（内在停止转移锚定序列）：终止多肽向内质网膜转运的疏水性序列，与内质网膜具有强亲和力且常位于多肽内部，进入转运通道时发出“停止”信号使肽链停止穿膜并锚定在脂双层中。\n③SA（内在信号锚定序列）：兼具信号肽功能和跨膜锚定功能的疏水性序列，属于起始转移序列的一种，既能引导核糖体-新生肽链复合物至内质网，自身嵌入脂双层后永久锚定。\n④联系：三者配合决定跨膜蛋白的拓扑学特征，序列组合不同则产生可溶性蛋白、单次或多次跨膜蛋白。",
+  "difficulty": 3,
+  "tags": [
+   "起始转移序列",
+   "STA",
+   "SA"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "起始转移序列启动穿膜，STA终止穿膜并锚定，SA兼具信号肽与锚定功能，三者组合决定蛋白拓扑学特征。",
+  "id": 208
+ },
+ {
+  "type": "short",
+  "question": "简述单次跨膜蛋白的拓扑学特征及决定因素。",
+  "answer": "①共同特征：跨膜区由20~25个疏水氨基酸残基形成α-螺旋。\n②决定序列：单次跨膜蛋白的拓扑学特征由内在停止转移序列（STA）和信号锚定序列（SA）决定，分为I型（可切割N端信号序列+STA）和II型（无切割型N端信号序列+SA）等。\n③取向因素：新生肽链的跨膜取向受跨膜片段侧翼氨基酸残基电荷分布的影响，带正电荷的氨基酸残基一侧通常朝向细胞质基质。\n④实例：I型如LDL受体、流感病毒血凝素，II型如转铁蛋白受体、无唾液酸糖蛋白受体。",
+  "difficulty": 2,
+  "tags": [
+   "跨膜蛋白",
+   "拓扑学"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "单次跨膜蛋白跨膜区为20~25个疏水残基α-螺旋，拓扑特征由STA/SA和侧翼电荷分布决定。",
+  "id": 209
+ },
+ {
+  "type": "short",
+  "question": "简述多次跨膜蛋白的形成机制。",
+  "answer": "①信号序列组合：多次跨膜蛋白含多个起始转移序列和多个内在停止转移锚定序列（STA）。\n②形成过程：肽链在多个起始转移序列的引导下多次启动穿膜，又在多个STA处终止穿膜并锚定，从而反复穿越内质网膜脂双层。\n③结果：肽链多次穿膜，形成拓扑结构复杂的多次跨膜蛋白。\n④实例：G蛋白偶联受体、葡糖转运蛋白、电压门控Ca2+通道等。",
+  "difficulty": 2,
+  "tags": [
+   "多次跨膜蛋白",
+   "形成机制"
+  ],
+  "topic": "共翻译转运",
+  "explanation": "多个起始转移序列与多个STA交替作用使肽链多次穿膜，形成IV型多次跨膜蛋白。",
+  "id": 210
+ },
+ {
+  "type": "short",
+  "question": "简述线粒体基质蛋白输入的分子过程。",
+  "answer": "①结合分子伴侣：前体蛋白在细胞质基质游离核糖体上合成后与分子伴侣Hsp70结合，保持未折叠或部分折叠状态，其N端具有线粒体基质靶向序列。\n②识别受体：前体蛋白与内外膜接触点附近的输入受体（Tom20/22）结合。\n③穿过孔道：前体蛋白被引进输入孔，通过内外膜接触点的输入通道（外膜Tom40、内膜Tim23/17）。\n④驱动转运：线粒体基质分子伴侣Hsp70与输入的蛋白质结合并水解ATP驱动蛋白质转运。\n⑤切除靶向序列：基质靶向序列被切除，Hsp70从新输入的基质蛋白上释放。\n⑥折叠成熟：蛋白质折叠成活性形式完成其功能。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "基质蛋白",
+   "输入过程"
+  ],
+  "topic": "翻译后转运",
+  "explanation": "线粒体基质蛋白经Hsp70保持非折叠、Tom20/22识别、Tom40/Tim23/17通道输入、基质Hsp70水解ATP驱动、靶向序列切除后折叠成熟。",
+  "id": 211
+ },
+ {
+  "type": "short",
+  "question": "简述线粒体膜间隙蛋白的两种输入途径。",
+  "answer": "①途径a：与内膜蛋白途径a类似，主要区别在于蛋白质（如细胞色素b2）的内在靶向序列定位在膜间隙。转运过程中蛋白质被内膜上的蛋白酶切割，释放的蛋白质折叠并与血红素结合。\n②途径b：转运的蛋白质通过外膜Tom40输入孔直接进入膜间隙，这一途径不涉及内膜上的蛋白酶切割。\n③补充：此外，含多个内在靶向序列的膜间隙蛋白还可经途径c输入，由Tom70/Tom22识别，Tim9/Tim10作为膜间隙分子伴侣协助其在外膜与内膜通道之间转运。",
+  "difficulty": 3,
+  "tags": [
+   "线粒体",
+   "膜间隙蛋白"
+  ],
+  "topic": "翻译后转运",
+  "explanation": "膜间隙蛋白可经内膜蛋白酶切割途径a或直接经Tom40进入的途径b输入，另有Tim9/Tim10协助的途径c。",
+  "id": 212
+ },
+ {
+  "type": "short",
+  "question": "简述叶绿体基质蛋白的分选过程。",
+  "answer": "①合成与信号序列：核基因编码的叶绿体基质蛋白在细胞质基质中合成，具有N端基质输入序列（转运肽，约40~50个氨基酸）。\n②输入状态：前体蛋白以非折叠形式输入叶绿体基质。\n③动力来源：转运依赖于基质Hsp70的作用和ATP提供的能量；与线粒体不同，叶绿体不产生跨内膜的电化学梯度，ATP水解供能几乎是唯一的动力来源。\n④靶向序列切除：进入叶绿体基质后，N端基质靶向序列被基质蛋白酶切除，从而使类囊体靶向序列暴露（为后续类囊体蛋白分选作准备）。",
+  "difficulty": 3,
+  "tags": [
+   "叶绿体",
+   "基质蛋白"
+  ],
+  "topic": "翻译后转运",
+  "explanation": "叶绿体基质蛋白以非折叠形式输入，依赖基质Hsp70和ATP（几乎唯一动力），进入后基质靶向序列被切除。",
+  "id": 213
+ },
+ {
+  "type": "short",
+  "question": "简述叶绿体类囊体蛋白分选的两种途径。",
+  "answer": "①SRP传导途径：如质体蓝素蛋白前体，进入基质后保持非折叠态，与叶绿体SRP结合，在叶绿体SRP受体和转运蛋白SecY介导下进入类囊体腔，之后类囊体靶向序列被切除，蛋白折叠成熟。\n②pH依赖的途径：金属结合蛋白前体的N端基质靶向序列切除后在基质中折叠并结合辅因子，类囊体靶向序列N端精氨酸残基和跨内膜pH梯度是其进入类囊体腔的关键，膜上特定转运蛋白协助其进入，进入后靶向序列切除、蛋白成熟。\n③共同点：两种途径均需先切除N端基质靶向序列以暴露类囊体靶向序列。",
+  "difficulty": 3,
+  "tags": [
+   "叶绿体",
+   "类囊体蛋白"
+  ],
+  "topic": "翻译后转运",
+  "explanation": "类囊体蛋白经叶绿体SRP/SecY传导途径或依赖pH梯度的途径分选，进入后类囊体靶向序列被切除。",
+  "id": 214
+ },
+ {
+  "type": "short",
+  "question": "简述膜泡运输的类型及各自功能。",
+  "answer": "①COPII包被膜泡：介导从内质网至高尔基体的顺向运输，负责将新合成的蛋白质和脂类从内质网转运至高尔基体。\n②COPI包被膜泡：介导从高尔基体回收货物转运至内质网的逆向运输，也在高尔基体膜囊之间回收修饰酶类，是COPII转运的纠错补充机制。\n③网格蛋白/接头蛋白包被膜泡：介导高尔基体TGN区分泌泡的形成，也参与受体介导的内吞泡形成，负责从TGN向细胞膜、内体、溶酶体等部位的转运。",
+  "difficulty": 2,
+  "tags": [
+   "膜泡运输",
+   "类型"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "COPII介导ER→高尔基体顺向运输，COPI介导逆向回收，网格蛋白膜泡介导TGN分泌泡与内吞泡形成。",
+  "id": 215
+ },
+ {
+  "type": "short",
+  "question": "简述COPII膜泡运输的选择特异性。",
+  "answer": "①特异性依据：依赖被转运蛋白的靶向分选序列，以此区分需包装转运的膜蛋白/可溶性蛋白与需排除的滞留蛋白。\n②识别方式：膜泡包被直接识别并结合靶向序列或分选信号。\n③具体实例：内质网待转运膜蛋白具有二酸分选信号（如Asp-X-Glu），COPII中的Sec24亚基作为该信号的受体，识别结合后将膜蛋白包装进COPII膜泡，转运至高尔基体。\n④意义：保证只有正确的货物被包装转运，而驻留蛋白被有效排斥，维持各细胞器蛋白组分的特异性。",
+  "difficulty": 2,
+  "tags": [
+   "COPII",
+   "选择特异性"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "COPII膜泡通过识别靶向分选序列（如二酸信号被Sec24识别）实现选择性包装，排斥滞留蛋白。",
+  "id": 216
+ },
+ {
+  "type": "short",
+  "question": "简述COPI包被膜泡的运输路径与生物学意义。",
+  "answer": "①运输路径：介导细胞内膜泡逆向运输，具体为高尔基体反面膜囊→高尔基体顺面膜囊、顺面网状区（CGN）→内质网。\n②货物类型：再循环的膜脂双层、内质网驻留的可溶性蛋白和膜蛋白。\n③核心作用：是内质网回收错误分选的逃逸蛋白的重要途径，作为COPII包被膜泡的补充，将本不应被COPII转运的蛋白再转运回来，实质上是一种纠错机制。\n④生物学意义：防止内质网腔蛋白（如参与新合成分泌蛋白正确折叠的分子伴侣）的损失；每种膜组分具有自身独特的回收信号，使细胞器在转运膜泡不断运动的过程中仍能保持独特的蛋白质组分，维持细胞器的特异性。",
+  "difficulty": 2,
+  "tags": [
+   "COPI",
+   "运输路径",
+   "意义"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "COPI介导高尔基体→内质网逆向运输，回收逃逸蛋白，是维持细胞器蛋白组分特异性的纠错机制。",
+  "id": 217
+ },
+ {
+  "type": "short",
+  "question": "简述网格蛋白/接头蛋白包被膜泡的结构组成。",
+  "answer": "①双层包被结构：典型的网格蛋白/接头蛋白包被膜泡为双层包被结构。\n②外层：由网格蛋白组成。纯化的网格蛋白分子呈三腿（triskelion）结构，每个分支包含一条重链和一条轻链；网格蛋白具有自组装形成多角型网格的特性。\n③内层：由接头蛋白复合物组成。经典接头蛋白复合物包括AP1、AP2、AP3（均为异四聚体），其他接头蛋白如GGA由单一多肽链组成。\n④功能联系：网格蛋白在供体膜上聚合后募集接头蛋白复合物结合至膜胞质面，接头蛋白再将网格蛋白网格包被连接到质膜上并决定蛋白的包装或排除。",
+  "difficulty": 2,
+  "tags": [
+   "网格蛋白",
+   "结构组成"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "网格蛋白膜泡为双层结构：外层三腿网格蛋白自组装成网格，内层AP1/AP2/AP3等接头蛋白复合物连接并分选货物。",
+  "id": 218
+ },
+ {
+  "type": "short",
+  "question": "简述接头蛋白复合物的四大功能。",
+  "answer": "①连接作用：将网格蛋白网格包被连接到质膜上。\n②蛋白富集：特异性促使膜结合蛋白富集到形成包被的膜区。\n③装配稳定：接头蛋白复合物的一个亚基与网格蛋白重链远端的球形结构域特异性结合，促进三腿网格蛋白与接头蛋白复合物的联合装配，并增加已装配包被的稳定性。\n④分选决定：在膜泡的胞质面与转运的膜蛋白或膜受体（结合腔内可溶性蛋白）特异性结合，决定蛋白的包装转运或排除，特异性由转运蛋白的分选信号决定。",
+  "difficulty": 2,
+  "tags": [
+   "接头蛋白",
+   "功能"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "接头蛋白复合物具有连接网格蛋白到质膜、富集膜结合蛋白、稳定装配及决定蛋白包装排除四大功能。",
+  "id": 219
+ },
+ {
+  "type": "short",
+  "question": "简述发动蛋白在网格蛋白膜泡断裂中的作用及实验证据。",
+  "answer": "①关键作用：发动蛋白是网格蛋白/接头蛋白包被膜泡从供体膜断裂的关键蛋白，具有GTP酶活性。\n②作用模式：在出芽形成的膜泡颈部，发动蛋白围绕聚合，通过催化GTP水解释放能量，驱动自身构象改变，最终导致膜泡从供体膜断裂并释放。\n③实验证据：若表达不能结合并水解GTP的突变型发动蛋白，则无法形成独立的膜泡，仅产生被发动蛋白包绕的、具有较长颈部的膜泡芽体。\n④差异性：此GTP酶依赖的断裂机制是网格蛋白包被膜泡的特点，尚未发现GTP酶以类似方式参与COPI和COPII包被膜泡的断裂。",
+  "difficulty": 3,
+  "tags": [
+   "发动蛋白",
+   "膜泡断裂",
+   "实验证据"
+  ],
+  "topic": "膜泡运输",
+  "explanation": "发动蛋白在膜泡颈部聚合，靠GTP水解驱动膜泡断裂；突变型发动蛋白实验证实其必要性，该机制为网格蛋白膜泡特有。",
+  "id": 220
+ }
 ]
