@@ -1,0 +1,4 @@
+  File "<string>", line 5
+    ch = f.split('\')[-2]
+                 ^
+SyntaxError: unterminated string literal (detected at line 5)

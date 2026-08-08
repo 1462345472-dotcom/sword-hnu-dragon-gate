@@ -1,0 +1,10 @@
+File: 4484137 bytes, 3578865 chars
+QUESTION_BANKS at: 2532913
+COURSES at: 3537410
+Bytes around COURSES: a8e58aa8e4ba86e6b4bbe7bb86e8839ee68890e5838fe7a094e7a9b6e380
+Gap from }; to COURSES: '};\n'
+LF+var COURSES at: 3537409
+JS saved: 1004496 chars
+JS starts: 'var QUESTION_BANKS = {"biochem_1_2":{"key":"biochem_1_2","name":"生物化学","code":"3'
+JS ends: 'er":"cellbio_16"}],"stats":{"total":56,"choice":27,"truefalse":12,"terms":18}}};'
+Braces: {5870 / }5871

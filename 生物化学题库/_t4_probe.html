@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>probe</title></head>
+<body>
+<pre id="out">pending</pre>
+<script>
+var t0 = Date.now();
+function log(msg){ document.getElementById('out').textContent = msg; }
+var ifr = document.createElement('iframe');
+ifr.style.cssText='width:200px;height:200px;border:0';
+ifr.onload = function(){
+  var w = ifr.contentWindow;
+  var info = 'LOADED after '+(Date.now()-t0)+'ms; banks='+(w.QUESTION_BANKS?Object.keys(w.QUESTION_BANKS).length:'no');
+  try{ w.eval('window.__e=[];window.onerror=function(m){window.__e.push(String(m))}'); }catch(e){}
+  /* 阶段1: 迁移 + 做题;阶段2: reload 恢复 */
+  try{
+    var wrong={}; wrong['biochem_15__old_w1']=true;
+    localStorage.setItem('hnu_academy_s', JSON.stringify({wrongSet:wrong,bookmarks:{},bestStreak:5,achievements:{},course:'x',subject:'biochem_15',termFilter:'all'}));
+    var prog={}; prog['biochem_15|all']={qIndex:1,answers:{'biochem_15__old_a1':'B'},revealed:{'biochem_15__old_a1':true},streak:1,timestamp:'x'};
+    localStorage.setItem('hnu_academy_progress', JSON.stringify(prog));
+  }catch(e){ info += '; seedErr='+e.message; }
+  var keys=[];
+  try{ for(var i=0;i<localStorage.length;i++)keys.push(localStorage.key(i)); }catch(e){ keys=['LS-ERR:'+e.message]; }
+  info += '; stage1keys='+keys.join(',');
+  log(info+' [stage1done]');
+};
+document.body.appendChild(ifr);
+ifr.src = '湖南大学题库系统-臻至版.html?_=p1';
+</script>
+</body>
+</html>

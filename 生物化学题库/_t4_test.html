@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>t4-storage-test</title></head>
+<body>
+<pre id="out">pending</pre>
+<script>
+/* Task 4 分章存储 功能验证 wrapper:iframe 驱动臻至版(同目录同源 file://) */
+var OUT = {}, ERR = [];
+window.addEventListener('error', function(e){ ERR.push('parent:'+e.message); });
+
+var bankKey = 'biochem_15', firstQId = null;
+
+function lsKeys(){ var o=[]; for(var i=0;i<localStorage.length;i++)o.push(localStorage.key(i)); return o; }
+
+/* ---- 阶段A 预置:旧单块格式数据 + visited ---- */
+(function seedOld(){
+  try{ localStorage.clear(); }catch(e){ ERR.push('seed clear:'+e.message); }
+  var wrong = {}; wrong[bankKey+'__old_w1']=true; wrong['cellbio_3__old_w2']=true;
+  var bm = {}; bm[bankKey+'__old_b1']=true;
+  try{
+    localStorage.setItem('hnu_academy_s', JSON.stringify({wrongSet:wrong, bookmarks:bm, bestStreak:7,
+      achievements:{sword_start:true}, course:'生物化学', subject:bankKey, termFilter:'all'}));
+    var prog = {};
+    prog[bankKey+'|all'] = {qIndex:2, answers:{bankKey+'__old_a1':'A'}, revealed:{bankKey+'__old_a1':true}, streak:1, timestamp:'2026-01-01T00:00:00.000Z'};
+    localStorage.setItem('hnu_academy_progress', JSON.stringify(prog));
+    localStorage.setItem('hnu_academy_visited','1');
+  }catch(e){ ERR.push('seed set:'+e.message); }
+})();
+
+var stage = 0, ifr = null;
+
+function boot(){
+  ifr = document.createElement('iframe');
+  ifr.style.cssText='width:1200px;height:800px;border:0';
+  ifr.onload = function(){ onLoaded(); };
+  document.body.appendChild(ifr);
+  ifr.src = '湖南大学题库系统-臻至版.html';
+}
+function reloadFrame(){
+  /* 强制重新加载,重跑 loadState */
+  ifr.src = '湖南大学题库系统-臻至版.html?_=' + Date.now();
+}
+function onLoaded(){
+  var w = ifr.contentWindow;
+  try{ w.eval('window.__t4errs=[];window.onerror=function(m){try{window.__t4errs.push(String(m));}catch(e){}}'); }catch(e){}
+  if(stage===0){ stageA(); stage=1; reloadFrame(); }
+  else if(stage===1){ stageC(); finish(); }
+}
+function frameErrs(){ try{ return ifr.contentWindow.__t4errs||[]; }catch(e){ return ['<noframe>']; } }
+
+function stageA(){
+  try{
+    var w = ifr.contentWindow;
+    var banks = (w.QUESTION_BANKS && Object.keys(w.QUESTION_BANKS).length)||0;
+    var ok1 = banks===51;
+    /* 旧数据迁移入内存 */
+    var ok2 = w.S.wrongSet[bankKey+'__old_w1']===true && w.S.wrongSet['cellbio_3__old_w2']===true;
+    var ok3 = w.S.bookmarks[bankKey+'__old_b1']===true;
+    var ok4 = w.S.savedProgress[bankKey+'|all'] && w.S.savedProgress[bankKey+'|all'].answers[bankKey+'__old_a1']==='A';
+    var ok5 = w.S.bestStreak===7 && w.S.achievements.sword_start===true && w.S.subject===bankKey;
+    /* 新格式键落盘、旧键删除 */
+    var keys = lsKeys();
+    var ok6 = keys.indexOf('hnu_academy_prog_'+bankKey)>=0 && keys.indexOf('hnu_academy_wrong_'+bankKey)>=0 && keys.indexOf('hnu_academy_bm_'+bankKey)>=0 && keys.indexOf('hnu_academy_meta')>=0;
+    var ok7 = keys.indexOf('hnu_academy_s')<0 && keys.indexOf('hnu_academy_progress')<0;
+    /* 块内容:进度块含旧答案;wrong 块按章节拆分(含 cellbio_3 独立块) */
+    var prog = JSON.parse(localStorage.getItem('hnu_academy_prog_'+bankKey));
+    var ok8 = prog.all && prog.all.answers[bankKey+'__old_a1']==='A' && prog.all.qIndex===2;
+    var wb = JSON.parse(localStorage.getItem('hnu_academy_wrong_'+bankKey));
+    var ok9 = wb.old_w1===true;
+    var wb2 = JSON.parse(localStorage.getItem('hnu_academy_wrong_cellbio_3'));
+    var ok10 = wb2 && wb2.old_w2===true;
+    /* 做题(必答错)+ 书签,走真实函数路径 */
+    var q = w.QUESTION_BANKS[bankKey].questions[0];
+    var ua = q.type==='truefalse' ? (q.answer ? 'false' : 'true') : 'x';
+    w.startQuiz(bankKey,'all');
+    w.submitAnswer(q.id, ua);
+    w.submitAnswer(q.id, ua); /* 重复提交应被忽略 */
+    w.handleClick({target:{closest:function(){return {getAttribute:function(){return 'toggle-bookmark';}}}}});
+    /* 分章写:进度块只有本章节答案、wrong 块含错题、bm 块含书签 */
+    var prog2 = JSON.parse(localStorage.getItem('hnu_academy_prog_'+bankKey));
+    var ok11 = prog2.all && prog2.all.answers[bankKey+'__'+q.id]===ua && Object.keys(prog2.all.answers).length===2;
+    var wb3 = JSON.parse(localStorage.getItem('hnu_academy_wrong_'+bankKey));
+    var ok12 = wb3[q.id]===true;
+    var bb = JSON.parse(localStorage.getItem('hnu_academy_bm_'+bankKey));
+    var ok13 = bb[q.id]===true;
+    /* 其他章节块未被破坏 */
+    var ok14 = JSON.parse(localStorage.getItem('hnu_academy_wrong_cellbio_3')).old_w2===true;
+    /* 内存侧正确 */
+    var ok15 = w.S.wrongSet[bankKey+'__'+q.id]===true && w.S.bookmarks[bankKey+'__'+q.id]===true;
+    var ok16 = Object.keys(w.S.answers).length===1;
+    firstQId = q.id;
+    OUT.stageA = {ok:ok1&&ok2&&ok3&&ok4&&ok5&&ok6&&ok7&&ok8&&ok9&&ok10&&ok11&&ok12&&ok13&&ok14&&ok15&&ok16,
+      detail:{banks:banks,ok1:ok1,ok2:ok2,ok3:ok3,ok4:ok4,ok5:ok5,ok6:ok6,ok7:ok7,ok8:ok8,ok9:ok9,ok10:ok10,ok11:ok11,ok12:ok12,ok13:ok13,ok14:ok14,ok15:ok15,ok16:ok16,
+        keys:keys, qid:q.id, ua:ua, answered:Object.keys(w.S.answers).length}};
+  }catch(e){ OUT.stageA = {ok:false, error:String(e)+' @ '+(e.stack||'')}; }
+}
+function stageC(){
+  try{
+    var w = ifr.contentWindow;
+    /* 1. reload 后 loadState 从分章块恢复 */
+    var ok1 = w.S.wrongSet[bankKey+'__old_w1']===true && w.S.wrongSet['cellbio_3__old_w2']===true && w.S.wrongSet[bankKey+'__'+firstQId]===true;
+    var ok2 = w.S.bookmarks[bankKey+'__old_b1']===true && w.S.bookmarks[bankKey+'__'+firstQId]===true;
+    var ok3 = w.S.savedProgress[bankKey+'|all'] && w.S.savedProgress[bankKey+'|all'].answers[bankKey+'__'+firstQId]!==undefined;
+    var ok4 = w.S.bestStreak===7 && w.S.achievements.sword_start===true;
+    /* 2. 续练恢复路径:confirm=true → 恢复进度 */
+    w.confirm=function(){return true;};
+    w.startQuizWithProgress(bankKey,'all');
+    var ok5 = w.S.subject===bankKey && w.S.quizMode==='all';
+    var ok6 = w.S.answers[bankKey+'__'+firstQId]!==undefined;
+    /* 3. 清除数据:confirm=true → 全部分章键删除、内存清空 */
+    w.confirm=function(){return true;};
+    w.handleClick({target:{closest:function(){return {getAttribute:function(){return 'clear-data';}}}}});
+    var keys = lsKeys(), hasBlock=false;
+    for(var i=0;i<keys.length;i++){
+      if(keys[i].indexOf('hnu_academy_prog_')===0||keys[i].indexOf('hnu_academy_wrong_')===0||keys[i].indexOf('hnu_academy_bm_')===0)hasBlock=true;
+    }
+    var ok7 = !hasBlock && keys.indexOf('hnu_academy_meta')<0 && keys.indexOf('hnu_academy_s')<0 && keys.indexOf('hnu_academy_progress')<0;
+    var ok8 = Object.keys(w.S.wrongSet).length===0 && Object.keys(w.S.bookmarks).length===0 && w.S.bestStreak===0;
+    OUT.stageC = {ok:ok1&&ok2&&ok3&&ok4&&ok5&&ok6&&ok7&&ok8,
+      detail:{ok1:ok1,ok2:ok2,ok3:ok3,ok4:ok4,ok5:ok5,ok6:ok6,ok7:ok7,ok8:ok8,
+        keys:keys, answers:Object.keys(w.S.answers), wrong:Object.keys(w.S.wrongSet), bm:Object.keys(w.S.bookmarks)}};
+  }catch(e){ OUT.stageC = {ok:false, error:String(e)+' @ '+(e.stack||'')}; }
+}
+function finish(){
+  OUT.frameErrs = frameErrs();
+  document.getElementById('out').textContent = JSON.stringify(OUT, null, 1);
+}
+boot();
+</script>
+</body>
+</html>

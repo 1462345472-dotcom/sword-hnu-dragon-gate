@@ -1,0 +1,111 @@
+[id=1] [choice] diff=1 tags=['概述', '跨膜运输途径'] topic=跨膜运输
+[id=2] [choice] diff=1 tags=['脂双层不透性', '膜转运蛋白'] topic=跨膜运输
+[id=3] [choice] diff=1 tags=['膜转运蛋白', '分类'] topic=跨膜运输
+[id=4] [choice] diff=2 tags=['载体蛋白', '特点', '饱和动力学'] topic=
+[id=5] [choice] diff=1 tags=['载体蛋白', '疾病', '胱氨酸尿'] topic=
+[id=6] [choice] diff=2 tags=['通道蛋白', '特点', '离子通道'] topic=跨膜运输
+[id=7] [choice] diff=1 tags=['孔蛋白', '分布'] topic=
+[id=8] [choice] diff=1 tags=['离子通道', '转运速率', '高频考点'] topic=跨膜运输
+[id=9] [choice] diff=1 tags=['电压门控通道', '门控机制'] topic=跨膜运输
+[id=10] [choice] diff=1 tags=['应力激活通道', '机械门控', '内耳毛细胞'] topic=跨膜运输
+[id=11] [choice] diff=2 tags=['载体蛋白', '通道蛋白', '对比'] topic=跨膜运输
+[id=12] [choice] diff=1 tags=['简单扩散', '通透性'] topic=
+[id=13] [choice] diff=1 tags=['简单扩散', '通透性', '离子不透性'] topic=
+[id=14] [choice] diff=1 tags=['简单扩散', '通透性因素'] topic=
+[id=15] [choice] diff=1 tags=['协助扩散', '定义'] topic=
+[id=16] [choice] diff=1 tags=['GLUT1', '葡萄糖转运蛋白', '协助扩散'] topic=跨膜运输
+[id=17] [choice] diff=1 tags=['GLUT家族', '结构', '12跨膜螺旋'] topic=跨膜运输
+[id=18] [choice] diff=1 tags=['水孔蛋白', 'AQP1', 'CHIP28'] topic=
+[id=19] [choice] diff=2 tags=['水孔蛋白', 'AQP1', '特异性'] topic=
+[id=20] [choice] diff=2 tags=['水孔蛋白', 'AQP7', '甘油'] topic=
+[id=21] [choice] diff=1 tags=['水孔蛋白', '肾重吸收', '生理功能'] topic=
+[id=22] [choice] diff=1 tags=['主动运输', '特点'] topic=
+[id=23] [choice] diff=1 tags=['主动运输', '分类'] topic=
+[id=24] [choice] diff=2 tags=['同向协同转运', '葡萄糖吸收', '高频考点'] topic=跨膜运输
+[id=25] [choice] diff=2 tags=['反向协同转运', 'Na⁺/H⁺交换'] topic=跨膜运输
+[id=26] [choice] diff=1 tags=['协同转运', 'Na⁺梯度'] topic=跨膜运输
+[id=27] [choice] diff=1 tags=['Na⁺-K⁺泵', '化学计量', '高频考点'] topic=跨膜运输
+[id=28] [choice] diff=1 tags=['Na⁺-K⁺泵', '磷酸化', '转运机制'] topic=跨膜运输
+[id=29] [choice] diff=1 tags=['Na⁺-K⁺泵', '乌本苷', '抑制剂'] topic=跨膜运输
+[id=30] [choice] diff=2 tags=['Na⁺-K⁺泵', '乌本苷', '渗透平衡', '场景应用'] topic=跨膜运输
+[id=31] [choice] diff=1 tags=['Na⁺-K⁺泵', '生理功能'] topic=跨膜运输
+[id=32] [choice] diff=2 tags=['Na⁺-K⁺泵', '膜电位', '生电效应'] topic=跨膜运输
+[id=33] [choice] diff=1 tags=['Ca²⁺泵', '肌质网', '肌肉收缩'] topic=跨膜运输
+[id=34] [choice] diff=1 tags=['Ca²⁺泵', '化学计量'] topic=跨膜运输
+[id=35] [choice] diff=2 tags=['Ca²⁺泵', '钙调蛋白', 'CaM'] topic=跨膜运输
+[id=36] [choice] diff=2 tags=['V型质子泵', 'H⁺泵', '功能'] topic=跨膜运输
+[id=37] [choice] diff=1 tags=['F型质子泵', 'ATP合酶'] topic=跨膜运输
+[id=38] [choice] diff=2 tags=['V型质子泵', 'F型质子泵', '对比', '无磷酸化中间体'] topic=跨膜运输
+[id=39] [choice] diff=1 tags=['ABC超家族', '结构', 'T结构域', 'A结构域'] topic=
+[id=40] [choice] diff=2 tags=['ABC超家族', '多药抗性', '囊性纤维化', '疾病'] topic=
+[id=41] [choice] diff=1 tags=['静息电位', 'K⁺外流', '极化'] topic=
+[id=42] [choice] diff=1 tags=['动作电位', '去极化', '电压门控Na⁺通道'] topic=跨膜运输
+[id=43] [choice] diff=1 tags=['动作电位', '全或无'] topic=
+[id=44] [choice] diff=1 tags=['吞噬作用', '囊泡大小', '高频考点'] topic=
+[id=45] [choice] diff=1 tags=['吞噬作用', '吞噬细胞'] topic=
+[id=46] [choice] diff=1 tags=['吞噬作用', '溶酶体', '抗原清除'] topic=溶酶体
+[id=47] [choice] diff=2 tags=['网格蛋白依赖胞吞', '发动蛋白', '高频考点'] topic=胞吞胞吐
+[id=48] [choice] diff=2 tags=['网格蛋白', '衔接蛋白', '发动蛋白', '分工'] topic=
+[id=49] [choice] diff=2 tags=['受体介导胞吞', 'LDL', '内体', 'pH'] topic=信号转导
+[id=50] [choice] diff=1 tags=['受体介导胞吞', 'LDL', '胆固醇摄取'] topic=信号转导
+[id=51] [choice] diff=2 tags=['组成型胞吐', '胞吐作用', '对比辨析'] topic=胞吞胞吐
+[id=52] [choice] diff=2 tags=['调节型胞吐', '胞吐作用', '组成型vs调节型'] topic=胞吞胞吐
+[id=53] [choice] diff=1 tags=['跨细胞转运', '胞吞', '胞吐'] topic=跨膜运输
+[id=54] [choice] diff=1 tags=['受体下行调节', 'EGF受体', '胞吞与信号转导'] topic=信号转导
+[id=55] [choice] diff=1 tags=['P型泵', '磷酸化中间体', '共同特征'] topic=跨膜运输
+[id=56] [choice] diff=2 tags=['P型泵', 'F型泵', '分类辨析'] topic=跨膜运输
+[id=57] [choice] diff=2 tags=['胞膜窖', '窖蛋白', '胞饮作用类型'] topic=
+[id=58] [choice] diff=2 tags=['简单扩散', '协助扩散', '对比辨析'] topic=
+[id=59] [choice] diff=2 tags=['协同转运', 'H⁺梯度', '动植物对比'] topic=跨膜运输
+[id=60] [truefalse] diff=1 tags=['载体蛋白', '协助扩散', '主动运输'] topic=
+[id=61] [truefalse] diff=1 tags=['孔蛋白', '选择性'] topic=
+[id=62] [truefalse] diff=1 tags=['水孔蛋白', 'AQP1', '特异性'] topic=
+[id=63] [truefalse] diff=1 tags=['离子通道', '饱和动力学', '对比'] topic=跨膜运输
+[id=64] [truefalse] diff=2 tags=['协同转运', 'ATP驱动泵', '能量来源'] topic=跨膜运输
+[id=65] [truefalse] diff=2 tags=['Na⁺-K⁺泵', 'β亚基', '结构'] topic=跨膜运输
+[id=66] [truefalse] diff=1 tags=['Ca²⁺泵', '化学计量', '对比辨析'] topic=跨膜运输
+[id=67] [truefalse] diff=2 tags=['V型质子泵', '磷酸化中间体'] topic=跨膜运输
+[id=68] [truefalse] diff=1 tags=['F型质子泵', 'ATP合成', '质子动力势'] topic=跨膜运输
+[id=69] [truefalse] diff=1 tags=['吞噬作用', '胞饮作用', '发生范围'] topic=
+[id=70] [truefalse] diff=1 tags=['组成型胞吐', '调节型胞吐', '区别'] topic=胞吞胞吐
+[id=71] [truefalse] diff=1 tags=['动作电位', '离子通道'] topic=跨膜运输
+[id=72] [truefalse] diff=2 tags=['Na⁺-K⁺泵', '氰化物', '乌本苷', '抑制机制'] topic=跨膜运输
+[id=73] [truefalse] diff=2 tags=['网格蛋白', '包被小泡', '去装配'] topic=
+[id=74] [truefalse] diff=2 tags=['胞膜窖', '发动蛋白', '窖蛋白'] topic=
+[id=75] [truefalse] diff=2 tags=['静息电位', 'Na⁺-K⁺泵', 'K⁺渗漏通道'] topic=跨膜运输
+[id=76] [truefalse] diff=2 tags=['协同转运', 'Na⁺梯度', 'H⁺梯度'] topic=跨膜运输
+[id=77] [truefalse] diff=2 tags=['葡萄糖转运', '简单扩散', '协助扩散'] topic=跨膜运输
+[id=78] [truefalse] diff=2 tags=['大型胞饮作用', '微丝', '胞吞'] topic=微丝
+[id=79] [multi] diff=1 tags=['被动运输', '分类', '跨膜运输'] topic=跨膜运输
+[id=80] [multi] diff=1 tags=['脂双层', '通透性因素', '简单扩散'] topic=
+[id=81] [multi] diff=2 tags=['通道蛋白', '离子通道', '门控', '综合'] topic=跨膜运输
+[id=82] [multi] diff=1 tags=['简单扩散', '通透性', '物质举例'] topic=
+[id=83] [multi] diff=1 tags=['Na⁺-K⁺泵', '综合', '高频考点'] topic=跨膜运输
+[id=84] [multi] diff=1 tags=['Na⁺-K⁺泵', '生理功能', '综合'] topic=跨膜运输
+[id=85] [multi] diff=2 tags=['主动运输', '被动运输', '对比', '综合'] topic=
+[id=86] [multi] diff=2 tags=['Ca²⁺泵', 'P型泵', '钙调蛋白', '综合'] topic=跨膜运输
+[id=87] [multi] diff=2 tags=['V型质子泵', 'F型质子泵', '对比', '综合'] topic=跨膜运输
+[id=88] [multi] diff=2 tags=['ABC超家族', '结构', '疾病', '综合'] topic=
+[id=89] [multi] diff=2 tags=['网格蛋白', '衔接蛋白', '发动蛋白', '分工'] topic=
+[id=90] [multi] diff=1 tags=['胞吞作用', '胞吐作用', '综合'] topic=胞吞胞吐
+[id=91] [multi] diff=1 tags=['协助扩散', '定义', '举例', '综合'] topic=
+[id=92] [multi] diff=2 tags=['水孔蛋白', 'AQP', '结构', '功能', '综合'] topic=
+[id=93] [multi] diff=2 tags=['载体蛋白', '通道蛋白', '对比辨析', '综合'] topic=跨膜运输
+[id=94] [short] diff=2 tags=['Na⁺-K⁺泵', '结构', '工作机制', '高频考点'] topic=跨膜运输
+[id=95] [short] diff=2 tags=['Na⁺-K⁺泵', '生理功能', '高频考点'] topic=跨膜运输
+[id=96] [short] diff=3 tags=['跨膜运输', '对比', '三种方式', '高频考点'] topic=跨膜运输
+[id=97] [short] diff=2 tags=['载体蛋白', '通道蛋白', '对比', '高频考点'] topic=跨膜运输
+[id=98] [short] diff=2 tags=['离子通道', '门控方式', '电压门控', '配体门控', '机械门控'] topic=跨膜运输
+[id=99] [short] diff=2 tags=['水孔蛋白', 'AQP1', '结构', '功能'] topic=
+[id=100] [short] diff=2 tags=['Ca²⁺泵', '结构', '机制', '功能', '钙调蛋白'] topic=跨膜运输
+[id=101] [short] diff=2 tags=['网格蛋白', '胞吞作用', '过程', '高频考点'] topic=胞吞胞吐
+[id=102] [short] diff=3 tags=['受体介导胞吞', 'LDL', '过程', '高频考点'] topic=信号转导
+[id=103] [short] diff=2 tags=['吞噬作用', '胞饮作用', '对比', '高频考点'] topic=
+[id=104] [short] diff=2 tags=['组成型胞吐', '调节型胞吐', '对比'] topic=胞吞胞吐
+[id=105] [short] diff=3 tags=['ABC超家族', '结构', '工作模式', '疾病', '多药抗性'] topic=
+[id=106] [short] diff=2 tags=['协同转运', '同向转运', '反向转运'] topic=跨膜运输
+[id=107] [short] diff=3 tags=['Na+/K+-ATPase', 'P-type pump'] topic=
+[id=108] [short] diff=3 tags=['ATPase', 'P-type', 'V-type', 'F-type'] topic=
+[id=109] [short] diff=3 tags=['ABC transporter', 'MDR', 'CFTR'] topic=
+[id=110] [short] diff=2 tags=['Ca2+-ATPase', 'PMCA', 'SERCA'] topic=
+[id=111] [short] diff=2 tags=['cotransport', 'secondary active transport', 'symport', 'antiport'] topic=

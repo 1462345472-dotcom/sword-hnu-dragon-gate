@@ -1,0 +1,322 @@
+{
+ "failedCount": 0,
+ "results": [
+  {
+   "id": "R1",
+   "ok": true,
+   "m": "数据加载: 51 章 / 5844 题 / 951 术语"
+  },
+  {
+   "id": "R1",
+   "ok": true,
+   "m": "首屏视图正常 (view=splash)"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "进度区渲染 (ringNum + pi-stats)"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "6 张模块卡存在: start-quiz/start-multi/start-short/start-noun/start-wrong/start-bookmarked"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "导出/导入按钮栏 (3 按钮) 存在"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "章节 chip 35 个 (生化36编号含合并1+2章) + 课程标签 2 个渲染"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "全部刷题卡可点 → quiz 视图 (89 题)"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "多选专项卡可点 → quiz (题型过滤 multi)"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "简答模板卡可点 → quiz (题型过滤 short)"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "名词解释卡可点 → terms 视图"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "错题精炼卡可点 → 错题 1 题进入 quiz"
+  },
+  {
+   "id": "R2",
+   "ok": true,
+   "m": "精选习题卡可点 → 书签 1 题进入 quiz"
+  },
+  {
+   "id": "R3",
+   "ok": true,
+   "m": "chip 点击选中 biochem_5 (active 类正确)"
+  },
+  {
+   "id": "R3",
+   "ok": true,
+   "m": "chip 自动滚动定位: 选中 biochem_36 后 scrollLeft=6380"
+  },
+  {
+   "id": "R3",
+   "ok": true,
+   "m": "切课程 → cellbiology: subject=cellbio_1, chip 列表 16 章"
+  },
+  {
+   "id": "R3",
+   "ok": true,
+   "m": "切回 biochemistry: subject 恢复 biochem_1_2"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "choice 题就绪 (Q1 type=choice)"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "choice 答错判定: 正确项标绿/错选标红/解析展示/进错题本"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "下一题按钮: qIndex 0 → 1"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "truefalse 题就绪 (第 5 题, answer=false)"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "truefalse 答错判定: 正确侧标绿/错选侧标红"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "truefalse 答对判定: streak=1, 错题数不变(未新增)"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "short 题: 显示答案按钮 → 自主评分 done, 参考答案展示, streak 累计"
+  },
+  {
+   "id": "R4",
+   "ok": true,
+   "m": "short 会话 第1题 按钮文案=下一题"
+  },
+  {
+   "id": "R5",
+   "ok": true,
+   "m": "多选选择交互: 空选时确认按钮禁用, 勾选后启用, 选中态渲染"
+  },
+  {
+   "id": "R5",
+   "ok": true,
+   "m": "多选错误组合提交: 确认按钮消失/选项锁定/错选标红/正确项标绿/进错题本/缓存清理"
+  },
+  {
+   "id": "R5",
+   "ok": true,
+   "m": "多选全对提交: 判定正确, streak 累计, 未新增错题"
+  },
+  {
+   "id": "R6",
+   "ok": true,
+   "m": "答题卡打开: 答题卡 (2/8), 格子数=8"
+  },
+  {
+   "id": "R6",
+   "ok": true,
+   "m": "jump-to 跳题: 点击第 4 格 → qIndex=3, 答题卡关闭"
+  },
+  {
+   "id": "R7",
+   "ok": true,
+   "m": "全部 tab: 15 条 与题库术语数一致 (15 张卡)"
+  },
+  {
+   "id": "R7",
+   "ok": true,
+   "m": "本章 tab 过滤: 15 条"
+  },
+  {
+   "id": "R7",
+   "ok": true,
+   "m": "切课程后术语 tab 刷新为 细胞16章+全部"
+  },
+  {
+   "id": "R8",
+   "ok": true,
+   "m": "答错进错题本: biochem_1_2__1"
+  },
+  {
+   "id": "R8",
+   "ok": true,
+   "m": "错题重做: 进入错题 1 题 (id=1)"
+  },
+  {
+   "id": "R8",
+   "ok": true,
+   "m": "答对即移除: wrongQs() 为空, wrongSet=0"
+  },
+  {
+   "id": "R8",
+   "ok": true,
+   "m": "reload 后错题本为空(移除已持久化)"
+  },
+  {
+   "id": "R8",
+   "ok": true,
+   "m": "错题持久化: reload 后错题仍在 (biochem_1_2__1)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "跨章收藏 2 题 (1_2 与 3 各 1)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "精选习题含 2 题(跨章)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "精选模式第二题 _bmSubj=biochem_3 (跨章标识正确)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "取消收藏: 仅剩 biochem_1_2 的题, biochem_3 的已移除"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "reload 后精选仅剩 1 题(被取消的未复现)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "全部取消 + reload 后精选为空(空态正常)"
+  },
+  {
+   "id": "R9",
+   "ok": true,
+   "m": "空精选点卡 → toast 提示且不崩溃"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "导出函数: 返回合法 learning-data JSON (bookmarks=1, answers=2)"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "导出按钮 → 下载文件: hnu-academy-data-20260808.json"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "导出题库归档: 51 章 / 5844 题"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "4 类非法文件均被拒绝 (非JSON/无字段/数组/字段格式错)"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "非法导入不破坏现有数据 ({\"ans\":2,\"wrong\":1,\"bm\":1,\"view\":\"home\"})"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "合法导入(真实文件选择器): 状态回滚至快照, 备份键已建, toast=导入成功:学习数据已覆盖,导入前数据已备份"
+  },
+  {
+   "id": "R10",
+   "ok": true,
+   "m": "导入后应用可继续做题(未破坏)"
+  },
+  {
+   "id": "R11",
+   "ok": true,
+   "m": "末题按钮=完成 (7 题 short 全答)"
+  },
+  {
+   "id": "R11",
+   "ok": true,
+   "m": "结果页本轮得分: 100% (7/7)"
+  },
+  {
+   "id": "R11",
+   "ok": true,
+   "m": "统计落库: 累计 +7 题/答对 +7 (今日同步 +7)"
+  },
+  {
+   "id": "R11",
+   "ok": true,
+   "m": "结果页今日/累计统计行渲染: 今日已练 7 题 · 答对 7 题 累计已练 7 题 · 累计正确率 100%"
+  },
+  {
+   "id": "R12",
+   "ok": true,
+   "m": "取消确认: 数据保留 (wrong=0 bm=0 ans=7 total存在=true)"
+  },
+  {
+   "id": "R12",
+   "ok": true,
+   "m": "确认清除: 进度/错题/书签/连击全归零, 无残留存储键, toast=数据已清除"
+  },
+  {
+   "id": "R13",
+   "ok": true,
+   "m": "reload 后错题/书签/进度快照保持 ({\"wrong\":1,\"bm\":1,\"sp\":1})"
+  },
+  {
+   "id": "R13",
+   "ok": true,
+   "m": "续练弹窗(已完成2题) → 恢复至第2题, 已答记录完整"
+  },
+  {
+   "id": "R13",
+   "ok": true,
+   "m": "reload 后错题重做: 仍是 Q1 (1)"
+  },
+  {
+   "id": "R13",
+   "ok": true,
+   "m": "重做答对后 reload, 错题清零(终态一致)"
+  },
+  {
+   "id": "ERR",
+   "ok": true,
+   "m": "全程 0 次 JS 未捕获异常"
+  },
+  {
+   "id": "ERR",
+   "ok": true,
+   "m": "全程 0 条 console error (过滤资源加载)"
+  }
+ ],
+ "exceptions": [],
+ "consoleErrs": []
+}

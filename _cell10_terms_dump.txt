@@ -1,0 +1,90 @@
+{
+ "id": 1,
+ "term": "核糖体（Ribosome）",
+ "definition": "由rRNA和核糖体蛋白组成的核糖核蛋白颗粒，是细胞内蛋白质合成的细胞器。原核细胞核糖体为70S（50S+30S），真核细胞核糖体为80S（60S+40S）。核糖体催化肽键形成的活性中心由rRNA构成，其本质是核酶。",
+ "chapter": "第十章"
+}
+{
+ "id": 2,
+ "term": "多聚核糖体（Polyribosome / Polysome）",
+ "definition": "由多个核糖体串联在同一条mRNA分子上同时进行肽链合成所形成的复合体。mRNA越长，串联的核糖体数目越多。多聚核糖体提高了蛋白质合成效率，并实现对mRNA的经济有效利用。",
+ "chapter": "第十章"
+}
+{
+ "id": 3,
+ "term": "A位点（氨酰基位点，Aminoacyl-tRNA Site）",
+ "definition": "核糖体中与新掺入的氨酰-tRNA结合的位点，位于核糖体大亚基与小亚基的结合面。在肽链延伸过程中，携带有与mRNA密码子互补的反密码子的氨酰-tRNA进入A位点，为肽键形成提供新的氨基酸。",
+ "chapter": "第十章"
+}
+{
+ "id": 4,
+ "term": "核酶（Ribozyme）",
+ "definition": "具有催化活性的RNA分子。1981年Cech在研究四膜虫26S前体rRNA时首次发现RNA的自剪接现象，证明RNA具有催化功能。核糖体中催化肽键形成的肽酰转移酶由23S rRNA构成，是核酶的重要代表，为RNA世界假说提供了关键支撑。",
+ "chapter": "第十章"
+}
+{
+ "id": 5,
+ "term": "SD序列（Shine-Dalgarno Sequence）",
+ "definition": "原核生物mRNA起始密码子AUG上游5~10个核苷酸处的一段保守序列（5'-AGGAGG-3'），与核糖体30S小亚基16S rRNA的3'端序列互补配对，保证小亚基准确识别起始密码子。真核生物无SD序列，依赖翻译起始因子识别5'帽子结构。",
+ "chapter": "第十章"
+}
+{
+ "id": 6,
+ "term": "P位点（肽酰基位点，Peptidyl-tRNA Site）",
+ "definition": "核糖体中与延伸中的肽酰-tRNA结合的位点，位于大小亚基结合面。肽键形成时P位点tRNA携带的多肽链转移到A位点氨酰-tRNA的氨基上，使肽链延长一个氨基酸残基。",
+ "chapter": "第十章"
+}
+{
+ "id": 7,
+ "term": "E位点（出口位点，Exit Site）",
+ "definition": "tRNA离开核糖体前的最后一个结合位点，位于大小亚基结合面。转位后空载tRNA从P位点移至E位点，然后从E位点释放到细胞质中。",
+ "chapter": "第十章"
+}
+{
+ "id": 8,
+ "term": "肽酰转移酶（Peptidyl Transferase）",
+ "definition": "催化肽键形成的酶活性中心，位于核糖体大亚基23S rRNA（原核）或28S rRNA（真核）上，由rRNA而非蛋白质构成，是核糖体为核酶的核心证据。",
+ "chapter": "第十章"
+}
+{
+ "id": 9,
+ "term": "RNA世界假说（RNA World Hypothesis）",
+ "definition": "20世纪80年代由W.Gilbert等人提出的生命起源假说，认为最早的生物大分子是RNA，兼具遗传信息储存和催化功能。DNA因更高的化学稳定性和修复能力取代RNA成为遗传载体，蛋白质因结构和功能多样性取代RNA成为主要催化剂。",
+ "chapter": "第十章"
+}
+{
+ "id": 10,
+ "term": "起始因子（Initiation Factor, IF）",
+ "definition": "协助核糖体小亚基、mRNA和起始tRNA正确组装形成翻译起始复合物的蛋白质因子。原核有IF1、IF2、IF3三种；真核需要十多种eIFs，其中eIF4F复合物负责识别mRNA 5'帽子结构。",
+ "chapter": "第十章"
+}
+{
+ "id": 11,
+ "term": "EF-Tu（延伸因子Tu）",
+ "definition": "原核生物肽链延伸的关键因子，与GTP和氨酰-tRNA形成三元复合物，将氨酰-tRNA运送至核糖体A位点。密码子配对正确后水解GTP并释放。其GDP/GTP交换由EF-Ts催化完成。",
+ "chapter": "第十章"
+}
+{
+ "id": 12,
+ "term": "嘌呤霉素（Puromycin）",
+ "definition": "一种结构与氨酰-tRNA 3'端（氨基酸-AMP）类似的抗生素，可进入核糖体A位点接受肽酰转移酶催化，使新生肽链提前终止释放。因其模拟tRNA末端被广泛用于核糖体功能研究。",
+ "chapter": "第十章"
+}
+{
+ "id": 13,
+ "term": "扫描机制（Scanning Mechanism）",
+ "definition": "真核细胞核糖体40S小亚基定位起始密码子的机制：eIF4F复合物识别mRNA 5'帽子结构后，40S亚基沿mRNA 5'→3'方向扫描，通常识别第一个位于合适Kozak序列上下文中的AUG作为翻译起始位点。",
+ "chapter": "第十章"
+}
+{
+ "id": 14,
+ "term": "Kozak序列",
+ "definition": "真核mRNA中位于起始密码子AUG周围的保守序列（最适序列为GCCGCC(A/G)CCAUGG），其存在可显著提高核糖体40S小亚基扫描过程中对AUG的识别效率和翻译起始频率。",
+ "chapter": "第十章"
+}
+{
+ "id": 15,
+ "term": "释放因子（Release Factor, RF）",
+ "definition": "识别核糖体A位点终止密码子（UAA、UAG、UGA）并催化蛋白质合成终止的蛋白质因子。原核RF1识别UAA/UAG，RF2识别UAA/UGA；真核eRF1识别全部三种终止密码子。",
+ "chapter": "第十章"
+}

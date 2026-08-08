@@ -1,0 +1,24 @@
+File size: 4484137 bytes, 3578865 chars
+BOM: efbbbf
+
+var QUESTION_BANKS at char: 2532913
+var COURSES at char: 3537410
+
+Bytes around var COURSES: a8e58aa8e4ba86e6b4bbe7bb86e8839ee68890e5838fe7a094e7a9b6e380
+As text: '�动了活细胞成像研究�'
+
+Text before var COURSES: 's":18}}};\nvar COURSES = {"bioc'
+
+Last }; before COURSES at char: 3537407
+Gap from }; to COURSES: 3 chars
+Gap content: '};\n'
+
+Find "
+var COURSES": 3537409
+Find "
+var COURSES": -1
+
+JS code length: 868448
+JS starts: 'var QUESTION_BANKS = {"biochem_1_2":{"key":"biochem_1_2","name":"生物化学","code":"3'
+JS ends: 'er":"cellbio_16"}],"stats":{"total":56,"choice":27,"truefalse":12,"terms":18}}};'
+Braces: { = 4948, } = 4948

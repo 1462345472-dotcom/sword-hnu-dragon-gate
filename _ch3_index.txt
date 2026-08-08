@@ -1,0 +1,117 @@
+[id=1] [choice] diff=1 tags=['高频考点', '结构模型', '双层脂分子模型', '经典实验'] topic=
+[id=2] [choice] diff=1 tags=['高频考点', '结构模型', '三明治模型'] topic=
+[id=3] [choice] diff=1 tags=['高频考点', '结构模型', '单位膜模型', '电镜结构'] topic=
+[id=4] [choice] diff=1 tags=['高频考点', '结构模型', '流动镶嵌模型', '经典实验'] topic=质膜
+[id=5] [choice] diff=2 tags=['高频考点', '结构模型', '流动镶嵌模型', '对比辨析'] topic=质膜
+[id=6] [choice] diff=2 tags=['高频考点', '结构模型', '脂筏模型'] topic=
+[id=7] [choice] diff=2 tags=['高频考点', '结构模型', '脂筏模型', '对比辨析'] topic=
+[id=8] [choice] diff=1 tags=['高频考点', '膜脂', '生物膜结构'] topic=质膜
+[id=9] [choice] diff=1 tags=['高频考点', '膜脂', '甘油磷脂'] topic=质膜
+[id=10] [choice] diff=2 tags=['高频考点', '膜脂', '甘油磷脂', '信号转导'] topic=质膜
+[id=11] [choice] diff=2 tags=['高频考点', '膜脂', '合成场所', '对比辨析'] topic=质膜
+[id=12] [choice] diff=2 tags=['高频考点', '膜脂', '鞘脂', '合成场所'] topic=质膜
+[id=13] [choice] diff=2 tags=['高频考点', '膜脂', '鞘脂', '结构对比'] topic=质膜
+[id=14] [choice] diff=2 tags=['高频考点', '膜脂', '鞘脂', '鞘糖脂'] topic=质膜
+[id=15] [choice] diff=2 tags=['高频考点', '膜脂', '胆固醇', '结构特征'] topic=质膜
+[id=16] [choice] diff=2 tags=['高频考点', '膜脂', '胆固醇', '功能'] topic=质膜
+[id=17] [choice] diff=1 tags=['高频考点', '膜脂', '胆固醇', '含量'] topic=质膜
+[id=18] [choice] diff=2 tags=['高频考点', '膜脂', '胆固醇', '前体功能'] topic=质膜
+[id=19] [choice] diff=1 tags=['高频考点', '膜脂运动', '侧向运动'] topic=质膜
+[id=20] [choice] diff=2 tags=['高频考点', '膜脂运动', '翻转运动', '翻转酶'] topic=质膜
+[id=21] [choice] diff=2 tags=['高频考点', '脂质体', '应用'] topic=
+[id=22] [choice] diff=1 tags=['高频考点', '膜蛋白', '分类'] topic=质膜
+[id=23] [choice] diff=1 tags=['高频考点', '膜蛋白', '外在膜蛋白', '分离方式'] topic=质膜
+[id=24] [choice] diff=1 tags=['高频考点', '膜蛋白', '内在膜蛋白', '占比'] topic=质膜
+[id=25] [choice] diff=2 tags=['高频考点', '膜蛋白', '脂锚定膜蛋白', 'GPI锚定'] topic=质膜
+[id=26] [choice] diff=2 tags=['高频考点', '膜蛋白', '脂锚定膜蛋白', 'Ras'] topic=质膜
+[id=27] [choice] diff=2 tags=['高频考点', '膜蛋白', '整合膜蛋白', '结合方式'] topic=质膜
+[id=28] [choice] diff=2 tags=['高频考点', '膜蛋白', '跨膜结构域', 'α螺旋'] topic=质膜
+[id=29] [choice] diff=2 tags=['高频考点', '膜蛋白', '跨膜结构域', 'β折叠'] topic=质膜
+[id=30] [choice] diff=2 tags=['高频考点', '去垢剂', 'SDS', '膜蛋白分离'] topic=质膜
+[id=31] [choice] diff=2 tags=['高频考点', '去垢剂', 'Triton X-100', '应用对比'] topic=
+[id=32] [choice] diff=1 tags=['高频考点', '膜流动性', '影响因素'] topic=质膜
+[id=33] [choice] diff=1 tags=['高频考点', '膜流动性', '脂肪酸链长'] topic=质膜
+[id=34] [choice] diff=1 tags=['高频考点', '膜流动性', '不饱和度'] topic=质膜
+[id=35] [choice] diff=2 tags=['高频考点', '膜流动性', '胆固醇', '双重调节'] topic=质膜
+[id=36] [choice] diff=2 tags=['高频考点', '膜流动性', '胆固醇', '低温调节'] topic=质膜
+[id=37] [choice] diff=1 tags=['高频考点', '膜流动性', '细胞融合实验', '经典实验'] topic=质膜
+[id=38] [choice] diff=2 tags=['高频考点', '膜流动性', 'FRAP', '技术原理'] topic=质膜
+[id=39] [choice] diff=2 tags=['高频考点', '膜流动性', 'FRAP', '扩散速率'] topic=质膜
+[id=40] [choice] diff=2 tags=['高频考点', '膜蛋白流动性', '热运动'] topic=质膜
+[id=41] [choice] diff=2 tags=['高频考点', '膜蛋白流动性', '细胞骨架', '实验证据'] topic=质膜
+[id=42] [choice] diff=2 tags=['高频考点', '膜不对称性'] topic=
+[id=43] [choice] diff=2 tags=['高频考点', '膜不对称性', '膜脂分布'] topic=质膜
+[id=44] [choice] diff=1 tags=['高频考点', '膜不对称性', '糖基分布'] topic=
+[id=45] [choice] diff=2 tags=['高频考点', '膜不对称性', '磷脂酰丝氨酸', '凝血'] topic=
+[id=46] [choice] diff=2 tags=['高频考点', '膜不对称性', '膜蛋白特征'] topic=质膜
+[id=47] [choice] diff=2 tags=['高频考点', '膜不对称性', '生物学意义'] topic=
+[id=48] [choice] diff=2 tags=['高频考点', '膜骨架', '红细胞', '实验材料'] topic=
+[id=49] [choice] diff=2 tags=['高频考点', '膜骨架', '对比辨析'] topic=
+[id=50] [choice] diff=2 tags=['高频考点', '膜骨架', '锚蛋白'] topic=
+[id=51] [choice] diff=2 tags=['高频考点', '膜骨架', '带3蛋白', '物质运输'] topic=
+[id=52] [choice] diff=2 tags=['高频考点', '膜骨架', '实验证明'] topic=
+[id=53] [choice] diff=1 tags=['高频考点', '质膜功能'] topic=
+[id=54] [choice] diff=2 tags=['高频考点', '脂筏', '信号转导'] topic=信号转导
+[id=55] [choice] diff=2 tags=['高频考点', '生物膜', '动态变化'] topic=
+[id=56] [choice] diff=1 tags=['高频考点', '膜脂', '脂双层结构'] topic=质膜
+[id=57] [choice] diff=2 tags=['高频考点', '膜脂', '鞘脂', '鞘糖脂功能'] topic=质膜
+[id=58] [choice] diff=2 tags=['高频考点', '结构模型', '冷冻蚀刻', '经典实验'] topic=
+[id=59] [choice] diff=2 tags=['概念辨析', '生物膜', '细胞内膜'] topic=
+[id=60] [choice] diff=1 tags=['高频考点', '膜脂', '胆固醇', '来源'] topic=质膜
+[id=61] [truefalse] diff=1 tags=['高频考点', '结构模型', '经典实验'] topic=
+[id=62] [truefalse] diff=1 tags=['高频考点', '结构模型', '三明治模型'] topic=
+[id=63] [truefalse] diff=1 tags=['高频考点', '结构模型', '单位膜模型'] topic=
+[id=64] [truefalse] diff=1 tags=['高频考点', '结构模型', '流动镶嵌模型'] topic=质膜
+[id=65] [truefalse] diff=2 tags=['高频考点', '结构模型', '脂筏模型'] topic=
+[id=66] [truefalse] diff=1 tags=['高频考点', '膜脂', '甘油磷脂'] topic=质膜
+[id=67] [truefalse] diff=2 tags=['高频考点', '膜脂', '合成场所', '对比辨析'] topic=质膜
+[id=68] [truefalse] diff=1 tags=['高频考点', '膜脂', '胆固醇'] topic=质膜
+[id=69] [truefalse] diff=1 tags=['高频考点', '膜脂', '胆固醇'] topic=质膜
+[id=70] [truefalse] diff=1 tags=['高频考点', '膜脂运动', '侧向运动'] topic=质膜
+[id=71] [truefalse] diff=2 tags=['高频考点', '膜脂运动', '翻转运动'] topic=质膜
+[id=72] [truefalse] diff=1 tags=['高频考点', '脂质体', '应用'] topic=
+[id=73] [truefalse] diff=1 tags=['高频考点', '膜蛋白', '外在膜蛋白'] topic=质膜
+[id=74] [truefalse] diff=1 tags=['高频考点', '膜蛋白', '内在膜蛋白'] topic=质膜
+[id=75] [truefalse] diff=2 tags=['高频考点', '膜蛋白', '脂锚定膜蛋白'] topic=质膜
+[id=76] [truefalse] diff=1 tags=['高频考点', '去垢剂', 'SDS'] topic=
+[id=77] [truefalse] diff=1 tags=['高频考点', '去垢剂', 'Triton X-100'] topic=
+[id=78] [truefalse] diff=1 tags=['高频考点', '膜流动性', '影响因素'] topic=质膜
+[id=79] [truefalse] diff=2 tags=['高频考点', '膜流动性', '胆固醇', '双重调节'] topic=质膜
+[id=80] [truefalse] diff=1 tags=['高频考点', '膜流动性', '细胞融合实验'] topic=质膜
+[id=81] [truefalse] diff=2 tags=['高频考点', '膜流动性', 'FRAP', '技术原理'] topic=质膜
+[id=82] [truefalse] diff=2 tags=['高频考点', '膜蛋白流动性', '热运动'] topic=质膜
+[id=83] [truefalse] diff=1 tags=['高频考点', '膜不对称性', '糖基分布'] topic=
+[id=84] [truefalse] diff=2 tags=['高频考点', '膜不对称性', '膜蛋白特征'] topic=质膜
+[id=85] [truefalse] diff=1 tags=['高频考点', '膜骨架', '红细胞'] topic=
+[id=86] [truefalse] diff=2 tags=['高频考点', '膜骨架', '带3蛋白'] topic=
+[id=87] [truefalse] diff=1 tags=['高频考点', '脂筏', '功能'] topic=
+[id=88] [truefalse] diff=2 tags=['膜脂组成', '膜差异性'] topic=质膜
+[id=89] [multi] diff=2 tags=['高频考点', '结构模型', '跨知识点'] topic=
+[id=90] [multi] diff=2 tags=['高频考点', '膜脂', '跨知识点'] topic=质膜
+[id=91] [multi] diff=2 tags=['高频考点', '膜蛋白', '跨知识点'] topic=质膜
+[id=92] [multi] diff=2 tags=['高频考点', '膜流动性', '影响因素'] topic=质膜
+[id=93] [multi] diff=2 tags=['高频考点', '膜不对称性', '膜脂分布'] topic=质膜
+[id=94] [multi] diff=2 tags=['高频考点', '膜不对称性', '跨知识点'] topic=
+[id=95] [multi] diff=2 tags=['高频考点', '去垢剂', '跨知识点'] topic=
+[id=96] [multi] diff=2 tags=['高频考点', '膜骨架', '红细胞', '跨知识点'] topic=
+[id=97] [multi] diff=1 tags=['高频考点', '质膜功能'] topic=
+[id=98] [multi] diff=2 tags=['高频考点', '膜流动性', '研究方法', '跨知识点'] topic=质膜
+[id=99] [multi] diff=2 tags=['高频考点', '脂筏', '跨知识点'] topic=
+[id=100] [multi] diff=2 tags=['高频考点', '膜脂', '甘油磷脂', '鞘脂', '跨知识点'] topic=质膜
+[id=101] [multi] diff=2 tags=['高频考点', '生物膜', '综合认知'] topic=
+[id=102] [multi] diff=3 tags=['高频考点', '结构模型', '经典实验', '综合串联'] topic=
+[id=103] [short] diff=2 tags=['高频考点', '结构模型', '综合'] topic=
+[id=104] [short] diff=2 tags=['高频考点', '膜脂', '胆固醇', '综合'] topic=质膜
+[id=105] [short] diff=2 tags=['高频考点', '膜蛋白', '分类对比'] topic=质膜
+[id=106] [short] diff=2 tags=['高频考点', '膜流动性', '影响因素'] topic=质膜
+[id=107] [short] diff=2 tags=['高频考点', '膜流动性', 'FRAP', '实验技术'] topic=质膜
+[id=108] [short] diff=3 tags=['高频考点', '膜不对称性', '综合'] topic=
+[id=109] [short] diff=3 tags=['高频考点', '膜骨架', '红细胞'] topic=
+[id=110] [short] diff=1 tags=['高频考点', '膜脂运动'] topic=质膜
+[id=111] [short] diff=2 tags=['高频考点', '去垢剂', '对比辨析'] topic=
+[id=112] [short] diff=2 tags=['高频考点', '脂质体', '应用'] topic=
+[id=113] [short] diff=2 tags=['高频考点', '脂筏模型', '综合'] topic=
+[id=114] [short] diff=2 tags=['高频考点', '膜不对称性', '场景应用'] topic=
+[id=115] [short] diff=1 tags=['高频考点', '质膜功能'] topic=
+[id=116] [short] diff=3 tags=['高频考点', '膜蛋白', '跨膜结构域'] topic=质膜
+[id=117] [short] diff=2 tags=['高频考点', '膜流动性', '细胞融合实验', '实验设计'] topic=质膜

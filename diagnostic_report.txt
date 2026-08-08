@@ -1,0 +1,32 @@
+=== 生物化学 ===
+第一章+第二章          |  100Q 20T | C 60 TF22 M10 S 8 | D1: 28 D2: 53 D3:19 | K: 0 !!noTopic:100,noTags:100
+第七章              |   59Q 15T | C 32 TF13 M 7 S 7 | D1: 13 D2: 30 D3:16 | K: 0 !!noTopic:59
+第三章              |  105Q 23T | C 65 TF22 M10 S 8 | D1: 37 D2: 55 D3:13 | K:10
+第九章              |   64Q 14T | C 37 TF12 M 8 S 7 | D1: 42 D2: 22 D3: 0 | K: 0 !!noTopic:64
+第五章              |   79Q 15T | C 38 TF15 M16 S10 | D1: 22 D2: 53 D3: 4 | K:22
+第八章              |   53Q 15T | C 29 TF12 M 6 S 6 | D1: 11 D2: 31 D3:11 | K: 9
+第六章              |  106Q 18T | C 63 TF19 M12 S12 | D1: 35 D2: 62 D3: 9 | K: 0 !!noTopic:106,noExp:12
+第十一章             |   73Q 28T | C 45 TF11 M 7 S10 | D1: 40 D2: 33 D3: 0 | K: 9
+第十三章             |   60Q 13T | C 31 TF16 M 8 S 5 | D1: 18 D2: 37 D3: 5 | K:25
+第十二章             |   62Q 20T | C 31 TF10 M13 S 8 | D1: 22 D2: 31 D3: 9 | K:14
+第十四章             |   50Q 14T | C 22 TF16 M 7 S 5 | D1: 16 D2: 29 D3: 5 | K:19 !!noTopic:20
+第十章              |   89Q 15T | C 56 TF18 M 8 S 7 | D1: 22 D2: 62 D3: 5 | K:21
+第四章              |  104Q 18T | C 64 TF22 M10 S 8 | D1: 46 D2: 51 D3: 7 | K: 6 !!noTopic:16
+
+=== 细胞生物学 ===
+第一章绪论            |  106Q 20T | C 51 TF20 M20 S15 | D1: 25 D2: 70 D3:11 | K: 0 !!noTopic:106,noTags:71
+第七章              |  102Q 18T | C 58 TF20 M12 S12 | D1: 12 D2: 64 D3:26 | K: 0 !!noTopic:102
+第三章              |  117Q 20T | C 60 TF28 M14 S15 | D1: 40 D2: 73 D3: 4 | K: 0 !!noTopic:117
+第九章              |   79Q  8T | C 40 TF14 M15 S10 | D1: 23 D2: 45 D3:11 | K: 0 !!noTopic:79
+第二章              |  104Q 18T | C 64 TF22 M10 S 8 | D1: 35 D2: 59 D3:10 | K: 8 !!noTopic:18
+第五章              |  119Q 18T | C 75 TF20 M12 S12 | D1: 31 D2: 66 D3:22 | K: 0 !!noTopic:119,noExp:12
+第八章              |  102Q 18T | C 56 TF22 M12 S12 | D1: 14 D2: 71 D3:17 | K: 0 !!noTopic:102
+第六章              |  118Q 20T | C 73 TF20 M13 S12 | D1: 51 D2: 61 D3: 6 | K: 0 !!noTopic:118,noTags:118,noExp:12
+第十一章             |   84Q 18T | C 55 TF14 M 7 S 8 | D1: 24 D2: 50 D3:10 | K:34 !!noTopic:21,noExp:8
+第十三章             |  101Q 18T | C 69 TF16 M10 S 6 | D1: 21 D2: 54 D3:26 | K: 0 !!noTopic:101
+第十二章             |   70Q 17T | C 45 TF13 M 5 S 7 | D1: 17 D2: 43 D3:10 | K:28 !!noTopic:18,noExp:7
+第十五章             |   38Q 15T | C 14 TF 8 M10 S 6 | D1: 14 D2: 20 D3: 4 | K: 0 !!noTopic:38,noExp:6
+第十六章             |   38Q 18T | C 14 TF 8 M10 S 6 | D1: 22 D2: 12 D3: 4 | K: 0 !!noTopic:38,noExp:6
+第十四章             |   85Q 15T | C 55 TF15 M 9 S 6 | D1: 21 D2: 54 D3:10 | K: 0 !!noTopic:85
+第十章              |   37Q  5T | C 18 TF 8 M 6 S 5 | D1: 13 D2: 20 D3: 4 | K: 0 !!noTopic:37
+第四章              |  111Q 20T | C 59 TF19 M15 S18 | D1: 53 D2: 52 D3: 6 | K: 0 !!noTopic:111,noExp:13
