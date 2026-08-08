@@ -80,22 +80,37 @@ def _syllabus_covered(pt, topics):
             return True
     return False
 
-def filter_syllabus(syllabus_points, chapter_dir):
-    """按 chapter_hint 与章名的共同关键词过滤考纲条目;
-    空 hint 条目跳过;无任何匹配时保留全部条目作为参考。"""
+def extract_topics(chapter_dir):
+    """从章目录名提取主题关键词,如 '第七章 酶动力学' → ['酶动力学'];
+    纯数字章名(如 '第七章')返回空列表。"""
     name = os.path.basename(chapter_dir)
-    filtered = [x for x in syllabus_points
-                if x.get('chapter_hint') and _bigrams(name) & _bigrams(str(x['chapter_hint']))]
-    return filtered if filtered else syllabus_points
+    m = re.sub(r'^第[一二三四五六七八九十百千0-9]+章', '', name)
+    m = re.sub(r'^[一二三四五六七八九十百千0-9]+\+', '', m)
+    return [p for p in re.split(r'[+\s\-、,，]', m) if p]
+
+def filter_syllabus(syllabus_points, topics):
+    """按章节主题关键词过滤考纲条目:考纲条目 point 含任一关键词 → 保留;
+    无任何命中时保留全部条目作为参考;topics 为空时不过滤。"""
+    if not topics:
+        return syllabus_points
+    kept = [x for x in syllabus_points
+            if any(t and t in str(x.get('point', '')) for t in topics)]
+    return kept if kept else syllabus_points
 
 def main():
     d = sys.argv[1]
     qs = json.load(open(os.path.join(d, 'questions.json'), encoding='utf-8'))
     ts = json.load(open(os.path.join(d, 'terms.json'), encoding='utf-8'))
+    topics = []
+    if '--topics' in sys.argv:
+        i = sys.argv.index('--topics')
+        topics = [p for p in re.split(r'[,，、\s]+', sys.argv[i + 1]) if p]
+    else:
+        topics = extract_topics(d)
     sp = []
     sp_path = 'docs/superpowers/specs/考纲考点清单.json'
     if os.path.exists(sp_path):
-        sp = filter_syllabus(json.load(open(sp_path, encoding='utf-8')), d)
+        sp = filter_syllabus(json.load(open(sp_path, encoding='utf-8')), topics)
     r = scan_chapter(qs, ts, sp)
     out = os.path.join(d, '疑点清单.json')
     json.dump(r, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
