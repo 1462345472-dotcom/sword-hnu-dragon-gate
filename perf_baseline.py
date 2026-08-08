@@ -5,7 +5,7 @@ import subprocess, time, re, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 EDGE = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
-URL = "file:///C:/Users/Lenovo/Desktop/湖南大学/生物化学题库/湖南大学题库系统-臻至版.html"
+URL = "file:///C:/Users/Lenovo/Desktop/湖南大学/生物化学题库/湖南大学题库系统-剑指湖大一战成硕.html"
 
 def measure(times=3):
     results = []

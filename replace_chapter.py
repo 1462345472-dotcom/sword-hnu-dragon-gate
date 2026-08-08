@@ -5,7 +5,7 @@
 只替换目标对象的 questions/terms/stats,保留 key/name/code/chapterLabel,不动任何其他内容。"""
 import json, re, sys
 
-PATH = '生物化学题库/湖南大学题库系统-臻至版.html'
+PATH = '生物化学题库/湖南大学题库系统-剑指湖大一战成硕.html'
 
 def build_obj(key, old_obj, questions, terms):
     qty = {"choice": 0, "truefalse": 0, "multi": 0, "short": 0}

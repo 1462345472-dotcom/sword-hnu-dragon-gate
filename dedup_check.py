@@ -19,7 +19,7 @@ def dedup_check(questions, existing_texts):
 def main():
     import json, re as _re
     new = json.load(open("生物化学题库/第十五章/questions.json", encoding="utf-8"))
-    html = open("生物化学题库/湖南大学题库系统-臻至版.html", encoding="utf-8", errors="ignore").read()
+    html = open("生物化学题库/湖南大学题库系统-剑指湖大一战成硕.html", encoding="utf-8", errors="ignore").read()
     existing = _re.findall(r'"question":"((?:[^"\\]|\\.)*)"', html)
     dups = dedup_check(new, existing)
     print(f"已有题干 {len(existing)} 条, 新题 {len(new)} 条, 重复 {len(dups)} 条")

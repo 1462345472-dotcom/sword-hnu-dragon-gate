@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """题库全量归档生成器
-从《湖南大学题库系统-臻至版.html》提取 QUESTION_BANKS(51 章 questions+terms),
+从《湖南大学题库系统-剑指湖大一战成硕.html》提取 QUESTION_BANKS(51 章 questions+terms),
 生成 生物化学题库/题库全量归档.json —— 与 HTML 内"导出题库数据"按钮产物同构,
 保证 HTML 万一损坏可用本归档重建题库数据。
 """
@@ -12,7 +12,7 @@ import sys
 from datetime import datetime
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(BASE, '生物化学题库', '湖南大学题库系统-臻至版.html')
+SRC = os.path.join(BASE, '生物化学题库', '湖南大学题库系统-剑指湖大一战成硕.html')
 OUT = os.path.join(BASE, '生物化学题库', '题库全量归档.json')
 
 

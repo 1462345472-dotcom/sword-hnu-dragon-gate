@@ -6,7 +6,7 @@
 import re, sys, json, hashlib, argparse
 
 def load_state():
-    html = open('生物化学题库/湖南大学题库系统-臻至版.html', encoding='utf-8', errors='ignore').read()
+    html = open('生物化学题库/湖南大学题库系统-剑指湖大一战成硕.html', encoding='utf-8', errors='ignore').read()
     dec = json.JSONDecoder()
     objs = {}
     for m in re.finditer(r'"((?:biochem|cellbio)_[0-9_]+)"\s*:\s*\{', html):

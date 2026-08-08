@@ -47,7 +47,7 @@ def main():
     for t in terms:
         t["chapter"] = args.key
     obj_text = build_chapter_obj(args.key, args.label, questions, terms)
-    path = "生物化学题库/湖南大学题库系统-臻至版.html"
+    path = "生物化学题库/湖南大学题库系统-剑指湖大一战成硕.html"
     html = open(path, encoding="utf-8", errors="ignore").read()
     if args.backup:
         import os, time
