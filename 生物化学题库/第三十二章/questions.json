@@ -1,0 +1,2244 @@
+[
+ {
+  "id": 1,
+  "type": "choice",
+  "topic": "转录的基本概念与特点",
+  "question": "转录是指:",
+  "options": {
+   "A": "以 DNA 为模板合成 RNA 的过程",
+   "B": "以 RNA 为模板合成 DNA 的过程",
+   "C": "以 RNA 为模板合成蛋白质的过程",
+   "D": "以 DNA 为模板合成 DNA 的过程"
+  },
+  "answer": "A",
+  "explanation": "转录是以 DNA 的一条链为模板、在 DNA 指导的 RNA 聚合酶催化下合成 RNA 的过程;以 RNA 为模板合成 DNA 是逆转录,以 RNA 为模板合成蛋白质是翻译。",
+  "difficulty": 1,
+  "tags": [
+   "转录定义",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 2,
+  "type": "choice",
+  "topic": "转录的基本概念与特点",
+  "question": "转录时作为 mRNA 合成模板的那条 DNA 链称为:",
+  "options": {
+   "A": "编码链",
+   "B": "有义链",
+   "C": "模板链",
+   "D": "正链"
+  },
+  "answer": "C",
+  "explanation": "作为转录模板的那条链称模板链,又称反义链、负链或无义链;另一条与 mRNA 序列相同(除 T→U)的链称编码链、有义链或正链。",
+  "difficulty": 1,
+  "tags": [
+   "模板链",
+   "编码链",
+   "反义链",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 3,
+  "type": "choice",
+  "topic": "转录的基本概念与特点",
+  "question": "转录具有不对称性的含义是:",
+  "options": {
+   "A": "RNA 只以 DNA 双链中的一条链为模板合成",
+   "B": "转录生成的 RNA 均为单链",
+   "C": "RNA 合成速度不对称",
+   "D": "转录只发生在细胞核内"
+  },
+  "answer": "A",
+  "explanation": "转录的不对称性指 RNA 只以 DNA 双链中的模板链(一条链)为模板合成;体内不同基因区段也可以分别以两条链中的一条为模板。",
+  "difficulty": 2,
+  "tags": [
+   "不对称转录",
+   "模板链",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 4,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "原核生物 RNA 聚合酶中负责识别启动子(转录起始点)的亚基是:",
+  "options": {
+   "A": "α 亚基",
+   "B": "β 亚基",
+   "C": "β' 亚基",
+   "D": "σ 因子"
+  },
+  "answer": "D",
+  "explanation": "σ 因子(起始亚基)负责识别启动子的 -10 区(Pribnow 盒)和 -35 区,引导全酶结合到正确起始位置;转录起始后 σ 因子脱落。",
+  "difficulty": 1,
+  "tags": [
+   "σ因子",
+   "启动子识别",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 5,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "大肠杆菌 RNA 聚合酶中,结合 DNA 模板并催化磷酸二酯键形成的是:",
+  "options": {
+   "A": "α 亚基",
+   "B": "β 亚基",
+   "C": "ω 亚基",
+   "D": "σ 因子"
+  },
+  "answer": "B",
+  "explanation": "β 亚基结合 DNA 模板并催化磷酸二酯键形成;β' 亚基结合核苷酸底物,二者共同构成催化中心。",
+  "difficulty": 2,
+  "tags": [
+   "β亚基",
+   "RNA聚合酶",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 6,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "大肠杆菌 RNA 聚合酶中,与 β 亚基共同构成催化中心、负责结合核苷酸底物的是:",
+  "options": {
+   "A": "α 亚基",
+   "B": "β' 亚基",
+   "C": "ω 亚基",
+   "D": "σ 因子"
+  },
+  "answer": "B",
+  "explanation": "β' 亚基结合核苷酸底物,与 β 亚基(结合模板、催化磷酸二酯键)共同构成催化中心。",
+  "difficulty": 2,
+  "tags": [
+   "β'亚基",
+   "RNA聚合酶",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 7,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "大肠杆菌 RNA 聚合酶中,参与酶的装配并可与启动子上游元件的活化因子结合的是:",
+  "options": {
+   "A": "α 亚基",
+   "B": "β 亚基",
+   "C": "β' 亚基",
+   "D": "ω 亚基"
+  },
+  "answer": "A",
+  "explanation": "α 亚基的功能是酶的装配以及与启动子上游元件的活化因子(激活蛋白)结合;ω 亚基促进核心酶的组装,是 β' 亚基的分子伴侣。",
+  "difficulty": 3,
+  "tags": [
+   "α亚基",
+   "RNA聚合酶",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 8,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "原核生物启动子 -10 区(Pribnow 盒)的保守序列是:",
+  "options": {
+   "A": "TTGACA",
+   "B": "TATAAT",
+   "C": "AAUAAA",
+   "D": "GGGCGG"
+  },
+  "answer": "B",
+  "explanation": "-10 区即 Pribnow 盒,保守序列为 5'-TATAAT,富含 AT 有利于 DNA 局部解链;-35 区保守序列为 TTGACA,AAUAAA 是真核 mRNA 加尾信号。",
+  "difficulty": 2,
+  "tags": [
+   "Pribnow盒",
+   "-10区",
+   "启动子",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 9,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "原核生物启动子 -35 区的保守序列是:",
+  "options": {
+   "A": "TATAAT",
+   "B": "TTGACA",
+   "C": "AATAAA",
+   "D": "GCCCAACTCT"
+  },
+  "answer": "B",
+  "explanation": "-35 区保守序列为 5'-TTGACA,是 σ 因子识别并结合的重要位点;TATAAT 为 -10 区(Pribnow 盒)序列。",
+  "difficulty": 2,
+  "tags": [
+   "-35区",
+   "启动子",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 10,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "原核生物启动子中,突变主要影响 RNA 聚合酶与启动子结合速度的是:",
+  "options": {
+   "A": "-10 区序列",
+   "B": "-35 区序列",
+   "C": "转录起始点附近序列",
+   "D": "编码区序列"
+  },
+  "answer": "B",
+  "explanation": "-35 区序列突变影响 RNA 聚合酶与启动子的结合速度,但不影响转录起始点附近 DNA 双链的解开;-10 区序列突变不影响结合速度,但可降低双链解开的速度。",
+  "difficulty": 3,
+  "tags": [
+   "启动子",
+   "-35区",
+   "-10区",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 11,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "真核生物中,主要转录 hnRNA(蛋白质基因前体)和 microRNA 的是 RNA 聚合酶:",
+  "options": {
+   "A": "I",
+   "B": "II",
+   "C": "III",
+   "D": "线粒体 RNA 聚合酶"
+  },
+  "answer": "B",
+  "explanation": "RNA 聚合酶 II 转录 hnRNA、snRNA、microRNA 等,对鹅膏蕈碱极度敏感;pol I 转录 45S rRNA 前体,pol III 转录 tRNA、5S rRNA、U6 snRNA 等。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶II",
+   "真核转录",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 12,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "真核生物中,tRNA、5S rRNA 和 U6 snRNA 由下列哪种酶转录?",
+  "options": {
+   "A": "RNA 聚合酶 I",
+   "B": "RNA 聚合酶 II",
+   "C": "RNA 聚合酶 III",
+   "D": "DNA 聚合酶 III"
+  },
+  "answer": "C",
+  "explanation": "RNA 聚合酶 III 转录 tRNA、5S rRNA、U6 snRNA、scRNA 等小分子 RNA,对鹅膏蕈碱中度敏感。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶III",
+   "真核转录",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 13,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "真核生物 RNA 聚合酶 II 的通用转录因子中,特异识别 TATA 框的是:",
+  "options": {
+   "A": "TFIIB",
+   "B": "TFIIE",
+   "C": "TFIID",
+   "D": "TFIIH"
+  },
+  "answer": "C",
+  "explanation": "TFIID(TBP 与 TAFs 组成)特异识别 TATA 框,是前起始复合物装配的关键;TFIIB 引入 pol II/TFIIF 复合物,TFIIH 负责启动子解链和 CTD 磷酸化。",
+  "difficulty": 2,
+  "tags": [
+   "TFIID",
+   "TATA框",
+   "转录因子",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 14,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "通用转录因子 TFIIH 的主要功能包括:",
+  "options": {
+   "A": "特异识别 TATA 框",
+   "B": "启动子解链、RNA 聚合酶 II CTD 磷酸化及修复",
+   "C": "与 RNA 聚合酶 II 形成复合物",
+   "D": "稳定 TFIID 与启动子的结合"
+  },
+  "answer": "B",
+  "explanation": "TFIIH 具有 ATP 酶和解旋酶活性,负责启动子解链、RNA 聚合酶 II CTD 磷酸化、转录因子清除及修复;识别 TATA 框的是 TFIID。",
+  "difficulty": 3,
+  "tags": [
+   "TFIIH",
+   "CTD磷酸化",
+   "转录因子",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 15,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "DNA 分子中具有转录调节功能的特异 DNA 序列(如启动子、增强子)称为:",
+  "options": {
+   "A": "反式作用因子",
+   "B": "顺式作用元件",
+   "C": "转录因子",
+   "D": "通用转录因子"
+  },
+  "answer": "B",
+  "explanation": "顺式作用元件是 DNA 分子上具有转录调节功能的特异序列,包括启动子、增强子、调控序列等,本身不编码蛋白质,需与反式作用因子相互作用。",
+  "difficulty": 1,
+  "tags": [
+   "顺式作用元件",
+   "转录调节",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 16,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "关于增强子的叙述,错误的是:",
+  "options": {
+   "A": "能在很远的距离对启动子产生影响",
+   "B": "位于启动子下游时不能发挥作用",
+   "C": "功能与序列取向无关",
+   "D": "有严格的组织和细胞特异性"
+  },
+  "answer": "B",
+  "explanation": "增强子无论位于启动子上游还是下游都能发挥作用,功能与序列取向无关;能在远距离起作用,无基因专一性但有组织细胞特异性,受发育分化影响。",
+  "difficulty": 2,
+  "tags": [
+   "增强子",
+   "顺式作用元件",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 17,
+  "type": "choice",
+  "topic": "参与转录的酶及有关因子",
+  "question": "能特异性抑制原核生物 RNA 聚合酶转录起始的药物是:",
+  "options": {
+   "A": "鹅膏蕈碱",
+   "B": "利福平",
+   "C": "放线菌素 D",
+   "D": "链霉素"
+  },
+  "answer": "B",
+  "explanation": "利福平与原核 RNA 聚合酶 β 亚基结合,抑制转录起始;鹅膏蕈碱抑制真核 RNA 聚合酶 II;放线菌素 D 与 DNA 模板结合;链霉素抑制翻译。",
+  "difficulty": 2,
+  "tags": [
+   "利福平",
+   "RNA合成抑制剂",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 18,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "原核生物转录起始时,RNA 聚合酶全酶与启动子结合形成的复合物中,DNA 仍保持双链状态的称为:",
+  "options": {
+   "A": "开放型复合物",
+   "B": "闭合型复合物",
+   "C": "三元复合物",
+   "D": "转录泡"
+  },
+  "answer": "B",
+  "explanation": "σ 因子引导全酶识别并结合启动子时 DNA 尚未解链,称闭合型复合物;随后 DNA 局部解链形成转录泡,转变为开放型复合物。",
+  "difficulty": 2,
+  "tags": [
+   "转录起始",
+   "闭合型复合物",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 19,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "转录起始时,新生 RNA 链的第一个核苷酸通常是:",
+  "options": {
+   "A": "嘧啶核苷酸",
+   "B": "嘌呤核苷酸",
+   "C": "随机核苷酸",
+   "D": "脱氧核苷酸"
+  },
+  "answer": "B",
+  "explanation": "转录起始由 RNA 聚合酶催化形成第一个磷酸二酯键,第一个核苷酸通常是腺苷酸或鸟苷酸(嘌呤核苷酸)。",
+  "difficulty": 2,
+  "tags": [
+   "转录起始",
+   "嘌呤",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 20,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "原核生物转录起始后,σ 因子何时从核心酶上脱落?",
+  "options": {
+   "A": "RNA 链合成约 8~10 个核苷酸之后",
+   "B": "转录终止时",
+   "C": "整个转录过程中一直结合",
+   "D": "识别启动子之前"
+  },
+  "answer": "A",
+  "explanation": "转录起始后核心酶离开启动子,σ 因子在 RNA 链延长约 8~10 个核苷酸后脱落,核心酶进入延伸阶段。",
+  "difficulty": 2,
+  "tags": [
+   "σ因子脱落",
+   "转录起始",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 21,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "转录起始阶段,RNA 聚合酶合成不足 10 个核苷酸即释放 RNA 并重新起始的现象称为:",
+  "options": {
+   "A": "通读",
+   "B": "流产起始",
+   "C": "剪接",
+   "D": "编辑"
+  },
+  "answer": "B",
+  "explanation": "核心酶离开启动子前若产生不超过 10 个核苷酸的 RNA 链即被释放,称为流产起始;条件合适时产生超过 10 个核苷酸的 RNA 链进入延伸,即为正常起始。",
+  "difficulty": 3,
+  "tags": [
+   "流产起始",
+   "转录起始",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 22,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "依赖 ρ 因子的终止子不具有下列哪项特征?",
+  "options": {
+   "A": "含有短的回文结构",
+   "B": "胞嘧啶含量高",
+   "C": "回文结构富含 GC 区,其后有寡聚 U",
+   "D": "回文结构后无寡聚 U,富含 AC 序列"
+  },
+  "answer": "C",
+  "explanation": "依赖 ρ 因子的终止子含短回文结构、胞嘧啶含量高,但回文结构不含富含 GC 区,回文结构后无寡聚 U 而富含 AC 序列。",
+  "difficulty": 3,
+  "tags": [
+   "ρ因子终止子",
+   "终止子",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 23,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "ρ 因子参与转录终止的机制是:",
+  "options": {
+   "A": "识别终止子茎环结构直接使 RNA 聚合酶脱落",
+   "B": "六聚体结合新生 RNA,水解 NTP 供能沿 RNA 移动,追上暂停的聚合酶使 RNA 释放",
+   "C": "使 RNA 聚合酶磷酸化而停止转录",
+   "D": "降解终止子 DNA 序列"
+  },
+  "answer": "B",
+  "explanation": "ρ 因子通常以六聚体存在,具有依赖 RNA 的 ATP 酶活性,结合新生 RNA 后借助水解 NTP 的能量沿 RNA 移动;RNA 聚合酶在终止子处暂停时 ρ 追上聚合酶,使 RNA 释放、聚合酶与 ρ 一起从 DNA 上脱落。",
+  "difficulty": 2,
+  "tags": [
+   "ρ因子",
+   "转录终止",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 24,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "当阻遏蛋白与操纵基因结合时,对转录的影响是:",
+  "options": {
+   "A": "促进邻近启动子起始转录",
+   "B": "阻止邻近启动子起始转录",
+   "C": "加速 RNA 链延伸",
+   "D": "促进转录终止"
+  },
+  "answer": "B",
+  "explanation": "调节基因产物为阻遏蛋白,当其与操纵基因结合后可阻止其邻近启动子起始转录,这是原核生物负调控的基本机制。",
+  "difficulty": 1,
+  "tags": [
+   "阻遏蛋白",
+   "操纵基因",
+   "转录调节",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 25,
+  "type": "choice",
+  "topic": "原核生物的转录过程",
+  "question": "与原核生物相比,真核生物转录调节的主要特点是:",
+  "options": {
+   "A": "功能相关基因构成操纵子",
+   "B": "以负调节为主,调节因子活性主要受变构效应调节",
+   "C": "基因活化首先需要改变染色质状态",
+   "D": "调节元件种类很少"
+  },
+  "answer": "C",
+  "explanation": "真核生物基因活化首先需要改变染色质状态,使转录因子能够接触启动子 DNA;原核生物构成操纵子、以正调节为主,调节元件种类少。",
+  "difficulty": 3,
+  "tags": [
+   "真核转录调节",
+   "染色质",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 26,
+  "type": "choice",
+  "topic": "RNA转录后加工的意义",
+  "question": "原初转录物经过一系列变化转变为成熟 RNA 分子的过程称为:",
+  "options": {
+   "A": "RNA 成熟",
+   "B": "RNA 复制",
+   "C": "RNA 编辑",
+   "D": "再编码"
+  },
+  "answer": "A",
+  "explanation": "原初转录物经链的裂解、5' 与 3' 端切除和特殊结构形成、核苷修饰、拼接和编辑等一系列变化转变为成熟 RNA 的过程称为 RNA 成熟(转录后加工)。",
+  "difficulty": 1,
+  "tags": [
+   "RNA成熟",
+   "转录后加工",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 27,
+  "type": "choice",
+  "topic": "RNA转录后加工的意义",
+  "question": "关于原核生物 mRNA 的加工,正确的是:",
+  "options": {
+   "A": "所有 mRNA 都需切除内含子",
+   "B": "多数 mRNA 一经转录即可直接翻译,少数多顺反子 mRNA 需内切酶切割",
+   "C": "必须加帽加尾后才能翻译",
+   "D": "mRNA 需在核内加工后出核翻译"
+  },
+  "answer": "B",
+  "explanation": "细菌中 mRNA 多不需要加工,一经转录即可直接进行翻译(转录与翻译偶联);少数多顺反子 mRNA 需经核酸内切酶切成较小单位再翻译。",
+  "difficulty": 2,
+  "tags": [
+   "原核mRNA",
+   "转录后加工",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 28,
+  "type": "choice",
+  "topic": "RNA转录后加工的意义",
+  "question": "下列哪项属于 RNA 剪接的意义?",
+  "options": {
+   "A": "使外显子重新组合(外显子改组)成为形成新基因的重要方式",
+   "B": "使 RNA 更稳定",
+   "C": "消除 DNA 复制错误",
+   "D": "使 RNA 聚合酶再循环"
+  },
+  "answer": "A",
+  "explanation": "由于内含子和外显子的存在,剪接使外显子改组成为形成新基因的重要方式,极大加快进化速度;剪接还是基因表达调控的重要环节,内含子可促进同源重组。",
+  "difficulty": 2,
+  "tags": [
+   "剪接意义",
+   "外显子改组",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 29,
+  "type": "choice",
+  "topic": "RNA转录后加工的意义",
+  "question": "RNA 编辑是指:",
+  "options": {
+   "A": "通过碱基替换、删除或插入改变和扩大模板 DNA 的遗传信息",
+   "B": "切除内含子连接外显子",
+   "C": "将 RNA 从核内运出",
+   "D": "RNA 的降解过程"
+  },
+  "answer": "A",
+  "explanation": "RNA 编辑是 mRNA 前体的一种加工方式,通过碱基替换、删除或插入改变和扩大原来模板 DNA 的遗传信息,从而表达出不同氨基酸序列的多种蛋白质。",
+  "difficulty": 2,
+  "tags": [
+   "RNA编辑",
+   "转录后加工",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 30,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "大肠杆菌 30S rRNA 前体加工后产生的产物包括:",
+  "options": {
+   "A": "16S、23S、5S rRNA 和 tRNA",
+   "B": "18S、28S、5.8S rRNA",
+   "C": "仅 16S 和 23S rRNA",
+   "D": "mRNA 和 tRNA"
+  },
+  "answer": "A",
+  "explanation": "大肠杆菌每个 rRNA 转录单位由 16S、23S、5S rRNA 以及一个或几个 tRNA 基因组成,30S 前体切割后产生 16S、23S、5S rRNA 和 tRNA。",
+  "difficulty": 2,
+  "tags": [
+   "rRNA加工",
+   "30S前体",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 31,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "关于原核 5S rRNA 的叙述,正确的是:",
+  "options": {
+   "A": "含有大量甲基化碱基",
+   "B": "无修饰成分,不进行甲基化反应",
+   "C": "由 RNA 聚合酶 II 转录",
+   "D": "由 30S 前体切割后再甲基化"
+  },
+  "answer": "B",
+  "explanation": "原核 5S rRNA 一般无修饰成分,不进行甲基化反应;16S、23S rRNA 含多种甲基化成分(常见 2'-甲基核糖)。",
+  "difficulty": 2,
+  "tags": [
+   "5S rRNA",
+   "rRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 32,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "原核生物 tRNA 前体加工中,负责切除 5' 端前导序列的内切核酸酶是:",
+  "options": {
+   "A": "RNaseP",
+   "B": "RNaseD",
+   "C": "DNaseI",
+   "D": "RNA 连接酶"
+  },
+  "answer": "A",
+  "explanation": "原核 tRNA 前体由内切核酸酶(RNaseP、RNaseF)在 tRNA 两端切断,再经外切核酸酶(RNaseD)逐个切去多余序列进行修剪。",
+  "difficulty": 2,
+  "tags": [
+   "RNaseP",
+   "tRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 33,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "tRNA 修饰过程中甲基的供体通常是:",
+  "options": {
+   "A": "ATP",
+   "B": "SAM",
+   "C": "GTP",
+   "D": "四氢叶酸"
+  },
+  "answer": "B",
+  "explanation": "tRNA 核苷的甲基化修饰由特异的修饰酶催化,甲基通常由 SAM(S-腺苷甲硫氨酸)提供;tRNA 是含稀有碱基最多的 RNA。",
+  "difficulty": 2,
+  "tags": [
+   "SAM",
+   "tRNA修饰",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 34,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 45S rRNA 前体加工后产生的成熟 rRNA 是:",
+  "options": {
+   "A": "16S、23S、5S rRNA",
+   "B": "18S、5.8S、28S rRNA",
+   "C": "5.8S、23S、28S rRNA",
+   "D": "仅 28S rRNA"
+  },
+  "answer": "B",
+  "explanation": "真核生物 rRNA 基因成簇排列,18S、5.8S、28S rRNA 组成一个转录单位,由 RNA 聚合酶 I 转录产生 45S 前体,加工后产生 18S、5.8S、28S rRNA。",
+  "difficulty": 2,
+  "tags": [
+   "45S前体",
+   "rRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 35,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 rRNA 前体的甲基化、假尿苷酸化和切割由下列哪种 RNA 指导?",
+  "options": {
+   "A": "miRNA",
+   "B": "snoRNA",
+   "C": "snRNA",
+   "D": "siRNA"
+  },
+  "answer": "B",
+  "explanation": "真核生物 rRNA 前体的甲基化、假尿苷酸化和切割由核仁小 RNA(snoRNA)指导;snRNA 参与 mRNA 剪接,miRNA/siRNA 参与基因沉默。",
+  "difficulty": 2,
+  "tags": [
+   "snoRNA",
+   "rRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 36,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物中,5S rRNA 基因由下列哪种酶转录?",
+  "options": {
+   "A": "RNA 聚合酶 I",
+   "B": "RNA 聚合酶 II",
+   "C": "RNA 聚合酶 III",
+   "D": "RNA 复制酶"
+  },
+  "answer": "C",
+  "explanation": "真核 5S rRNA 基因成簇排列,由 RNA 聚合酶 III 转录加工;45S rRNA 前体(18S、5.8S、28S)由 RNA 聚合酶 I 转录。",
+  "difficulty": 2,
+  "tags": [
+   "5S rRNA",
+   "RNA聚合酶III",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 37,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 mRNA 前体 5' 端的帽子结构是:",
+  "options": {
+   "A": "多聚腺苷酸尾",
+   "B": "7-甲基鸟苷帽子(m7GpppN)",
+   "C": "三磷酸核苷",
+   "D": "茎环结构"
+  },
+  "answer": "B",
+  "explanation": "真核 mRNA 前体 5' 端形成 7-甲基鸟苷帽子结构(m7GpppN),起保护 RNA、促进剪接、运输和翻译识别等作用;3' 端形成多聚腺苷酸尾。",
+  "difficulty": 1,
+  "tags": [
+   "帽子结构",
+   "mRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 38,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核 mRNA 3' 端加多聚腺苷酸尾的加尾信号序列是:",
+  "options": {
+   "A": "TATAAT",
+   "B": "AAUAAA",
+   "C": "TTGACA",
+   "D": "CCA"
+  },
+  "answer": "B",
+  "explanation": "真核 mRNA 3' 端加尾信号为 AAUAAA,位于转录终止点之前;识别信号后 mRNA 在特异位点切断并加上 poly(A) 尾。",
+  "difficulty": 2,
+  "tags": [
+   "加尾信号",
+   "polyA",
+   "mRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 39,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "下列哪种 mRNA 没有多聚腺苷酸尾?",
+  "options": {
+   "A": "绝大多数真核 mRNA",
+   "B": "组蛋白 mRNA",
+   "C": "tRNA 前体",
+   "D": "hnRNA"
+  },
+  "answer": "B",
+  "explanation": "组蛋白、呼肠孤病毒和不少植物病毒的 mRNA 没有多聚腺苷酸尾;真核绝大多数 mRNA(及其前体 hnRNA)都有 poly(A) 尾。",
+  "difficulty": 2,
+  "tags": [
+   "组蛋白mRNA",
+   "polyA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 40,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物中,mRNA 的原初转录物被称为:",
+  "options": {
+   "A": "hnRNA",
+   "B": "snRNA",
+   "C": "snoRNA",
+   "D": "siRNA"
+  },
+  "answer": "A",
+  "explanation": "真核 mRNA 的原初转录物是分子量极大的前体,在核内加工成大小不等的中间物,称为核内不均一 RNA(hnRNA),约 25% 可转换为成熟 mRNA。",
+  "difficulty": 1,
+  "tags": [
+   "hnRNA",
+   "mRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 41,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "核内 hnRNA 的多聚腺苷酸尾与成熟 mRNA 相比:",
+  "options": {
+   "A": "略长",
+   "B": "略短",
+   "C": "长度相同",
+   "D": "hnRNA 中不存在 poly(A)"
+  },
+  "answer": "A",
+  "explanation": "核内 hnRNA 的 3' 端也有多聚腺苷酸,表明加尾过程早在核内已完成,且 hnRNA 中的多聚腺苷酸比成熟 mRNA 的略长。",
+  "difficulty": 3,
+  "tags": [
+   "hnRNA",
+   "polyA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 42,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核 mRNA 前体的一般加工步骤不包括:",
+  "options": {
+   "A": "5' 端形成帽子结构",
+   "B": "3' 末端形成 poly(A) 尾",
+   "C": "剪接除去内含子序列",
+   "D": "3' 端添加 CCA 序列"
+  },
+  "answer": "D",
+  "explanation": "真核 mRNA 前体加工包括加帽、加尾、剪接和内部甲基化;3' 端加 CCA 是 tRNA 前体加工的特征步骤,不属于 mRNA 加工。",
+  "difficulty": 2,
+  "tags": [
+   "mRNA加工",
+   "加帽加尾",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 43,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 tRNA 前体加工中,下列叙述错误的是:",
+  "options": {
+   "A": "5' 端附加序列可由 RNaseP 切除",
+   "B": "真核生物 RNaseP 中的 RNA 单独并无切割活性",
+   "C": "3' 端附加序列的切除仅需一种外切核酸酶",
+   "D": "3' 端不含 CCA 序列,成熟 tRNA 的 CCA 是后加的"
+  },
+  "answer": "C",
+  "explanation": "真核 tRNA 前体 3' 端附加序列的切除需要多种内切核酸酶和外切核酸酶共同作用;RNaseP 可切除 5' 端附加序列,但其 RNA 组分单独无切割活性。",
+  "difficulty": 3,
+  "tags": [
+   "tRNA加工",
+   "RNaseP",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 44,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "核内 tRNA 前体的酶促剪接过程包括:",
+  "options": {
+   "A": "内切核酸酶切断磷酸二酯键(不需 ATP),RNA 连接酶连接(需 ATP)",
+   "B": "内切核酸酶切断(需 ATP),连接酶连接(不需 ATP)",
+   "C": "仅由 RNA 连接酶完成",
+   "D": "需要剪接体参与"
+  },
+  "answer": "A",
+  "explanation": "核内 tRNA 前体剪接:先由特殊内切核酸酶断裂磷酸二酯键切去插入序列(反应不需 ATP),再由 RNA 连接酶催化共价连接(需 ATP 供能);不依赖剪接体。",
+  "difficulty": 2,
+  "tags": [
+   "tRNA剪接",
+   "RNA连接酶",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 45,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "类型 I 自我剪接与类型 II 自我剪接的主要区别是:",
+  "options": {
+   "A": "类型 I 需要游离鸟苷酸提供 3'-OH,类型 II 无需游离鸟苷酸且形成套索结构",
+   "B": "类型 II 需要游离鸟苷酸提供 3'-OH",
+   "C": "类型 I 形成套索结构",
+   "D": "两者都需要剪接体参与"
+  },
+  "answer": "A",
+  "explanation": "类型 I 自我剪接由游离鸟苷酸(或鸟苷)提供 3'-OH 启动,无需酶和能量,见于线粒体、叶绿体及低等真核 rRNA 基因;类型 II 由内含子近 3' 端腺苷酸 2'-OH 发动转酯形成套索结构,无需游离鸟苷酸。",
+  "difficulty": 3,
+  "tags": [
+   "自我剪接",
+   "类型I",
+   "类型II",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 46,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "组成剪接体(spliceosome)的 snRNP 包括:",
+  "options": {
+   "A": "U1、U2、U4、U5、U6",
+   "B": "U3、U6、U7、U8",
+   "C": "U1、U3、U5、U7",
+   "D": "仅 U1 和 U2"
+  },
+  "answer": "A",
+  "explanation": "剪接体由 snRNA(U1、U2、U4、U5、U6)与蛋白质结合形成 snRNP,经相互作用形成复合物使前体 mRNA 折叠成利于剪切的正确构型。",
+  "difficulty": 2,
+  "tags": [
+   "剪接体",
+   "snRNP",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 47,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "mRNA 剪接中间产物套索 RNA 是通过哪种键形成的?",
+  "options": {
+   "A": "3',5'-磷酸二酯键",
+   "B": "2',5'-磷酸二酯键",
+   "C": "氢键",
+   "D": "二硫键"
+  },
+  "answer": "B",
+  "explanation": "类型 II 自我剪接和剪接体剪接中,内含子 5' 端与分支点腺苷酸形成 2',5'-磷酸二酯键,构成套索(lariat)结构。",
+  "difficulty": 3,
+  "tags": [
+   "套索RNA",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 48,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "一个基因的转录产物通过不同的剪接方式得到不同的 mRNA 和翻译产物,称为:",
+  "options": {
+   "A": "反式拼接",
+   "B": "选择性剪接",
+   "C": "RNA 编辑",
+   "D": "通读"
+  },
+  "answer": "B",
+  "explanation": "同一基因转录产物通过不同剪接方式得到不同 mRNA 和翻译产物的现象称为选择性剪接,所产生的多个蛋白质即为同源体;反式拼接是不同基因外显子相互连接。",
+  "difficulty": 1,
+  "tags": [
+   "选择性剪接",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 49,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "下列不属于选择性剪接方式的是:",
+  "options": {
+   "A": "剪接产物缺失一个或几个外显子",
+   "B": "剪接产物保留一个或几个内含子作为编码序列",
+   "C": "内含子中存在 5' 剪接点从而使部分内含子变为编码序列",
+   "D": "所有内含子全部被切除,产物单一"
+  },
+  "answer": "D",
+  "explanation": "选择性剪接的 4 种方式为:缺失外显子、保留内含子为编码序列、外显子部分缺失、内含子部分变为编码序列;方式不改变时产物单一,不属于选择性剪接。",
+  "difficulty": 2,
+  "tags": [
+   "选择性剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 50,
+  "type": "choice",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "RNA 编辑中,与被编辑 mRNA 序列互补、可作为编辑模板的 RNA 称为:",
+  "options": {
+   "A": "snRNA",
+   "B": "指导 RNA(gRNA)",
+   "C": "snoRNA",
+   "D": "tRNA"
+  },
+  "answer": "B",
+  "explanation": "指导 RNA(gRNA)与被编辑 mRNA 序列互补,可作为编辑的模板;编辑体是由 gRNA 和蛋白质装配而成的复合体。",
+  "difficulty": 2,
+  "tags": [
+   "gRNA",
+   "RNA编辑",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 51,
+  "type": "choice",
+  "topic": "RNA转录后加工的意义",
+  "question": "RNA 再编码(多发生在翻译时)是指:",
+  "options": {
+   "A": "对 RNA 编码序列和读码方式的改变",
+   "B": "RNA 碱基的化学修饰",
+   "C": "RNA 与蛋白质的组装",
+   "D": "RNA 的降解"
+  },
+  "answer": "A",
+  "explanation": "再编码是指对 RNA 编码序列和读码方式的改变,包括翻译移码(核糖体在特定位置发生阅读框架移位)和翻译跳跃(核糖体跳过一段 mRNA 不翻译)。",
+  "difficulty": 2,
+  "tags": [
+   "再编码",
+   "翻译移码",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 52,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "逆转录是指:",
+  "options": {
+   "A": "以 RNA 为模板,按照 RNA 中核苷酸顺序合成 DNA",
+   "B": "以 DNA 为模板合成 RNA",
+   "C": "以 RNA 为模板合成蛋白质",
+   "D": "以 DNA 为模板合成 DNA"
+  },
+  "answer": "A",
+  "explanation": "逆转录是以 RNA 为模板、按照 RNA 中核苷酸顺序合成 DNA 的过程,催化逆转录反应最初是在致癌 RNA 病毒上发现的。",
+  "difficulty": 1,
+  "tags": [
+   "逆转录",
+   "定义",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 53,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "逆转录酶(反转录酶)兼有的三种酶活力不包括:",
+  "options": {
+   "A": "RNA 指导的 DNA 聚合酶活力",
+   "B": "DNA 指导的 DNA 聚合酶活力",
+   "C": "核糖核酸酶 H 活力",
+   "D": "3'→5' 核酸外切酶活力"
+  },
+  "answer": "D",
+  "explanation": "逆转录酶兼有 RNA 指导的 DNA 聚合酶、DNA 指导的 DNA 聚合酶和核糖核酸酶 H 三种酶活力;它没有 3'→5' 核酸外切酶活性,因此无校对功能。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录酶",
+   "三种活力",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 54,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "逆转录酶合成 cDNA 时需要的引物是:",
+  "options": {
+   "A": "病毒基因组 RNA 的 3' 端序列",
+   "B": "宿主细胞来源的 tRNA",
+   "C": "DNA 引物",
+   "D": "不需要引物"
+  },
+  "answer": "B",
+  "explanation": "逆转录酶催化 DNA 合成时需要引物,现认为是病毒本身携带的一种宿主 tRNA,结合于病毒 RNA 5' 端附近的引物结合位点(PBS);这是与转录(不需引物)的不同点。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录引物",
+   "tRNA",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 55,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "逆转录过程中,负责水解 RNA-DNA 杂交链中 RNA 部分的是:",
+  "options": {
+   "A": "RNaseH",
+   "B": "RNaseP",
+   "C": "逆转录酶的聚合酶活性",
+   "D": "RNA 连接酶"
+  },
+  "answer": "A",
+  "explanation": "逆转录酶的核糖核酸酶 H(RNaseH)活力专门水解 RNA-DNA 杂交链中的 RNA;逆转录第一步合成 RNA:DNA 杂交分子后即由其水解 RNA 释放单链 DNA。",
+  "difficulty": 2,
+  "tags": [
+   "RNaseH",
+   "逆转录",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 56,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "逆转录中,保留在模板 RNA 3' 端附近、作为合成(+)链 DNA 引物的序列是:",
+  "options": {
+   "A": "PBS 序列",
+   "B": "多聚嘌呤片段(PPT)",
+   "C": "LTR 序列",
+   "D": "poly(A) 尾"
+  },
+  "answer": "B",
+  "explanation": "模板 RNA 的 U3、R 和 poly(A) 被水解脱掉后,保留 3' 端附近的多聚嘌呤片段(PPT)作为合成(+)链 DNA 的引物。",
+  "difficulty": 3,
+  "tags": [
+   "PPT",
+   "逆转录",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 57,
+  "type": "choice",
+  "topic": "逆转录的过程",
+  "question": "下列具有逆转录酶活性、参与维持真核染色体末端结构的酶是:",
+  "options": {
+   "A": "端粒酶",
+   "B": "RNA 复制酶",
+   "C": "拓扑异构酶",
+   "D": "DNA 连接酶"
+  },
+  "answer": "A",
+  "explanation": "端粒酶含有 RNA 模板并具有逆转录酶活性,以自身 RNA 为模板合成端粒 DNA 重复序列,维持染色体末端稳定。",
+  "difficulty": 2,
+  "tags": [
+   "端粒酶",
+   "逆转录",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 58,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "逆转录病毒基因组的基本特征是:",
+  "options": {
+   "A": "两条相同的单正链 RNA",
+   "B": "双链 DNA",
+   "C": "单负链 RNA",
+   "D": "两条不同的 RNA 链"
+  },
+  "answer": "A",
+  "explanation": "逆转录病毒(HIV 等)的基因组由两条相同的单正链 RNA 组成,病毒颗粒内携带逆转录酶和整合酶。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录病毒",
+   "基因组",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 59,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "逆转录病毒整合到宿主细胞染色体中的双链 DNA 形式称为:",
+  "options": {
+   "A": "前病毒",
+   "B": "质粒",
+   "C": "转座子",
+   "D": "粘粒"
+  },
+  "answer": "A",
+  "explanation": "逆转录病毒经逆转录形成的双链 DNA 以环状进入核内,整合进宿主细胞染色体 DNA 中,这种整合形式的病毒 DNA 称为前病毒(provirus)。",
+  "difficulty": 2,
+  "tags": [
+   "前病毒",
+   "逆转录病毒",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 60,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "逆转录病毒完成逆转录后,将双链 DNA 整合进宿主基因组所依赖的酶是:",
+  "options": {
+   "A": "整合酶",
+   "B": "解旋酶",
+   "C": "RNA 复制酶",
+   "D": "拓扑异构酶"
+  },
+  "answer": "A",
+  "explanation": "逆转录病毒携带逆转录酶和整合酶;逆转录产生的双链 DNA 由整合酶催化整合进宿主细胞染色体 DNA(前病毒形式)。",
+  "difficulty": 2,
+  "tags": [
+   "整合酶",
+   "逆转录病毒",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 61,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "下列逆转录病毒生活周期的正确顺序是:",
+  "options": {
+   "A": "RNA→cDNA→双链 DNA→前病毒整合→转录 mRNA→翻译蛋白→装配出芽",
+   "B": "RNA→直接翻译→复制 RNA→整合",
+   "C": "DNA→逆转录→RNA→整合",
+   "D": "RNA→整合→复制 DNA→转录"
+  },
+  "answer": "A",
+  "explanation": "逆转录病毒生活周期:以 RNA 为模板由逆转录酶合成 cDNA→合成互补 DNA 组成双链 DNA→双链 DNA 以前病毒形式整合进宿主基因组→转录出 mRNA 并翻译相关蛋白→装配成病毒颗粒释放。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录病毒",
+   "生活周期",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 62,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "关于逆转录病毒的叙述,错误的是:",
+  "options": {
+   "A": "属于 RNA 病毒,病毒颗粒呈球形且有包膜",
+   "B": "病毒体内含有逆转录酶和整合酶",
+   "C": "基因组为单负链 RNA",
+   "D": "基因组易发生变异"
+  },
+  "answer": "C",
+  "explanation": "逆转录病毒为进行逆转录复制的 RNA 病毒,基因组由两条相同的单正链 RNA(非负链)组成,有包膜、表面有刺突,含逆转录酶和整合酶,基因组易变异。",
+  "difficulty": 3,
+  "tags": [
+   "逆转录病毒",
+   "特征",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 63,
+  "type": "choice",
+  "topic": "逆转录病毒的生活周期",
+  "question": "前病毒基因组的长末端重复序列(LTR)由哪几个区组成?",
+  "options": {
+   "A": "U3、R、U5",
+   "B": "R、U1、U2",
+   "C": "PBS、PPT、R",
+   "D": "U5、PBS、U3"
+  },
+  "answer": "A",
+  "explanation": "前病毒基因组的长末端重复序列(LTR)包括 R 区、U3 区和 U5 区,不含引物结合区(PBS);LTR 参与整合及基因表达的调节。",
+  "difficulty": 3,
+  "tags": [
+   "LTR",
+   "前病毒",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 64,
+  "type": "choice",
+  "topic": "RNA的复制",
+  "question": "RNA 复制是指:",
+  "options": {
+   "A": "以病毒 RNA 为模板,由 RNA 复制酶催化合成与模板性质相同的 RNA",
+   "B": "以 DNA 为模板合成 RNA",
+   "C": "以 RNA 为模板合成 DNA",
+   "D": "以 DNA 为模板合成 DNA"
+  },
+  "answer": "A",
+  "explanation": "RNA 复制存在于 RNA 病毒中,以病毒 RNA 为模板,由 RNA 复制酶(RNA 指导的 RNA 聚合酶)催化,在 4 种 NTP 和 Mg²⁺ 存在时合成出与模板性质相同的 RNA。",
+  "difficulty": 1,
+  "tags": [
+   "RNA复制",
+   "RNA复制酶",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 65,
+  "type": "choice",
+  "topic": "RNA的复制",
+  "question": "关于 RNA 复制酶模板特异性的叙述,正确的是:",
+  "options": {
+   "A": "模板特异性很高,如 Qβ 复制酶只能用 Qβ RNA 作模板",
+   "B": "模板特异性很低,可复制任何 RNA",
+   "C": "以 DNA 为模板",
+   "D": "与 RNA 聚合酶完全相同"
+  },
+  "answer": "A",
+  "explanation": "RNA 复制酶的模板特异性很高,噬菌体 Qβ 的复制酶只能用 Qβ RNA 作模板,而不能用与其类似的 MS2、R17 噬菌体或寄主细胞的 RNA 作模板。",
+  "difficulty": 2,
+  "tags": [
+   "RNA复制酶",
+   "模板特异性",
+   "Qβ",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 66,
+  "type": "choice",
+  "topic": "RNA的复制",
+  "question": "负链 RNA 病毒(如狂犬病病毒)复制时,病毒自身携带:",
+  "options": {
+   "A": "RNA 复制酶",
+   "B": "逆转录酶",
+   "C": "整合酶",
+   "D": "只携带负链 RNA,不携带任何酶"
+  },
+  "answer": "A",
+  "explanation": "负链 RNA 病毒自身携带复制酶,侵入宿主细胞后依靠携带的复制酶先合成正链 RNA,再以正链 RNA 为模板翻译病毒蛋白质并复制病毒 RNA。",
+  "difficulty": 2,
+  "tags": [
+   "负链RNA病毒",
+   "RNA复制",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 67,
+  "type": "choice",
+  "topic": "RNA的复制",
+  "question": "双链 RNA 病毒(如呼肠孤病毒)复制时,首先进行的步骤是:",
+  "options": {
+   "A": "以双链 RNA 为模板经不对称转录合成正链 RNA",
+   "B": "双链 RNA 直接逆转录为 DNA",
+   "C": "两条链同时复制",
+   "D": "先翻译再复制"
+  },
+  "answer": "A",
+  "explanation": "双链 RNA 病毒以双链 RNA 为模板,经复制酶催化的不对称转录合成正链 RNA;正链 RNA 作为 mRNA 翻译病毒蛋白质,再合成负链 RNA 形成双链 RNA 分子。",
+  "difficulty": 2,
+  "tags": [
+   "双链RNA病毒",
+   "不对称转录",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 68,
+  "type": "choice",
+  "topic": "RNA的复制",
+  "question": "RNA 复制与转录的共同点是:",
+  "options": {
+   "A": "都以 RNA 为模板",
+   "B": "都以 4 种核糖核苷三磷酸为底物,合成方向为 5'→3'",
+   "C": "都不需要酶催化",
+   "D": "产物均为双链"
+  },
+  "answer": "B",
+  "explanation": "RNA 复制与转录都以 4 种 NTP 为底物、按碱基互补配对原则合成 RNA,方向均为 5'→3';区别在于复制以 RNA 为模板、转录以 DNA 为模板。",
+  "difficulty": 2,
+  "tags": [
+   "RNA复制",
+   "转录",
+   "比较",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 69,
+  "type": "choice",
+  "topic": "RNA传递加工遗传信息",
+  "question": "下列不属于 RNA 生物功能多样性表现的是:",
+  "options": {
+   "A": "rRNA 在核糖体中起装配和催化作用",
+   "B": "tRNA 起转运和信息转换作用",
+   "C": "mRNA 起信使和模板作用",
+   "D": "RNA 直接作为染色体的结构成分"
+  },
+  "answer": "D",
+  "explanation": "RNA 功能多样性:在遗传信息翻译中起决定作用(mRNA 信使模板、tRNA 转运转换、rRNA 装配催化)、具有催化功能(核酶)、参与转录后加工修饰、调节基因表达;RNA 不是染色体结构成分。",
+  "difficulty": 2,
+  "tags": [
+   "RNA功能",
+   "遗传信息",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 70,
+  "type": "choice",
+  "topic": "RNA传递加工遗传信息",
+  "question": "真核生物 mRNA 降解的主要途径起始于:",
+  "options": {
+   "A": "poly(A) 尾巴的缩短(去腺苷酸化)",
+   "B": "5' 端帽子直接切除",
+   "C": "核糖核酸内切酶随机切割",
+   "D": "tRNA 的反密码子识别"
+  },
+  "answer": "A",
+  "explanation": "真核生物 mRNA 降解的主要途径首先是 poly(A) 尾巴的缩短(去腺苷酸化),去腺苷酸化诱发 5' 端脱掉帽子结构,然后由 5'→3' 或 3'→5' 方向降解 mRNA。",
+  "difficulty": 2,
+  "tags": [
+   "mRNA降解",
+   "去腺苷酸化",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 71,
+  "type": "truefalse",
+  "topic": "转录的基本概念与特点",
+  "question": "转录与 DNA 复制一样,都需要引物提供游离 3'-OH。",
+  "answer": "false",
+  "explanation": "转录不需要引物,RNA 聚合酶能自行起始合成 RNA 链;只有 DNA 复制需要 RNA 引物,逆转录也需要 tRNA 引物。",
+  "difficulty": 1,
+  "tags": [
+   "引物",
+   "转录与复制区别",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 72,
+  "type": "truefalse",
+  "topic": "参与转录的酶及有关因子",
+  "question": "原核生物 RNA 聚合酶核心酶(α2ββ'ω)可以特异识别启动子并起始转录。",
+  "answer": "false",
+  "explanation": "核心酶只能使已开始合成的 RNA 链延长,不能识别启动子、不能起始转录;必须与 σ 因子结合成全酶才能起始。",
+  "difficulty": 2,
+  "tags": [
+   "核心酶",
+   "全酶",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 73,
+  "type": "truefalse",
+  "topic": "参与转录的酶及有关因子",
+  "question": "RNA 聚合酶具有校对功能,出错率约为 10⁻⁵ 水平。",
+  "answer": "true",
+  "explanation": "RNA 聚合酶可在两个水平校对:借助焦磷酸水解除去错误核苷酸,以及聚合酶熄火向后退却切除一段 RNA;其出错率约在 10⁻⁵ 水平,高于 DNA 复制。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶",
+   "校对",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 74,
+  "type": "truefalse",
+  "topic": "参与转录的酶及有关因子",
+  "question": "真核生物 RNA 聚合酶 I 对鹅膏蕈碱极度敏感,RNA 聚合酶 II 则耐受。",
+  "answer": "false",
+  "explanation": "对鹅膏蕈碱的敏感性:RNA 聚合酶 I 耐受,RNA 聚合酶 III 中度敏感,RNA 聚合酶 II 极度敏感,叙述正好相反。",
+  "difficulty": 2,
+  "tags": [
+   "鹅膏蕈碱",
+   "RNA聚合酶",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 75,
+  "type": "truefalse",
+  "topic": "原核生物的转录过程",
+  "question": "不依赖 ρ 因子的终止子转录产物的 3' 端有一系列 U 核苷酸,与模板 dA 配对较弱。",
+  "answer": "true",
+  "explanation": "不依赖 ρ 因子的终止子转录产生的 RNA 3' 端有一系列 U,由 rU-dA 组成的 RNA-DNA 杂交分子具有特别弱的碱基配对结构,聚合酶暂停时杂交分子即在末端解开。",
+  "difficulty": 2,
+  "tags": [
+   "内在终止子",
+   "寡聚U",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 76,
+  "type": "truefalse",
+  "topic": "原核生物的转录过程",
+  "question": "转录延伸时,RNA 聚合酶核心酶沿 DNA 移动,解链区同步移动,RNA-DNA 杂交体后的 DNA 恢复双螺旋,RNA 被置换出来。",
+  "answer": "true",
+  "explanation": "延伸阶段核心酶沿 DNA 移动,转录泡(解链区)同步移动,新生 RNA 链持续生长;转录泡内形成 RNA-DNA 杂交体,其后 DNA 恢复双螺旋、RNA 被置换。",
+  "difficulty": 2,
+  "tags": [
+   "转录延伸",
+   "杂交体",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 77,
+  "type": "truefalse",
+  "topic": "原核生物的转录过程",
+  "question": "真核生物与原核生物一样,转录与翻译同步进行。",
+  "answer": "false",
+  "explanation": "原核生物转录与翻译偶联(同步进行);真核生物转录在核内、翻译在细胞质中,两者没有同步现象,且延伸受多种延伸因子促进。",
+  "difficulty": 1,
+  "tags": [
+   "真核转录",
+   "转录翻译偶联",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 78,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 rRNA 前体也是先甲基化,然后再被切割。",
+  "answer": "true",
+  "explanation": "与原核生物类似,真核生物 rRNA 前体也是先甲基化(主要位于核糖 2'-羟基)然后再被切割,且其甲基化、假尿苷酸化和切割由 snoRNA 指导。",
+  "difficulty": 2,
+  "tags": [
+   "rRNA加工",
+   "甲基化",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 79,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 rRNA 的甲基化程度比原核生物 rRNA 的甲基化程度高。",
+  "answer": "true",
+  "explanation": "真核生物 rRNA 的甲基化程度比原核生物 rRNA 的甲基化程度高,主要甲基化位置在核糖 2'-羟基上。",
+  "difficulty": 2,
+  "tags": [
+   "rRNA加工",
+   "甲基化",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 80,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "原核生物 tRNA 前体基因中含有 CCA 序列,加工时无需后加。",
+  "answer": "false",
+  "explanation": "tRNA 前体基因中不含 CCA 序列,成熟 tRNA 3' 端的 CCA 是在加工时由 tRNA 核苷酰转移酶催化、以 CTP 和 ATP 为底物后加上去的(真核 tRNA 前体亦然)。",
+  "difficulty": 2,
+  "tags": [
+   "CCA",
+   "tRNA加工",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 81,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 mRNA 前体的加尾(poly(A) 尾)过程早在核内已完成,hnRNA 3' 端也有多聚腺苷酸。",
+  "answer": "true",
+  "explanation": "核内 hnRNA 的 3' 端也有多聚腺苷酸,表明加尾过程早在核内已完成,且 hnRNA 中的多聚腺苷酸比成熟 mRNA 的略长。",
+  "difficulty": 2,
+  "tags": [
+   "hnRNA",
+   "polyA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 82,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "原核生物也存在内含子,但其 RNA 剪接极为少见。",
+  "answer": "true",
+  "explanation": "RNA 剪接主要存在于真核生物,原核生物极为少见,但并非完全没有;个别原核基因存在内含子(如 tRNA 内含子)。",
+  "difficulty": 2,
+  "tags": [
+   "剪接",
+   "原核生物",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 83,
+  "type": "truefalse",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "不同基因的外显子剪接后相互连接,即发生反式拼接(分子间剪接)。",
+  "answer": "true",
+  "explanation": "反式拼接(分子间剪接)指不同基因的外显子剪接后相互连接;同一基因转录产物经不同剪接方式得到不同 mRNA 则称为选择性剪接。",
+  "difficulty": 2,
+  "tags": [
+   "反式拼接",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 84,
+  "type": "truefalse",
+  "topic": "逆转录的过程",
+  "question": "逆转录酶没有 3'→5' 核酸外切酶活性,因此无校对功能。",
+  "answer": "true",
+  "explanation": "逆转录酶兼有 RNA 指导的 DNA 聚合酶、DNA 指导的 DNA 聚合酶和 RNaseH 三种活力,但没有 3'→5' 核酸外切酶活性,无校对功能,这也是逆转录病毒基因组易变异的原因之一。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录酶",
+   "校对",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 85,
+  "type": "truefalse",
+  "topic": "逆转录的过程",
+  "question": "逆转录过程中,第一次转换模板(跳跃)发生在(-)链 DNA 3' 端 R 区与模板 RNA 3' 端 R 区配对时。",
+  "answer": "true",
+  "explanation": "RNaseH 水解模板 RNA 的 U5 和 R 区后,新合成(-)链 DNA 3' 端 R 区与模板 RNA 3' 端 R 区配对,这是第一次逆转录转换模板(跳跃);第二次跳跃发生在(+)链与(-)链在 PBS 位点配对时。",
+  "difficulty": 3,
+  "tags": [
+   "逆转录",
+   "模板跳跃",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 86,
+  "type": "truefalse",
+  "topic": "逆转录病毒的生活周期",
+  "question": "HIV 属于逆转录病毒,其 RNA 在宿主细胞内不能直接作为合成蛋白质的模板。",
+  "answer": "true",
+  "explanation": "HIV 的 RNA 不能直接作为翻译模板,需经逆转录酶逆转录为 DNA,整合为前病毒后再转录出 mRNA 才能翻译;这也是逆转录病毒区别于正链 RNA 病毒之处。",
+  "difficulty": 2,
+  "tags": [
+   "HIV",
+   "逆转录病毒",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 87,
+  "type": "truefalse",
+  "topic": "RNA的复制",
+  "question": "正链 RNA 病毒侵入宿主后,其基因组 RNA 可直接作为 mRNA 翻译病毒蛋白。",
+  "answer": "true",
+  "explanation": "正链 RNA 病毒的基因组 RNA 本身就是 mRNA,侵入宿主后可直接作为模板翻译出成熟蛋白、外壳蛋白和 RNA 复制酶,然后再复制病毒 RNA。",
+  "difficulty": 2,
+  "tags": [
+   "正链RNA病毒",
+   "RNA复制",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 88,
+  "type": "truefalse",
+  "topic": "RNA的复制",
+  "question": "Qβ 噬菌体 RNA 的复制需要经历一个逆转录过程。",
+  "answer": "false",
+  "explanation": "Qβ 噬菌体 RNA 复制由 RNA 复制酶催化,经历正链→负链→正链的过程,期间形成双链 RNA 中间体,但不涉及逆转录。",
+  "difficulty": 2,
+  "tags": [
+   "Qβ",
+   "RNA复制",
+   "逆转录",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 89,
+  "type": "truefalse",
+  "topic": "RNA传递加工遗传信息",
+  "question": "细菌中,不依赖 ρ 因子终止子的 mRNA 末端可形成发夹结构,因而具有对降解的稳定性。",
+  "answer": "true",
+  "explanation": "细菌中由不依赖 ρ 因子终止子终止的 mRNA,其末端可形成发夹结构,能保护 mRNA 免受核酸外切酶降解,提高稳定性。",
+  "difficulty": 2,
+  "tags": [
+   "mRNA稳定性",
+   "发夹结构",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 90,
+  "type": "truefalse",
+  "topic": "RNA传递加工遗传信息",
+  "question": "rRNA 和 tRNA 是稳定的 RNA,其更新率较低;mRNA 是不稳定的,更新率非常高。",
+  "answer": "true",
+  "explanation": "rRNA、tRNA 等结构 RNA 稳定、更新率低;mRNA 作为遗传信息传递的中间体,更新率非常高,这有利于细胞对环境变化快速响应。",
+  "difficulty": 1,
+  "tags": [
+   "RNA稳定性",
+   "mRNA",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 91,
+  "type": "multi",
+  "topic": "转录的基本概念与特点",
+  "question": "下列关于转录的叙述,正确的有:",
+  "options": {
+   "A": "合成方向为 5'→3'",
+   "B": "以双链 DNA 中的模板链为模板,是不对称转录",
+   "C": "以 4 种核糖核苷三磷酸为原料",
+   "D": "不需要引物即可起始合成"
+  },
+  "answer": "ABCD",
+  "explanation": "转录合成方向 5'→3';以模板链为模板进行不对称转录;以 4 种 NTP 为原料;不需引物,RNA 聚合酶自行起始。四项均正确。",
+  "difficulty": 1,
+  "tags": [
+   "转录特点",
+   "不对称转录",
+   "NTP",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 92,
+  "type": "multi",
+  "topic": "转录的基本概念与特点",
+  "question": "转录与 DNA 复制的区别包括:",
+  "options": {
+   "A": "复制以 dNTP 为底物,转录以 NTP 为底物",
+   "B": "复制以 DNA 两条链为模板,转录以 DNA 一条链为模板",
+   "C": "复制需要引物,转录不需要引物",
+   "D": "复制产物为双链 DNA,转录产物为单链 RNA"
+  },
+  "answer": "ABCD",
+  "explanation": "复制与转录在底物(dNTP/NTP)、模板(两条链/一条链)、引物(需要/不需要)、产物(双链 DNA/单链 RNA)及合成方式(半保留复制/不对称转录)等方面均不同。",
+  "difficulty": 2,
+  "tags": [
+   "转录与复制区别",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 93,
+  "type": "multi",
+  "topic": "参与转录的酶及有关因子",
+  "question": "关于大肠杆菌 RNA 聚合酶各亚基功能的叙述,正确的有:",
+  "options": {
+   "A": "σ 因子识别启动子的 -10 区和 -35 区",
+   "B": "β 亚基结合 DNA 模板并催化磷酸二酯键形成",
+   "C": "β' 亚基结合核苷酸底物,与 β 亚基构成催化中心",
+   "D": "α 亚基参与酶装配并与上游元件活化因子结合"
+  },
+  "answer": "ABCD",
+  "explanation": "σ 因子识别启动子;β 亚基结合 DNA 模板、催化磷酸二酯键;β' 亚基结合核苷酸底物;α 亚基参与装配和与上游活化因子结合;ω 亚基促进核心酶组装。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶",
+   "亚基功能",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 94,
+  "type": "multi",
+  "topic": "参与转录的酶及有关因子",
+  "question": "真核生物 RNA 聚合酶 I、II、III 的转录产物分别包括:",
+  "options": {
+   "A": "RNA 聚合酶 I 转录 45S rRNA 前体",
+   "B": "RNA 聚合酶 II 转录 hnRNA 和 microRNA",
+   "C": "RNA 聚合酶 III 转录 tRNA 和 5S rRNA",
+   "D": "RNA 聚合酶 III 转录 45S rRNA 前体"
+  },
+  "answer": "ABC",
+  "explanation": "pol I 转录 45S rRNA 前体(5.8S、18S、28S);pol II 转录 hnRNA、snRNA、microRNA;pol III 转录 tRNA、5S rRNA、U6 snRNA、scRNA。D 项属于 pol I。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶",
+   "真核转录",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 95,
+  "type": "multi",
+  "topic": "参与转录的酶及有关因子",
+  "question": "增强子的特点包括:",
+  "options": {
+   "A": "能在很远的距离对启动子产生影响",
+   "B": "无论位于启动子上游还是下游都能发挥作用",
+   "C": "功能与序列取向无关",
+   "D": "无基因专一性,但有严格的组织和细胞特异性"
+  },
+  "answer": "ABCD",
+  "explanation": "增强子能在远距离起作用、上下游均可、与取向无关、无基因专一性但有组织细胞特异性,并受发育和分化影响。",
+  "difficulty": 2,
+  "tags": [
+   "增强子",
+   "顺式作用元件",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 96,
+  "type": "multi",
+  "topic": "原核生物的转录过程",
+  "question": "原核生物转录起始阶段发生的事件包括:",
+  "options": {
+   "A": "σ 因子引导全酶识别并结合启动子,形成闭合型复合物",
+   "B": "DNA 局部解链形成转录泡,转变为开放型复合物",
+   "C": "酶催化中心按模板链碱基配对合成第一个磷酸二酯键",
+   "D": "σ 因子脱落,核心酶离开启动子进入延伸"
+  },
+  "answer": "ABCD",
+  "explanation": "转录起始:全酶识别启动子形成闭合型复合物→DNA 局部解链形成转录泡(开放型复合物)→形成第一个磷酸二酯键→σ 因子脱落、核心酶离开启动子进入延伸。",
+  "difficulty": 2,
+  "tags": [
+   "转录起始",
+   "转录泡",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 97,
+  "type": "multi",
+  "topic": "原核生物的转录过程",
+  "question": "不依赖 ρ 因子的终止子具有的特征包括:",
+  "options": {
+   "A": "含有回文对称区",
+   "B": "能形成发夹(茎环)结构",
+   "C": "回文对称区富含 G-C 序列",
+   "D": "终止前有一系列 U 核苷酸"
+  },
+  "answer": "ABCD",
+  "explanation": "不依赖 ρ 因子的终止子含回文对称区、能形成发夹结构、回文区富含 G-C,且终止前有一系列 U;rU-dA 杂交配对弱,聚合酶暂停时杂交体末端解开。",
+  "difficulty": 2,
+  "tags": [
+   "内在终止子",
+   "终止子",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 98,
+  "type": "multi",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "原核生物 tRNA 前体加工过程包括:",
+  "options": {
+   "A": "由内切核酸酶(RNaseP、RNaseF)在 tRNA 两端切断",
+   "B": "由外切核酸酶(RNaseD)逐个切去多余序列进行修剪",
+   "C": "核苷酸的修饰和异构化,生成甲基化碱基和假尿嘧啶核苷",
+   "D": "在 tRNA 3' 端加上 CCA 序列"
+  },
+  "answer": "ABCD",
+  "explanation": "原核 tRNA 前体加工:内切酶切两端、外切酶修剪、核苷修饰异构化(SAM 提供甲基)、3' 端加 CCA(核苷酰转移酶催化,CTP/ATP 供底)。",
+  "difficulty": 2,
+  "tags": [
+   "tRNA加工",
+   "RNaseP",
+   "CCA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 99,
+  "type": "multi",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "关于真核生物 rRNA 前体加工的叙述,正确的有:",
+  "options": {
+   "A": "45S 前体加工后产生 18S、5.8S 和 28S rRNA",
+   "B": "加工发生在核仁中",
+   "C": "先甲基化(核糖 2'-羟基)后再切割",
+   "D": "甲基化、假尿苷酸化和切割由 snoRNA 指导"
+  },
+  "answer": "ABCD",
+  "explanation": "真核 45S rRNA 前体在核仁中加工为 18S、5.8S、28S rRNA;与原核类似先甲基化后切割;甲基化、假尿苷酸化和切割由 snoRNA 指导;5S rRNA 由 pol III 转录。",
+  "difficulty": 2,
+  "tags": [
+   "rRNA加工",
+   "45S前体",
+   "snoRNA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 100,
+  "type": "multi",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "真核生物 mRNA 前体的一般加工包括:",
+  "options": {
+   "A": "5' 端形成 7-甲基鸟苷帽子结构",
+   "B": "3' 末端形成多聚腺苷酸尾",
+   "C": "剪接除去由内含子转录来的序列",
+   "D": "mRNA 的内部甲基化"
+  },
+  "answer": "ABCD",
+  "explanation": "真核 mRNA 前体加工:5' 端加帽(m7GpppN)、3' 端加尾(polyA,加尾信号 AAUAAA)、剪接去内含子、内部甲基化,共四个主要步骤。",
+  "difficulty": 2,
+  "tags": [
+   "mRNA加工",
+   "加帽加尾",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 101,
+  "type": "multi",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "下列关于 RNA 剪接的叙述,正确的有:",
+  "options": {
+   "A": "类型 I 自我剪接由游离鸟苷酸提供 3'-OH 发动",
+   "B": "类型 II 自我剪接形成套索状中间结构",
+   "C": "剪接体由 snRNA 与蛋白质结合成的 snRNP 组成",
+   "D": "核内 mRNA 剪接的两次转酯反应使外显子连接"
+  },
+  "answer": "ABCD",
+  "explanation": "类型 I 自我剪接需游离鸟苷酸;类型 II 由内含子 3' 端腺苷酸 2'-OH 发动形成套索;剪接体由 snRNP(U1、U2、U4、U5、U6)组成;两次转酯反应连接外显子。",
+  "difficulty": 3,
+  "tags": [
+   "剪接",
+   "剪接体",
+   "转酯反应",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 102,
+  "type": "multi",
+  "topic": "逆转录的过程",
+  "question": "逆转录酶具有的酶活力包括:",
+  "options": {
+   "A": "RNA 指导的 DNA 聚合酶活力",
+   "B": "DNA 指导的 DNA 聚合酶活力",
+   "C": "核糖核酸酶 H 活力",
+   "D": "3'→5' 核酸外切酶活力"
+  },
+  "answer": "ABC",
+  "explanation": "逆转录酶兼有三种酶活力:RNA 指导的 DNA 聚合酶、DNA 指导的 DNA 聚合酶、RNaseH;没有 3'→5' 核酸外切酶活性,故无校对功能。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录酶",
+   "三种活力",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 103,
+  "type": "multi",
+  "topic": "逆转录的过程",
+  "question": "逆转录过程中涉及的关键步骤包括:",
+  "options": {
+   "A": "tRNA 结合于 PBS 位点作为引物合成 U5 和 R 区互补序列",
+   "B": "RNaseH 水解 RNA-DNA 杂交链中的 RNA",
+   "C": "(-)链 DNA 3' 端 R 区与模板 RNA 3' 端 R 区配对,发生第一次跳跃",
+   "D": "保留的 PPT 片段作为合成(+)链 DNA 的引物"
+  },
+  "answer": "ABCD",
+  "explanation": "逆转录以 tRNA 为引物;RNaseH 水解模板 RNA;第一次跳跃后(-)链延长,保留 PPT 作(+)链引物;此后(+)链合成、tRNA 降解、第二次跳跃、LTR 形成。",
+  "difficulty": 3,
+  "tags": [
+   "逆转录",
+   "RNaseH",
+   "跳跃",
+   "PPT",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 104,
+  "type": "multi",
+  "topic": "逆转录病毒的生活周期",
+  "question": "关于逆转录病毒(如 HIV)的叙述,正确的有:",
+  "options": {
+   "A": "基因组由两条相同的单正链 RNA 组成",
+   "B": "病毒颗粒携带逆转录酶和整合酶",
+   "C": "逆转录形成的双链 DNA 以前病毒形式整合进宿主基因组",
+   "D": "前病毒基因组的 LTR 包括 U3、R 和 U5 区"
+  },
+  "answer": "ABCD",
+  "explanation": "逆转录病毒基因组为两条相同单正链 RNA,携带逆转录酶和整合酶;双链 DNA 以前病毒形式整合进宿主基因组;LTR 由 U3-R-U5 组成。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录病毒",
+   "前病毒",
+   "LTR",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 105,
+  "type": "multi",
+  "topic": "RNA的复制",
+  "question": "下列关于 RNA 病毒复制方式的叙述,正确的有:",
+  "options": {
+   "A": "正链 RNA 病毒进入宿主后先合成复制酶,再复制病毒 RNA",
+   "B": "负链 RNA 病毒自身携带复制酶,先合成正链 RNA",
+   "C": "双链 RNA 病毒经不对称转录合成正链 RNA",
+   "D": "逆转录病毒以 RNA 为模板经逆转录酶合成 DNA"
+  },
+  "answer": "ABCD",
+  "explanation": "正链病毒先翻译后复制;负链病毒自带复制酶;双链 RNA 病毒不对称转录出正链 RNA;逆转录病毒经逆转录酶以 RNA 为模板合成 cDNA 再形成双链 DNA。",
+  "difficulty": 2,
+  "tags": [
+   "RNA病毒",
+   "RNA复制",
+   "逆转录病毒",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 106,
+  "type": "multi",
+  "topic": "RNA传递加工遗传信息",
+  "question": "RNA 生物功能的多样性表现在:",
+  "options": {
+   "A": "mRNA 在遗传信息翻译中起信使和模板作用",
+   "B": "tRNA 起转运和信息转换作用",
+   "C": "rRNA 在核糖体中起装配和催化作用",
+   "D": "RNA 具有重要的催化功能(核酶)和基因表达调节功能"
+  },
+  "answer": "ABCD",
+  "explanation": "RNA 功能多样性:翻译中 mRNA 作信使模板、tRNA 转运转换、rRNA 装配催化;RNA 具有催化功能(核酶);参与转录后加工修饰;调节基因表达(ncRNA)。",
+  "difficulty": 2,
+  "tags": [
+   "RNA功能",
+   "遗传信息",
+   "考纲73"
+  ]
+ },
+ {
+  "id": 107,
+  "type": "multi",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "RNA 编辑的方式包括:",
+  "options": {
+   "A": "碱基替换",
+   "B": "碱基删除",
+   "C": "碱基插入",
+   "D": "内切酶随机切割"
+  },
+  "answer": "ABC",
+  "explanation": "RNA 编辑通过碱基替换、删除或插入改变和扩大模板 DNA 的遗传信息,表达出不同氨基酸序列的多种蛋白质;不包括随机切割。",
+  "difficulty": 2,
+  "tags": [
+   "RNA编辑",
+   "转录后加工",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 108,
+  "type": "multi",
+  "topic": "原核生物的转录过程",
+  "question": "真核生物与原核生物转录调节的主要差别包括:",
+  "options": {
+   "A": "原核功能相关基因构成操纵子,真核不组成操纵子",
+   "B": "原核调节元件种类少,真核有众多上游调节元件",
+   "C": "原核以正调节为主,真核以负调节为主",
+   "D": "真核基因活化首先需要改变染色质状态"
+  },
+  "answer": "ABCD",
+  "explanation": "真核与原核转录调节的差别:基因组织形式(操纵子 vs 单独转录+基因群协同调节)、调节元件数量、调节方式(原核正调节、共价修饰 vs 真核负调节、变构)、基因活化前提(真核需改变染色质状态)。",
+  "difficulty": 3,
+  "tags": [
+   "转录调节",
+   "真核原核比较",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 109,
+  "type": "short",
+  "topic": "转录的基本概念与特点",
+  "question": "简述转录(RNA 合成)的主要特点。",
+  "options": null,
+  "answer": "①合成方向为 5'→3',以双链 DNA 中的模板链(反义链)为模板,是不对称转录;②原料为 4 种核糖核苷三磷酸(NTP);③各核苷酸通过磷酸二酯键相连;④不需要引物,RNA 聚合酶可自行起始合成;⑤产物 RNA 带有与编码链相同的序列(A-U 配对)。",
+  "explanation": "转录特点与 DNA 复制对比记忆:模板(一条链)、原料(NTP)、引物(不需要)、产物(单链 RNA)、不对称性。",
+  "difficulty": 2,
+  "tags": [
+   "转录特点",
+   "不对称转录",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 110,
+  "type": "short",
+  "topic": "转录的基本概念与特点",
+  "question": "简述转录与 DNA 复制的主要区别。",
+  "options": null,
+  "answer": "①底物:复制用 4 种 dNTP,转录用 4 种 NTP;②模板:复制以 DNA 两条链为模板,转录仅以一条链(模板链)为模板;③酶:复制由 DNA 聚合酶等催化,转录由 RNA 聚合酶催化;④引物:复制需要 RNA 引物,转录不需要引物;⑤产物:复制产生双链 DNA(半保留复制),转录产生单链 RNA(不对称转录)。",
+  "explanation": "五个方面对比:底物、模板、酶、引物、产物;转录不需引物、只用一条链、产物为 RNA 是核心区别。",
+  "difficulty": 2,
+  "tags": [
+   "转录与复制区别",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 111,
+  "type": "short",
+  "topic": "参与转录的酶及有关因子",
+  "question": "简述原核生物 RNA 聚合酶的亚基组成及各亚基的主要功能。",
+  "options": null,
+  "answer": "①全酶由 α2ββ'ωσ 六个亚基组成,α2ββ'ω 为核心酶,σ 为起始亚基;②σ 因子识别启动子(-10、-35 区),引导全酶结合起始点,起始后脱落;③β 亚基结合 DNA 模板并催化磷酸二酯键形成;④β' 亚基结合核苷酸底物,与 β 构成催化中心;⑤α 亚基参与酶装配并与上游元件活化因子结合;⑥ω 亚基促进核心酶组装(β' 的分子伴侣)。核心酶只能延长已起始的 RNA 链,不能起始。",
+  "explanation": "六个亚基分工记忆:σ 识别、β 催化、β' 结合底物、α 装配、ω 组装;核心酶无起始能力。",
+  "difficulty": 2,
+  "tags": [
+   "RNA聚合酶",
+   "亚基功能",
+   "考纲66"
+  ]
+ },
+ {
+  "id": 112,
+  "type": "short",
+  "topic": "原核生物的转录过程",
+  "question": "简述原核生物转录的起始过程。",
+  "options": null,
+  "answer": "①σ 因子引导 RNA 聚合酶全酶识别并结合启动子(-10、-35 区),形成闭合型复合物;②闭合型复合物转变为开放型复合物,DNA 局部解链形成转录泡,β、β' 亚基夹住 DNA;③酶催化中心按模板链碱基配对底物核苷酸,形成第一个磷酸二酯键(第一个核苷酸常为嘌呤)并脱下焦磷酸;④σ 因子脱落,核心酶离开启动子,进入延伸阶段(产生不足 10 个核苷酸即释放的现象称流产起始)。",
+  "explanation": "起始四步:结合启动子→解链成转录泡→形成第一个磷酸二酯键→σ 脱落进入延伸。",
+  "difficulty": 3,
+  "tags": [
+   "转录起始",
+   "转录泡",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 113,
+  "type": "short",
+  "topic": "原核生物的转录过程",
+  "question": "大肠杆菌存在两类终止子,简述它们各自的结构特征和终止机制。",
+  "options": null,
+  "answer": "①不依赖 ρ 因子的终止子:含回文对称区,能形成富含 G-C 的发夹(茎环)结构,终止前有一系列 U;rU-dA 组成的 RNA-DNA 杂交分子配对很弱,聚合酶暂停时杂交体在末端解开,RNA 释放;②依赖 ρ 因子的终止子:含短回文结构、胞嘧啶含量高,回文结构后无寡聚 U 而富含 AC;ρ 因子以六聚体存在,具有依赖 RNA 的 ATP 酶活性,结合新生 RNA 后水解 NTP 供能沿 RNA 移动,在终止子处追上暂停的 RNA 聚合酶,使 RNA 释放、酶与 ρ 一起从 DNA 上脱落。",
+  "explanation": "两类终止子的关键区分:内在终止子靠茎环+寡聚U 结构,ρ 依赖终止子靠 ρ 因子蛋白(ATP 酶活性沿 RNA 追踪聚合酶)。",
+  "difficulty": 3,
+  "tags": [
+   "终止子",
+   "ρ因子",
+   "内在终止子",
+   "考纲67"
+  ]
+ },
+ {
+  "id": 114,
+  "type": "short",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "简述真核生物 mRNA 前体的一般加工过程。",
+  "options": null,
+  "answer": "①5' 端形成 7-甲基鸟苷帽子结构(m7GpppN),保护转录物,有助于剪接、运输和翻译识别;②3' 末端形成 poly(A) 尾(加尾信号 AAUAAA),防止核酸外切酶降解、提高稳定性并辅助 mRNA 出核;③剪接除去由内含子转录来的序列,使外显子连续;④mRNA 内部甲基化,参与前体加工的识别。",
+  "explanation": "四步加工:加帽、加尾、剪接、内部甲基化;hnRNA 为前体,加工在核内边转录边进行。",
+  "difficulty": 2,
+  "tags": [
+   "mRNA加工",
+   "加帽加尾",
+   "剪接",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 115,
+  "type": "short",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "简述 tRNA 前体的转录后加工过程。",
+  "options": null,
+  "answer": "①由内切核酸酶(RNaseP、RNaseF)在 tRNA 两端切断;②由外切核酸酶(RNaseD)逐个切去多余序列进行修剪;③核苷酸的修饰和异构化,生成甲基化碱基和假尿嘧啶核苷等稀有碱基(SAM 提供甲基);④在 tRNA 3' 端加上 CCA 序列(tRNA 核苷酰转移酶催化,CTP 和 ATP 供给胞苷酸和腺苷酸)。真核 tRNA 前体还需切除 14~46 bp 的内含子。",
+  "explanation": "四步加工:内切、修剪、修饰、加 CCA;真核 tRNA 前体 3' 端 CCA 也是后加的,并需切除内含子。",
+  "difficulty": 2,
+  "tags": [
+   "tRNA加工",
+   "RNaseP",
+   "CCA",
+   "考纲69"
+  ]
+ },
+ {
+  "id": 116,
+  "type": "short",
+  "topic": "mRNA、tRNA、rRNA的转录后加工",
+  "question": "简述 RNA 剪接的意义。",
+  "options": null,
+  "answer": "①剪接是进化的结果:由于内含子和外显子的存在,外显子重新组合(外显子改组)成为形成新基因的重要方式,极大加快进化速度;②是基因表达调控的重要环节,是真核生物遗传信息增加和控制的一种方式;③内含子的存在使同源重组中链的断裂和再连接可发生在内含子中,避免错位造成基因失活,促进重组;④可推测各内含子的起源时间;⑤有些内含子具有编码序列,可产生蛋白质或功能 RNA,并编码某些基因表达的调控信息。",
+  "explanation": "剪接意义从进化、表达调控、重组、起源和编码信息五个方面理解。",
+  "difficulty": 3,
+  "tags": [
+   "剪接意义",
+   "转录后加工",
+   "考纲68"
+  ]
+ },
+ {
+  "id": 117,
+  "type": "short",
+  "topic": "逆转录的过程",
+  "question": "简述逆转录的主要过程(步骤)。",
+  "options": null,
+  "answer": "①tRNA 引物结合于病毒 RNA 5' 端附近的 PBS 位点,逆转录酶合成 U5 和 R 区的互补序列;②RNaseH 水解模板 RNA 的 U5 和 R 区;③新合成(-)链 DNA 3' 端 R 区与模板 RNA 3' 端 R 区配对,发生第一次转换模板(跳跃);④(-)链 DNA 继续延长;⑤模板 RNA 的 U3、R、poly(A) 被水解,保留 3' 端附近的多聚嘌呤片段(PPT)作为(+)链 DNA 合成的引物;⑥(+)链 DNA 合成,引物 tRNA 被降解;⑦(+)链与(-)链 DNA 在 PBS 位点配对,发生第二次跳跃;⑧继续合成双链 DNA,两末端重复序列形成 LTR。",
+  "explanation": "逆转录十步归纳:引物起始→RNaseH 水解→两次跳跃→PPT 引物→双链 DNA→LTR;底物为 dNTP,方向 5'→3'。",
+  "difficulty": 3,
+  "tags": [
+   "逆转录",
+   "RNaseH",
+   "LTR",
+   "考纲70"
+  ]
+ },
+ {
+  "id": 118,
+  "type": "short",
+  "topic": "逆转录病毒的生活周期",
+  "question": "简述逆转录病毒的生活周期。",
+  "options": null,
+  "answer": "①逆转录病毒(如 HIV)基因组为两条相同的单正链 RNA,病毒颗粒携带逆转录酶和整合酶;②侵入宿主细胞后,以病毒 RNA 为模板由逆转录酶合成 cDNA(以 tRNA 为引物),再合成互补 DNA,组成双链 DNA;③双链 DNA 以前病毒形式整合进宿主细胞染色体基因组;④前病毒随宿主转录出 mRNA 并翻译病毒蛋白;⑤病毒 RNA 与蛋白质装配成病毒颗粒,出芽释放。",
+  "explanation": "生活周期核心:RNA→cDNA→双链 DNA→前病毒整合→转录翻译→装配释放。",
+  "difficulty": 2,
+  "tags": [
+   "逆转录病毒",
+   "前病毒",
+   "生活周期",
+   "考纲71"
+  ]
+ },
+ {
+  "id": 119,
+  "type": "short",
+  "topic": "RNA的复制",
+  "question": "简述 RNA 病毒 RNA 复制的主要方式。",
+  "options": null,
+  "answer": "①正链 RNA 病毒(如脊髓灰质炎病毒):基因组 RNA 可直接作为 mRNA,进入宿主后先合成 RNA 复制酶,再以正链为模板合成负链,以负链为模板合成正链,即正链→负链→正链;②负链 RNA 病毒(如狂犬病病毒):自身携带复制酶,先以负链为模板合成正链 RNA,再翻译蛋白质并复制病毒 RNA;③双链 RNA 病毒(如呼肠孤病毒):以双链 RNA 为模板不对称转录出正链 RNA,翻译蛋白质后合成负链,形成双链 RNA;④逆转录病毒以 RNA 为模板经逆转录合成 DNA。RNA 复制酶模板特异性极高(Qβ 复制酶只能复制 Qβ RNA)。",
+  "explanation": "四类方式对比:正链(先翻译后复制)、负链(自带复制酶)、双链(不对称转录)、逆转录病毒(RNA→DNA)。",
+  "difficulty": 3,
+  "tags": [
+   "RNA复制",
+   "RNA病毒",
+   "考纲72"
+  ]
+ },
+ {
+  "id": 120,
+  "type": "short",
+  "topic": "RNA传递加工遗传信息",
+  "question": "简述 RNA 编辑及其意义。",
+  "options": null,
+  "answer": "RNA 编辑是 mRNA 前体的一种加工方式,通过碱基替换、删除或插入,改变和扩大原来模板 DNA 的遗传信息,从而表达出不同氨基酸序列的多种蛋白质;编辑由与被编辑 mRNA 互补的指导 RNA(gRNA)作模板,在编辑体中进行。意义:①消除移码突变等基因突变的危害;②增加基因产物多样性,同一基因转录物经编辑可表达多种同源体蛋白质;③与生物发育和分化有关,是基因调控的重要方式;④可能使基因产物获得新的结构和功能,有利于生物进化。",
+  "explanation": "编辑定义(替换/删除/插入)+ 四点意义;注意编辑不改变基因组 DNA 序列。",
+  "difficulty": 3,
+  "tags": [
+   "RNA编辑",
+   "遗传信息",
+   "考纲73"
+  ]
+ }
+]

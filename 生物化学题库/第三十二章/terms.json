@@ -1,0 +1,142 @@
+[
+ {
+  "id": 1,
+  "term": "转录",
+  "name": "转录",
+  "definition": "在 DNA 指导下 RNA 的合成,由 RNA 聚合酶催化。以模板链为模板、4 种 NTP 为原料,5'→3' 合成单链 RNA,不需引物。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 2,
+  "term": "转录组",
+  "name": "转录组",
+  "definition": "细胞内全部 RNA 转录产物的总和,包括 mRNA、rRNA、tRNA 及各种非编码 RNA 分子。反映细胞在特定发育阶段和环境下基因转录的总体情况。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 3,
+  "term": "模板链",
+  "name": "模板链",
+  "definition": "转录时作为 RNA 合成模板的那条 DNA 链,又称反义链、无义链或负链。RNA 聚合酶以它为模板合成互补的 RNA,转录具有不对称性,只以一条链为模板。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 4,
+  "term": "编码链",
+  "name": "编码链",
+  "definition": "转录时不能作为 mRNA 合成模板的那条 DNA 链,又称有义链或正链。其碱基序列与转录产物 RNA 相同(仅以 T 代替 U),故称编码链。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 5,
+  "term": "启动子",
+  "name": "启动子",
+  "definition": "RNA 聚合酶结合并起始转录的特异 DNA 序列,结构不对称,决定转录方向。原核启动子含 -10 区(Pribnow 盒)和 -35 区两个保守序列。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 6,
+  "term": "转录因子",
+  "name": "转录因子",
+  "definition": "RNA 聚合酶起始转录所需的辅助因子(蛋白质),识别 DNA 顺式作用位点、其他因子或 RNA 聚合酶。多数具 DNA 结合、转录激活和二聚化三个结构域。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 7,
+  "term": "顺式作用元件",
+  "name": "顺式作用元件",
+  "definition": "DNA 分子中具有转录调节功能的特异 DNA 序列,如启动子、增强子、调控序列等。本身不编码蛋白质,仅提供作用位点,需与反式作用因子相互作用而起作用。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 8,
+  "term": "增强子",
+  "name": "增强子",
+  "definition": "真核生物中能大大促进启动子转录活性的顺式作用元件。能在远距离起作用,位于启动子上游或下游均可,功能与序列取向无关,无基因专一性但有组织细胞特异性。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 9,
+  "term": "终止子",
+  "name": "终止子",
+  "definition": "提供转录停止信号的 DNA 序列。大肠杆菌存在两类终止子:不依赖 ρ 因子的(含茎环结构和寡聚 U 序列)和依赖 ρ 因子的(需 ρ 因子参与终止)。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 10,
+  "term": "ρ因子",
+  "name": "ρ因子",
+  "definition": "原核生物的转录终止因子,以六聚体存在,具依赖 RNA 的 ATP 酶活性。结合新生 RNA 后水解 NTP 供能沿 RNA 移动,追上暂停的聚合酶使转录终止。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 11,
+  "term": "通读",
+  "name": "通读",
+  "definition": "有些终止子的作用可被特异的因子所阻止,使 RNA 聚合酶得以越过终止子继续转录的现象。引起抗终止作用的蛋白质称为抗终止因子。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 12,
+  "term": "RNA成熟",
+  "name": "RNA成熟",
+  "definition": "原初转录物经过一系列变化转变为成熟 RNA 分子的过程,即转录后加工。包括链的裂解、5' 与 3' 端切除和特殊结构形成、核苷修饰,以及拼接和编辑等。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 13,
+  "term": "hnRNA",
+  "name": "hnRNA",
+  "definition": "核内不均一 RNA,是真核生物 mRNA 的原初转录物,分子量极大,在核内加工过程中形成分子大小不等的中间物,约 25% 可转换为成熟的 mRNA。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 14,
+  "term": "RNA剪接",
+  "name": "RNA剪接",
+  "definition": "从断裂基因转录初产物中除去内含子、连接外显子成连续序列的过程。内含子主要通过 RNA 核酶两次转酯反应切除,核内 mRNA 剪接由剪接体(含 snRNP)催化。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 15,
+  "term": "选择性剪接",
+  "name": "选择性剪接",
+  "definition": "一个基因的转录产物通过不同的剪接方式得到不同的 mRNA 和翻译产物的现象,所产生的多个蛋白质即为同源体。是增加基因产物多样性和调控基因表达的重要方式。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 16,
+  "term": "RNA编辑",
+  "name": "RNA编辑",
+  "definition": "mRNA 前体的加工方式,通过碱基替换、删除或插入改变和扩大模板 DNA 的遗传信息,表达不同氨基酸序列的多种蛋白质。由互补的指导 RNA(gRNA)作模板。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 17,
+  "term": "逆转录",
+  "name": "逆转录",
+  "definition": "以 RNA 为模板、按核苷酸顺序合成 DNA 的过程,最初在致癌 RNA 病毒中发现。由逆转录酶催化,需引物,以 dNTP 为底物,合成方向 5'→3'。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 18,
+  "term": "逆转录酶",
+  "name": "逆转录酶",
+  "definition": "催化逆转录反应的酶,兼有三种酶活力:RNA 指导的 DNA 聚合酶、DNA 指导的 DNA 聚合酶和核糖核酸酶 H。无 3'→5' 外切酶活性、无校对功能。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 19,
+  "term": "RNA复制",
+  "name": "RNA复制",
+  "definition": "RNA 病毒中的 RNA 合成方式,以病毒 RNA 为模板,由 RNA 复制酶催化,在 4 种 NTP 和镁离子存在时合成与模板相同的 RNA,特异性极高。",
+  "chapter": "biochem_32"
+ },
+ {
+  "id": 20,
+  "term": "前病毒",
+  "name": "前病毒",
+  "definition": "逆转录病毒经逆转录形成的双链 DNA 整合进宿主细胞染色体基因组中的形式。前病毒随宿主 DNA 一起复制,并可转录出病毒 mRNA 翻译病毒蛋白质。",
+  "chapter": "biochem_32"
+ }
+]
