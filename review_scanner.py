@@ -20,10 +20,13 @@ def _answer_ok(t, ans, opts):
 def scan_chapter(questions, terms, syllabus_points):
     r = {'format': [], 'knowledge': [], 'syllabus_gap': []}
     # 格式问题
-    ids = [q.get('id') for q in questions]
+    ids = [q.get('id') if isinstance(q, dict) else None for q in questions]
     if ids != list(range(1, len(questions) + 1)):
         r['format'].append(f"id 不连续: {ids[:5]}...")
     for q in questions:
+        if not isinstance(q, dict):
+            r['format'].append(f"题目 {str(q)[:40]} 结构异常(非dict,需转换)")
+            continue
         t = q.get('type')
         if t in ('choice', 'multi'):
             opts = q.get('options', {})
@@ -47,11 +50,14 @@ def scan_chapter(questions, terms, syllabus_points):
         if t != 'short' and re.search(r'(19\d{2}|20\d{2})年', str(q.get('question'))):
             r['knowledge'].append(f"Q{q.get('id')}: 疑似年代题")
     for t in terms:
+        if not isinstance(t, dict):
+            r['format'].append(f"术语 {str(t)[:40]} 结构异常(旧格式四元组,需转换)")
+            continue
         d = t.get('definition', '')
         if not (30 <= len(d) <= 80):
             r['format'].append(f"术语 '{t.get('term','')}': 名解 {len(d)} 字(需30-80)")
     # 考纲缺口(topic 与考纲条目双向匹配)
-    have_topics = [str(q.get('topic', '')) for q in questions if q.get('topic')]
+    have_topics = [str(q.get('topic', '')) for q in questions if isinstance(q, dict) and q.get('topic')]
     for sp in syllabus_points:
         pt = sp.get('point', '')
         if any(k in pt for k in ('考试', '题型', '参考教材')):

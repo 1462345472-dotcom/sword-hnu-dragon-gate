@@ -66,6 +66,21 @@ def test_syllabus_covered_bidirectional():
     assert not _syllabus_covered('糖类', ['酶动力学']), '无关条目被误判为覆盖'
     print('test_syllabus_covered PASS')
 
+def test_old_format_terms_no_crash():
+    qs = [{"id": 1, "type": "choice", "question": "问?", "options": {"A": "a", "B": "b"}, "answer": "A", "explanation": "足够长的解析文本", "difficulty": 2, "topic": "x"}]
+    ts = [[1, '肌红蛋白（Myoglobin）', '旧格式四元组定义文本', '第四章'],
+          [2, '血红蛋白（Hemoglobin）', '旧格式四元组定义文本2', '第四章']]
+    r = scan_chapter(qs, ts, [])
+    assert any('结构异常' in str(x) and '四元组' in str(x) for x in r['format']), '未检出旧格式术语结构异常'
+    print('test_old_format_terms PASS')
+
+def test_non_dict_question_no_crash():
+    qs = [{"id": 1, "type": "choice", "question": "问?", "options": {"A": "a", "B": "b"}, "answer": "A", "explanation": "足够长的解析文本", "difficulty": 2, "topic": "x"},
+          [99, '旧格式题目四元组', 'x', '第四章']]
+    r = scan_chapter(qs, [], [])
+    assert any('结构异常' in str(x) for x in r['format']), '未检出非 dict 题目结构异常'
+    print('test_non_dict_question PASS')
+
 if __name__ == '__main__':
     test_scan()
     test_multi_combination_no_false_positive()
@@ -74,4 +89,6 @@ if __name__ == '__main__':
     test_filter_syllabus_topics()
     test_extract_topics()
     test_syllabus_covered_bidirectional()
+    test_old_format_terms_no_crash()
+    test_non_dict_question_no_crash()
     print('ALL TESTS PASS')
