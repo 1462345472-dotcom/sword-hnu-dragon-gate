@@ -1,0 +1,187 @@
+[
+  {
+    "id": 1,
+    "term": "MPF（成熟促进因子/M期促进因子）",
+    "definition": "调控细胞由G2期进入M期的关键因子，本质为蛋白激酶，由催化亚基p34cdc2与调节亚基cyclin B组成，磷酸化组蛋白H1、核纤层蛋白等底物推动M期事件。",
+    "difficulty": 2,
+    "tags": [
+      "MPF",
+      "细胞周期调控"
+    ]
+  },
+  {
+    "id": 2,
+    "term": "早熟染色体凝缩（PCC）",
+    "definition": "与M期细胞融合的间期细胞发生染色体凝缩，由Johnson和Rao经HeLa融合实验发现：G1期细单线状、S期粉末状、G2期双线染色体状，为MPF发现提供线索。",
+    "difficulty": 2,
+    "tags": [
+      "MPF发现",
+      "PCC"
+    ]
+  },
+  {
+    "id": 3,
+    "term": "周期蛋白（cyclin）",
+    "definition": "含量随细胞周期进程周期性波动的蛋白质，作为CDK的调节亚基调控周期时相转换，分G1期（cyclin C/D/E）与M期（cyclin A/B），均含周期蛋白框。",
+    "difficulty": 1,
+    "tags": [
+      "周期蛋白"
+    ]
+  },
+  {
+    "id": 4,
+    "term": "CDK（周期蛋白依赖性蛋白激酶）",
+    "definition": "必须与周期蛋白结合后才具激酶活性的激酶家族，是细胞周期运转的核心引擎。从酵母Cdc2/Cdc28基因筛选出Cdk1~Cdk13，其中Cdk1即MPF催化亚基。",
+    "difficulty": 1,
+    "tags": [
+      "CDK",
+      "细胞周期调控"
+    ]
+  },
+  {
+    "id": 5,
+    "term": "细胞周期检查点（checkpoint）",
+    "definition": "细胞周期中用于监控进程的关键时刻，可鉴别DNA损伤、复制错误或纺锤体组装异常，阻止周期运行，确保基因组稳定性。主要有G1、S、G2和纺锤体组装四个检查点。",
+    "difficulty": 2,
+    "tags": [
+      "检查点",
+      "细胞周期调控"
+    ]
+  },
+  {
+    "id": 6,
+    "term": "APC（后期促进复合物）",
+    "definition": "多亚基E3泛素连接酶复合物，介导M期周期蛋白的泛素化降解，调控细胞从中期转向后期。受M期CDK激活，由Cdc20（正调控）和Mad2（负调控）等因子调节其活性。",
+    "difficulty": 2,
+    "tags": [
+      "APC",
+      "细胞周期调控"
+    ]
+  },
+  {
+    "id": 7,
+    "term": "癌细胞（cancer cell）",
+    "definition": "脱离细胞社会构建与维持规则制约的异常细胞，特征为细胞增殖失控和侵袭转移。不死永生、细胞间相互作用改变、表达谱改变，体外失去接触抑制，软琼脂中可形成克隆。",
+    "difficulty": 1,
+    "tags": [
+      "癌细胞"
+    ]
+  },
+  {
+    "id": 8,
+    "term": "癌基因（oncogene）",
+    "definition": "控制细胞生长和分裂的一类正常基因，其突变可致细胞癌变。分病毒癌基因（v-onc）和细胞癌基因（c-onc/原癌基因），后者功能获得性突变后才致癌，如Ras基因。",
+    "difficulty": 2,
+    "tags": [
+      "癌基因"
+    ]
+  },
+  {
+    "id": 9,
+    "term": "抑癌基因（tumor suppressor gene）",
+    "definition": "编码正常细胞增殖负调控因子的基因。产物在细胞周期检查点上阻止周期进程，或促进细胞凋亡。突变属隐性（功能丢失性），需两个等位基因均失活才致癌，如p53、Rb。",
+    "difficulty": 2,
+    "tags": [
+      "抑癌基因"
+    ]
+  },
+  {
+    "id": 10,
+    "term": "原癌基因（proto-oncogene）",
+    "definition": "即细胞癌基因（c-onc），是正常细胞基因组中调控细胞正常生命活动的基因，仅在突变或异常激活后才变成致癌基因。其转化属功能获得性突变（结构改变、组成型激活）。",
+    "difficulty": 2,
+    "tags": [
+      "原癌基因",
+      "癌基因"
+    ]
+  },
+  {
+    "id": 11,
+    "term": "p53基因",
+    "definition": "抑癌基因，编码转录因子p53。DNA损伤时水平上升，启动p21转录，p21抑制cyclin-CDK活性阻滞周期待修复；严重损伤时诱导凋亡因子表达，细胞死亡。",
+    "difficulty": 1,
+    "tags": [
+      "抑癌基因",
+      "p53"
+    ]
+  },
+  {
+    "id": 12,
+    "term": "Rb基因（视网膜母细胞瘤基因）",
+    "definition": "第一个被发现的肿瘤抑制基因，编码pRb。低磷酸化pRb结合并抑制E2F，阻止G1→S所需基因转录；生长信号激活CDK磷酸化pRb失活释放E2F，细胞周期推进。",
+    "difficulty": 2,
+    "tags": [
+      "抑癌基因",
+      "Rb"
+    ]
+  },
+  {
+    "id": 13,
+    "term": "肿瘤干细胞（cancer stem cell）",
+    "definition": "存在于某些肿瘤组织中的干细胞样细胞，具有无限增殖、转移和抗化学毒物损伤的能力。增殖失控、丧失正常分化能力，高表达ABC家族膜转运蛋白外排化疗药物，耐药性强。",
+    "difficulty": 2,
+    "tags": [
+      "肿瘤干细胞"
+    ]
+  },
+  {
+    "id": 14,
+    "term": "DNA复制执照因子（licensing factor）",
+    "definition": "细胞质中确保DNA每个细胞周期仅复制一次的调控因子，核心成分为Mcm2-Mcm7。M期核膜破裂时与染色质结合获得执照，S期复制后执照信号消失，下一M期重新获取。",
+    "difficulty": 2,
+    "tags": [
+      "DNA复制",
+      "执照因子"
+    ]
+  },
+  {
+    "id": 15,
+    "term": "Cdc25C磷酸酶",
+    "definition": "Cdk1最终激活的关键正调控因子（蛋白磷酸水解酶）。G2期末使Cdk1的Thr14和Tyr15去磷酸化，去除Wee1/Mik1的抑制性磷酸，激活前体MPF。",
+    "difficulty": 2,
+    "tags": [
+      "G2/M转化",
+      "Cdk1激活"
+    ]
+  },
+  {
+    "id": 16,
+    "term": "破坏框（destruction box）",
+    "definition": "M期周期蛋白分子N端约9个氨基酸的保守序列，其后为约40个氨基酸的赖氨酸富集区，是APC介导其泛素化降解的关键信号序列。M期中期后cyclin经此途径快速降解。",
+    "difficulty": 2,
+    "tags": [
+      "周期蛋白",
+      "破坏框"
+    ]
+  },
+  {
+    "id": 17,
+    "term": "周期蛋白框（cyclin box）",
+    "definition": "各类周期蛋白共有的保守结构域，约100个氨基酸残基，负责与CDK结合，通过识别CDK分子中高度保守的PSTAIRE序列调节其激酶活性，是周期蛋白的核心结构基础。",
+    "difficulty": 1,
+    "tags": [
+      "周期蛋白",
+      "结构"
+    ]
+  },
+  {
+    "id": 18,
+    "term": "CKI（CDK抑制因子）",
+    "definition": "对CDK活性负调控的蛋白家族，分Cip/Kip（p21/p27/p57）和INK4（p16/p15/p18/p19，抑制CDK4/6）。",
+    "difficulty": 2,
+    "tags": [
+      "CDK",
+      "CKI"
+    ]
+  },
+  {
+    "id": 19,
+    "term": "Geminin",
+    "definition": "抑制DNA重复复制的蛋白因子，G2/M期抑制Cdt1活性，阻止复制起始复合物重新组装，与执照因子（Mcm蛋白）确保一个细胞周期内DNA仅复制一次。",
+    "difficulty": 2,
+    "tags": [
+      "DNA复制",
+      "Geminin"
+    ]
+  }
+]
