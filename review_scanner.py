@@ -3,6 +3,20 @@
 """章节重审疑点扫描器:格式问题/知识疑点/考纲缺口。"""
 import json, re, os, sys
 
+def _answer_ok(t, ans, opts):
+    """校验答案与选项的对应关系:multi 组合答案拆字符逐个检查,并查字符重复。"""
+    if t == 'multi':
+        chars = str(ans)
+        bad = [c for c in chars if c not in opts]
+        if bad:
+            return f"答案不在选项内 '{ans}'"
+        if len(set(chars)) != len(chars):
+            return f"multi 答案字符重复 '{ans}'"
+        return None
+    if ans not in opts:
+        return "答案不在选项内"
+    return None
+
 def scan_chapter(questions, terms, syllabus_points):
     r = {'format': [], 'knowledge': [], 'syllabus_gap': []}
     # 格式问题
@@ -18,13 +32,14 @@ def scan_chapter(questions, terms, syllabus_points):
                 r['format'].append(f"Q{q.get('id')}: 选项重复 {q.get('question','')[:30]}")
             if t == 'multi' and len(vals) < 4:
                 r['format'].append(f"Q{q.get('id')}: multi 选项不足4")
-            if q.get('answer') not in opts:
-                r['format'].append(f"Q{q.get('id')}: 答案不在选项内")
+            msg = _answer_ok(t, q.get('answer'), opts)
+            if msg:
+                r['format'].append(f"Q{q.get('id')}: {msg}")
         elif t == 'truefalse':
             if str(q.get('answer')) not in ('true', 'false'):
                 r['format'].append(f"Q{q.get('id')}: truefalse 答案非法 '{q.get('answer')}'")
         elif t == 'short':
-            if not q.get('answer') or not re.search(r'[①②③]', str(q.get('answer'))):
+            if not q.get('answer') or not re.search(r'[①②③]|\(\d+\)|\d+[.、]', str(q.get('answer'))):
                 r['format'].append(f"Q{q.get('id')}: short 答案未分点")
         if not q.get('explanation') or len(str(q.get('explanation'))) < 10:
             r['format'].append(f"Q{q.get('id')}: 解析过短/为空")
@@ -35,15 +50,43 @@ def scan_chapter(questions, terms, syllabus_points):
         d = t.get('definition', '')
         if not (30 <= len(d) <= 80):
             r['format'].append(f"术语 '{t.get('term','')}': 名解 {len(d)} 字(需30-80)")
-    # 考纲缺口(topic 与考纲条目匹配)
-    have_topics = {q.get('topic', '') for q in questions if q.get('topic')}
+    # 考纲缺口(topic 与考纲条目双向匹配)
+    have_topics = [str(q.get('topic', '')) for q in questions if q.get('topic')]
     for sp in syllabus_points:
         pt = sp.get('point', '')
         if any(k in pt for k in ('考试', '题型', '参考教材')):
             continue
-        if not any(topic and topic in pt for topic in have_topics) and not any(pt[:8] in str(topic) for topic in have_topics):
+        if not _syllabus_covered(pt, have_topics):
             r['syllabus_gap'].append(f"考纲条目未覆盖: {pt[:40]}")
     return r
+
+_STOP_CHARS = set('的了和与及或其等在是并这那之,，、。()（）;；:：""\'\' ')
+
+def _bigrams(s):
+    return {s[i:i + 2] for i in range(len(s) - 1)
+            if not any(c in _STOP_CHARS for c in s[i:i + 2])}
+
+def _syllabus_covered(pt, topics):
+    """双向匹配:考纲条目含 topic 关键词,或 topic 含考纲条目关键词;
+    再放宽一层:双方共享任意 2 字实义词片段。"""
+    for topic in topics:
+        if not topic:
+            continue
+        if topic in pt or pt in topic:
+            return True
+    pt_grams = _bigrams(pt)
+    for topic in topics:
+        if topic and _bigrams(topic) & pt_grams:
+            return True
+    return False
+
+def filter_syllabus(syllabus_points, chapter_dir):
+    """按 chapter_hint 与章名的共同关键词过滤考纲条目;
+    空 hint 条目跳过;无任何匹配时保留全部条目作为参考。"""
+    name = os.path.basename(chapter_dir)
+    filtered = [x for x in syllabus_points
+                if x.get('chapter_hint') and _bigrams(name) & _bigrams(str(x['chapter_hint']))]
+    return filtered if filtered else syllabus_points
 
 def main():
     d = sys.argv[1]
@@ -52,7 +95,7 @@ def main():
     sp = []
     sp_path = 'docs/superpowers/specs/考纲考点清单.json'
     if os.path.exists(sp_path):
-        sp = json.load(open(sp_path, encoding='utf-8'))
+        sp = filter_syllabus(json.load(open(sp_path, encoding='utf-8')), d)
     r = scan_chapter(qs, ts, sp)
     out = os.path.join(d, '疑点清单.json')
     json.dump(r, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
